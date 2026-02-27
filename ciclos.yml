@@ -1,0 +1,71 @@
+ciclos:
+  primer_ciclo:
+    nombre: "Básica Baja (1°-2° Básico)"
+    rango_edad: "6-8 años"
+    caracteristicas_cognitivas:
+      - Pensamiento concreto y mágico.
+      - Tiempos de atención cortos (10-15 min por actividad central).
+      - Necesidad de rutinas estables y predecibles.
+    didactica:
+      - Mucha manipulación de objetos.
+      - Narrativa visual y cuentos.
+      - Actividades con movimiento físico puntual.
+    evaluacion_sugerida:
+      - Observación directa.
+      - Dibujos.
+      - Expresión oral corta (una frase).
+    evidencia_bitacora:
+      - "El estudiante dibuja y el profesor o estudiante escribe el título."
+
+  segundo_ciclo:
+    nombre: "Básica Media (3°-4° Básico)"
+    rango_edad: "8-10 años"
+    caracteristicas_cognitivas:
+      - Inicio de pensamiento lógico más estructurado.
+      - Mayor capacidad de trabajo en pequeños grupos.
+      - Curiosidad por el entorno y "cómo funcionan" las cosas.
+    didactica:
+      - Proyectos cortos (2-3 sesiones).
+      - Mapeo y líneas de tiempo simples.
+      - Entrevistas cerradas (preguntas predefinidas).
+    evaluacion_sugerida:
+      - Rúbricas simples (3 niveles).
+      - Presentaciones grupales breves.
+    evidencia_bitacora:
+      - "El estudiante toma la foto y escribe un párrafo corto (qué, cómo, cuándo)."
+
+  tercer_ciclo:
+    nombre: "Básico Intermedio (5°-6° Básico)"
+    rango_edad: "10-12 años"
+    caracteristicas_cognitivas:
+      - Transición al pensamiento abstracto.
+      - Fuerte necesidad de socialización y validación de pares.
+      - Mayor conciencia crítica inicial.
+    didactica:
+      - Aprendizaje Basado en Proyectos (ABP) de unidad completa.
+      - Diálogo socrático inicial.
+      - Investigaciones con autonomía guiada.
+    evaluacion_sugerida:
+      - Co-evaluación con pares.
+      - Rúbricas analíticas.
+      - Portafolios.
+    evidencia_bitacora:
+      - "Reportaje fotográfico (serie de fotos) con epígrafes críticos."
+
+  cuarto_ciclo:
+    nombre: "Básico Superior (7°-8° Básico)"
+    rango_edad: "12-14 años"
+    caracteristicas_cognitivas:
+      - Pensamiento abstracto, crítico e hipotético-deductivo.
+      - Cuestionamiento de normas e instituciones.
+      - Búsqueda de identidad personal y social.
+    didactica:
+      - Debates, paneles y mesas redondas.
+      - Creación de productos culturales (documentales, podcasts, murales comunitarios).
+      - Conexión ética con el entorno (Filosofía/Patrimonio).
+    evaluacion_sugerida:
+      - Autoevaluación profunda.
+      - Ensayos o bitácoras reflexivas argumentativas.
+      - Evaluación por producto público (hito escolar).
+    evidencia_bitacora:
+      - "Ensayo visual. Fotografía abstracta/simbólica con justificación filosófica."

@@ -1,0 +1,49 @@
+patrimonio_anual:
+  asignatura: "Taller de Patrimonio"
+  enfoque: "Identidad cultural local y huerto escolar"
+  evaluacion_sistema: "Proceso (60%) + Producto (40%)"
+  
+  unidades:
+    unidad_1:
+      id: "u1"
+      titulo: "Identidad y Territorio"
+      meses: "Marzo - Abril"
+      semanas_estimadas: 8
+      pregunta_esencial: "¿Quiénes somos y dónde vivimos?"
+      hito_vinculado: "Día de los Patrimonios (Mayo)"
+      foco_didactico: "Mapeo del entorno cercano y reconocimiento personal."
+      producto_esperado: "Bitácora inicial y mapa de la comunidad escolar."
+      competencias_mbe_foco: ["A", "B"]
+
+    unidad_2:
+      id: "u2"
+      titulo: "Historia Viva y Memoria"
+      meses: "Mayo - Julio"
+      semanas_estimadas: 9
+      pregunta_esencial: "¿Qué historias cuentan nuestros mayores?"
+      hito_vinculado: "We Tripantu (Junio)"
+      foco_didactico: "Investigación local, uso de cámara, entrevistas simples."
+      producto_esperado: "Exposición de registros fotográficos y narrativas cortas."
+      competencias_mbe_foco: ["A", "C"]
+
+    unidad_3:
+      id: "u3"
+      titulo: "Patrimonio Natural y Cultural"
+      meses: "Agosto - Septiembre"
+      semanas_estimadas: 9
+      pregunta_esencial: "¿Qué nos enseña la naturaleza y cómo la cuidamos?"
+      hito_vinculado: "Activación del Aula-Huerto"
+      foco_didactico: "Trabajo en terreno, siembra, saberes ancestrales botánicos."
+      producto_esperado: "Herbario patrimonial o diario del huerto."
+      competencias_mbe_foco: ["B", "C"]
+
+    unidad_4:
+      id: "u4"
+      titulo: "Proyección, Legado y Escuela"
+      meses: "Octubre - Diciembre"
+      semanas_estimadas: 11
+      pregunta_esencial: "¿Qué marca dejamos en Aonikenk?"
+      hito_vinculado: "Aniversario Escuela (Octubre) y Muestra Final"
+      foco_didactico: "Síntesis, preparación de muestra pública, autoevaluación."
+      producto_esperado: "Intervención artística en la escuela y cierre de bitácora fotográfica."
+      competencias_mbe_foco: ["C", "D"]

@@ -1,0 +1,48 @@
+config:
+  año: 2026
+  establecimiento: "Escuela Aonikenk"
+  carga_horaria_profesor:
+    total_lectivas: 32 # Horas pedagógicas
+    religión: 16
+    patrimonio: 16
+    duracion_bloque_minutos: 90 # 2 horas pedagógicas
+
+  semestre_1:
+    inicio: "2026-03-04"
+    termino: "2026-07-02"
+    semanas_estimadas: 17
+    feriados_y_pausas:
+      - fecha: "2026-05-22"
+        motivo: "Interferiado solicitado (por confirmar)"
+      - fecha: "2026-07-03"
+        motivo: "Jornada de evaluación sin alumnos"
+
+  vacaciones_invierno:
+    inicio: "2026-07-06"
+    termino: "2026-07-24" # 3 semanas completas
+
+  semestre_2:
+    inicio: "2026-07-27"
+    termino: "2026-12-11" # Sujeto a confirmación de recuperación
+    semanas_estimadas: 20
+    feriados_y_pausas:
+      - fecha: "2026-09-14"
+        fin: "2026-09-17"
+        motivo: "Receso Fiestas Patrias (solicitado)"
+      - fecha: "2026-10-16"
+        motivo: "Día del Funcionario"
+
+  hitos_institucionales:
+    - mes: "Mayo"
+      nombre: "Día de los Patrimonios"
+      tipo: "salida_terreno_o_museo_vivo"
+    - mes: "Junio"
+      nombre: "We Tripantu"
+      tipo: "intercultural"
+    - mes: "Octubre"
+      fechas: "26-30"
+      nombre: "Aniversario Escuela (Actividades Sellos)"
+      tipo: "muestra_final"
+    - mes: "Diciembre"
+      nombre: "Cierre y Evaluación Formativa"
+      tipo: "reflexion_valores"

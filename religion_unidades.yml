@@ -1,0 +1,28 @@
+religion_anual:
+  asignatura: "Religión Católica"
+  enfoque: "Formación integral, reflexión filosófica y conexión vida-fe (MBE)"
+  evaluacion_sistema: "Formativa, basada en participación y bitácora reflexiva"
+
+  # Esta estructura será poblada con los datos del Programa Oficial
+  # Extraídos a través de NotebookLM
+  
+  ciclos:
+    primer_ciclo:
+      # 1° y 2° Básico
+      unidades: []
+      foco_pedagogico: "Narrativas fundacionales, valores básicos (amor, familia, creación)."
+      
+    segundo_ciclo:
+      # 3° y 4° Básico
+      unidades: []
+      foco_pedagogico: "La figura de Jesús, los sacramentos iniciales, la comunidad escolar."
+
+    tercer_ciclo:
+      # 5° y 6° Básico
+      unidades: []
+      foco_pedagogico: "Historia de la salvación, los mandamientos como ética de vida, el servicio."
+
+    cuarto_ciclo:
+      # 7° y 8° Básico
+      unidades: []
+      foco_pedagogico: "Proyecto de vida, doctrina social, diálogo fe-razón (filosofía)."
