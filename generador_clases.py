@@ -13,7 +13,9 @@ except ImportError:
 # Rutas
 BASE_DIR = Path(__file__).parent
 OUTPUT_DIR = BASE_DIR / "Outputs"
+MATERIALES_DIR = OUTPUT_DIR / "Materiales"
 os.makedirs(OUTPUT_DIR, exist_ok=True)
+os.makedirs(MATERIALES_DIR, exist_ok=True)
 
 # Mapeo de cursos a ciclos con sus características específicas
 CURSOS = {
@@ -262,12 +264,31 @@ class GeneradorClases:
         return clase_md
 
     def guardar_clase(self, contenido, asignatura, curso_id, semana):
-        nombre_archivo = f"S{semana}_{asignatura[:3].upper()}_{curso_id}.md"
+        nombre_base = f"S{semana}_{asignatura[:3].upper()}_{curso_id}"
+        nombre_archivo = f"{nombre_base}.md"
         ruta = OUTPUT_DIR / nombre_archivo
         
         with open(ruta, "w", encoding="utf-8") as f:
             f.write(contenido)
         print(f"  ✅ Guardado: {nombre_archivo}")
+
+        # Si hay material generado, guardarlo aparte también
+        if "## 🖨️ Material Auto-Generado" in contenido:
+            try:
+                partes = contenido.split("## 🖨️ Material Auto-Generado")
+                material_only = partes[1].strip()
+                
+                # Crear encabezado para el archivo de material
+                header_material = f"# MATERIAL DE TRABAJO - {asignatura.upper()}\n"
+                header_material += f"**Curso:** {CURSOS[curso_id]['grado']} | **Semana:** {semana}\n"
+                header_material += f"**Tema:** {nombre_base}\n\n---\n\n"
+                
+                ruta_mat = MATERIALES_DIR / f"MAT_{nombre_base}.md"
+                with open(ruta_mat, "w", encoding="utf-8") as fmat:
+                    fmat.write(header_material + material_only)
+                print(f"  📦 Material guardado: MAT_{nombre_base}.md")
+            except Exception as e:
+                print(f"  ⚠️ Error guardando material separado: {e}")
 
 if __name__ == "__main__":
     print("--- MOTOR DE GENERACIÓN 2026 (por curso) ---")

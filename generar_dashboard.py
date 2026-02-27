@@ -451,13 +451,36 @@ body {{ font-family: 'Inter', sans-serif; background: var(--bg); color: var(--te
     .modal {{ padding: 1.25rem; }}
 }}
 
+/* Print Styles & Header */
+.print-only {{ display: none; }}
 @media print {{
     body {{ background: white; color: black; }}
-    .header,.stats-bar,.view-toggle,.filters,.grid,.calendar,.materials,.modal-close,.modal-actions {{ display: none !important; }}
-    .modal-overlay {{ position: static; background: none; display: block !important; padding: 0; }}
-    .modal {{ max-height: none; border: none; padding: 1rem; box-shadow: none; background: white; color: black; max-width: 100%; }}
-    .modal h1 {{ color: black; }} .modal h2 {{ color: #1a5276; }}
-    .modal h3 {{ color: #7d6608; }} .modal blockquote {{ color: #555; }}
+    .header, .stats-bar, .view-toggle, .filters, .modal-actions, .modal-close, .materials, .calendar, .grid {{ display: none !important; }}
+    .modal-overlay {{ position: relative; background: none; display: block !important; padding: 0; backdrop-filter: none; }}
+    .modal {{ 
+        display: block; position: relative; max-width: 100%; width: 100%; 
+        padding: 0; box-shadow: none; border: none; background: white;
+        max-height: none; overflow: visible;
+    }}
+    .print-only {{ display: block; }}
+    .print-header {{
+        display: flex; justify-content: space-between; align-items: center;
+        border-bottom: 2px solid black; padding-bottom: 1rem; margin-bottom: 2rem;
+    }}
+    .print-logo-placeholder {{
+        width: 80px; height: 80px; border: 1px dashed #ccc;
+        display: flex; align-items: center; justify-content: center;
+        font-size: 0.6rem; color: #666; text-align: center;
+    }}
+    .print-title-area {{ text-align: center; flex: 1; }}
+    .print-school-name {{ font-size: 1.2rem; font-weight: 800; text-transform: uppercase; }}
+    .print-slep {{ font-size: 0.8rem; font-weight: 600; text-transform: uppercase; margin-top: 0.2rem; }}
+    .print-meta {{ margin-top: 0.5rem; font-size: 0.9rem; font-weight: 500; border: 1px solid #000; display: inline-block; padding: 0.2rem 1rem; }}
+    
+    .modal h1, .modal h2, .modal h3 {{ color: black !important; background: none !important; border-left: none !important; padding-left: 0 !important; }}
+    .modal h1 {{ font-size: 1.8rem; text-align: center; margin-bottom: 1.5rem; }}
+    .modal h3 {{ border-bottom: 1px solid #eee; margin-top: 2rem; }}
+    .modal p, .modal li {{ font-size: 11pt; line-height: 1.5; color: black; }}
 }}
 </style>
 </head>
@@ -671,6 +694,17 @@ function renderCalendar() {{
 function openModal(idx) {{
     const c = CLASES[idx];
     document.getElementById('modalContent').innerHTML = `
+        <div class="print-only">
+            <div class="print-header">
+                <div class="print-logo-placeholder">LOGO<br>SLEP</div>
+                <div class="print-title-area">
+                    <div class="print-school-name">Escuela Aonikenk</div>
+                    <div class="print-slep">Servicio Local de Educación Pública</div>
+                    <div class="print-meta">${{c.asignatura}} | Semana ${{c.semana}} | ${{c.curso.replace('basico', '° Básico')}}</div>
+                </div>
+                <div class="print-logo-placeholder">LOGO<br>ESCUELA</div>
+            </div>
+        </div>
         <button class="modal-close" onclick="closeModal()">✕</button>
         ${{c.html}}
         <div class="modal-actions">
