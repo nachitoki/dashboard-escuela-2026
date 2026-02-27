@@ -477,11 +477,15 @@ body {{ font-family: 'Inter', sans-serif; background: var(--bg); color: var(--te
     .print-slep {{ font-size: 0.8rem; font-weight: 600; text-transform: uppercase; margin-top: 0.2rem; }}
     .print-meta {{ margin-top: 0.5rem; font-size: 0.9rem; font-weight: 500; border: 1px solid #000; display: inline-block; padding: 0.2rem 1rem; }}
     
-    .modal h1, .modal h2, .modal h3 {{ color: black !important; background: none !important; border-left: none !important; padding-left: 0 !important; }}
-    .modal h1 {{ font-size: 1.8rem; text-align: center; margin-bottom: 1.5rem; }}
-    .modal h3 {{ border-bottom: 1px solid #eee; margin-top: 2rem; }}
-    .modal p, .modal li {{ font-size: 11pt; line-height: 1.5; color: black; }}
-}}
+    .modal h1, .modal h2, .modal h3 { color: black !important; background: none !important; border-left: none !important; padding-left: 0 !important; }
+    .modal h1 { font-size: 1.8rem; text-align: center; margin-bottom: 1.5rem; }
+    .modal h3 { border-bottom: 1px solid #eee; margin-top: 2rem; }
+    .modal p, .modal li { font-size: 11pt; line-height: 1.5; color: black; }
+    
+    /* Selective Printing */
+    body.print-plan .only-material { display: none !important; }
+    body.print-material .only-plan { display: none !important; }
+}
 </style>
 </head>
 <body>
@@ -693,6 +697,18 @@ function renderCalendar() {{
 
 function openModal(idx) {{
     const c = CLASES[idx];
+    
+    // Separar contenido en Planificación y Material
+    let planHtml = c.html;
+    let matHtml = "";
+    
+    if (planHtml.includes('<h2 id="material-auto-generado">') || planHtml.includes('<h2>🖨️ Material Auto-Generado')) {{
+        const splitTag = planHtml.includes('<h2 id="material-auto-generado">') ? '<h2 id="material-auto-generado">' : '<h2>🖨️ Material Auto-Generado';
+        const parts = planHtml.split(splitTag);
+        planHtml = parts[0];
+        matHtml = splitTag + parts[1];
+    }}
+
     document.getElementById('modalContent').innerHTML = `
         <div class="print-only">
             <div class="print-header">
@@ -706,14 +722,25 @@ function openModal(idx) {{
             </div>
         </div>
         <button class="modal-close" onclick="closeModal()">✕</button>
-        ${{c.html}}
+        
+        <div class="only-plan">${{planHtml}}</div>
+        ${{matHtml ? `<div class="only-material">${{matHtml}}</div>` : ''}}
+        
         <div class="modal-actions">
-            <button class="btn btn-print" onclick="window.print()">🖨️ Imprimir / PDF</button>
+            <button class="btn btn-print" onclick="printDoc('plan')">🖨️ Imprimir Planificación</button>
+            ${{matHtml ? `<button class="btn btn-print" style="background:var(--gold);border-color:var(--gold)" onclick="printDoc('material')">📄 Imprimir Material / Ficha</button>` : ''}}
             <button class="btn" onclick="copyToClipboard(${{idx}})">📋 Copiar texto</button>
             <button class="btn" onclick="closeModal()">Cerrar</button>
         </div>
     `;
     document.getElementById('modalOverlay').classList.add('active');
+}}
+
+function printDoc(type) {{
+    document.body.classList.remove('print-plan', 'print-material');
+    if (type === 'plan') document.body.classList.add('print-plan');
+    if (type === 'material') document.body.classList.add('print-material');
+    window.print();
 }}
 function closeModal() {{ document.getElementById('modalOverlay').classList.remove('active'); }}
 function copyToClipboard(idx) {{
