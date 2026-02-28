@@ -62,6 +62,10 @@ class GeneradorClases:
         with open(BASE_DIR / "plantilla_clase.md", "r", encoding="utf-8") as f:
             self.plantilla_base = f.read()
 
+        # Memoria Central (Roadmap)
+        with open(BASE_DIR / "ROADMAP.yml", "r", encoding="utf-8") as f:
+            self.roadmap = f.read()
+
     def generar_actividad_religion_gemini(self, tema, curso_info):
         """Llama a Gemini 2.5 para crear el Desarrollo de la clase tipo Disputatio"""
         grado = curso_info["grado"]
@@ -78,6 +82,9 @@ class GeneradorClases:
         CURSO ESPECÍFICO: {grado} ({edad}).
         CARACTERÍSTICAS DEL CURSO: {diferenciador}
         TIEMPO DE LA ACTIVIDAD: 50 minutos.
+
+        CONTEXTO ESTRATÉGICO (ROADMAP):
+        {self.roadmap}
         
         Genera SOLO el contenido de la sección 'Desarrollo' aplicando el modelo de la Disputatio (Videtur quod, Sed contra, Respondeo). 
         
@@ -119,7 +126,9 @@ class GeneradorClases:
         CURSO ESPECÍFICO: {grado} ({edad}).
         CARACTERÍSTICAS DEL CURSO: {diferenciador}
         TIEMPO DE LA ACTIVIDAD: 50 minutos.
-        CONTEXTO: Escuela rural en la Patagonia chilena. Identidad Aonikenk. Conexión con el territorio, la naturaleza y la memoria comunitaria.
+        CONTEXTO ESTRATÉGICO (ROADMAP):
+        {self.roadmap}
+        CONTEXTO GEOGRÁFICO: Escuela rural en la Patagonia chilena. Identidad Aonikenk. 
         
         Genera SOLO el contenido de la sección 'Desarrollo' con metodología ABP.
         

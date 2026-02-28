@@ -1,0 +1,51 @@
+#  🗺️ ROADMAP PEDAGÓGICO: ESCUELA AONIKENK 2026
+
+Este archivo es la "memoria central" del sistema. Contiene las decisiones macro, enfoques institucionales y acuerdos estructurales que guían la generación de clases para evitar inconsistencias conceptuales.
+
+---
+
+## 🏗️ Decisiones Estructurales
+
+### 1. Religión: El Enfoque "Unidad 0"
+- **Contexto**: El año 2025 fue académicamente irregular ("truncado").
+- **Decisión**: El mes de Marzo de 2026 se diseña íntegramente como una **Unidad 0 de Nivelación**.
+- **Contenido**: Repaso de figuras fundacionales (Abraham, Moisés, Mandamientos, Creación) para establecer una base sólida antes de iniciar los programas oficiales de 1° a 8° básico.
+- **Relación con Programas Oficiales**: Actúan como "tronco" estructural, pero la selección de temas en Marzo prioriza la remediación de vacíos del año anterior sobre la progresión estándar.
+
+### 2. Patrimonio: Taller de Identidad y Territorio
+- **Contexto**: Sello educativo institucional "Patrimonio Cultural y Territorio Vivo".
+- **Plan Anual**: Ya definido en `patrimonio_unidades.yml` (U1: Identidad, U2: Historia Viva, U3: Natural/Huerto, U4: Legado).
+- **Progresión**: Vertical (por curso) para mantener el hilo narrativo.
+
+---
+
+## 🎨 Enfoques y Sellos (Guidelines)
+
+### A. Metodología: "Aprender Haciendo"
+- **ABP (Aprendizaje Basado en Proyectos)**: Cada clase debe tender hacia una evidencia tangible.
+- **Evidencia**: Uso sistemático de la **Bitácora / Foto / Párrafo Reflexivo**. No es solo hacer, es registrar y pensar sobre lo hecho.
+- **Estructura Escolástica (Religión)**: Uso de la estructura *Videtur quod... Sed contra... Respondeo* para el desarrollo conceptual en cursos superiores, fomentando el pensamiento crítico.
+
+### B. Contextualización Local (Aonikenk)
+- **Identidad**: Uso de nombres locales, referencias a la historia de la escuela (madres/padres fundadores de 1920), y elementos del entorno (Puerto Ingeniero Ibáñez, greda, grecas tehuelches).
+- **Nombre**: "Aonikenk" = Gente del Sur. Integrar este significado en la identidad del alumno.
+
+### C. Marco Docente (MBE 2021)
+- Cada clase debe ser explícita en su cobertura de los dominios A, B, C y D para facilitar la evaluación docente.
+
+---
+
+## 🛠️ Reglas del Motor de IA (Antigravity Constraints)
+
+1. **Memoria Temporal**: Al generar clases de la Semana 2, 3 o 4, se debe considerar lo enseñado en la(s) anterior(es).
+2. **Material Imprimible**: Cada clase DEBE generar material pedagógico independiente (fichas, historias, preguntas) listo para impresión.
+3. **Impresión Profesional**: El dashboard debe incluir el membrete institucional en todas las salidas físicas.
+
+---
+
+## 📈 Estatus de Progresión
+- [x] **Semana 1 Marzo**: Completado (Vertical)
+- [x] **Semana 2 Marzo**: Completado (Vertical)
+- [x] **Semana 3 Marzo**: Completado (Vertical)
+- [x] **Semana 4 Marzo**: Completado (Vertical)
+- [ ] **Unidad 1 (Abril)**: Pendiente (Alinear con Programas tras la Unidad 0)
