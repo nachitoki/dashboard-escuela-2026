@@ -435,7 +435,25 @@ body {{ font-family: 'Inter', sans-serif; background: var(--bg); color: var(--te
 .mat-summary-num {{ font-size: 1.75rem; font-weight: 700; }}
 .mat-summary-label {{ font-size: 0.75rem; color: var(--text-muted); margin-top: 0.15rem; }}
 
-@media (max-width: 700px) {{
+.pro-strategies { padding: 1.25rem 2rem; max-width: 1000px; margin: 0 auto; }
+.pro-card { 
+    background: var(--surface); border: 1px solid var(--border); 
+    border-radius: 12px; padding: 1.5rem; margin-bottom: 2rem;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+.pro-card h2 { color: var(--accent); margin: 0 0 1.5rem 0; display: flex; align-items: center; gap: 0.75rem; font-size: 1.3rem; }
+.pro-card h3 { color: var(--gold); font-size: 1.05rem; margin: 2rem 0 1rem 0; border-bottom: 1px solid var(--border); padding-bottom: 0.5rem; }
+.pro-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.25rem; }
+.pro-item { background: var(--surface2); padding: 1.25rem; border-radius: 10px; border-top: 4px solid var(--accent); position: relative; }
+.pro-item.gold { border-top-color: var(--gold); }
+.pro-item.pat { border-top-color: var(--pat-primary); }
+.pro-item.rel { border-top-color: var(--rel-primary); }
+.pro-item strong { display: block; margin-bottom: 0.5rem; color: var(--text); font-size: 0.95rem; }
+.pro-item p { font-size: 0.82rem; margin: 0; color: var(--text-muted); line-height: 1.6; }
+.pro-time { position: absolute; top: -10px; right: 10px; background: var(--accent); color: white; padding: 0.1rem 0.5rem; border-radius: 4px; font-size: 0.65rem; font-weight: 800; }
+.pro-tip { background: #3b82f610; border: 1px dashed var(--accent); border-radius: 8px; padding: 1rem; margin-top: 1.5rem; font-size: 0.85rem; color: var(--text-muted); line-height: 1.5; }
+
+@media (max-width: 700px) {
     .header {{ padding: 1rem; }}
     .header h1 {{ font-size: 1.1rem; }}
     .stats-bar {{ padding: 0.5rem 1rem; gap: 0.5rem; }}
@@ -505,6 +523,7 @@ body {{ font-family: 'Inter', sans-serif; background: var(--bg); color: var(--te
     <button class="view-tab" id="tabCal" onclick="switchView('calendar')">📅 Calendario</button>
     <button class="view-tab active" id="tabGrid" onclick="switchView('grid')">🔲 Tarjetas</button>
     <button class="view-tab" id="tabMat" onclick="switchView('materials')">📦 Material</button>
+    <button class="view-tab" id="tabPro" onclick="switchView('strategies')" style="background: linear-gradient(135deg, #3b82f630, #f59e0b30);">🚀 Estrategias Pro</button>
 </div>
 
 <div style="text-align: center; margin-bottom: 1rem; font-size: 0.85rem;">
@@ -516,6 +535,7 @@ body {{ font-family: 'Inter', sans-serif; background: var(--bg); color: var(--te
 <div class="grid" id="grid"></div>
 <div class="calendar" id="calendar" style="display:none"></div>
 <div class="materials" id="materials" style="display:none"></div>
+<div class="pro-strategies" id="strategies" style="display:none"></div>
 
 <div class="modal-overlay" id="modalOverlay" onclick="if(event.target===this)closeModal()">
     <div class="modal" id="modalContent"></div>
@@ -558,10 +578,72 @@ function switchView(v) {{
     document.getElementById('grid').style.display = v==='grid' ? 'grid' : 'none';
     document.getElementById('calendar').style.display = v==='calendar' ? 'block' : 'none';
     document.getElementById('materials').style.display = v==='materials' ? 'block' : 'none';
+    document.getElementById('strategies').style.display = v==='strategies' ? 'block' : 'none';
+    
     document.getElementById('tabGrid').className = 'view-tab' + (v==='grid' ? ' active' : '');
     document.getElementById('tabCal').className = 'view-tab' + (v==='calendar' ? ' active' : '');
     document.getElementById('tabMat').className = 'view-tab' + (v==='materials' ? ' active' : '');
+    document.getElementById('tabPro').className = 'view-tab' + (v==='strategies' ? ' active' : '');
+    
     if (v==='materials') renderMaterials();
+    if (v==='strategies') renderStrategies();
+}}
+
+function renderStrategies() {{
+    const html = `
+        <div class="pro-card">
+            <h2>🚀 Estrategias de Productividad Docente</h2>
+            <p style="font-size:0.9rem; color:var(--text-muted);">Cómo hacer rendir las 4:30 hrs de planificación semanal sin llevar trabajo a casa.</p>
+            
+            <h3>1. La Regla del Promedio (Balance de Carga)</h3>
+            <div class="pro-grid">
+                <div class="pro-item">
+                    <div class="pro-time">5 MIN</div>
+                    <strong>Bajo Mantenimiento</strong>
+                    <p>Protagonismo del alumno: debates, videos, o trabajo con el texto escolar. Ideal para 3 de cada 4 clases.</p>
+                </div>
+                <div class="pro-item gold">
+                    <div class="pro-time">60 MIN</div>
+                    <strong>Alta Inversión</strong>
+                    <p>Aquí es donde creas esa guía excelente. Úsala para hitos clave de la unidad.</p>
+                </div>
+            </div>
+
+            <h3>2. Sistematización y Rutinas</h3>
+            <div class="pro-grid">
+                <div class="pro-item pat">
+                    <strong>Ficha de Análisis Patrimonial</strong>
+                    <p>Usa matrices universales: ¿Qué es?, ¿Época?, ¿Valor?, ¿Conservación?. Mismo formato para distintos hitos.</p>
+                </div>
+                <div class="pro-item rel">
+                    <strong>Método Proyectos / Mini-unidades</strong>
+                    <p>Secuencias de 2-3 clases. Planificas la primera, facilitas las siguientes.</p>
+                </div>
+            </div>
+
+            <h3>3. Trabajo por Bloques (Batching)</h3>
+            <div class="pro-grid">
+                <div class="pro-item">
+                    <strong>Lunes (08:15 a 09:45): DISEÑO MACRO</strong>
+                    <p>No hagas guías. Anota qué harás en las 16 clases y súbelo al sistema escolar.</p>
+                </div>
+                <div class="pro-item gold">
+                    <strong>Martes (14:15 a 15:45): FÁBRICA DE MATERIAL</strong>
+                    <p>90 min de corrido solo fabricando: guías, PPTs, videos. Batch processing puro.</p>
+                </div>
+                <div class="pro-item pat">
+                    <strong>Jueves (08:15 / 12:30): LOGÍSTICA</strong>
+                    <p>Corrección de trabajos, sacar fotocopias y preparar material concreto.</p>
+                </div>
+            </div>
+
+            <div class="pro-tip">
+                <strong>💡 Tip Pro: Recicla sin culpa.</strong><br/>
+                Lo que sirvió este año en 4° básico, guárdalo bien. En 2027 esa planificación te tomará 0 minutos.
+            </div>
+        </div>
+    `;
+    document.getElementById('strategies').innerHTML = html;
 }}
 
 function renderStats() {{
