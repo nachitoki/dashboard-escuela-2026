@@ -506,6 +506,12 @@ body {{ font-family: 'Inter', sans-serif; background: var(--bg); color: var(--te
     <button class="view-tab active" id="tabGrid" onclick="switchView('grid')">🔲 Tarjetas</button>
     <button class="view-tab" id="tabMat" onclick="switchView('materials')">📦 Material</button>
 </div>
+
+<div style="text-align: center; margin-bottom: 1rem; font-size: 0.85rem;">
+    🗺️ Ver Mapas Anuales: 
+    <a href="mapa_patrimonio.md" style="color:var(--accent); text-decoration:none; margin-right: 1rem;">[Patrimonio]</a>
+    <a href="mapa_religion.md" style="color:var(--gold); text-decoration:none;">[Religión]</a>
+</div>
 <div class="filters" id="filtersBar"></div>
 <div class="grid" id="grid"></div>
 <div class="calendar" id="calendar" style="display:none"></div>

@@ -9,20 +9,44 @@ religion_anual:
   ciclos:
     primer_ciclo:
       # 1° y 2° Básico
-      unidades: []
+      unidades: 
+        - id: "r1"
+          titulo: "La Creación: Regalo de Dios"
+          mes: "Marzo-Abril"
+        - id: "r2"
+          titulo: "Jesús: El Gran Amigo"
+          mes: "Mayo-Junio"
       foco_pedagogico: "Narrativas fundacionales, valores básicos (amor, familia, creación)."
       
     segundo_ciclo:
       # 3° y 4° Básico
-      unidades: []
+      unidades: 
+        - id: "r3"
+          titulo: "Grandes Amigos de Dios (AT)"
+          mes: "Marzo-Abril"
+        - id: "r4"
+          titulo: "La Iglesia: Una Gran Familia"
+          mes: "Mayo-Junio"
       foco_pedagogico: "La figura de Jesús, los sacramentos iniciales, la comunidad escolar."
 
     tercer_ciclo:
       # 5° y 6° Básico
-      unidades: []
+      unidades: 
+        - id: "r5"
+          titulo: "Pecado y Promesa de Salvador"
+          mes: "Marzo-Abril"
+        - id: "r6"
+          titulo: "Jesús nos enseña a Vivir"
+          mes: "Mayo-Junio"
       foco_pedagogico: "Historia de la salvación, los mandamientos como ética de vida, el servicio."
 
     cuarto_ciclo:
       # 7° y 8° Básico
-      unidades: []
+      unidades: 
+        - id: "r7"
+          titulo: "Llamados a la Libertad (Mandamientos)"
+          mes: "Marzo-Abril"
+        - id: "r8"
+          titulo: "Proyecto de Vida en Cristo"
+          mes: "Mayo-Junio"
       foco_pedagogico: "Proyecto de vida, doctrina social, diálogo fe-razón (filosofía)."
