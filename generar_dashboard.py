@@ -1000,7 +1000,9 @@ function renderMaterials() {
         const urgLabel = urgency === 'urgent' ? 'ESTA SEMANA' : urgency === 'soon' ? 'Proxima' : 'Semana ' + wd.sn;
         if (wd.items === 0) continue;
         html += '<div class="mat-week">';
-        html += '<div class="mat-week-header" onclick="var b=this.parentElement.querySelector(\\'.mat-week-body\\');b.style.display=b.style.display===\\'none\\'?\\'block\\':\\'none\\'">';
+        html += '<div class="mat-week-header" onclick="';
+        html += "var b=this.parentElement.querySelector('.mat-week-body');b.style.display=b.style.display==='none'?'block':'none'";
+        html += '">';
         html += '<div class="mat-week-title">Semana ' + wd.sn + ' <span style="font-weight:400;color:var(--text-muted)">(' + fecha + ')</span> ';
         html += '<span class="mat-week-badge ' + urgency + '">' + urgLabel + '</span></div>';
         html += '<div class="mat-progress"><div class="mat-progress-bar"><div class="mat-progress-fill" style="width:' + pct + '%;' + (pct===100?'background:var(--pat-primary)':'background:var(--gold)') + '"></div></div>';
@@ -1015,7 +1017,8 @@ function renderMaterials() {
                 const key = c.filename + '_' + m.item;
                 const checked = state[key] ? true : false;
                 const safeKey = key.replace(/[^a-zA-Z0-9_.]/g, '');
-                html += '<div class="mat-item ' + (checked?'done':'') + '" onclick="toggleMat(\\\'' + safeKey + '\\\')">';
+                html += '<div class="mat-item ' + (checked?'done':'') + '" onclick="toggleMat(';
+                html += "'" + safeKey + "')\">";
                 html += '<div class="mat-checkbox ' + (checked?'checked':'') + '">' + (checked?'\\u2713':'') + '</div>';
                 html += '<span>' + m.item + '</span></div>';
             }
