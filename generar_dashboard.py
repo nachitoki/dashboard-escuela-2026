@@ -707,7 +707,7 @@ function renderEvents() {
     let html = "";
     EVENTOS.forEach(e => {
         const typeClass = e.tipo.toLowerCase().replace('ó','o');
-        html += \`
+        html += `
             <div class="event-card ${typeClass}">
                 <div class="event-date">${e.fecha.split('-').reverse().slice(0,2).join('/')}</div>
                 <div>
@@ -715,7 +715,7 @@ function renderEvents() {
                     <div style="font-size: 0.95rem;">${e.desc}</div>
                 </div>
             </div>
-        \`;
+        `;
     });
     container.innerHTML = html || "<p>No hay eventos registrados.</p>";
 }
