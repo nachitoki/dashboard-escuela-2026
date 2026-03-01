@@ -57,7 +57,7 @@ def parse_md_file(filepath):
     }
 
 def extraer_materiales(content, asignatura):
-    """Extrae y deduce materiales necesarios del contenido de la clase"""
+    """Extrae y deduce materiales necesarios con contexto específico"""
     materiales = []
     texto = content.lower()
     
@@ -69,37 +69,27 @@ def extraer_materiales(content, asignatura):
             if item and item not in ['cuaderno', 'pizarra', 'lápiz']:
                 materiales.append({'tipo': 'basico', 'item': item, 'preparar': False})
     
-    # Detección inteligente de materiales a preparar
+    # Detección inteligente con contexto
     detecciones = [
-        ('fotografía', 'foto', '📷 Fotografías impresas o proyectadas'),
-        ('tarjeta', None, '🃏 Tarjetas / fichas impresas'),
-        ('guía', None, '📝 Guía de trabajo impresa'),
-        ('mapa', 'mapeo', '🗺️ Mapa o plano impreso'),
-        ('línea de tiempo', 'timeline', '📏 Línea de tiempo impresa/dibujada'),
-        ('lámina', None, '🖼️ Láminas visuales'),
-        ('afiche', 'póster', '📋 Cartulinas para afiches'),
-        ('video', None, '📺 Video preparado (proyector/parlante)'),
-        ('canción', 'canto', '🎵 Audio/letra de canción'),
-        ('dibujo', 'colorear', '🖍️ Hojas para dibujar / colorear'),
-        ('exposición', 'presentación', '📊 Pauta de exposición'),
-        ('debate', None, '🗣️ Pauta de debate estructurado'),
-        ('ensayo', None, '📄 Pauta de ensayo'),
-        ('rúbrica', 'evaluación', '📊 Rúbrica de evaluación'),
-        ('recorte', 'tijera', '✂️ Materiales para recortar/pegar'),
-        ('biblia', 'straubinger', '📖 Biblia (Straubinger) disponible'),
+        ('fotografía', '📷 Preparar fotos de: '),
+        ('guía', '📝 Guía sobre: '),
+        ('mapa', '🗺️ Mapa de: '),
+        ('pauta', '📊 Pauta de: '),
+        ('rúbrica', '📊 Rúbrica de: '),
+        ('video', '📺 Video de: '),
+        ('biblia', '📖 Pasajes: '),
     ]
     
-    for keywords in detecciones:
-        primary = keywords[0]
-        secondary = keywords[1]
-        label = keywords[2]
-        if primary in texto or (secondary and secondary in texto):
+    for key, prefix in detecciones:
+        if key in texto:
+            # Capturar hasta el final de la frase o coma
+            match = re.search(fr'{key}\s+(?:de|sobre|para|con)\s+([^,.\n;]+)', texto)
+            label = prefix + (match.group(1).strip() if match else "...")
             if not any(m['item'] == label for m in materiales):
                 materiales.append({'tipo': 'preparar', 'item': label, 'preparar': True})
-    
-    # Si es Patrimonio, siempre necesita cámara/celular para bitácora
-    if asignatura == 'Patrimonio':
-        materiales.append({'tipo': 'preparar', 'item': '📸 Cámara/celular para bitácora fotográfica', 'preparar': True})
+
+    if asignatura == 'Patrimonio' and not any('bitácora' in m['item'].lower() for m in materiales):
+        materiales.append({'tipo': 'preparar', 'item': '📸 Registro para bitácora fotográfica', 'preparar': True})
     
     return materiales
 
@@ -137,6 +127,17 @@ def generate_dashboard(clases):
     from datetime import datetime
     timestamp = datetime.now().strftime('%d/%m/%Y %H:%M')
     
+    # Cargar Horario y Eventos
+    horario = {}
+    with open(BASE_DIR / "horario.yml", "r", encoding="utf-8") as f:
+        horario = yaml.safe_load(f)
+    horario_json = json.dumps(horario, ensure_ascii=False)
+
+    eventos = []
+    with open(BASE_DIR / "eventos.yml", "r", encoding="utf-8") as f:
+        eventos = yaml.safe_load(f)["eventos"]
+    eventos_json = json.dumps(eventos, ensure_ascii=False)
+
     html = f"""<!DOCTYPE html>
 <html lang="es">
 <head>
@@ -520,9 +521,11 @@ body {{ font-family: 'Inter', sans-serif; background: var(--bg); color: var(--te
 
 <div class="stats-bar" id="statsBar"></div>
 <div class="view-toggle">
+    <button class="view-tab active" id="tabSchedule" onclick="switchView('schedule')">🗓️ Mi Horario</button>
+    <button class="view-tab" id="tabGrid" onclick="switchView('grid')">🔲 Tarjetas</button>
     <button class="view-tab" id="tabCal" onclick="switchView('calendar')">📅 Calendario</button>
-    <button class="view-tab active" id="tabGrid" onclick="switchView('grid')">🔲 Tarjetas</button>
     <button class="view-tab" id="tabMat" onclick="switchView('materials')">📦 Material</button>
+    <button class="view-tab" id="tabEvents" onclick="switchView('events')">🔔 Eventos</button>
     <button class="view-tab" id="tabPro" onclick="switchView('strategies')" style="background: linear-gradient(135deg, #3b82f630, #f59e0b30);">🚀 Estrategias Pro</button>
 </div>
 
@@ -532,7 +535,14 @@ body {{ font-family: 'Inter', sans-serif; background: var(--bg); color: var(--te
     <a href="mapa_religion.md" style="color:var(--gold); text-decoration:none;">[Religión]</a>
 </div>
 <div class="filters" id="filtersBar"></div>
-<div class="grid" id="grid"></div>
+<div class="view-content" id="view-schedule" style="padding: 1rem 2rem;">
+    <div id="scheduleContainer"></div>
+</div>
+<div class="view-content" id="view-events" style="display:none; padding: 2rem;">
+    <h2 style="margin-bottom: 1.5rem;">Próximos Eventos y Suspensiones</h2>
+    <div id="eventsContainer"></div>
+</div>
+<div class="grid" id="grid" style="display:none"></div>
 <div class="calendar" id="calendar" style="display:none"></div>
 <div class="materials" id="materials" style="display:none"></div>
 <div class="pro-strategies" id="strategies" style="display:none"></div>
@@ -544,6 +554,8 @@ body {{ font-family: 'Inter', sans-serif; background: var(--bg); color: var(--te
 <script>
 const CLASES = {clases_json};
 const SEMANA_FECHAS = {semana_fechas_json};
+const HORARIO = {horario_json};
+const EVENTOS = {eventos_json};
 const MESES_SEMANAS = {{
     "Marzo": ["1","2","3","4"],
     "Abril": ["5","6","7","8"],
@@ -558,10 +570,19 @@ const MESES_SEMANAS = {{
 }};
 const CURSOS = ["1basico","2basico","3basico","4basico","5basico","6basico","7basico","8basico"];
 
-let activeView = 'grid';
+let activeView = 'schedule';
 let activeFilters = {{ asignatura: 'all', curso: 'all' }};
+let currentWeek = "1";
 
-function init() {{ renderStats(); renderFilters(); renderGrid(); renderCalendar(); renderMaterials(); }}
+function init() {{ 
+    renderStats(); 
+    renderFilters(); 
+    renderGrid(); 
+    renderCalendar(); 
+    renderMaterials(); 
+    renderSchedule();
+    renderEvents();
+}}
 
 // localStorage helper for material tracking
 function getMatState() {{ try {{ return JSON.parse(localStorage.getItem('matState2026') || '{{}}'); }} catch(e) {{ return {{}}; }} }}
@@ -579,15 +600,112 @@ function switchView(v) {{
     document.getElementById('calendar').style.display = v==='calendar' ? 'block' : 'none';
     document.getElementById('materials').style.display = v==='materials' ? 'block' : 'none';
     document.getElementById('strategies').style.display = v==='strategies' ? 'block' : 'none';
+    document.getElementById('view-schedule').style.display = v==='schedule' ? 'block' : 'none';
+    document.getElementById('view-events').style.display = v==='events' ? 'block' : 'none';
     
     document.getElementById('tabGrid').className = 'view-tab' + (v==='grid' ? ' active' : '');
     document.getElementById('tabCal').className = 'view-tab' + (v==='calendar' ? ' active' : '');
     document.getElementById('tabMat').className = 'view-tab' + (v==='materials' ? ' active' : '');
     document.getElementById('tabPro').className = 'view-tab' + (v==='strategies' ? ' active' : '');
+    document.getElementById('tabSchedule').className = 'view-tab' + (v==='schedule' ? ' active' : '');
+    document.getElementById('tabEvents').className = 'view-tab' + (v==='events' ? ' active' : '');
     
     if (v==='materials') renderMaterials();
     if (v==='strategies') renderStrategies();
+    if (v==='schedule') renderSchedule();
+    if (v==='events') renderEvents();
 }}
+
+function renderSchedule() {{
+    const container = document.getElementById('scheduleContainer');
+    const dias = ['lunes', 'martes', 'miercoles', 'jueves', 'viernes'];
+    const bloques = Object.keys(HORARIO.bloques).sort((a,b) => parseInt(a) - parseInt(b));
+    
+    let html = `
+        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem;">
+            <h3>📅 Horario Semanal</h3>
+            <div style="font-size: 0.8rem; background: var(--surface2); padding: 0.5rem 1rem; border-radius: 8px;">
+                Semana Actual: <strong>Semana ${{currentWeek}}</strong>
+            </div>
+        </div>
+        <table class="schedule-table">
+            <thead>
+                <tr>
+                    <th style="width: 100px;">Bloque</th>
+                    ${{dias.map(d => `<th class="schedule-header">${{d}}</th>`).join('')}}
+                </tr>
+            </thead>
+            <tbody>
+    `;
+    
+    bloques.forEach(b => {{
+        html += `<tr>
+            <td style="text-align:center; font-size:0.7rem; color:var(--text-muted);">
+                <strong>${{b}}</strong><br>${{HORARIO.bloques[b].hora}}
+            </td>`;
+        
+        dias.forEach(d => {{
+            const data = HORARIO.semana[d][b];
+            if (!data) {{
+                html += `<td></td>`;
+            }} else {{
+                let css = 'schedule-cell';
+                if (data.asig === 'Religión') css += ' rel';
+                if (data.asig === 'Patrimonio') css += ' pat';
+                if (data.asig === 'plan') css += ' plan';
+                if (data.asig === 'error') css += ' error';
+                
+                const label = data.curso ? `<strong>${{data.curso}}</strong><br>${{data.asig}}` : (data.label || data.asig);
+                const clickAction = data.curso ? `onclick="openClassFromSchedule('${{d}}', '${{b}}')"` : "";
+                
+                html += `<td>
+                    <div class="${{css}}" ${{clickAction}}>
+                        <span>${{label}}</span>
+                        ${{data.curso ? '<span style="font-size:0.6rem; opacity:0.7;">Ver clase ➔</span>' : ''}}
+                    </div>
+                </td>`;
+            }}
+        }});
+        html += `</tr>`;
+    }});
+    
+    html += `</tbody></table>`;
+    container.innerHTML = html;
+}}
+
+function openClassFromSchedule(dia, bloque) {{
+    const data = HORARIO.semana[dia][bloque];
+    if (!data || !data.curso) return;
+    
+    // Buscar la clase en CLASES
+    const asigLow = data.asig.toLowerCase();
+    const targetKey = \`S${{currentWeek}}_${{asigLow === 'patrimonio' ? 'PAT' : 'REL'}}_${{data.curso}}\`;
+    
+    const clase = CLASES.find(c => c.id === targetKey);
+    if (clase) {{
+        openModal(clase);
+    }} else {{
+        alert(\`Clase ${{targetKey}} no encontrada para la Semana ${{currentWeek}}. Asegúrate de haberla generado.\`);
+    }}
+}}
+
+function renderEvents() {{
+    const container = document.getElementById('eventsContainer');
+    let html = "";
+    EVENTOS.forEach(e => {{
+        const typeClass = e.tipo.toLowerCase().replace('ó','o');
+        html += \`
+            <div class="event-card ${{typeClass}}">
+                <div class="event-date">${{e.fecha.split('-').reverse().slice(0,2).join('/')}}</div>
+                <div>
+                    <div style="font-weight:600; font-size: 0.85rem;">${{e.tipo}}</div>
+                    <div style="font-size: 0.95rem;">${{e.desc}}</div>
+                </div>
+            </div>
+        \`;
+    }});
+    container.innerHTML = html || "<p>No hay eventos registrados.</p>";
+}
 
 function renderStrategies() {{
     const html = `

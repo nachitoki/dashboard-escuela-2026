@@ -62,6 +62,9 @@ class GeneradorClases:
         with open(BASE_DIR / "plantilla_clase.md", "r", encoding="utf-8") as f:
             self.plantilla_base = f.read()
 
+        with open(BASE_DIR / "personas.yml", "r", encoding="utf-8") as f:
+            self.personas = yaml.safe_load(f)["personas"]
+
         # Memoria Central (Roadmap)
         with open(BASE_DIR / "ROADMAP.yml", "r", encoding="utf-8") as f:
             self.roadmap = f.read()

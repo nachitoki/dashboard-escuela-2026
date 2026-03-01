@@ -1,0 +1,52 @@
+bloques:
+  "1": { hora: "08:15 - 09:00" }
+  "2": { hora: "09:00 - 09:45" }
+  "3": { hora: "10:00 - 10:45" }
+  "4": { hora: "10:45 - 11:30" }
+  "5": { hora: "11:45 - 12:30" }
+  "6": { hora: "12:30 - 13:15" }
+  "7": { hora: "14:15 - 15:00" }
+  "8": { hora: "15:00 - 15:45" }
+
+semana:
+  lunes:
+    "1": { curso: null, asig: "plan", label: "Planificación" }
+    "2": { curso: null, asig: "plan", label: "Planificación" }
+    "3": { curso: "6basico", asig: "Patrimonio" }
+    "4": { curso: "6basico", asig: "Patrimonio" }
+    "5": { curso: "8basico", asig: "Patrimonio" }
+    "6": { curso: "8basico", asig: "Patrimonio" }
+    "7": { curso: "4basico", asig: "Patrimonio" }
+    "8": { curso: "4basico", asig: "Patrimonio" }
+  martes:
+    "1": { curso: "2basico", asig: "Religión" }
+    "2": { curso: "2basico", asig: "Religión" }
+    "3": { curso: "1basico", asig: "Religión" }
+    "4": { curso: "1basico", asig: "Religión" }
+    "5": { curso: null, asig: "error", label: "Atención (Choque 3° Rel)" }
+    "6": { curso: null, asig: "admin", label: "Atención Apoderados" }
+    "7": { curso: null, asig: "plan", label: "Planificación" }
+    "8": { curso: null, asig: "plan", label: "Creación Material" }
+  miercoles:
+    "1": { curso: "4basico", asig: "Religión" }
+    "2": { curso: "4basico", asig: "Religión" }
+    "3": { curso: "3basico", asig: "Patrimonio" }
+    "4": { curso: "3basico", asig: "Patrimonio" }
+    "5": { curso: "5basico", asig: "Religión" }
+    "6": { curso: "5basico", asig: "Religión" }
+    "7": { curso: "1basico", asig: "Patrimonio" }
+    "8": { curso: "1basico", asig: "Patrimonio" }
+  jueves:
+    "1": { curso: null, asig: "plan", label: "Prep. Clases" }
+    "2": { curso: "2basico", asig: "Patrimonio" }
+    "3": { curso: "7basico", asig: "Religión" }
+    "4": { curso: "7basico", asig: "Religión" }
+    "5": { curso: "2basico", asig: "Patrimonio" }
+    "6": { curso: null, asig: "plan", label: "Cierre Administrativo" }
+  viernes:
+    "1": { curso: "5basico", asig: "Patrimonio" }
+    "2": { curso: "5basico", asig: "Patrimonio" }
+    "3": { curso: "8basico", asig: "Religión" }
+    "4": { curso: "8basico", asig: "Religión" }
+    "5": { curso: null, asig: "error", label: "7° Pat / 6° Rel (Choque)" }
+    "6": { curso: null, asig: "error", label: "7° Pat / 6° Rel (Choque)" }
