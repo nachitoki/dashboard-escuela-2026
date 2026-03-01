@@ -69,18 +69,18 @@ class GeneradorClases:
         with open(BASE_DIR / "ROADMAP.yml", "r", encoding="utf-8") as f:
             self.roadmap = f.read()
 
-    def generar_actividad_religion_gemini(self, tema, curso_info):
-        """Llama a Gemini 2.5 para crear el Desarrollo de la clase tipo Disputatio"""
-        grado = curso_info["grado"]
-        edad = curso_info["edad"]
-        diferenciador = curso_info["diferenciador"]
+        # Buscar Persona
+        ciclo_key = curso_info["ciclo_key"]
+        persona = self.personas.get(ciclo_key, {})
         
-        if not self.client:
-            return f"**[MOCK]** Desarrollo generado por IA para: {tema}\nCurso: {grado}\nEstructura: Videtur quod... Sed contra... Respondeo..."
-
         prompt_usuario = f"""
         Actúa como instruye tu System Prompt.
         
+        IDENTIDAD PEDAGÓGICA (Tu 'Persona' para este curso):
+        - Nombre: {persona.get('nombre', 'Docente')}
+        - Estilo: {persona.get('estilo', 'Estándar')}
+        - Instrucciones de Persona: {persona.get('instrucciones', '')}
+
         TEMA DE LA CLASE: {tema}
         CURSO ESPECÍFICO: {grado} ({edad}).
         CARACTERÍSTICAS DEL CURSO: {diferenciador}
@@ -91,10 +91,10 @@ class GeneradorClases:
         
         Genera SOLO el contenido de la sección 'Desarrollo' aplicando el modelo de la Disputatio (Videtur quod, Sed contra, Respondeo). 
         
-        IMPORTANTE: Adecua TOTALMENTE el lenguaje, las actividades y la profundidad al nivel específico de {grado} ({edad}).
+        IMPORTANTE: Adecua TOTALMENTE el lenguaje y el estilo a tu identidad de {persona.get('nombre')}.
         - Las explicaciones deben ser comprensibles para un niño de {edad}.
         - Las actividades prácticas deben corresponder a lo que un alumno de {grado} puede hacer: {diferenciador}
-        - Mantén la profundidad escolástica pero tradúcela al nivel cognitivo real del curso.
+        - Mantén la profundidad escolástica pero tradúcela al nivel cognitivo real del curso usando tu estilo de {persona.get('estilo')}.
         """
         
         try:
@@ -113,18 +113,18 @@ class GeneradorClases:
             print(f"  ❌ Error con Gemini API: {e}")
             return f"Error en generación: {e}"
 
-    def generar_actividad_patrimonio_gemini(self, tema, curso_info):
-        """Genera actividad de Patrimonio diferenciada por curso"""
-        grado = curso_info["grado"]
-        edad = curso_info["edad"]
-        diferenciador = curso_info["diferenciador"]
-        
-        if not self.client:
-            return f"**Actividad de Patrimonio para {grado}:** {tema}\n\nActividad ABP diferenciada para {edad}: {diferenciador}"
+        # Buscar Persona
+        ciclo_key = curso_info["ciclo_key"]
+        persona = self.personas.get(ciclo_key, {})
 
         prompt_usuario = f"""
         Eres un pedagogo experto en Aprendizaje Basado en Proyectos (ABP) y patrimonio cultural local.
         
+        IDENTIDAD PEDAGÓGICA (Tu 'Persona' para este curso):
+        - Nombre: {persona.get('nombre', 'Docente')}
+        - Estilo: {persona.get('estilo', 'Estándar')}
+        - Instrucciones de Persona: {persona.get('instrucciones', '')}
+
         TEMA DE LA CLASE: {tema}
         CURSO ESPECÍFICO: {grado} ({edad}).
         CARACTERÍSTICAS DEL CURSO: {diferenciador}
@@ -133,14 +133,15 @@ class GeneradorClases:
         {self.roadmap}
         CONTEXTO GEOGRÁFICO: Escuela rural en la Patagonia chilena. Identidad Aonikenk. 
         
-        Genera SOLO el contenido de la sección 'Desarrollo' con metodología ABP.
+        Genera SOLO el contenido de la sección 'Desarrollo' con metodología ABP, usando tu estilo de {persona.get('nombre')}.
         
         Estructura tu respuesta así:
         1. **Exploración inicial** (10 min): Actividad de observación o pregunta detonante.
         2. **Investigación / Creación** (25 min): Actividad central diferenciada para {grado}.
         3. **Puesta en común** (15 min): Socialización del trabajo.
         
-        IMPORTANTE: Las actividades deben ser realizables por un alumno de {edad}: {diferenciador}
+        IMPORTANTE: Las actividades deben ser realizables por un alumno de {edad}: {diferenciador}.
+        Sigue fielmente tus instrucciones de persona: {persona.get('instrucciones')}
         """
         
         try:
