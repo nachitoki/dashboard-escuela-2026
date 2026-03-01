@@ -1,0 +1,2636 @@
+
+const CLASES = [
+  {
+    "filename": "mapa_patrimonio.md",
+    "semana": "mapa",
+    "asignatura": "patrimonio",
+    "asignatura_code": "patrimonio",
+    "curso": "?",
+    "titulo": "🗺️ Mapa Curricular: Taller de Patrimonio 2026",
+    "objetivo": "",
+    "mbe": {
+      "A": false,
+      "B": false,
+      "C": false,
+      "D": false
+    },
+    "materiales": [
+      {
+        "tipo": "preparar",
+        "item": "🗺️ Mapa de: comunidad escolar",
+        "preparar": true
+      }
+    ],
+    "html": "<h1>🗺️ Mapa Curricular: Taller de Patrimonio 2026</h1>\n<p><strong>Enfoque:</strong> Identidad cultural local y huerto escolar</p>\n<pre><code class=\"language-mermaid\">graph TD\n    subgraph &quot;Lógica Anual de Patrimonio&quot;\n    u1[&quot;U1: Identidad y Territorio&lt;br/&gt;(Marzo - Abril)&lt;br/&gt;&lt;i&gt;¿Quiénes somos y dónde vivimos?&lt;/i&gt;&quot;]\n    u2[&quot;U2: Historia Viva y Memoria&lt;br/&gt;(Mayo - Julio)&lt;br/&gt;&lt;i&gt;¿Qué historias cuentan nuestros mayores?&lt;/i&gt;&quot;]\n    u1 --&gt; u2\n    u3[&quot;U3: Patrimonio Natural y Cultural&lt;br/&gt;(Agosto - Septiembre)&lt;br/&gt;&lt;i&gt;¿Qué nos enseña la naturaleza y cómo la cuidamos?&lt;/i&gt;&quot;]\n    u2 --&gt; u3\n    u4[&quot;U4: Proyección, Legado y Escuela&lt;br/&gt;(Octubre - Diciembre)&lt;br/&gt;&lt;i&gt;¿Qué marca dejamos en Aonikenk?&lt;/i&gt;&quot;]\n    u3 --&gt; u4\nend\n</code></pre>\n<h3>Hitos y Productos</h3>\n<ul>\n<li><strong>Identidad y Territorio</strong>: Bitácora inicial y mapa de la comunidad escolar. (Hito: Día de los Patrimonios (Mayo))</li>\n<li><strong>Historia Viva y Memoria</strong>: Exposición de registros fotográficos y narrativas cortas. (Hito: We Tripantu (Junio))</li>\n<li><strong>Patrimonio Natural y Cultural</strong>: Herbario patrimonial o diario del huerto. (Hito: Activación del Aula-Huerto)</li>\n<li><strong>Proyección, Legado y Escuela</strong>: Intervención artística en la escuela y cierre de bitácora fotográfica. (Hito: Aniversario Escuela (Octubre) y Muestra Final)</li>\n</ul>",
+    "raw_md": "# 🗺️ Mapa Curricular: Taller de Patrimonio 2026\n**Enfoque:** Identidad cultural local y huerto escolar\n\n```mermaid\ngraph TD\n    subgraph \"Lógica Anual de Patrimonio\"\n    u1[\"U1: Identidad y Territorio<br/>(Marzo - Abril)<br/><i>¿Quiénes somos y dónde vivimos?</i>\"]\n    u2[\"U2: Historia Viva y Memoria<br/>(Mayo - Julio)<br/><i>¿Qué historias cuentan nuestros mayores?</i>\"]\n    u1 --> u2\n    u3[\"U3: Patrimonio Natural y Cultural<br/>(Agosto - Septiembre)<br/><i>¿Qué nos enseña la naturaleza y cómo la cuidamos?</i>\"]\n    u2 --> u3\n    u4[\"U4: Proyección, Legado y Escuela<br/>(Octubre - Diciembre)<br/><i>¿Qué marca dejamos en Aonikenk?</i>\"]\n    u3 --> u4\nend\n```\n\n### Hitos y Productos\n- **Identidad y Territorio**: Bitácora inicial y mapa de la comunidad escolar. (Hito: Día de los Patrimonios (Mayo))\n- **Historia Viva y Memoria**: Exposición de registros fotográficos y narrativas cortas. (Hito: We Tripantu (Junio))\n- **Patrimonio Natural y Cultural**: Herbario patrimonial o diario del huerto. (Hito: Activación del Aula-Huerto)\n- **Proyección, Legado y Escuela**: Intervención artística en la escuela y cierre de bitácora fotográfica. (Hito: Aniversario Escuela (Octubre) y Muestra Final)\n"
+  },
+  {
+    "filename": "mapa_religion.md",
+    "semana": "mapa",
+    "asignatura": "religion",
+    "asignatura_code": "religion",
+    "curso": "?",
+    "titulo": "🗺️ Mapa Curricular: Religión Católica 2026",
+    "objetivo": "",
+    "mbe": {
+      "A": false,
+      "B": false,
+      "C": false,
+      "D": false
+    },
+    "materiales": [
+      {
+        "tipo": "preparar",
+        "item": "🗺️ Mapa de: por definir",
+        "preparar": true
+      }
+    ],
+    "html": "<h1>🗺️ Mapa Curricular: Religión Católica 2026</h1>\n<p><strong>Enfoque:</strong> Formación integral, reflexión filosófica y conexión vida-fe (MBE)</p>\n<pre><code class=\"language-mermaid\">graph LR\n    subgraph &quot;Primer Ciclo&quot;\n        r1[&quot;La Creación: Regalo de Dios&lt;br/&gt;(Marzo-Abril)&quot;]\n        r2[&quot;Jesús: El Gran Amigo&lt;br/&gt;(Mayo-Junio)&quot;]\n        r1 --&gt; r2\n    end\n    subgraph &quot;Segundo Ciclo&quot;\n        r3[&quot;Grandes Amigos de Dios (AT)&lt;br/&gt;(Marzo-Abril)&quot;]\n        r4[&quot;La Iglesia: Una Gran Familia&lt;br/&gt;(Mayo-Junio)&quot;]\n        r3 --&gt; r4\n    end\n    subgraph &quot;Tercer Ciclo&quot;\n        r5[&quot;Pecado y Promesa de Salvador&lt;br/&gt;(Marzo-Abril)&quot;]\n        r6[&quot;Jesús nos enseña a Vivir&lt;br/&gt;(Mayo-Junio)&quot;]\n        r5 --&gt; r6\n    end\n    subgraph &quot;Cuarto Ciclo&quot;\n        r7[&quot;Llamados a la Libertad (Mandamientos)&lt;br/&gt;(Marzo-Abril)&quot;]\n        r8[&quot;Proyecto de Vida en Cristo&lt;br/&gt;(Mayo-Junio)&quot;]\n        r7 --&gt; r8\n    end\n</code></pre>",
+    "raw_md": "# 🗺️ Mapa Curricular: Religión Católica 2026\n**Enfoque:** Formación integral, reflexión filosófica y conexión vida-fe (MBE)\n\n```mermaid\ngraph LR\n    subgraph \"Primer Ciclo\"\n        r1[\"La Creación: Regalo de Dios<br/>(Marzo-Abril)\"]\n        r2[\"Jesús: El Gran Amigo<br/>(Mayo-Junio)\"]\n        r1 --> r2\n    end\n    subgraph \"Segundo Ciclo\"\n        r3[\"Grandes Amigos de Dios (AT)<br/>(Marzo-Abril)\"]\n        r4[\"La Iglesia: Una Gran Familia<br/>(Mayo-Junio)\"]\n        r3 --> r4\n    end\n    subgraph \"Tercer Ciclo\"\n        r5[\"Pecado y Promesa de Salvador<br/>(Marzo-Abril)\"]\n        r6[\"Jesús nos enseña a Vivir<br/>(Mayo-Junio)\"]\n        r5 --> r6\n    end\n    subgraph \"Cuarto Ciclo\"\n        r7[\"Llamados a la Libertad (Mandamientos)<br/>(Marzo-Abril)\"]\n        r8[\"Proyecto de Vida en Cristo<br/>(Mayo-Junio)\"]\n        r7 --> r8\n    end\n```\n"
+  },
+  {
+    "filename": "S1_PAT_1basico.md",
+    "semana": "1",
+    "asignatura": "Patrimonio",
+    "asignatura_code": "PAT",
+    "curso": "1basico",
+    "titulo": "Patrimonio — 1° Básico - Unidad: Unidad 1: Identidad y Territorio",
+    "objetivo": "Reconocer a los miembros de la familia como primer entorno patrimonial.",
+    "mbe": {
+      "A": false,
+      "B": false,
+      "C": false,
+      "D": false
+    },
+    "materiales": [
+      {
+        "tipo": "basico",
+        "item": "Ver sección Materiales abajo",
+        "preparar": false
+      },
+      {
+        "tipo": "preparar",
+        "item": "📖 Pasajes: por definir",
+        "preparar": true
+      },
+      {
+        "tipo": "preparar",
+        "item": "📸 Registro para bitácora fotográfica",
+        "preparar": true
+      }
+    ],
+    "html": "<h1>Patrimonio — 1° Básico - Unidad: Unidad 1: Identidad y Territorio</h1>\n<p><strong>Ciclo:</strong> 1° Básico (Básica Baja (1°-2° Básico)) | <strong>Semana:</strong> 1 | <strong>Tiempo:</strong> 90 minutos<br />\n<strong>Pregunta Esencial:</strong> ¿Cómo comprendemos el misterio de Yo y mi familia: ¿De dónde vengo??</p>\n<hr />\n<h2>🎯 Objetivo de la Clase</h2>\n<p>Reconocer a los miembros de la familia como primer entorno patrimonial.</p>\n<hr />\n<h2>🕒 Secuencia Didáctica (90 min)</h2>\n<h3>┌─ INICIO (15 min)</h3>\n<p><strong>Rutina / Activación:</strong><br />\n- Oración inicial (ciclo litúrgico) y recuerdo de la clase anterior.<br />\n<strong>Pregunta Gatilladora:</strong><br />\n- <em>¿Qué sabemos sobre Yo y mi familia: ¿De dónde vengo??</em></p>\n<h3>├─ DESARROLLO (50 min)</h3>\n<p><strong>Metodología ABP / Trabajo Central:</strong><br />\n- <strong>Actividad de Patrimonio para 1° Básico:</strong> Yo y mi familia: ¿De dónde vengo?</p>\n<p>Actividad ABP diferenciada para 6-7 años: Actividades concretas: dibujar, colorear, cantar, escuchar cuentos. Frases muy cortas. Vocabulario simple.<br />\n<strong>Agrupación:</strong> Individual y plenario.<br />\n<strong>Materiales:</strong> Ver sección Materiales abajo.</p>\n<h3>├─ CIERRE (15 min)</h3>\n<p><strong>Reflexión Guiada:</strong><br />\n- Síntesis en la pizarra de la verdad enseñada.<br />\n<strong>Metacognición:</strong><br />\n- <em>¿Qué aprendimos hoy? ¿Cómo lo conectamos con nuestro entorno?</em></p>\n<h3>└─ EVIDENCIA (10 min)</h3>\n<p><strong>📸 Bitácora / Registro:</strong><br />\n- El estudiante dibuja y el profesor o estudiante escribe el título.<br />\n<strong>Tipo de Evaluación:</strong> Formativa (participación y bitácora)</p>\n<hr />\n<h2>🔲 Cobertura MBE 2021 (Indicadores)</h2>\n<ul>\n<li>☑ <strong>Dominio A (Preparación):</strong> Planificación desafiante y coherente con el currículum.</li>\n<li>☐ <strong>Dominio B (Ambiente):</strong> Espacio seguro, rutinas claras e interacciones respetuosas.</li>\n<li>☑ <strong>Dominio C (Enseñanza):</strong> Estrategias activas (ABP) que promueven pensamiento crítico.</li>\n<li>☑ <strong>Dominio D (Responsabilidad):</strong> Recopilación de evidencia para reflexión pedagógica.</li>\n</ul>\n<hr />\n<p><em>Generado automáticamente por Antigravity - Sistema 2026</em></p>\n<hr />\n<h2>🖨️ Material Auto-Generado (listo para imprimir)</h2>\n<p>Biblia (Straubinger), cuaderno, pizarra.</p>",
+    "raw_md": "# Patrimonio — 1° Básico - Unidad: Unidad 1: Identidad y Territorio\n**Ciclo:** 1° Básico (Básica Baja (1°-2° Básico)) | **Semana:** 1 | **Tiempo:** 90 minutos\n**Pregunta Esencial:** ¿Cómo comprendemos el misterio de Yo y mi familia: ¿De dónde vengo??\n\n---\n\n## 🎯 Objetivo de la Clase\nReconocer a los miembros de la familia como primer entorno patrimonial.\n\n---\n\n## 🕒 Secuencia Didáctica (90 min)\n\n### ┌─ INICIO (15 min)\n**Rutina / Activación:**\n- Oración inicial (ciclo litúrgico) y recuerdo de la clase anterior.\n**Pregunta Gatilladora:**\n- *¿Qué sabemos sobre Yo y mi familia: ¿De dónde vengo??*\n\n### ├─ DESARROLLO (50 min)\n**Metodología ABP / Trabajo Central:**\n- **Actividad de Patrimonio para 1° Básico:** Yo y mi familia: ¿De dónde vengo?\n\nActividad ABP diferenciada para 6-7 años: Actividades concretas: dibujar, colorear, cantar, escuchar cuentos. Frases muy cortas. Vocabulario simple.\n**Agrupación:** Individual y plenario.\n**Materiales:** Ver sección Materiales abajo.\n\n### ├─ CIERRE (15 min)\n**Reflexión Guiada:**\n- Síntesis en la pizarra de la verdad enseñada.\n**Metacognición:**\n- *¿Qué aprendimos hoy? ¿Cómo lo conectamos con nuestro entorno?*\n\n### └─ EVIDENCIA (10 min)\n**📸 Bitácora / Registro:**\n- El estudiante dibuja y el profesor o estudiante escribe el título.\n**Tipo de Evaluación:** Formativa (participación y bitácora)\n\n---\n\n## 🔲 Cobertura MBE 2021 (Indicadores)\n- [x] **Dominio A (Preparación):** Planificación desafiante y coherente con el currículum.\n- [ ] **Dominio B (Ambiente):** Espacio seguro, rutinas claras e interacciones respetuosas.\n- [x] **Dominio C (Enseñanza):** Estrategias activas (ABP) que promueven pensamiento crítico.\n- [x] **Dominio D (Responsabilidad):** Recopilación de evidencia para reflexión pedagógica.\n\n---\n*Generado automáticamente por Antigravity - Sistema 2026*\n\n\n---\n\n## 🖨️ Material Auto-Generado (listo para imprimir)\n\nBiblia (Straubinger), cuaderno, pizarra.\n"
+  },
+  {
+    "filename": "S1_PAT_2basico.md",
+    "semana": "1",
+    "asignatura": "Patrimonio",
+    "asignatura_code": "PAT",
+    "curso": "2basico",
+    "titulo": "Patrimonio — 2° Básico - Unidad: Unidad 1: Identidad y Territorio",
+    "objetivo": "Reconocer a los miembros de la familia como primer entorno patrimonial.",
+    "mbe": {
+      "A": false,
+      "B": false,
+      "C": false,
+      "D": false
+    },
+    "materiales": [
+      {
+        "tipo": "basico",
+        "item": "Ver sección Materiales abajo",
+        "preparar": false
+      },
+      {
+        "tipo": "preparar",
+        "item": "📖 Pasajes: por definir",
+        "preparar": true
+      },
+      {
+        "tipo": "preparar",
+        "item": "📸 Registro para bitácora fotográfica",
+        "preparar": true
+      }
+    ],
+    "html": "<h1>Patrimonio — 2° Básico - Unidad: Unidad 1: Identidad y Territorio</h1>\n<p><strong>Ciclo:</strong> 2° Básico (Básica Baja (1°-2° Básico)) | <strong>Semana:</strong> 1 | <strong>Tiempo:</strong> 90 minutos<br />\n<strong>Pregunta Esencial:</strong> ¿Cómo comprendemos el misterio de Yo y mi familia: ¿De dónde vengo??</p>\n<hr />\n<h2>🎯 Objetivo de la Clase</h2>\n<p>Reconocer a los miembros de la familia como primer entorno patrimonial.</p>\n<hr />\n<h2>🕒 Secuencia Didáctica (90 min)</h2>\n<h3>┌─ INICIO (15 min)</h3>\n<p><strong>Rutina / Activación:</strong><br />\n- Oración inicial (ciclo litúrgico) y recuerdo de la clase anterior.<br />\n<strong>Pregunta Gatilladora:</strong><br />\n- <em>¿Qué sabemos sobre Yo y mi familia: ¿De dónde vengo??</em></p>\n<h3>├─ DESARROLLO (50 min)</h3>\n<p><strong>Metodología ABP / Trabajo Central:</strong><br />\n- <strong>Actividad de Patrimonio para 2° Básico:</strong> Yo y mi familia: ¿De dónde vengo?</p>\n<p>Actividad ABP diferenciada para 7-8 años: Ya lee y escribe oraciones cortas. Puede copiar del pizarrón. Actividades con escritura guiada y narración oral más extensa.<br />\n<strong>Agrupación:</strong> Individual y plenario.<br />\n<strong>Materiales:</strong> Ver sección Materiales abajo.</p>\n<h3>├─ CIERRE (15 min)</h3>\n<p><strong>Reflexión Guiada:</strong><br />\n- Síntesis en la pizarra de la verdad enseñada.<br />\n<strong>Metacognición:</strong><br />\n- <em>¿Qué aprendimos hoy? ¿Cómo lo conectamos con nuestro entorno?</em></p>\n<h3>└─ EVIDENCIA (10 min)</h3>\n<p><strong>📸 Bitácora / Registro:</strong><br />\n- El estudiante dibuja y el profesor o estudiante escribe el título.<br />\n<strong>Tipo de Evaluación:</strong> Formativa (participación y bitácora)</p>\n<hr />\n<h2>🔲 Cobertura MBE 2021 (Indicadores)</h2>\n<ul>\n<li>☑ <strong>Dominio A (Preparación):</strong> Planificación desafiante y coherente con el currículum.</li>\n<li>☐ <strong>Dominio B (Ambiente):</strong> Espacio seguro, rutinas claras e interacciones respetuosas.</li>\n<li>☑ <strong>Dominio C (Enseñanza):</strong> Estrategias activas (ABP) que promueven pensamiento crítico.</li>\n<li>☑ <strong>Dominio D (Responsabilidad):</strong> Recopilación de evidencia para reflexión pedagógica.</li>\n</ul>\n<hr />\n<p><em>Generado automáticamente por Antigravity - Sistema 2026</em></p>\n<hr />\n<h2>🖨️ Material Auto-Generado (listo para imprimir)</h2>\n<p>Biblia (Straubinger), cuaderno, pizarra.</p>",
+    "raw_md": "# Patrimonio — 2° Básico - Unidad: Unidad 1: Identidad y Territorio\n**Ciclo:** 2° Básico (Básica Baja (1°-2° Básico)) | **Semana:** 1 | **Tiempo:** 90 minutos\n**Pregunta Esencial:** ¿Cómo comprendemos el misterio de Yo y mi familia: ¿De dónde vengo??\n\n---\n\n## 🎯 Objetivo de la Clase\nReconocer a los miembros de la familia como primer entorno patrimonial.\n\n---\n\n## 🕒 Secuencia Didáctica (90 min)\n\n### ┌─ INICIO (15 min)\n**Rutina / Activación:**\n- Oración inicial (ciclo litúrgico) y recuerdo de la clase anterior.\n**Pregunta Gatilladora:**\n- *¿Qué sabemos sobre Yo y mi familia: ¿De dónde vengo??*\n\n### ├─ DESARROLLO (50 min)\n**Metodología ABP / Trabajo Central:**\n- **Actividad de Patrimonio para 2° Básico:** Yo y mi familia: ¿De dónde vengo?\n\nActividad ABP diferenciada para 7-8 años: Ya lee y escribe oraciones cortas. Puede copiar del pizarrón. Actividades con escritura guiada y narración oral más extensa.\n**Agrupación:** Individual y plenario.\n**Materiales:** Ver sección Materiales abajo.\n\n### ├─ CIERRE (15 min)\n**Reflexión Guiada:**\n- Síntesis en la pizarra de la verdad enseñada.\n**Metacognición:**\n- *¿Qué aprendimos hoy? ¿Cómo lo conectamos con nuestro entorno?*\n\n### └─ EVIDENCIA (10 min)\n**📸 Bitácora / Registro:**\n- El estudiante dibuja y el profesor o estudiante escribe el título.\n**Tipo de Evaluación:** Formativa (participación y bitácora)\n\n---\n\n## 🔲 Cobertura MBE 2021 (Indicadores)\n- [x] **Dominio A (Preparación):** Planificación desafiante y coherente con el currículum.\n- [ ] **Dominio B (Ambiente):** Espacio seguro, rutinas claras e interacciones respetuosas.\n- [x] **Dominio C (Enseñanza):** Estrategias activas (ABP) que promueven pensamiento crítico.\n- [x] **Dominio D (Responsabilidad):** Recopilación de evidencia para reflexión pedagógica.\n\n---\n*Generado automáticamente por Antigravity - Sistema 2026*\n\n\n---\n\n## 🖨️ Material Auto-Generado (listo para imprimir)\n\nBiblia (Straubinger), cuaderno, pizarra.\n"
+  },
+  {
+    "filename": "S1_PAT_3basico.md",
+    "semana": "1",
+    "asignatura": "Patrimonio",
+    "asignatura_code": "PAT",
+    "curso": "3basico",
+    "titulo": "Patrimonio — 3° Básico - Unidad: Unidad 1: Identidad y Territorio",
+    "objetivo": "Identificar el espacio escolar como lugar de encuentro y memoria.",
+    "mbe": {
+      "A": false,
+      "B": false,
+      "C": false,
+      "D": false
+    },
+    "materiales": [
+      {
+        "tipo": "basico",
+        "item": "Ver sección Materiales abajo",
+        "preparar": false
+      },
+      {
+        "tipo": "preparar",
+        "item": "📖 Pasajes: por definir",
+        "preparar": true
+      },
+      {
+        "tipo": "preparar",
+        "item": "📸 Registro para bitácora fotográfica",
+        "preparar": true
+      }
+    ],
+    "html": "<h1>Patrimonio — 3° Básico - Unidad: Unidad 1: Identidad y Territorio</h1>\n<p><strong>Ciclo:</strong> 3° Básico (Básica Media (3°-4° Básico)) | <strong>Semana:</strong> 1 | <strong>Tiempo:</strong> 90 minutos<br />\n<strong>Pregunta Esencial:</strong> ¿Cómo comprendemos el misterio de La memoria de nuestra escuela Aonikenk?</p>\n<hr />\n<h2>🎯 Objetivo de la Clase</h2>\n<p>Identificar el espacio escolar como lugar de encuentro y memoria.</p>\n<hr />\n<h2>🕒 Secuencia Didáctica (90 min)</h2>\n<h3>┌─ INICIO (15 min)</h3>\n<p><strong>Rutina / Activación:</strong><br />\n- Oración inicial (ciclo litúrgico) y recuerdo de la clase anterior.<br />\n<strong>Pregunta Gatilladora:</strong><br />\n- <em>¿Qué sabemos sobre La memoria de nuestra escuela Aonikenk?</em></p>\n<h3>├─ DESARROLLO (50 min)</h3>\n<p><strong>Metodología ABP / Trabajo Central:</strong><br />\n- <strong>Actividad de Patrimonio para 3° Básico:</strong> La memoria de nuestra escuela Aonikenk</p>\n<p>Actividad ABP diferenciada para 8-9 años: Inicio de trabajo grupal simple (parejas). Lectura de textos cortos. Preguntas dirigidas con opciones.<br />\n<strong>Agrupación:</strong> Individual y plenario.<br />\n<strong>Materiales:</strong> Ver sección Materiales abajo.</p>\n<h3>├─ CIERRE (15 min)</h3>\n<p><strong>Reflexión Guiada:</strong><br />\n- Síntesis en la pizarra de la verdad enseñada.<br />\n<strong>Metacognición:</strong><br />\n- <em>¿Qué aprendimos hoy? ¿Cómo lo conectamos con nuestro entorno?</em></p>\n<h3>└─ EVIDENCIA (10 min)</h3>\n<p><strong>📸 Bitácora / Registro:</strong><br />\n- El estudiante toma la foto y escribe un párrafo corto (qué, cómo, cuándo).<br />\n<strong>Tipo de Evaluación:</strong> Formativa (participación y bitácora)</p>\n<hr />\n<h2>🔲 Cobertura MBE 2021 (Indicadores)</h2>\n<ul>\n<li>☑ <strong>Dominio A (Preparación):</strong> Planificación desafiante y coherente con el currículum.</li>\n<li>☐ <strong>Dominio B (Ambiente):</strong> Espacio seguro, rutinas claras e interacciones respetuosas.</li>\n<li>☑ <strong>Dominio C (Enseñanza):</strong> Estrategias activas (ABP) que promueven pensamiento crítico.</li>\n<li>☑ <strong>Dominio D (Responsabilidad):</strong> Recopilación de evidencia para reflexión pedagógica.</li>\n</ul>\n<hr />\n<p><em>Generado automáticamente por Antigravity - Sistema 2026</em></p>\n<hr />\n<h2>🖨️ Material Auto-Generado (listo para imprimir)</h2>\n<p>Biblia (Straubinger), cuaderno, pizarra.</p>",
+    "raw_md": "# Patrimonio — 3° Básico - Unidad: Unidad 1: Identidad y Territorio\n**Ciclo:** 3° Básico (Básica Media (3°-4° Básico)) | **Semana:** 1 | **Tiempo:** 90 minutos\n**Pregunta Esencial:** ¿Cómo comprendemos el misterio de La memoria de nuestra escuela Aonikenk?\n\n---\n\n## 🎯 Objetivo de la Clase\nIdentificar el espacio escolar como lugar de encuentro y memoria.\n\n---\n\n## 🕒 Secuencia Didáctica (90 min)\n\n### ┌─ INICIO (15 min)\n**Rutina / Activación:**\n- Oración inicial (ciclo litúrgico) y recuerdo de la clase anterior.\n**Pregunta Gatilladora:**\n- *¿Qué sabemos sobre La memoria de nuestra escuela Aonikenk?*\n\n### ├─ DESARROLLO (50 min)\n**Metodología ABP / Trabajo Central:**\n- **Actividad de Patrimonio para 3° Básico:** La memoria de nuestra escuela Aonikenk\n\nActividad ABP diferenciada para 8-9 años: Inicio de trabajo grupal simple (parejas). Lectura de textos cortos. Preguntas dirigidas con opciones.\n**Agrupación:** Individual y plenario.\n**Materiales:** Ver sección Materiales abajo.\n\n### ├─ CIERRE (15 min)\n**Reflexión Guiada:**\n- Síntesis en la pizarra de la verdad enseñada.\n**Metacognición:**\n- *¿Qué aprendimos hoy? ¿Cómo lo conectamos con nuestro entorno?*\n\n### └─ EVIDENCIA (10 min)\n**📸 Bitácora / Registro:**\n- El estudiante toma la foto y escribe un párrafo corto (qué, cómo, cuándo).\n**Tipo de Evaluación:** Formativa (participación y bitácora)\n\n---\n\n## 🔲 Cobertura MBE 2021 (Indicadores)\n- [x] **Dominio A (Preparación):** Planificación desafiante y coherente con el currículum.\n- [ ] **Dominio B (Ambiente):** Espacio seguro, rutinas claras e interacciones respetuosas.\n- [x] **Dominio C (Enseñanza):** Estrategias activas (ABP) que promueven pensamiento crítico.\n- [x] **Dominio D (Responsabilidad):** Recopilación de evidencia para reflexión pedagógica.\n\n---\n*Generado automáticamente por Antigravity - Sistema 2026*\n\n\n---\n\n## 🖨️ Material Auto-Generado (listo para imprimir)\n\nBiblia (Straubinger), cuaderno, pizarra.\n"
+  },
+  {
+    "filename": "S1_PAT_4basico.md",
+    "semana": "1",
+    "asignatura": "Patrimonio",
+    "asignatura_code": "PAT",
+    "curso": "4basico",
+    "titulo": "Patrimonio — 4° Básico - Unidad: Unidad 1: Identidad y Territorio",
+    "objetivo": "Identificar el espacio escolar como lugar de encuentro y memoria.",
+    "mbe": {
+      "A": false,
+      "B": false,
+      "C": false,
+      "D": false
+    },
+    "materiales": [
+      {
+        "tipo": "basico",
+        "item": "Ver sección Materiales abajo",
+        "preparar": false
+      },
+      {
+        "tipo": "preparar",
+        "item": "🗺️ Mapa de: por definir",
+        "preparar": true
+      },
+      {
+        "tipo": "preparar",
+        "item": "📖 Pasajes: por definir",
+        "preparar": true
+      },
+      {
+        "tipo": "preparar",
+        "item": "📸 Registro para bitácora fotográfica",
+        "preparar": true
+      }
+    ],
+    "html": "<h1>Patrimonio — 4° Básico - Unidad: Unidad 1: Identidad y Territorio</h1>\n<p><strong>Ciclo:</strong> 4° Básico (Básica Media (3°-4° Básico)) | <strong>Semana:</strong> 1 | <strong>Tiempo:</strong> 90 minutos<br />\n<strong>Pregunta Esencial:</strong> ¿Cómo comprendemos el misterio de La memoria de nuestra escuela Aonikenk?</p>\n<hr />\n<h2>🎯 Objetivo de la Clase</h2>\n<p>Identificar el espacio escolar como lugar de encuentro y memoria.</p>\n<hr />\n<h2>🕒 Secuencia Didáctica (90 min)</h2>\n<h3>┌─ INICIO (15 min)</h3>\n<p><strong>Rutina / Activación:</strong><br />\n- Oración inicial (ciclo litúrgico) y recuerdo de la clase anterior.<br />\n<strong>Pregunta Gatilladora:</strong><br />\n- <em>¿Qué sabemos sobre La memoria de nuestra escuela Aonikenk?</em></p>\n<h3>├─ DESARROLLO (50 min)</h3>\n<p><strong>Metodología ABP / Trabajo Central:</strong><br />\n- <strong>Actividad de Patrimonio para 4° Básico:</strong> La memoria de nuestra escuela Aonikenk</p>\n<p>Actividad ABP diferenciada para 9-10 años: Trabajo en equipos de 3-4. Mapas conceptuales simples. Redacción de párrafos cortos. Mayor autonomía lectora.<br />\n<strong>Agrupación:</strong> Individual y plenario.<br />\n<strong>Materiales:</strong> Ver sección Materiales abajo.</p>\n<h3>├─ CIERRE (15 min)</h3>\n<p><strong>Reflexión Guiada:</strong><br />\n- Síntesis en la pizarra de la verdad enseñada.<br />\n<strong>Metacognición:</strong><br />\n- <em>¿Qué aprendimos hoy? ¿Cómo lo conectamos con nuestro entorno?</em></p>\n<h3>└─ EVIDENCIA (10 min)</h3>\n<p><strong>📸 Bitácora / Registro:</strong><br />\n- El estudiante toma la foto y escribe un párrafo corto (qué, cómo, cuándo).<br />\n<strong>Tipo de Evaluación:</strong> Formativa (participación y bitácora)</p>\n<hr />\n<h2>🔲 Cobertura MBE 2021 (Indicadores)</h2>\n<ul>\n<li>☑ <strong>Dominio A (Preparación):</strong> Planificación desafiante y coherente con el currículum.</li>\n<li>☐ <strong>Dominio B (Ambiente):</strong> Espacio seguro, rutinas claras e interacciones respetuosas.</li>\n<li>☑ <strong>Dominio C (Enseñanza):</strong> Estrategias activas (ABP) que promueven pensamiento crítico.</li>\n<li>☑ <strong>Dominio D (Responsabilidad):</strong> Recopilación de evidencia para reflexión pedagógica.</li>\n</ul>\n<hr />\n<p><em>Generado automáticamente por Antigravity - Sistema 2026</em></p>\n<hr />\n<h2>🖨️ Material Auto-Generado (listo para imprimir)</h2>\n<p>Biblia (Straubinger), cuaderno, pizarra.</p>",
+    "raw_md": "# Patrimonio — 4° Básico - Unidad: Unidad 1: Identidad y Territorio\n**Ciclo:** 4° Básico (Básica Media (3°-4° Básico)) | **Semana:** 1 | **Tiempo:** 90 minutos\n**Pregunta Esencial:** ¿Cómo comprendemos el misterio de La memoria de nuestra escuela Aonikenk?\n\n---\n\n## 🎯 Objetivo de la Clase\nIdentificar el espacio escolar como lugar de encuentro y memoria.\n\n---\n\n## 🕒 Secuencia Didáctica (90 min)\n\n### ┌─ INICIO (15 min)\n**Rutina / Activación:**\n- Oración inicial (ciclo litúrgico) y recuerdo de la clase anterior.\n**Pregunta Gatilladora:**\n- *¿Qué sabemos sobre La memoria de nuestra escuela Aonikenk?*\n\n### ├─ DESARROLLO (50 min)\n**Metodología ABP / Trabajo Central:**\n- **Actividad de Patrimonio para 4° Básico:** La memoria de nuestra escuela Aonikenk\n\nActividad ABP diferenciada para 9-10 años: Trabajo en equipos de 3-4. Mapas conceptuales simples. Redacción de párrafos cortos. Mayor autonomía lectora.\n**Agrupación:** Individual y plenario.\n**Materiales:** Ver sección Materiales abajo.\n\n### ├─ CIERRE (15 min)\n**Reflexión Guiada:**\n- Síntesis en la pizarra de la verdad enseñada.\n**Metacognición:**\n- *¿Qué aprendimos hoy? ¿Cómo lo conectamos con nuestro entorno?*\n\n### └─ EVIDENCIA (10 min)\n**📸 Bitácora / Registro:**\n- El estudiante toma la foto y escribe un párrafo corto (qué, cómo, cuándo).\n**Tipo de Evaluación:** Formativa (participación y bitácora)\n\n---\n\n## 🔲 Cobertura MBE 2021 (Indicadores)\n- [x] **Dominio A (Preparación):** Planificación desafiante y coherente con el currículum.\n- [ ] **Dominio B (Ambiente):** Espacio seguro, rutinas claras e interacciones respetuosas.\n- [x] **Dominio C (Enseñanza):** Estrategias activas (ABP) que promueven pensamiento crítico.\n- [x] **Dominio D (Responsabilidad):** Recopilación de evidencia para reflexión pedagógica.\n\n---\n*Generado automáticamente por Antigravity - Sistema 2026*\n\n\n---\n\n## 🖨️ Material Auto-Generado (listo para imprimir)\n\nBiblia (Straubinger), cuaderno, pizarra.\n"
+  },
+  {
+    "filename": "S1_PAT_5basico.md",
+    "semana": "1",
+    "asignatura": "Patrimonio",
+    "asignatura_code": "PAT",
+    "curso": "5basico",
+    "titulo": "Patrimonio — 5° Básico - Unidad: Unidad 1: Identidad y Territorio",
+    "objetivo": "Mapear los hitos locales y espacios comunitarios.",
+    "mbe": {
+      "A": false,
+      "B": false,
+      "C": false,
+      "D": false
+    },
+    "materiales": [
+      {
+        "tipo": "basico",
+        "item": "Ver sección Materiales abajo",
+        "preparar": false
+      },
+      {
+        "tipo": "preparar",
+        "item": "📖 Pasajes: por definir",
+        "preparar": true
+      },
+      {
+        "tipo": "preparar",
+        "item": "📸 Registro para bitácora fotográfica",
+        "preparar": true
+      }
+    ],
+    "html": "<h1>Patrimonio — 5° Básico - Unidad: Unidad 1: Identidad y Territorio</h1>\n<p><strong>Ciclo:</strong> 5° Básico (Básico Intermedio (5°-6° Básico)) | <strong>Semana:</strong> 1 | <strong>Tiempo:</strong> 90 minutos<br />\n<strong>Pregunta Esencial:</strong> ¿Cómo comprendemos el misterio de El barrio que habitamos y sus relatos?</p>\n<hr />\n<h2>🎯 Objetivo de la Clase</h2>\n<p>Mapear los hitos locales y espacios comunitarios.</p>\n<hr />\n<h2>🕒 Secuencia Didáctica (90 min)</h2>\n<h3>┌─ INICIO (15 min)</h3>\n<p><strong>Rutina / Activación:</strong><br />\n- Oración inicial (ciclo litúrgico) y recuerdo de la clase anterior.<br />\n<strong>Pregunta Gatilladora:</strong><br />\n- <em>¿Qué sabemos sobre El barrio que habitamos y sus relatos?</em></p>\n<h3>├─ DESARROLLO (50 min)</h3>\n<p><strong>Metodología ABP / Trabajo Central:</strong><br />\n- <strong>Actividad de Patrimonio para 5° Básico:</strong> El barrio que habitamos y sus relatos</p>\n<p>Actividad ABP diferenciada para 10-11 años: Investigación guiada con preguntas. Exposiciones breves. Inicio de pensamiento abstracto. Trabajo con líneas de tiempo.<br />\n<strong>Agrupación:</strong> Individual y plenario.<br />\n<strong>Materiales:</strong> Ver sección Materiales abajo.</p>\n<h3>├─ CIERRE (15 min)</h3>\n<p><strong>Reflexión Guiada:</strong><br />\n- Síntesis en la pizarra de la verdad enseñada.<br />\n<strong>Metacognición:</strong><br />\n- <em>¿Qué aprendimos hoy? ¿Cómo lo conectamos con nuestro entorno?</em></p>\n<h3>└─ EVIDENCIA (10 min)</h3>\n<p><strong>📸 Bitácora / Registro:</strong><br />\n- Reportaje fotográfico (serie de fotos) con epígrafes críticos.<br />\n<strong>Tipo de Evaluación:</strong> Formativa (participación y bitácora)</p>\n<hr />\n<h2>🔲 Cobertura MBE 2021 (Indicadores)</h2>\n<ul>\n<li>☑ <strong>Dominio A (Preparación):</strong> Planificación desafiante y coherente con el currículum.</li>\n<li>☐ <strong>Dominio B (Ambiente):</strong> Espacio seguro, rutinas claras e interacciones respetuosas.</li>\n<li>☑ <strong>Dominio C (Enseñanza):</strong> Estrategias activas (ABP) que promueven pensamiento crítico.</li>\n<li>☑ <strong>Dominio D (Responsabilidad):</strong> Recopilación de evidencia para reflexión pedagógica.</li>\n</ul>\n<hr />\n<p><em>Generado automáticamente por Antigravity - Sistema 2026</em></p>\n<hr />\n<h2>🖨️ Material Auto-Generado (listo para imprimir)</h2>\n<p>Biblia (Straubinger), cuaderno, pizarra.</p>",
+    "raw_md": "# Patrimonio — 5° Básico - Unidad: Unidad 1: Identidad y Territorio\n**Ciclo:** 5° Básico (Básico Intermedio (5°-6° Básico)) | **Semana:** 1 | **Tiempo:** 90 minutos\n**Pregunta Esencial:** ¿Cómo comprendemos el misterio de El barrio que habitamos y sus relatos?\n\n---\n\n## 🎯 Objetivo de la Clase\nMapear los hitos locales y espacios comunitarios.\n\n---\n\n## 🕒 Secuencia Didáctica (90 min)\n\n### ┌─ INICIO (15 min)\n**Rutina / Activación:**\n- Oración inicial (ciclo litúrgico) y recuerdo de la clase anterior.\n**Pregunta Gatilladora:**\n- *¿Qué sabemos sobre El barrio que habitamos y sus relatos?*\n\n### ├─ DESARROLLO (50 min)\n**Metodología ABP / Trabajo Central:**\n- **Actividad de Patrimonio para 5° Básico:** El barrio que habitamos y sus relatos\n\nActividad ABP diferenciada para 10-11 años: Investigación guiada con preguntas. Exposiciones breves. Inicio de pensamiento abstracto. Trabajo con líneas de tiempo.\n**Agrupación:** Individual y plenario.\n**Materiales:** Ver sección Materiales abajo.\n\n### ├─ CIERRE (15 min)\n**Reflexión Guiada:**\n- Síntesis en la pizarra de la verdad enseñada.\n**Metacognición:**\n- *¿Qué aprendimos hoy? ¿Cómo lo conectamos con nuestro entorno?*\n\n### └─ EVIDENCIA (10 min)\n**📸 Bitácora / Registro:**\n- Reportaje fotográfico (serie de fotos) con epígrafes críticos.\n**Tipo de Evaluación:** Formativa (participación y bitácora)\n\n---\n\n## 🔲 Cobertura MBE 2021 (Indicadores)\n- [x] **Dominio A (Preparación):** Planificación desafiante y coherente con el currículum.\n- [ ] **Dominio B (Ambiente):** Espacio seguro, rutinas claras e interacciones respetuosas.\n- [x] **Dominio C (Enseñanza):** Estrategias activas (ABP) que promueven pensamiento crítico.\n- [x] **Dominio D (Responsabilidad):** Recopilación de evidencia para reflexión pedagógica.\n\n---\n*Generado automáticamente por Antigravity - Sistema 2026*\n\n\n---\n\n## 🖨️ Material Auto-Generado (listo para imprimir)\n\nBiblia (Straubinger), cuaderno, pizarra.\n"
+  },
+  {
+    "filename": "S1_PAT_6basico.md",
+    "semana": "1",
+    "asignatura": "Patrimonio",
+    "asignatura_code": "PAT",
+    "curso": "6basico",
+    "titulo": "Patrimonio — 6° Básico - Unidad: Unidad 1: Identidad y Territorio",
+    "objetivo": "Mapear los hitos locales y espacios comunitarios.",
+    "mbe": {
+      "A": false,
+      "B": false,
+      "C": false,
+      "D": false
+    },
+    "materiales": [
+      {
+        "tipo": "basico",
+        "item": "Ver sección Materiales abajo",
+        "preparar": false
+      },
+      {
+        "tipo": "preparar",
+        "item": "📖 Pasajes: por definir",
+        "preparar": true
+      },
+      {
+        "tipo": "preparar",
+        "item": "📸 Registro para bitácora fotográfica",
+        "preparar": true
+      }
+    ],
+    "html": "<h1>Patrimonio — 6° Básico - Unidad: Unidad 1: Identidad y Territorio</h1>\n<p><strong>Ciclo:</strong> 6° Básico (Básico Intermedio (5°-6° Básico)) | <strong>Semana:</strong> 1 | <strong>Tiempo:</strong> 90 minutos<br />\n<strong>Pregunta Esencial:</strong> ¿Cómo comprendemos el misterio de El barrio que habitamos y sus relatos?</p>\n<hr />\n<h2>🎯 Objetivo de la Clase</h2>\n<p>Mapear los hitos locales y espacios comunitarios.</p>\n<hr />\n<h2>🕒 Secuencia Didáctica (90 min)</h2>\n<h3>┌─ INICIO (15 min)</h3>\n<p><strong>Rutina / Activación:</strong><br />\n- Oración inicial (ciclo litúrgico) y recuerdo de la clase anterior.<br />\n<strong>Pregunta Gatilladora:</strong><br />\n- <em>¿Qué sabemos sobre El barrio que habitamos y sus relatos?</em></p>\n<h3>├─ DESARROLLO (50 min)</h3>\n<p><strong>Metodología ABP / Trabajo Central:</strong><br />\n- <strong>Actividad de Patrimonio para 6° Básico:</strong> El barrio que habitamos y sus relatos</p>\n<p>Actividad ABP diferenciada para 11-12 años: Investigación con mayor autonomía. Debates simples. Redacción de textos argumentativos básicos. Co-evaluación entre pares.<br />\n<strong>Agrupación:</strong> Individual y plenario.<br />\n<strong>Materiales:</strong> Ver sección Materiales abajo.</p>\n<h3>├─ CIERRE (15 min)</h3>\n<p><strong>Reflexión Guiada:</strong><br />\n- Síntesis en la pizarra de la verdad enseñada.<br />\n<strong>Metacognición:</strong><br />\n- <em>¿Qué aprendimos hoy? ¿Cómo lo conectamos con nuestro entorno?</em></p>\n<h3>└─ EVIDENCIA (10 min)</h3>\n<p><strong>📸 Bitácora / Registro:</strong><br />\n- Reportaje fotográfico (serie de fotos) con epígrafes críticos.<br />\n<strong>Tipo de Evaluación:</strong> Formativa (participación y bitácora)</p>\n<hr />\n<h2>🔲 Cobertura MBE 2021 (Indicadores)</h2>\n<ul>\n<li>☑ <strong>Dominio A (Preparación):</strong> Planificación desafiante y coherente con el currículum.</li>\n<li>☐ <strong>Dominio B (Ambiente):</strong> Espacio seguro, rutinas claras e interacciones respetuosas.</li>\n<li>☑ <strong>Dominio C (Enseñanza):</strong> Estrategias activas (ABP) que promueven pensamiento crítico.</li>\n<li>☑ <strong>Dominio D (Responsabilidad):</strong> Recopilación de evidencia para reflexión pedagógica.</li>\n</ul>\n<hr />\n<p><em>Generado automáticamente por Antigravity - Sistema 2026</em></p>\n<hr />\n<h2>🖨️ Material Auto-Generado (listo para imprimir)</h2>\n<p>Biblia (Straubinger), cuaderno, pizarra.</p>",
+    "raw_md": "# Patrimonio — 6° Básico - Unidad: Unidad 1: Identidad y Territorio\n**Ciclo:** 6° Básico (Básico Intermedio (5°-6° Básico)) | **Semana:** 1 | **Tiempo:** 90 minutos\n**Pregunta Esencial:** ¿Cómo comprendemos el misterio de El barrio que habitamos y sus relatos?\n\n---\n\n## 🎯 Objetivo de la Clase\nMapear los hitos locales y espacios comunitarios.\n\n---\n\n## 🕒 Secuencia Didáctica (90 min)\n\n### ┌─ INICIO (15 min)\n**Rutina / Activación:**\n- Oración inicial (ciclo litúrgico) y recuerdo de la clase anterior.\n**Pregunta Gatilladora:**\n- *¿Qué sabemos sobre El barrio que habitamos y sus relatos?*\n\n### ├─ DESARROLLO (50 min)\n**Metodología ABP / Trabajo Central:**\n- **Actividad de Patrimonio para 6° Básico:** El barrio que habitamos y sus relatos\n\nActividad ABP diferenciada para 11-12 años: Investigación con mayor autonomía. Debates simples. Redacción de textos argumentativos básicos. Co-evaluación entre pares.\n**Agrupación:** Individual y plenario.\n**Materiales:** Ver sección Materiales abajo.\n\n### ├─ CIERRE (15 min)\n**Reflexión Guiada:**\n- Síntesis en la pizarra de la verdad enseñada.\n**Metacognición:**\n- *¿Qué aprendimos hoy? ¿Cómo lo conectamos con nuestro entorno?*\n\n### └─ EVIDENCIA (10 min)\n**📸 Bitácora / Registro:**\n- Reportaje fotográfico (serie de fotos) con epígrafes críticos.\n**Tipo de Evaluación:** Formativa (participación y bitácora)\n\n---\n\n## 🔲 Cobertura MBE 2021 (Indicadores)\n- [x] **Dominio A (Preparación):** Planificación desafiante y coherente con el currículum.\n- [ ] **Dominio B (Ambiente):** Espacio seguro, rutinas claras e interacciones respetuosas.\n- [x] **Dominio C (Enseñanza):** Estrategias activas (ABP) que promueven pensamiento crítico.\n- [x] **Dominio D (Responsabilidad):** Recopilación de evidencia para reflexión pedagógica.\n\n---\n*Generado automáticamente por Antigravity - Sistema 2026*\n\n\n---\n\n## 🖨️ Material Auto-Generado (listo para imprimir)\n\nBiblia (Straubinger), cuaderno, pizarra.\n"
+  },
+  {
+    "filename": "S1_PAT_7basico.md",
+    "semana": "1",
+    "asignatura": "Patrimonio",
+    "asignatura_code": "PAT",
+    "curso": "7basico",
+    "titulo": "Patrimonio — 7° Básico - Unidad: Unidad 1: Identidad y Territorio",
+    "objetivo": "Analizar críticamente el concepto de territorio.",
+    "mbe": {
+      "A": false,
+      "B": false,
+      "C": false,
+      "D": false
+    },
+    "materiales": [
+      {
+        "tipo": "basico",
+        "item": "Ver sección Materiales abajo",
+        "preparar": false
+      },
+      {
+        "tipo": "preparar",
+        "item": "📷 Preparar fotos de: por definir",
+        "preparar": true
+      },
+      {
+        "tipo": "preparar",
+        "item": "📖 Pasajes: por definir",
+        "preparar": true
+      },
+      {
+        "tipo": "preparar",
+        "item": "📸 Registro para bitácora fotográfica",
+        "preparar": true
+      }
+    ],
+    "html": "<h1>Patrimonio — 7° Básico - Unidad: Unidad 1: Identidad y Territorio</h1>\n<p><strong>Ciclo:</strong> 7° Básico (Básico Superior (7°-8° Básico)) | <strong>Semana:</strong> 1 | <strong>Tiempo:</strong> 90 minutos<br />\n<strong>Pregunta Esencial:</strong> ¿Cómo comprendemos el misterio de Identidad local: Raíces profundas?</p>\n<hr />\n<h2>🎯 Objetivo de la Clase</h2>\n<p>Analizar críticamente el concepto de territorio.</p>\n<hr />\n<h2>🕒 Secuencia Didáctica (90 min)</h2>\n<h3>┌─ INICIO (15 min)</h3>\n<p><strong>Rutina / Activación:</strong><br />\n- Oración inicial (ciclo litúrgico) y recuerdo de la clase anterior.<br />\n<strong>Pregunta Gatilladora:</strong><br />\n- <em>¿Qué sabemos sobre Identidad local: Raíces profundas?</em></p>\n<h3>├─ DESARROLLO (50 min)</h3>\n<p><strong>Metodología ABP / Trabajo Central:</strong><br />\n- <strong>Actividad de Patrimonio para 7° Básico:</strong> Identidad local: Raíces profundas</p>\n<p>Actividad ABP diferenciada para 12-13 años: Pensamiento crítico inicial. Análisis de fuentes. Ensayos cortos. Debates estructurados. Conexión con actualidad.<br />\n<strong>Agrupación:</strong> Individual y plenario.<br />\n<strong>Materiales:</strong> Ver sección Materiales abajo.</p>\n<h3>├─ CIERRE (15 min)</h3>\n<p><strong>Reflexión Guiada:</strong><br />\n- Síntesis en la pizarra de la verdad enseñada.<br />\n<strong>Metacognición:</strong><br />\n- <em>¿Qué aprendimos hoy? ¿Cómo lo conectamos con nuestro entorno?</em></p>\n<h3>└─ EVIDENCIA (10 min)</h3>\n<p><strong>📸 Bitácora / Registro:</strong><br />\n- Ensayo visual. Fotografía abstracta/simbólica con justificación filosófica.<br />\n<strong>Tipo de Evaluación:</strong> Formativa (participación y bitácora)</p>\n<hr />\n<h2>🔲 Cobertura MBE 2021 (Indicadores)</h2>\n<ul>\n<li>☑ <strong>Dominio A (Preparación):</strong> Planificación desafiante y coherente con el currículum.</li>\n<li>☐ <strong>Dominio B (Ambiente):</strong> Espacio seguro, rutinas claras e interacciones respetuosas.</li>\n<li>☑ <strong>Dominio C (Enseñanza):</strong> Estrategias activas (ABP) que promueven pensamiento crítico.</li>\n<li>☑ <strong>Dominio D (Responsabilidad):</strong> Recopilación de evidencia para reflexión pedagógica.</li>\n</ul>\n<hr />\n<p><em>Generado automáticamente por Antigravity - Sistema 2026</em></p>\n<hr />\n<h2>🖨️ Material Auto-Generado (listo para imprimir)</h2>\n<p>Biblia (Straubinger), cuaderno, pizarra.</p>",
+    "raw_md": "# Patrimonio — 7° Básico - Unidad: Unidad 1: Identidad y Territorio\n**Ciclo:** 7° Básico (Básico Superior (7°-8° Básico)) | **Semana:** 1 | **Tiempo:** 90 minutos\n**Pregunta Esencial:** ¿Cómo comprendemos el misterio de Identidad local: Raíces profundas?\n\n---\n\n## 🎯 Objetivo de la Clase\nAnalizar críticamente el concepto de territorio.\n\n---\n\n## 🕒 Secuencia Didáctica (90 min)\n\n### ┌─ INICIO (15 min)\n**Rutina / Activación:**\n- Oración inicial (ciclo litúrgico) y recuerdo de la clase anterior.\n**Pregunta Gatilladora:**\n- *¿Qué sabemos sobre Identidad local: Raíces profundas?*\n\n### ├─ DESARROLLO (50 min)\n**Metodología ABP / Trabajo Central:**\n- **Actividad de Patrimonio para 7° Básico:** Identidad local: Raíces profundas\n\nActividad ABP diferenciada para 12-13 años: Pensamiento crítico inicial. Análisis de fuentes. Ensayos cortos. Debates estructurados. Conexión con actualidad.\n**Agrupación:** Individual y plenario.\n**Materiales:** Ver sección Materiales abajo.\n\n### ├─ CIERRE (15 min)\n**Reflexión Guiada:**\n- Síntesis en la pizarra de la verdad enseñada.\n**Metacognición:**\n- *¿Qué aprendimos hoy? ¿Cómo lo conectamos con nuestro entorno?*\n\n### └─ EVIDENCIA (10 min)\n**📸 Bitácora / Registro:**\n- Ensayo visual. Fotografía abstracta/simbólica con justificación filosófica.\n**Tipo de Evaluación:** Formativa (participación y bitácora)\n\n---\n\n## 🔲 Cobertura MBE 2021 (Indicadores)\n- [x] **Dominio A (Preparación):** Planificación desafiante y coherente con el currículum.\n- [ ] **Dominio B (Ambiente):** Espacio seguro, rutinas claras e interacciones respetuosas.\n- [x] **Dominio C (Enseñanza):** Estrategias activas (ABP) que promueven pensamiento crítico.\n- [x] **Dominio D (Responsabilidad):** Recopilación de evidencia para reflexión pedagógica.\n\n---\n*Generado automáticamente por Antigravity - Sistema 2026*\n\n\n---\n\n## 🖨️ Material Auto-Generado (listo para imprimir)\n\nBiblia (Straubinger), cuaderno, pizarra.\n"
+  },
+  {
+    "filename": "S1_PAT_8basico.md",
+    "semana": "1",
+    "asignatura": "Patrimonio",
+    "asignatura_code": "PAT",
+    "curso": "8basico",
+    "titulo": "Patrimonio — 8° Básico - Unidad: Unidad 1: Identidad y Territorio",
+    "objetivo": "Analizar críticamente el concepto de territorio.",
+    "mbe": {
+      "A": false,
+      "B": false,
+      "C": false,
+      "D": false
+    },
+    "materiales": [
+      {
+        "tipo": "basico",
+        "item": "Ver sección Materiales abajo",
+        "preparar": false
+      },
+      {
+        "tipo": "preparar",
+        "item": "📷 Preparar fotos de: por definir",
+        "preparar": true
+      },
+      {
+        "tipo": "preparar",
+        "item": "📖 Pasajes: por definir",
+        "preparar": true
+      },
+      {
+        "tipo": "preparar",
+        "item": "📸 Registro para bitácora fotográfica",
+        "preparar": true
+      }
+    ],
+    "html": "<h1>Patrimonio — 8° Básico - Unidad: Unidad 1: Identidad y Territorio</h1>\n<p><strong>Ciclo:</strong> 8° Básico (Básico Superior (7°-8° Básico)) | <strong>Semana:</strong> 1 | <strong>Tiempo:</strong> 90 minutos<br />\n<strong>Pregunta Esencial:</strong> ¿Cómo comprendemos el misterio de Identidad local: Raíces profundas?</p>\n<hr />\n<h2>🎯 Objetivo de la Clase</h2>\n<p>Analizar críticamente el concepto de territorio.</p>\n<hr />\n<h2>🕒 Secuencia Didáctica (90 min)</h2>\n<h3>┌─ INICIO (15 min)</h3>\n<p><strong>Rutina / Activación:</strong><br />\n- Oración inicial (ciclo litúrgico) y recuerdo de la clase anterior.<br />\n<strong>Pregunta Gatilladora:</strong><br />\n- <em>¿Qué sabemos sobre Identidad local: Raíces profundas?</em></p>\n<h3>├─ DESARROLLO (50 min)</h3>\n<p><strong>Metodología ABP / Trabajo Central:</strong><br />\n- <strong>Actividad de Patrimonio para 8° Básico:</strong> Identidad local: Raíces profundas</p>\n<p>Actividad ABP diferenciada para 13-14 años: Pensamiento hipotético-deductivo. Ensayos argumentativos. Proyectos autónomos. Filosofía y ética aplicada. Preparación para Media.<br />\n<strong>Agrupación:</strong> Individual y plenario.<br />\n<strong>Materiales:</strong> Ver sección Materiales abajo.</p>\n<h3>├─ CIERRE (15 min)</h3>\n<p><strong>Reflexión Guiada:</strong><br />\n- Síntesis en la pizarra de la verdad enseñada.<br />\n<strong>Metacognición:</strong><br />\n- <em>¿Qué aprendimos hoy? ¿Cómo lo conectamos con nuestro entorno?</em></p>\n<h3>└─ EVIDENCIA (10 min)</h3>\n<p><strong>📸 Bitácora / Registro:</strong><br />\n- Ensayo visual. Fotografía abstracta/simbólica con justificación filosófica.<br />\n<strong>Tipo de Evaluación:</strong> Formativa (participación y bitácora)</p>\n<hr />\n<h2>🔲 Cobertura MBE 2021 (Indicadores)</h2>\n<ul>\n<li>☑ <strong>Dominio A (Preparación):</strong> Planificación desafiante y coherente con el currículum.</li>\n<li>☐ <strong>Dominio B (Ambiente):</strong> Espacio seguro, rutinas claras e interacciones respetuosas.</li>\n<li>☑ <strong>Dominio C (Enseñanza):</strong> Estrategias activas (ABP) que promueven pensamiento crítico.</li>\n<li>☑ <strong>Dominio D (Responsabilidad):</strong> Recopilación de evidencia para reflexión pedagógica.</li>\n</ul>\n<hr />\n<p><em>Generado automáticamente por Antigravity - Sistema 2026</em></p>\n<hr />\n<h2>🖨️ Material Auto-Generado (listo para imprimir)</h2>\n<p>Biblia (Straubinger), cuaderno, pizarra.</p>",
+    "raw_md": "# Patrimonio — 8° Básico - Unidad: Unidad 1: Identidad y Territorio\n**Ciclo:** 8° Básico (Básico Superior (7°-8° Básico)) | **Semana:** 1 | **Tiempo:** 90 minutos\n**Pregunta Esencial:** ¿Cómo comprendemos el misterio de Identidad local: Raíces profundas?\n\n---\n\n## 🎯 Objetivo de la Clase\nAnalizar críticamente el concepto de territorio.\n\n---\n\n## 🕒 Secuencia Didáctica (90 min)\n\n### ┌─ INICIO (15 min)\n**Rutina / Activación:**\n- Oración inicial (ciclo litúrgico) y recuerdo de la clase anterior.\n**Pregunta Gatilladora:**\n- *¿Qué sabemos sobre Identidad local: Raíces profundas?*\n\n### ├─ DESARROLLO (50 min)\n**Metodología ABP / Trabajo Central:**\n- **Actividad de Patrimonio para 8° Básico:** Identidad local: Raíces profundas\n\nActividad ABP diferenciada para 13-14 años: Pensamiento hipotético-deductivo. Ensayos argumentativos. Proyectos autónomos. Filosofía y ética aplicada. Preparación para Media.\n**Agrupación:** Individual y plenario.\n**Materiales:** Ver sección Materiales abajo.\n\n### ├─ CIERRE (15 min)\n**Reflexión Guiada:**\n- Síntesis en la pizarra de la verdad enseñada.\n**Metacognición:**\n- *¿Qué aprendimos hoy? ¿Cómo lo conectamos con nuestro entorno?*\n\n### └─ EVIDENCIA (10 min)\n**📸 Bitácora / Registro:**\n- Ensayo visual. Fotografía abstracta/simbólica con justificación filosófica.\n**Tipo de Evaluación:** Formativa (participación y bitácora)\n\n---\n\n## 🔲 Cobertura MBE 2021 (Indicadores)\n- [x] **Dominio A (Preparación):** Planificación desafiante y coherente con el currículum.\n- [ ] **Dominio B (Ambiente):** Espacio seguro, rutinas claras e interacciones respetuosas.\n- [x] **Dominio C (Enseñanza):** Estrategias activas (ABP) que promueven pensamiento crítico.\n- [x] **Dominio D (Responsabilidad):** Recopilación de evidencia para reflexión pedagógica.\n\n---\n*Generado automáticamente por Antigravity - Sistema 2026*\n\n\n---\n\n## 🖨️ Material Auto-Generado (listo para imprimir)\n\nBiblia (Straubinger), cuaderno, pizarra.\n"
+  },
+  {
+    "filename": "S1_REL_1basico.md",
+    "semana": "1",
+    "asignatura": "Religión",
+    "asignatura_code": "REL",
+    "curso": "1basico",
+    "titulo": "Religión — 1° Básico - Unidad: Unidad 0/1",
+    "objetivo": "Reconocer la vida como un regalo divino.",
+    "mbe": {
+      "A": false,
+      "B": false,
+      "C": false,
+      "D": false
+    },
+    "materiales": [
+      {
+        "tipo": "basico",
+        "item": "Ver sección Materiales abajo",
+        "preparar": false
+      },
+      {
+        "tipo": "preparar",
+        "item": "📖 Pasajes: por definir",
+        "preparar": true
+      }
+    ],
+    "html": "<h1>Religión — 1° Básico - Unidad: Unidad 0/1</h1>\n<p><strong>Ciclo:</strong> 1° Básico (Básica Baja (1°-2° Básico)) | <strong>Semana:</strong> 1 | <strong>Tiempo:</strong> 90 minutos<br />\n<strong>Pregunta Esencial:</strong> ¿Cómo comprendemos el misterio de Dios nos creó por Amor?</p>\n<hr />\n<h2>🎯 Objetivo de la Clase</h2>\n<p>Reconocer la vida como un regalo divino.</p>\n<hr />\n<h2>🕒 Secuencia Didáctica (90 min)</h2>\n<h3>┌─ INICIO (15 min)</h3>\n<p><strong>Rutina / Activación:</strong><br />\n- Oración inicial (ciclo litúrgico) y recuerdo de la clase anterior.<br />\n<strong>Pregunta Gatilladora:</strong><br />\n- <em>¿Qué sabemos sobre Dios nos creó por Amor?</em></p>\n<h3>├─ DESARROLLO (50 min)</h3>\n<p><strong>Metodología ABP / Trabajo Central:</strong><br />\n- <strong>[MOCK]</strong> Desarrollo generado por IA para: Dios nos creó por Amor<br />\nCurso: 1° Básico<br />\nEstructura: Videtur quod... Sed contra... Respondeo...<br />\n<strong>Agrupación:</strong> Individual y plenario.<br />\n<strong>Materiales:</strong> Ver sección Materiales abajo.</p>\n<h3>├─ CIERRE (15 min)</h3>\n<p><strong>Reflexión Guiada:</strong><br />\n- Síntesis en la pizarra de la verdad enseñada.<br />\n<strong>Metacognición:</strong><br />\n- <em>¿Qué aprendimos hoy? ¿Cómo lo conectamos con nuestro entorno?</em></p>\n<h3>└─ EVIDENCIA (10 min)</h3>\n<p><strong>📸 Bitácora / Registro:</strong><br />\n- El estudiante dibuja y el profesor o estudiante escribe el título.<br />\n<strong>Tipo de Evaluación:</strong> Formativa (participación y bitácora)</p>\n<hr />\n<h2>🔲 Cobertura MBE 2021 (Indicadores)</h2>\n<ul>\n<li>☑ <strong>Dominio A (Preparación):</strong> Planificación desafiante y coherente con el currículum.</li>\n<li>☑ <strong>Dominio B (Ambiente):</strong> Espacio seguro, rutinas claras e interacciones respetuosas.</li>\n<li>☑ <strong>Dominio C (Enseñanza):</strong> Estrategias activas (ABP) que promueven pensamiento crítico.</li>\n<li>☐ <strong>Dominio D (Responsabilidad):</strong> Recopilación de evidencia para reflexión pedagógica.</li>\n</ul>\n<hr />\n<p><em>Generado automáticamente por Antigravity - Sistema 2026</em></p>\n<hr />\n<h2>🖨️ Material Auto-Generado (listo para imprimir)</h2>\n<p>Biblia (Straubinger), cuaderno, pizarra.</p>",
+    "raw_md": "# Religión — 1° Básico - Unidad: Unidad 0/1\n**Ciclo:** 1° Básico (Básica Baja (1°-2° Básico)) | **Semana:** 1 | **Tiempo:** 90 minutos\n**Pregunta Esencial:** ¿Cómo comprendemos el misterio de Dios nos creó por Amor?\n\n---\n\n## 🎯 Objetivo de la Clase\nReconocer la vida como un regalo divino.\n\n---\n\n## 🕒 Secuencia Didáctica (90 min)\n\n### ┌─ INICIO (15 min)\n**Rutina / Activación:**\n- Oración inicial (ciclo litúrgico) y recuerdo de la clase anterior.\n**Pregunta Gatilladora:**\n- *¿Qué sabemos sobre Dios nos creó por Amor?*\n\n### ├─ DESARROLLO (50 min)\n**Metodología ABP / Trabajo Central:**\n- **[MOCK]** Desarrollo generado por IA para: Dios nos creó por Amor\nCurso: 1° Básico\nEstructura: Videtur quod... Sed contra... Respondeo...\n**Agrupación:** Individual y plenario.\n**Materiales:** Ver sección Materiales abajo.\n\n### ├─ CIERRE (15 min)\n**Reflexión Guiada:**\n- Síntesis en la pizarra de la verdad enseñada.\n**Metacognición:**\n- *¿Qué aprendimos hoy? ¿Cómo lo conectamos con nuestro entorno?*\n\n### └─ EVIDENCIA (10 min)\n**📸 Bitácora / Registro:**\n- El estudiante dibuja y el profesor o estudiante escribe el título.\n**Tipo de Evaluación:** Formativa (participación y bitácora)\n\n---\n\n## 🔲 Cobertura MBE 2021 (Indicadores)\n- [x] **Dominio A (Preparación):** Planificación desafiante y coherente con el currículum.\n- [x] **Dominio B (Ambiente):** Espacio seguro, rutinas claras e interacciones respetuosas.\n- [x] **Dominio C (Enseñanza):** Estrategias activas (ABP) que promueven pensamiento crítico.\n- [ ] **Dominio D (Responsabilidad):** Recopilación de evidencia para reflexión pedagógica.\n\n---\n*Generado automáticamente por Antigravity - Sistema 2026*\n\n\n---\n\n## 🖨️ Material Auto-Generado (listo para imprimir)\n\nBiblia (Straubinger), cuaderno, pizarra.\n"
+  },
+  {
+    "filename": "S1_REL_2basico.md",
+    "semana": "1",
+    "asignatura": "Religión",
+    "asignatura_code": "REL",
+    "curso": "2basico",
+    "titulo": "Religión — 2° Básico - Unidad: Unidad 0/1",
+    "objetivo": "Reconocer la vida como un regalo divino.",
+    "mbe": {
+      "A": false,
+      "B": false,
+      "C": false,
+      "D": false
+    },
+    "materiales": [
+      {
+        "tipo": "basico",
+        "item": "Ver sección Materiales abajo",
+        "preparar": false
+      },
+      {
+        "tipo": "preparar",
+        "item": "📖 Pasajes: por definir",
+        "preparar": true
+      }
+    ],
+    "html": "<h1>Religión — 2° Básico - Unidad: Unidad 0/1</h1>\n<p><strong>Ciclo:</strong> 2° Básico (Básica Baja (1°-2° Básico)) | <strong>Semana:</strong> 1 | <strong>Tiempo:</strong> 90 minutos<br />\n<strong>Pregunta Esencial:</strong> ¿Cómo comprendemos el misterio de Dios nos creó por Amor?</p>\n<hr />\n<h2>🎯 Objetivo de la Clase</h2>\n<p>Reconocer la vida como un regalo divino.</p>\n<hr />\n<h2>🕒 Secuencia Didáctica (90 min)</h2>\n<h3>┌─ INICIO (15 min)</h3>\n<p><strong>Rutina / Activación:</strong><br />\n- Oración inicial (ciclo litúrgico) y recuerdo de la clase anterior.<br />\n<strong>Pregunta Gatilladora:</strong><br />\n- <em>¿Qué sabemos sobre Dios nos creó por Amor?</em></p>\n<h3>├─ DESARROLLO (50 min)</h3>\n<p><strong>Metodología ABP / Trabajo Central:</strong><br />\n- <strong>[MOCK]</strong> Desarrollo generado por IA para: Dios nos creó por Amor<br />\nCurso: 2° Básico<br />\nEstructura: Videtur quod... Sed contra... Respondeo...<br />\n<strong>Agrupación:</strong> Individual y plenario.<br />\n<strong>Materiales:</strong> Ver sección Materiales abajo.</p>\n<h3>├─ CIERRE (15 min)</h3>\n<p><strong>Reflexión Guiada:</strong><br />\n- Síntesis en la pizarra de la verdad enseñada.<br />\n<strong>Metacognición:</strong><br />\n- <em>¿Qué aprendimos hoy? ¿Cómo lo conectamos con nuestro entorno?</em></p>\n<h3>└─ EVIDENCIA (10 min)</h3>\n<p><strong>📸 Bitácora / Registro:</strong><br />\n- El estudiante dibuja y el profesor o estudiante escribe el título.<br />\n<strong>Tipo de Evaluación:</strong> Formativa (participación y bitácora)</p>\n<hr />\n<h2>🔲 Cobertura MBE 2021 (Indicadores)</h2>\n<ul>\n<li>☑ <strong>Dominio A (Preparación):</strong> Planificación desafiante y coherente con el currículum.</li>\n<li>☑ <strong>Dominio B (Ambiente):</strong> Espacio seguro, rutinas claras e interacciones respetuosas.</li>\n<li>☑ <strong>Dominio C (Enseñanza):</strong> Estrategias activas (ABP) que promueven pensamiento crítico.</li>\n<li>☐ <strong>Dominio D (Responsabilidad):</strong> Recopilación de evidencia para reflexión pedagógica.</li>\n</ul>\n<hr />\n<p><em>Generado automáticamente por Antigravity - Sistema 2026</em></p>\n<hr />\n<h2>🖨️ Material Auto-Generado (listo para imprimir)</h2>\n<p>Biblia (Straubinger), cuaderno, pizarra.</p>",
+    "raw_md": "# Religión — 2° Básico - Unidad: Unidad 0/1\n**Ciclo:** 2° Básico (Básica Baja (1°-2° Básico)) | **Semana:** 1 | **Tiempo:** 90 minutos\n**Pregunta Esencial:** ¿Cómo comprendemos el misterio de Dios nos creó por Amor?\n\n---\n\n## 🎯 Objetivo de la Clase\nReconocer la vida como un regalo divino.\n\n---\n\n## 🕒 Secuencia Didáctica (90 min)\n\n### ┌─ INICIO (15 min)\n**Rutina / Activación:**\n- Oración inicial (ciclo litúrgico) y recuerdo de la clase anterior.\n**Pregunta Gatilladora:**\n- *¿Qué sabemos sobre Dios nos creó por Amor?*\n\n### ├─ DESARROLLO (50 min)\n**Metodología ABP / Trabajo Central:**\n- **[MOCK]** Desarrollo generado por IA para: Dios nos creó por Amor\nCurso: 2° Básico\nEstructura: Videtur quod... Sed contra... Respondeo...\n**Agrupación:** Individual y plenario.\n**Materiales:** Ver sección Materiales abajo.\n\n### ├─ CIERRE (15 min)\n**Reflexión Guiada:**\n- Síntesis en la pizarra de la verdad enseñada.\n**Metacognición:**\n- *¿Qué aprendimos hoy? ¿Cómo lo conectamos con nuestro entorno?*\n\n### └─ EVIDENCIA (10 min)\n**📸 Bitácora / Registro:**\n- El estudiante dibuja y el profesor o estudiante escribe el título.\n**Tipo de Evaluación:** Formativa (participación y bitácora)\n\n---\n\n## 🔲 Cobertura MBE 2021 (Indicadores)\n- [x] **Dominio A (Preparación):** Planificación desafiante y coherente con el currículum.\n- [x] **Dominio B (Ambiente):** Espacio seguro, rutinas claras e interacciones respetuosas.\n- [x] **Dominio C (Enseñanza):** Estrategias activas (ABP) que promueven pensamiento crítico.\n- [ ] **Dominio D (Responsabilidad):** Recopilación de evidencia para reflexión pedagógica.\n\n---\n*Generado automáticamente por Antigravity - Sistema 2026*\n\n\n---\n\n## 🖨️ Material Auto-Generado (listo para imprimir)\n\nBiblia (Straubinger), cuaderno, pizarra.\n"
+  },
+  {
+    "filename": "S1_REL_3basico.md",
+    "semana": "1",
+    "asignatura": "Religión",
+    "asignatura_code": "REL",
+    "curso": "3basico",
+    "titulo": "Religión — 3° Básico - Unidad: Unidad 0/1",
+    "objetivo": "Conocer la fe del padre de los creyentes.",
+    "mbe": {
+      "A": false,
+      "B": false,
+      "C": false,
+      "D": false
+    },
+    "materiales": [
+      {
+        "tipo": "basico",
+        "item": "Ver sección Materiales abajo",
+        "preparar": false
+      },
+      {
+        "tipo": "preparar",
+        "item": "📖 Pasajes: por definir",
+        "preparar": true
+      }
+    ],
+    "html": "<h1>Religión — 3° Básico - Unidad: Unidad 0/1</h1>\n<p><strong>Ciclo:</strong> 3° Básico (Básica Media (3°-4° Básico)) | <strong>Semana:</strong> 1 | <strong>Tiempo:</strong> 90 minutos<br />\n<strong>Pregunta Esencial:</strong> ¿Cómo comprendemos el misterio de Los grandes amigos de Dios: Abraham?</p>\n<hr />\n<h2>🎯 Objetivo de la Clase</h2>\n<p>Conocer la fe del padre de los creyentes.</p>\n<hr />\n<h2>🕒 Secuencia Didáctica (90 min)</h2>\n<h3>┌─ INICIO (15 min)</h3>\n<p><strong>Rutina / Activación:</strong><br />\n- Oración inicial (ciclo litúrgico) y recuerdo de la clase anterior.<br />\n<strong>Pregunta Gatilladora:</strong><br />\n- <em>¿Qué sabemos sobre Los grandes amigos de Dios: Abraham?</em></p>\n<h3>├─ DESARROLLO (50 min)</h3>\n<p><strong>Metodología ABP / Trabajo Central:</strong><br />\n- <strong>[MOCK]</strong> Desarrollo generado por IA para: Los grandes amigos de Dios: Abraham<br />\nCurso: 3° Básico<br />\nEstructura: Videtur quod... Sed contra... Respondeo...<br />\n<strong>Agrupación:</strong> Individual y plenario.<br />\n<strong>Materiales:</strong> Ver sección Materiales abajo.</p>\n<h3>├─ CIERRE (15 min)</h3>\n<p><strong>Reflexión Guiada:</strong><br />\n- Síntesis en la pizarra de la verdad enseñada.<br />\n<strong>Metacognición:</strong><br />\n- <em>¿Qué aprendimos hoy? ¿Cómo lo conectamos con nuestro entorno?</em></p>\n<h3>└─ EVIDENCIA (10 min)</h3>\n<p><strong>📸 Bitácora / Registro:</strong><br />\n- El estudiante toma la foto y escribe un párrafo corto (qué, cómo, cuándo).<br />\n<strong>Tipo de Evaluación:</strong> Formativa (participación y bitácora)</p>\n<hr />\n<h2>🔲 Cobertura MBE 2021 (Indicadores)</h2>\n<ul>\n<li>☑ <strong>Dominio A (Preparación):</strong> Planificación desafiante y coherente con el currículum.</li>\n<li>☑ <strong>Dominio B (Ambiente):</strong> Espacio seguro, rutinas claras e interacciones respetuosas.</li>\n<li>☑ <strong>Dominio C (Enseñanza):</strong> Estrategias activas (ABP) que promueven pensamiento crítico.</li>\n<li>☐ <strong>Dominio D (Responsabilidad):</strong> Recopilación de evidencia para reflexión pedagógica.</li>\n</ul>\n<hr />\n<p><em>Generado automáticamente por Antigravity - Sistema 2026</em></p>\n<hr />\n<h2>🖨️ Material Auto-Generado (listo para imprimir)</h2>\n<p>Biblia (Straubinger), cuaderno, pizarra.</p>",
+    "raw_md": "# Religión — 3° Básico - Unidad: Unidad 0/1\n**Ciclo:** 3° Básico (Básica Media (3°-4° Básico)) | **Semana:** 1 | **Tiempo:** 90 minutos\n**Pregunta Esencial:** ¿Cómo comprendemos el misterio de Los grandes amigos de Dios: Abraham?\n\n---\n\n## 🎯 Objetivo de la Clase\nConocer la fe del padre de los creyentes.\n\n---\n\n## 🕒 Secuencia Didáctica (90 min)\n\n### ┌─ INICIO (15 min)\n**Rutina / Activación:**\n- Oración inicial (ciclo litúrgico) y recuerdo de la clase anterior.\n**Pregunta Gatilladora:**\n- *¿Qué sabemos sobre Los grandes amigos de Dios: Abraham?*\n\n### ├─ DESARROLLO (50 min)\n**Metodología ABP / Trabajo Central:**\n- **[MOCK]** Desarrollo generado por IA para: Los grandes amigos de Dios: Abraham\nCurso: 3° Básico\nEstructura: Videtur quod... Sed contra... Respondeo...\n**Agrupación:** Individual y plenario.\n**Materiales:** Ver sección Materiales abajo.\n\n### ├─ CIERRE (15 min)\n**Reflexión Guiada:**\n- Síntesis en la pizarra de la verdad enseñada.\n**Metacognición:**\n- *¿Qué aprendimos hoy? ¿Cómo lo conectamos con nuestro entorno?*\n\n### └─ EVIDENCIA (10 min)\n**📸 Bitácora / Registro:**\n- El estudiante toma la foto y escribe un párrafo corto (qué, cómo, cuándo).\n**Tipo de Evaluación:** Formativa (participación y bitácora)\n\n---\n\n## 🔲 Cobertura MBE 2021 (Indicadores)\n- [x] **Dominio A (Preparación):** Planificación desafiante y coherente con el currículum.\n- [x] **Dominio B (Ambiente):** Espacio seguro, rutinas claras e interacciones respetuosas.\n- [x] **Dominio C (Enseñanza):** Estrategias activas (ABP) que promueven pensamiento crítico.\n- [ ] **Dominio D (Responsabilidad):** Recopilación de evidencia para reflexión pedagógica.\n\n---\n*Generado automáticamente por Antigravity - Sistema 2026*\n\n\n---\n\n## 🖨️ Material Auto-Generado (listo para imprimir)\n\nBiblia (Straubinger), cuaderno, pizarra.\n"
+  },
+  {
+    "filename": "S1_REL_4basico.md",
+    "semana": "1",
+    "asignatura": "Religión",
+    "asignatura_code": "REL",
+    "curso": "4basico",
+    "titulo": "Religión — 4° Básico - Unidad: Unidad 0/1",
+    "objetivo": "Conocer la fe del padre de los creyentes.",
+    "mbe": {
+      "A": false,
+      "B": false,
+      "C": false,
+      "D": false
+    },
+    "materiales": [
+      {
+        "tipo": "basico",
+        "item": "Ver sección Materiales abajo",
+        "preparar": false
+      },
+      {
+        "tipo": "preparar",
+        "item": "📖 Pasajes: por definir",
+        "preparar": true
+      }
+    ],
+    "html": "<h1>Religión — 4° Básico - Unidad: Unidad 0/1</h1>\n<p><strong>Ciclo:</strong> 4° Básico (Básica Media (3°-4° Básico)) | <strong>Semana:</strong> 1 | <strong>Tiempo:</strong> 90 minutos<br />\n<strong>Pregunta Esencial:</strong> ¿Cómo comprendemos el misterio de Los grandes amigos de Dios: Abraham?</p>\n<hr />\n<h2>🎯 Objetivo de la Clase</h2>\n<p>Conocer la fe del padre de los creyentes.</p>\n<hr />\n<h2>🕒 Secuencia Didáctica (90 min)</h2>\n<h3>┌─ INICIO (15 min)</h3>\n<p><strong>Rutina / Activación:</strong><br />\n- Oración inicial (ciclo litúrgico) y recuerdo de la clase anterior.<br />\n<strong>Pregunta Gatilladora:</strong><br />\n- <em>¿Qué sabemos sobre Los grandes amigos de Dios: Abraham?</em></p>\n<h3>├─ DESARROLLO (50 min)</h3>\n<p><strong>Metodología ABP / Trabajo Central:</strong><br />\n- <strong>[MOCK]</strong> Desarrollo generado por IA para: Los grandes amigos de Dios: Abraham<br />\nCurso: 4° Básico<br />\nEstructura: Videtur quod... Sed contra... Respondeo...<br />\n<strong>Agrupación:</strong> Individual y plenario.<br />\n<strong>Materiales:</strong> Ver sección Materiales abajo.</p>\n<h3>├─ CIERRE (15 min)</h3>\n<p><strong>Reflexión Guiada:</strong><br />\n- Síntesis en la pizarra de la verdad enseñada.<br />\n<strong>Metacognición:</strong><br />\n- <em>¿Qué aprendimos hoy? ¿Cómo lo conectamos con nuestro entorno?</em></p>\n<h3>└─ EVIDENCIA (10 min)</h3>\n<p><strong>📸 Bitácora / Registro:</strong><br />\n- El estudiante toma la foto y escribe un párrafo corto (qué, cómo, cuándo).<br />\n<strong>Tipo de Evaluación:</strong> Formativa (participación y bitácora)</p>\n<hr />\n<h2>🔲 Cobertura MBE 2021 (Indicadores)</h2>\n<ul>\n<li>☑ <strong>Dominio A (Preparación):</strong> Planificación desafiante y coherente con el currículum.</li>\n<li>☑ <strong>Dominio B (Ambiente):</strong> Espacio seguro, rutinas claras e interacciones respetuosas.</li>\n<li>☑ <strong>Dominio C (Enseñanza):</strong> Estrategias activas (ABP) que promueven pensamiento crítico.</li>\n<li>☐ <strong>Dominio D (Responsabilidad):</strong> Recopilación de evidencia para reflexión pedagógica.</li>\n</ul>\n<hr />\n<p><em>Generado automáticamente por Antigravity - Sistema 2026</em></p>\n<hr />\n<h2>🖨️ Material Auto-Generado (listo para imprimir)</h2>\n<p>Biblia (Straubinger), cuaderno, pizarra.</p>",
+    "raw_md": "# Religión — 4° Básico - Unidad: Unidad 0/1\n**Ciclo:** 4° Básico (Básica Media (3°-4° Básico)) | **Semana:** 1 | **Tiempo:** 90 minutos\n**Pregunta Esencial:** ¿Cómo comprendemos el misterio de Los grandes amigos de Dios: Abraham?\n\n---\n\n## 🎯 Objetivo de la Clase\nConocer la fe del padre de los creyentes.\n\n---\n\n## 🕒 Secuencia Didáctica (90 min)\n\n### ┌─ INICIO (15 min)\n**Rutina / Activación:**\n- Oración inicial (ciclo litúrgico) y recuerdo de la clase anterior.\n**Pregunta Gatilladora:**\n- *¿Qué sabemos sobre Los grandes amigos de Dios: Abraham?*\n\n### ├─ DESARROLLO (50 min)\n**Metodología ABP / Trabajo Central:**\n- **[MOCK]** Desarrollo generado por IA para: Los grandes amigos de Dios: Abraham\nCurso: 4° Básico\nEstructura: Videtur quod... Sed contra... Respondeo...\n**Agrupación:** Individual y plenario.\n**Materiales:** Ver sección Materiales abajo.\n\n### ├─ CIERRE (15 min)\n**Reflexión Guiada:**\n- Síntesis en la pizarra de la verdad enseñada.\n**Metacognición:**\n- *¿Qué aprendimos hoy? ¿Cómo lo conectamos con nuestro entorno?*\n\n### └─ EVIDENCIA (10 min)\n**📸 Bitácora / Registro:**\n- El estudiante toma la foto y escribe un párrafo corto (qué, cómo, cuándo).\n**Tipo de Evaluación:** Formativa (participación y bitácora)\n\n---\n\n## 🔲 Cobertura MBE 2021 (Indicadores)\n- [x] **Dominio A (Preparación):** Planificación desafiante y coherente con el currículum.\n- [x] **Dominio B (Ambiente):** Espacio seguro, rutinas claras e interacciones respetuosas.\n- [x] **Dominio C (Enseñanza):** Estrategias activas (ABP) que promueven pensamiento crítico.\n- [ ] **Dominio D (Responsabilidad):** Recopilación de evidencia para reflexión pedagógica.\n\n---\n*Generado automáticamente por Antigravity - Sistema 2026*\n\n\n---\n\n## 🖨️ Material Auto-Generado (listo para imprimir)\n\nBiblia (Straubinger), cuaderno, pizarra.\n"
+  },
+  {
+    "filename": "S1_REL_5basico.md",
+    "semana": "1",
+    "asignatura": "Religión",
+    "asignatura_code": "REL",
+    "curso": "5basico",
+    "titulo": "Religión — 5° Básico - Unidad: Unidad 0/1",
+    "objetivo": "Comprender el pecado original y la esperanza.",
+    "mbe": {
+      "A": false,
+      "B": false,
+      "C": false,
+      "D": false
+    },
+    "materiales": [
+      {
+        "tipo": "basico",
+        "item": "Ver sección Materiales abajo",
+        "preparar": false
+      },
+      {
+        "tipo": "preparar",
+        "item": "📖 Pasajes: por definir",
+        "preparar": true
+      }
+    ],
+    "html": "<h1>Religión — 5° Básico - Unidad: Unidad 0/1</h1>\n<p><strong>Ciclo:</strong> 5° Básico (Básico Intermedio (5°-6° Básico)) | <strong>Semana:</strong> 1 | <strong>Tiempo:</strong> 90 minutos<br />\n<strong>Pregunta Esencial:</strong> ¿Cómo comprendemos el misterio de La caída y la Promesa de Salvador?</p>\n<hr />\n<h2>🎯 Objetivo de la Clase</h2>\n<p>Comprender el pecado original y la esperanza.</p>\n<hr />\n<h2>🕒 Secuencia Didáctica (90 min)</h2>\n<h3>┌─ INICIO (15 min)</h3>\n<p><strong>Rutina / Activación:</strong><br />\n- Oración inicial (ciclo litúrgico) y recuerdo de la clase anterior.<br />\n<strong>Pregunta Gatilladora:</strong><br />\n- <em>¿Qué sabemos sobre La caída y la Promesa de Salvador?</em></p>\n<h3>├─ DESARROLLO (50 min)</h3>\n<p><strong>Metodología ABP / Trabajo Central:</strong><br />\n- <strong>[MOCK]</strong> Desarrollo generado por IA para: La caída y la Promesa de Salvador<br />\nCurso: 5° Básico<br />\nEstructura: Videtur quod... Sed contra... Respondeo...<br />\n<strong>Agrupación:</strong> Individual y plenario.<br />\n<strong>Materiales:</strong> Ver sección Materiales abajo.</p>\n<h3>├─ CIERRE (15 min)</h3>\n<p><strong>Reflexión Guiada:</strong><br />\n- Síntesis en la pizarra de la verdad enseñada.<br />\n<strong>Metacognición:</strong><br />\n- <em>¿Qué aprendimos hoy? ¿Cómo lo conectamos con nuestro entorno?</em></p>\n<h3>└─ EVIDENCIA (10 min)</h3>\n<p><strong>📸 Bitácora / Registro:</strong><br />\n- Reportaje fotográfico (serie de fotos) con epígrafes críticos.<br />\n<strong>Tipo de Evaluación:</strong> Formativa (participación y bitácora)</p>\n<hr />\n<h2>🔲 Cobertura MBE 2021 (Indicadores)</h2>\n<ul>\n<li>☑ <strong>Dominio A (Preparación):</strong> Planificación desafiante y coherente con el currículum.</li>\n<li>☑ <strong>Dominio B (Ambiente):</strong> Espacio seguro, rutinas claras e interacciones respetuosas.</li>\n<li>☑ <strong>Dominio C (Enseñanza):</strong> Estrategias activas (ABP) que promueven pensamiento crítico.</li>\n<li>☐ <strong>Dominio D (Responsabilidad):</strong> Recopilación de evidencia para reflexión pedagógica.</li>\n</ul>\n<hr />\n<p><em>Generado automáticamente por Antigravity - Sistema 2026</em></p>\n<hr />\n<h2>🖨️ Material Auto-Generado (listo para imprimir)</h2>\n<p>Biblia (Straubinger), cuaderno, pizarra.</p>",
+    "raw_md": "# Religión — 5° Básico - Unidad: Unidad 0/1\n**Ciclo:** 5° Básico (Básico Intermedio (5°-6° Básico)) | **Semana:** 1 | **Tiempo:** 90 minutos\n**Pregunta Esencial:** ¿Cómo comprendemos el misterio de La caída y la Promesa de Salvador?\n\n---\n\n## 🎯 Objetivo de la Clase\nComprender el pecado original y la esperanza.\n\n---\n\n## 🕒 Secuencia Didáctica (90 min)\n\n### ┌─ INICIO (15 min)\n**Rutina / Activación:**\n- Oración inicial (ciclo litúrgico) y recuerdo de la clase anterior.\n**Pregunta Gatilladora:**\n- *¿Qué sabemos sobre La caída y la Promesa de Salvador?*\n\n### ├─ DESARROLLO (50 min)\n**Metodología ABP / Trabajo Central:**\n- **[MOCK]** Desarrollo generado por IA para: La caída y la Promesa de Salvador\nCurso: 5° Básico\nEstructura: Videtur quod... Sed contra... Respondeo...\n**Agrupación:** Individual y plenario.\n**Materiales:** Ver sección Materiales abajo.\n\n### ├─ CIERRE (15 min)\n**Reflexión Guiada:**\n- Síntesis en la pizarra de la verdad enseñada.\n**Metacognición:**\n- *¿Qué aprendimos hoy? ¿Cómo lo conectamos con nuestro entorno?*\n\n### └─ EVIDENCIA (10 min)\n**📸 Bitácora / Registro:**\n- Reportaje fotográfico (serie de fotos) con epígrafes críticos.\n**Tipo de Evaluación:** Formativa (participación y bitácora)\n\n---\n\n## 🔲 Cobertura MBE 2021 (Indicadores)\n- [x] **Dominio A (Preparación):** Planificación desafiante y coherente con el currículum.\n- [x] **Dominio B (Ambiente):** Espacio seguro, rutinas claras e interacciones respetuosas.\n- [x] **Dominio C (Enseñanza):** Estrategias activas (ABP) que promueven pensamiento crítico.\n- [ ] **Dominio D (Responsabilidad):** Recopilación de evidencia para reflexión pedagógica.\n\n---\n*Generado automáticamente por Antigravity - Sistema 2026*\n\n\n---\n\n## 🖨️ Material Auto-Generado (listo para imprimir)\n\nBiblia (Straubinger), cuaderno, pizarra.\n"
+  },
+  {
+    "filename": "S1_REL_6basico.md",
+    "semana": "1",
+    "asignatura": "Religión",
+    "asignatura_code": "REL",
+    "curso": "6basico",
+    "titulo": "Religión — 6° Básico - Unidad: Unidad 0/1",
+    "objetivo": "Comprender el pecado original y la esperanza.",
+    "mbe": {
+      "A": false,
+      "B": false,
+      "C": false,
+      "D": false
+    },
+    "materiales": [
+      {
+        "tipo": "basico",
+        "item": "Ver sección Materiales abajo",
+        "preparar": false
+      },
+      {
+        "tipo": "preparar",
+        "item": "📖 Pasajes: por definir",
+        "preparar": true
+      }
+    ],
+    "html": "<h1>Religión — 6° Básico - Unidad: Unidad 0/1</h1>\n<p><strong>Ciclo:</strong> 6° Básico (Básico Intermedio (5°-6° Básico)) | <strong>Semana:</strong> 1 | <strong>Tiempo:</strong> 90 minutos<br />\n<strong>Pregunta Esencial:</strong> ¿Cómo comprendemos el misterio de La caída y la Promesa de Salvador?</p>\n<hr />\n<h2>🎯 Objetivo de la Clase</h2>\n<p>Comprender el pecado original y la esperanza.</p>\n<hr />\n<h2>🕒 Secuencia Didáctica (90 min)</h2>\n<h3>┌─ INICIO (15 min)</h3>\n<p><strong>Rutina / Activación:</strong><br />\n- Oración inicial (ciclo litúrgico) y recuerdo de la clase anterior.<br />\n<strong>Pregunta Gatilladora:</strong><br />\n- <em>¿Qué sabemos sobre La caída y la Promesa de Salvador?</em></p>\n<h3>├─ DESARROLLO (50 min)</h3>\n<p><strong>Metodología ABP / Trabajo Central:</strong><br />\n- <strong>[MOCK]</strong> Desarrollo generado por IA para: La caída y la Promesa de Salvador<br />\nCurso: 6° Básico<br />\nEstructura: Videtur quod... Sed contra... Respondeo...<br />\n<strong>Agrupación:</strong> Individual y plenario.<br />\n<strong>Materiales:</strong> Ver sección Materiales abajo.</p>\n<h3>├─ CIERRE (15 min)</h3>\n<p><strong>Reflexión Guiada:</strong><br />\n- Síntesis en la pizarra de la verdad enseñada.<br />\n<strong>Metacognición:</strong><br />\n- <em>¿Qué aprendimos hoy? ¿Cómo lo conectamos con nuestro entorno?</em></p>\n<h3>└─ EVIDENCIA (10 min)</h3>\n<p><strong>📸 Bitácora / Registro:</strong><br />\n- Reportaje fotográfico (serie de fotos) con epígrafes críticos.<br />\n<strong>Tipo de Evaluación:</strong> Formativa (participación y bitácora)</p>\n<hr />\n<h2>🔲 Cobertura MBE 2021 (Indicadores)</h2>\n<ul>\n<li>☑ <strong>Dominio A (Preparación):</strong> Planificación desafiante y coherente con el currículum.</li>\n<li>☑ <strong>Dominio B (Ambiente):</strong> Espacio seguro, rutinas claras e interacciones respetuosas.</li>\n<li>☑ <strong>Dominio C (Enseñanza):</strong> Estrategias activas (ABP) que promueven pensamiento crítico.</li>\n<li>☐ <strong>Dominio D (Responsabilidad):</strong> Recopilación de evidencia para reflexión pedagógica.</li>\n</ul>\n<hr />\n<p><em>Generado automáticamente por Antigravity - Sistema 2026</em></p>\n<hr />\n<h2>🖨️ Material Auto-Generado (listo para imprimir)</h2>\n<p>Biblia (Straubinger), cuaderno, pizarra.</p>",
+    "raw_md": "# Religión — 6° Básico - Unidad: Unidad 0/1\n**Ciclo:** 6° Básico (Básico Intermedio (5°-6° Básico)) | **Semana:** 1 | **Tiempo:** 90 minutos\n**Pregunta Esencial:** ¿Cómo comprendemos el misterio de La caída y la Promesa de Salvador?\n\n---\n\n## 🎯 Objetivo de la Clase\nComprender el pecado original y la esperanza.\n\n---\n\n## 🕒 Secuencia Didáctica (90 min)\n\n### ┌─ INICIO (15 min)\n**Rutina / Activación:**\n- Oración inicial (ciclo litúrgico) y recuerdo de la clase anterior.\n**Pregunta Gatilladora:**\n- *¿Qué sabemos sobre La caída y la Promesa de Salvador?*\n\n### ├─ DESARROLLO (50 min)\n**Metodología ABP / Trabajo Central:**\n- **[MOCK]** Desarrollo generado por IA para: La caída y la Promesa de Salvador\nCurso: 6° Básico\nEstructura: Videtur quod... Sed contra... Respondeo...\n**Agrupación:** Individual y plenario.\n**Materiales:** Ver sección Materiales abajo.\n\n### ├─ CIERRE (15 min)\n**Reflexión Guiada:**\n- Síntesis en la pizarra de la verdad enseñada.\n**Metacognición:**\n- *¿Qué aprendimos hoy? ¿Cómo lo conectamos con nuestro entorno?*\n\n### └─ EVIDENCIA (10 min)\n**📸 Bitácora / Registro:**\n- Reportaje fotográfico (serie de fotos) con epígrafes críticos.\n**Tipo de Evaluación:** Formativa (participación y bitácora)\n\n---\n\n## 🔲 Cobertura MBE 2021 (Indicadores)\n- [x] **Dominio A (Preparación):** Planificación desafiante y coherente con el currículum.\n- [x] **Dominio B (Ambiente):** Espacio seguro, rutinas claras e interacciones respetuosas.\n- [x] **Dominio C (Enseñanza):** Estrategias activas (ABP) que promueven pensamiento crítico.\n- [ ] **Dominio D (Responsabilidad):** Recopilación de evidencia para reflexión pedagógica.\n\n---\n*Generado automáticamente por Antigravity - Sistema 2026*\n\n\n---\n\n## 🖨️ Material Auto-Generado (listo para imprimir)\n\nBiblia (Straubinger), cuaderno, pizarra.\n"
+  },
+  {
+    "filename": "S1_REL_7basico.md",
+    "semana": "1",
+    "asignatura": "Religión",
+    "asignatura_code": "REL",
+    "curso": "7basico",
+    "titulo": "Religión — 7° Básico - Unidad: Unidad 0/1",
+    "objetivo": "Repasar el Decálogo como camino de vida.",
+    "mbe": {
+      "A": false,
+      "B": false,
+      "C": false,
+      "D": false
+    },
+    "materiales": [
+      {
+        "tipo": "basico",
+        "item": "Ver sección Materiales abajo",
+        "preparar": false
+      },
+      {
+        "tipo": "preparar",
+        "item": "📷 Preparar fotos de: por definir",
+        "preparar": true
+      },
+      {
+        "tipo": "preparar",
+        "item": "📖 Pasajes: por definir",
+        "preparar": true
+      }
+    ],
+    "html": "<h1>Religión — 7° Básico - Unidad: Unidad 0/1</h1>\n<p><strong>Ciclo:</strong> 7° Básico (Básico Superior (7°-8° Básico)) | <strong>Semana:</strong> 1 | <strong>Tiempo:</strong> 90 minutos<br />\n<strong>Pregunta Esencial:</strong> ¿Cómo comprendemos el misterio de Los Mandamientos: Camino de libertad?</p>\n<hr />\n<h2>🎯 Objetivo de la Clase</h2>\n<p>Repasar el Decálogo como camino de vida.</p>\n<hr />\n<h2>🕒 Secuencia Didáctica (90 min)</h2>\n<h3>┌─ INICIO (15 min)</h3>\n<p><strong>Rutina / Activación:</strong><br />\n- Oración inicial (ciclo litúrgico) y recuerdo de la clase anterior.<br />\n<strong>Pregunta Gatilladora:</strong><br />\n- <em>¿Qué sabemos sobre Los Mandamientos: Camino de libertad?</em></p>\n<h3>├─ DESARROLLO (50 min)</h3>\n<p><strong>Metodología ABP / Trabajo Central:</strong><br />\n- <strong>[MOCK]</strong> Desarrollo generado por IA para: Los Mandamientos: Camino de libertad<br />\nCurso: 7° Básico<br />\nEstructura: Videtur quod... Sed contra... Respondeo...<br />\n<strong>Agrupación:</strong> Individual y plenario.<br />\n<strong>Materiales:</strong> Ver sección Materiales abajo.</p>\n<h3>├─ CIERRE (15 min)</h3>\n<p><strong>Reflexión Guiada:</strong><br />\n- Síntesis en la pizarra de la verdad enseñada.<br />\n<strong>Metacognición:</strong><br />\n- <em>¿Qué aprendimos hoy? ¿Cómo lo conectamos con nuestro entorno?</em></p>\n<h3>└─ EVIDENCIA (10 min)</h3>\n<p><strong>📸 Bitácora / Registro:</strong><br />\n- Ensayo visual. Fotografía abstracta/simbólica con justificación filosófica.<br />\n<strong>Tipo de Evaluación:</strong> Formativa (participación y bitácora)</p>\n<hr />\n<h2>🔲 Cobertura MBE 2021 (Indicadores)</h2>\n<ul>\n<li>☑ <strong>Dominio A (Preparación):</strong> Planificación desafiante y coherente con el currículum.</li>\n<li>☑ <strong>Dominio B (Ambiente):</strong> Espacio seguro, rutinas claras e interacciones respetuosas.</li>\n<li>☑ <strong>Dominio C (Enseñanza):</strong> Estrategias activas (ABP) que promueven pensamiento crítico.</li>\n<li>☐ <strong>Dominio D (Responsabilidad):</strong> Recopilación de evidencia para reflexión pedagógica.</li>\n</ul>\n<hr />\n<p><em>Generado automáticamente por Antigravity - Sistema 2026</em></p>\n<hr />\n<h2>🖨️ Material Auto-Generado (listo para imprimir)</h2>\n<p>Biblia (Straubinger), cuaderno, pizarra.</p>",
+    "raw_md": "# Religión — 7° Básico - Unidad: Unidad 0/1\n**Ciclo:** 7° Básico (Básico Superior (7°-8° Básico)) | **Semana:** 1 | **Tiempo:** 90 minutos\n**Pregunta Esencial:** ¿Cómo comprendemos el misterio de Los Mandamientos: Camino de libertad?\n\n---\n\n## 🎯 Objetivo de la Clase\nRepasar el Decálogo como camino de vida.\n\n---\n\n## 🕒 Secuencia Didáctica (90 min)\n\n### ┌─ INICIO (15 min)\n**Rutina / Activación:**\n- Oración inicial (ciclo litúrgico) y recuerdo de la clase anterior.\n**Pregunta Gatilladora:**\n- *¿Qué sabemos sobre Los Mandamientos: Camino de libertad?*\n\n### ├─ DESARROLLO (50 min)\n**Metodología ABP / Trabajo Central:**\n- **[MOCK]** Desarrollo generado por IA para: Los Mandamientos: Camino de libertad\nCurso: 7° Básico\nEstructura: Videtur quod... Sed contra... Respondeo...\n**Agrupación:** Individual y plenario.\n**Materiales:** Ver sección Materiales abajo.\n\n### ├─ CIERRE (15 min)\n**Reflexión Guiada:**\n- Síntesis en la pizarra de la verdad enseñada.\n**Metacognición:**\n- *¿Qué aprendimos hoy? ¿Cómo lo conectamos con nuestro entorno?*\n\n### └─ EVIDENCIA (10 min)\n**📸 Bitácora / Registro:**\n- Ensayo visual. Fotografía abstracta/simbólica con justificación filosófica.\n**Tipo de Evaluación:** Formativa (participación y bitácora)\n\n---\n\n## 🔲 Cobertura MBE 2021 (Indicadores)\n- [x] **Dominio A (Preparación):** Planificación desafiante y coherente con el currículum.\n- [x] **Dominio B (Ambiente):** Espacio seguro, rutinas claras e interacciones respetuosas.\n- [x] **Dominio C (Enseñanza):** Estrategias activas (ABP) que promueven pensamiento crítico.\n- [ ] **Dominio D (Responsabilidad):** Recopilación de evidencia para reflexión pedagógica.\n\n---\n*Generado automáticamente por Antigravity - Sistema 2026*\n\n\n---\n\n## 🖨️ Material Auto-Generado (listo para imprimir)\n\nBiblia (Straubinger), cuaderno, pizarra.\n"
+  },
+  {
+    "filename": "S1_REL_8basico.md",
+    "semana": "1",
+    "asignatura": "Religión",
+    "asignatura_code": "REL",
+    "curso": "8basico",
+    "titulo": "Religión — 8° Básico - Unidad: Unidad 0/1",
+    "objetivo": "Repasar el Decálogo como camino de vida.",
+    "mbe": {
+      "A": false,
+      "B": false,
+      "C": false,
+      "D": false
+    },
+    "materiales": [
+      {
+        "tipo": "basico",
+        "item": "Ver sección Materiales abajo",
+        "preparar": false
+      },
+      {
+        "tipo": "preparar",
+        "item": "📷 Preparar fotos de: por definir",
+        "preparar": true
+      },
+      {
+        "tipo": "preparar",
+        "item": "📖 Pasajes: por definir",
+        "preparar": true
+      }
+    ],
+    "html": "<h1>Religión — 8° Básico - Unidad: Unidad 0/1</h1>\n<p><strong>Ciclo:</strong> 8° Básico (Básico Superior (7°-8° Básico)) | <strong>Semana:</strong> 1 | <strong>Tiempo:</strong> 90 minutos<br />\n<strong>Pregunta Esencial:</strong> ¿Cómo comprendemos el misterio de Los Mandamientos: Camino de libertad?</p>\n<hr />\n<h2>🎯 Objetivo de la Clase</h2>\n<p>Repasar el Decálogo como camino de vida.</p>\n<hr />\n<h2>🕒 Secuencia Didáctica (90 min)</h2>\n<h3>┌─ INICIO (15 min)</h3>\n<p><strong>Rutina / Activación:</strong><br />\n- Oración inicial (ciclo litúrgico) y recuerdo de la clase anterior.<br />\n<strong>Pregunta Gatilladora:</strong><br />\n- <em>¿Qué sabemos sobre Los Mandamientos: Camino de libertad?</em></p>\n<h3>├─ DESARROLLO (50 min)</h3>\n<p><strong>Metodología ABP / Trabajo Central:</strong><br />\n- <strong>[MOCK]</strong> Desarrollo generado por IA para: Los Mandamientos: Camino de libertad<br />\nCurso: 8° Básico<br />\nEstructura: Videtur quod... Sed contra... Respondeo...<br />\n<strong>Agrupación:</strong> Individual y plenario.<br />\n<strong>Materiales:</strong> Ver sección Materiales abajo.</p>\n<h3>├─ CIERRE (15 min)</h3>\n<p><strong>Reflexión Guiada:</strong><br />\n- Síntesis en la pizarra de la verdad enseñada.<br />\n<strong>Metacognición:</strong><br />\n- <em>¿Qué aprendimos hoy? ¿Cómo lo conectamos con nuestro entorno?</em></p>\n<h3>└─ EVIDENCIA (10 min)</h3>\n<p><strong>📸 Bitácora / Registro:</strong><br />\n- Ensayo visual. Fotografía abstracta/simbólica con justificación filosófica.<br />\n<strong>Tipo de Evaluación:</strong> Formativa (participación y bitácora)</p>\n<hr />\n<h2>🔲 Cobertura MBE 2021 (Indicadores)</h2>\n<ul>\n<li>☑ <strong>Dominio A (Preparación):</strong> Planificación desafiante y coherente con el currículum.</li>\n<li>☑ <strong>Dominio B (Ambiente):</strong> Espacio seguro, rutinas claras e interacciones respetuosas.</li>\n<li>☑ <strong>Dominio C (Enseñanza):</strong> Estrategias activas (ABP) que promueven pensamiento crítico.</li>\n<li>☐ <strong>Dominio D (Responsabilidad):</strong> Recopilación de evidencia para reflexión pedagógica.</li>\n</ul>\n<hr />\n<p><em>Generado automáticamente por Antigravity - Sistema 2026</em></p>\n<hr />\n<h2>🖨️ Material Auto-Generado (listo para imprimir)</h2>\n<p>Biblia (Straubinger), cuaderno, pizarra.</p>",
+    "raw_md": "# Religión — 8° Básico - Unidad: Unidad 0/1\n**Ciclo:** 8° Básico (Básico Superior (7°-8° Básico)) | **Semana:** 1 | **Tiempo:** 90 minutos\n**Pregunta Esencial:** ¿Cómo comprendemos el misterio de Los Mandamientos: Camino de libertad?\n\n---\n\n## 🎯 Objetivo de la Clase\nRepasar el Decálogo como camino de vida.\n\n---\n\n## 🕒 Secuencia Didáctica (90 min)\n\n### ┌─ INICIO (15 min)\n**Rutina / Activación:**\n- Oración inicial (ciclo litúrgico) y recuerdo de la clase anterior.\n**Pregunta Gatilladora:**\n- *¿Qué sabemos sobre Los Mandamientos: Camino de libertad?*\n\n### ├─ DESARROLLO (50 min)\n**Metodología ABP / Trabajo Central:**\n- **[MOCK]** Desarrollo generado por IA para: Los Mandamientos: Camino de libertad\nCurso: 8° Básico\nEstructura: Videtur quod... Sed contra... Respondeo...\n**Agrupación:** Individual y plenario.\n**Materiales:** Ver sección Materiales abajo.\n\n### ├─ CIERRE (15 min)\n**Reflexión Guiada:**\n- Síntesis en la pizarra de la verdad enseñada.\n**Metacognición:**\n- *¿Qué aprendimos hoy? ¿Cómo lo conectamos con nuestro entorno?*\n\n### └─ EVIDENCIA (10 min)\n**📸 Bitácora / Registro:**\n- Ensayo visual. Fotografía abstracta/simbólica con justificación filosófica.\n**Tipo de Evaluación:** Formativa (participación y bitácora)\n\n---\n\n## 🔲 Cobertura MBE 2021 (Indicadores)\n- [x] **Dominio A (Preparación):** Planificación desafiante y coherente con el currículum.\n- [x] **Dominio B (Ambiente):** Espacio seguro, rutinas claras e interacciones respetuosas.\n- [x] **Dominio C (Enseñanza):** Estrategias activas (ABP) que promueven pensamiento crítico.\n- [ ] **Dominio D (Responsabilidad):** Recopilación de evidencia para reflexión pedagógica.\n\n---\n*Generado automáticamente por Antigravity - Sistema 2026*\n\n\n---\n\n## 🖨️ Material Auto-Generado (listo para imprimir)\n\nBiblia (Straubinger), cuaderno, pizarra.\n"
+  },
+  {
+    "filename": "S2_PAT_1basico.md",
+    "semana": "2",
+    "asignatura": "Patrimonio",
+    "asignatura_code": "PAT",
+    "curso": "1basico",
+    "titulo": "Patrimonio — 1° Básico - Unidad: Unidad 1: Identidad y Territorio",
+    "objetivo": "Identificar espacios significativos en el hogar.",
+    "mbe": {
+      "A": false,
+      "B": false,
+      "C": false,
+      "D": false
+    },
+    "materiales": [
+      {
+        "tipo": "basico",
+        "item": "Ver sección Materiales abajo",
+        "preparar": false
+      },
+      {
+        "tipo": "preparar",
+        "item": "📖 Pasajes: por definir",
+        "preparar": true
+      },
+      {
+        "tipo": "preparar",
+        "item": "📸 Registro para bitácora fotográfica",
+        "preparar": true
+      }
+    ],
+    "html": "<h1>Patrimonio — 1° Básico - Unidad: Unidad 1: Identidad y Territorio</h1>\n<p><strong>Ciclo:</strong> 1° Básico (Básica Baja (1°-2° Básico)) | <strong>Semana:</strong> 2 | <strong>Tiempo:</strong> 90 minutos<br />\n<strong>Pregunta Esencial:</strong> ¿Cómo comprendemos el misterio de Mi casa: Mi primer territorio?</p>\n<hr />\n<h2>🎯 Objetivo de la Clase</h2>\n<p>Identificar espacios significativos en el hogar.</p>\n<hr />\n<h2>🕒 Secuencia Didáctica (90 min)</h2>\n<h3>┌─ INICIO (15 min)</h3>\n<p><strong>Rutina / Activación:</strong><br />\n- Oración inicial (ciclo litúrgico) y recuerdo de la clase anterior.<br />\n<strong>Pregunta Gatilladora:</strong><br />\n- <em>¿Qué sabemos sobre Mi casa: Mi primer territorio?</em></p>\n<h3>├─ DESARROLLO (50 min)</h3>\n<p><strong>Metodología ABP / Trabajo Central:</strong><br />\n- <strong>Actividad de Patrimonio para 1° Básico:</strong> Mi casa: Mi primer territorio</p>\n<p>Actividad ABP diferenciada para 6-7 años: Actividades concretas: dibujar, colorear, cantar, escuchar cuentos. Frases muy cortas. Vocabulario simple.<br />\n<strong>Agrupación:</strong> Individual y plenario.<br />\n<strong>Materiales:</strong> Ver sección Materiales abajo.</p>\n<h3>├─ CIERRE (15 min)</h3>\n<p><strong>Reflexión Guiada:</strong><br />\n- Síntesis en la pizarra de la verdad enseñada.<br />\n<strong>Metacognición:</strong><br />\n- <em>¿Qué aprendimos hoy? ¿Cómo lo conectamos con nuestro entorno?</em></p>\n<h3>└─ EVIDENCIA (10 min)</h3>\n<p><strong>📸 Bitácora / Registro:</strong><br />\n- El estudiante dibuja y el profesor o estudiante escribe el título.<br />\n<strong>Tipo de Evaluación:</strong> Formativa (participación y bitácora)</p>\n<hr />\n<h2>🔲 Cobertura MBE 2021 (Indicadores)</h2>\n<ul>\n<li>☑ <strong>Dominio A (Preparación):</strong> Planificación desafiante y coherente con el currículum.</li>\n<li>☐ <strong>Dominio B (Ambiente):</strong> Espacio seguro, rutinas claras e interacciones respetuosas.</li>\n<li>☑ <strong>Dominio C (Enseñanza):</strong> Estrategias activas (ABP) que promueven pensamiento crítico.</li>\n<li>☑ <strong>Dominio D (Responsabilidad):</strong> Recopilación de evidencia para reflexión pedagógica.</li>\n</ul>\n<hr />\n<p><em>Generado automáticamente por Antigravity - Sistema 2026</em></p>\n<hr />\n<h2>🖨️ Material Auto-Generado (listo para imprimir)</h2>\n<p>Biblia (Straubinger), cuaderno, pizarra.</p>",
+    "raw_md": "# Patrimonio — 1° Básico - Unidad: Unidad 1: Identidad y Territorio\n**Ciclo:** 1° Básico (Básica Baja (1°-2° Básico)) | **Semana:** 2 | **Tiempo:** 90 minutos\n**Pregunta Esencial:** ¿Cómo comprendemos el misterio de Mi casa: Mi primer territorio?\n\n---\n\n## 🎯 Objetivo de la Clase\nIdentificar espacios significativos en el hogar.\n\n---\n\n## 🕒 Secuencia Didáctica (90 min)\n\n### ┌─ INICIO (15 min)\n**Rutina / Activación:**\n- Oración inicial (ciclo litúrgico) y recuerdo de la clase anterior.\n**Pregunta Gatilladora:**\n- *¿Qué sabemos sobre Mi casa: Mi primer territorio?*\n\n### ├─ DESARROLLO (50 min)\n**Metodología ABP / Trabajo Central:**\n- **Actividad de Patrimonio para 1° Básico:** Mi casa: Mi primer territorio\n\nActividad ABP diferenciada para 6-7 años: Actividades concretas: dibujar, colorear, cantar, escuchar cuentos. Frases muy cortas. Vocabulario simple.\n**Agrupación:** Individual y plenario.\n**Materiales:** Ver sección Materiales abajo.\n\n### ├─ CIERRE (15 min)\n**Reflexión Guiada:**\n- Síntesis en la pizarra de la verdad enseñada.\n**Metacognición:**\n- *¿Qué aprendimos hoy? ¿Cómo lo conectamos con nuestro entorno?*\n\n### └─ EVIDENCIA (10 min)\n**📸 Bitácora / Registro:**\n- El estudiante dibuja y el profesor o estudiante escribe el título.\n**Tipo de Evaluación:** Formativa (participación y bitácora)\n\n---\n\n## 🔲 Cobertura MBE 2021 (Indicadores)\n- [x] **Dominio A (Preparación):** Planificación desafiante y coherente con el currículum.\n- [ ] **Dominio B (Ambiente):** Espacio seguro, rutinas claras e interacciones respetuosas.\n- [x] **Dominio C (Enseñanza):** Estrategias activas (ABP) que promueven pensamiento crítico.\n- [x] **Dominio D (Responsabilidad):** Recopilación de evidencia para reflexión pedagógica.\n\n---\n*Generado automáticamente por Antigravity - Sistema 2026*\n\n\n---\n\n## 🖨️ Material Auto-Generado (listo para imprimir)\n\nBiblia (Straubinger), cuaderno, pizarra.\n"
+  },
+  {
+    "filename": "S2_PAT_2basico.md",
+    "semana": "2",
+    "asignatura": "Patrimonio",
+    "asignatura_code": "PAT",
+    "curso": "2basico",
+    "titulo": "Patrimonio — 2° Básico - Unidad: Unidad 1: Identidad y Territorio",
+    "objetivo": "Identificar espacios significativos en el hogar.",
+    "mbe": {
+      "A": false,
+      "B": false,
+      "C": false,
+      "D": false
+    },
+    "materiales": [
+      {
+        "tipo": "basico",
+        "item": "Ver sección Materiales abajo",
+        "preparar": false
+      },
+      {
+        "tipo": "preparar",
+        "item": "📖 Pasajes: por definir",
+        "preparar": true
+      },
+      {
+        "tipo": "preparar",
+        "item": "📸 Registro para bitácora fotográfica",
+        "preparar": true
+      }
+    ],
+    "html": "<h1>Patrimonio — 2° Básico - Unidad: Unidad 1: Identidad y Territorio</h1>\n<p><strong>Ciclo:</strong> 2° Básico (Básica Baja (1°-2° Básico)) | <strong>Semana:</strong> 2 | <strong>Tiempo:</strong> 90 minutos<br />\n<strong>Pregunta Esencial:</strong> ¿Cómo comprendemos el misterio de Mi casa: Mi primer territorio?</p>\n<hr />\n<h2>🎯 Objetivo de la Clase</h2>\n<p>Identificar espacios significativos en el hogar.</p>\n<hr />\n<h2>🕒 Secuencia Didáctica (90 min)</h2>\n<h3>┌─ INICIO (15 min)</h3>\n<p><strong>Rutina / Activación:</strong><br />\n- Oración inicial (ciclo litúrgico) y recuerdo de la clase anterior.<br />\n<strong>Pregunta Gatilladora:</strong><br />\n- <em>¿Qué sabemos sobre Mi casa: Mi primer territorio?</em></p>\n<h3>├─ DESARROLLO (50 min)</h3>\n<p><strong>Metodología ABP / Trabajo Central:</strong><br />\n- <strong>Actividad de Patrimonio para 2° Básico:</strong> Mi casa: Mi primer territorio</p>\n<p>Actividad ABP diferenciada para 7-8 años: Ya lee y escribe oraciones cortas. Puede copiar del pizarrón. Actividades con escritura guiada y narración oral más extensa.<br />\n<strong>Agrupación:</strong> Individual y plenario.<br />\n<strong>Materiales:</strong> Ver sección Materiales abajo.</p>\n<h3>├─ CIERRE (15 min)</h3>\n<p><strong>Reflexión Guiada:</strong><br />\n- Síntesis en la pizarra de la verdad enseñada.<br />\n<strong>Metacognición:</strong><br />\n- <em>¿Qué aprendimos hoy? ¿Cómo lo conectamos con nuestro entorno?</em></p>\n<h3>└─ EVIDENCIA (10 min)</h3>\n<p><strong>📸 Bitácora / Registro:</strong><br />\n- El estudiante dibuja y el profesor o estudiante escribe el título.<br />\n<strong>Tipo de Evaluación:</strong> Formativa (participación y bitácora)</p>\n<hr />\n<h2>🔲 Cobertura MBE 2021 (Indicadores)</h2>\n<ul>\n<li>☑ <strong>Dominio A (Preparación):</strong> Planificación desafiante y coherente con el currículum.</li>\n<li>☐ <strong>Dominio B (Ambiente):</strong> Espacio seguro, rutinas claras e interacciones respetuosas.</li>\n<li>☑ <strong>Dominio C (Enseñanza):</strong> Estrategias activas (ABP) que promueven pensamiento crítico.</li>\n<li>☑ <strong>Dominio D (Responsabilidad):</strong> Recopilación de evidencia para reflexión pedagógica.</li>\n</ul>\n<hr />\n<p><em>Generado automáticamente por Antigravity - Sistema 2026</em></p>\n<hr />\n<h2>🖨️ Material Auto-Generado (listo para imprimir)</h2>\n<p>Biblia (Straubinger), cuaderno, pizarra.</p>",
+    "raw_md": "# Patrimonio — 2° Básico - Unidad: Unidad 1: Identidad y Territorio\n**Ciclo:** 2° Básico (Básica Baja (1°-2° Básico)) | **Semana:** 2 | **Tiempo:** 90 minutos\n**Pregunta Esencial:** ¿Cómo comprendemos el misterio de Mi casa: Mi primer territorio?\n\n---\n\n## 🎯 Objetivo de la Clase\nIdentificar espacios significativos en el hogar.\n\n---\n\n## 🕒 Secuencia Didáctica (90 min)\n\n### ┌─ INICIO (15 min)\n**Rutina / Activación:**\n- Oración inicial (ciclo litúrgico) y recuerdo de la clase anterior.\n**Pregunta Gatilladora:**\n- *¿Qué sabemos sobre Mi casa: Mi primer territorio?*\n\n### ├─ DESARROLLO (50 min)\n**Metodología ABP / Trabajo Central:**\n- **Actividad de Patrimonio para 2° Básico:** Mi casa: Mi primer territorio\n\nActividad ABP diferenciada para 7-8 años: Ya lee y escribe oraciones cortas. Puede copiar del pizarrón. Actividades con escritura guiada y narración oral más extensa.\n**Agrupación:** Individual y plenario.\n**Materiales:** Ver sección Materiales abajo.\n\n### ├─ CIERRE (15 min)\n**Reflexión Guiada:**\n- Síntesis en la pizarra de la verdad enseñada.\n**Metacognición:**\n- *¿Qué aprendimos hoy? ¿Cómo lo conectamos con nuestro entorno?*\n\n### └─ EVIDENCIA (10 min)\n**📸 Bitácora / Registro:**\n- El estudiante dibuja y el profesor o estudiante escribe el título.\n**Tipo de Evaluación:** Formativa (participación y bitácora)\n\n---\n\n## 🔲 Cobertura MBE 2021 (Indicadores)\n- [x] **Dominio A (Preparación):** Planificación desafiante y coherente con el currículum.\n- [ ] **Dominio B (Ambiente):** Espacio seguro, rutinas claras e interacciones respetuosas.\n- [x] **Dominio C (Enseñanza):** Estrategias activas (ABP) que promueven pensamiento crítico.\n- [x] **Dominio D (Responsabilidad):** Recopilación de evidencia para reflexión pedagógica.\n\n---\n*Generado automáticamente por Antigravity - Sistema 2026*\n\n\n---\n\n## 🖨️ Material Auto-Generado (listo para imprimir)\n\nBiblia (Straubinger), cuaderno, pizarra.\n"
+  },
+  {
+    "filename": "S2_PAT_3basico.md",
+    "semana": "2",
+    "asignatura": "Patrimonio",
+    "asignatura_code": "PAT",
+    "curso": "3basico",
+    "titulo": "Patrimonio — 3° Básico - Unidad: Unidad 1: Identidad y Territorio",
+    "objetivo": "Conocer relatos locales significativos.",
+    "mbe": {
+      "A": false,
+      "B": false,
+      "C": false,
+      "D": false
+    },
+    "materiales": [
+      {
+        "tipo": "basico",
+        "item": "Ver sección Materiales abajo",
+        "preparar": false
+      },
+      {
+        "tipo": "preparar",
+        "item": "📖 Pasajes: por definir",
+        "preparar": true
+      },
+      {
+        "tipo": "preparar",
+        "item": "📸 Registro para bitácora fotográfica",
+        "preparar": true
+      }
+    ],
+    "html": "<h1>Patrimonio — 3° Básico - Unidad: Unidad 1: Identidad y Territorio</h1>\n<p><strong>Ciclo:</strong> 3° Básico (Básica Media (3°-4° Básico)) | <strong>Semana:</strong> 2 | <strong>Tiempo:</strong> 90 minutos<br />\n<strong>Pregunta Esencial:</strong> ¿Cómo comprendemos el misterio de Héroes y leyendas de nuestro barrio?</p>\n<hr />\n<h2>🎯 Objetivo de la Clase</h2>\n<p>Conocer relatos locales significativos.</p>\n<hr />\n<h2>🕒 Secuencia Didáctica (90 min)</h2>\n<h3>┌─ INICIO (15 min)</h3>\n<p><strong>Rutina / Activación:</strong><br />\n- Oración inicial (ciclo litúrgico) y recuerdo de la clase anterior.<br />\n<strong>Pregunta Gatilladora:</strong><br />\n- <em>¿Qué sabemos sobre Héroes y leyendas de nuestro barrio?</em></p>\n<h3>├─ DESARROLLO (50 min)</h3>\n<p><strong>Metodología ABP / Trabajo Central:</strong><br />\n- <strong>Actividad de Patrimonio para 3° Básico:</strong> Héroes y leyendas de nuestro barrio</p>\n<p>Actividad ABP diferenciada para 8-9 años: Inicio de trabajo grupal simple (parejas). Lectura de textos cortos. Preguntas dirigidas con opciones.<br />\n<strong>Agrupación:</strong> Individual y plenario.<br />\n<strong>Materiales:</strong> Ver sección Materiales abajo.</p>\n<h3>├─ CIERRE (15 min)</h3>\n<p><strong>Reflexión Guiada:</strong><br />\n- Síntesis en la pizarra de la verdad enseñada.<br />\n<strong>Metacognición:</strong><br />\n- <em>¿Qué aprendimos hoy? ¿Cómo lo conectamos con nuestro entorno?</em></p>\n<h3>└─ EVIDENCIA (10 min)</h3>\n<p><strong>📸 Bitácora / Registro:</strong><br />\n- El estudiante toma la foto y escribe un párrafo corto (qué, cómo, cuándo).<br />\n<strong>Tipo de Evaluación:</strong> Formativa (participación y bitácora)</p>\n<hr />\n<h2>🔲 Cobertura MBE 2021 (Indicadores)</h2>\n<ul>\n<li>☑ <strong>Dominio A (Preparación):</strong> Planificación desafiante y coherente con el currículum.</li>\n<li>☐ <strong>Dominio B (Ambiente):</strong> Espacio seguro, rutinas claras e interacciones respetuosas.</li>\n<li>☑ <strong>Dominio C (Enseñanza):</strong> Estrategias activas (ABP) que promueven pensamiento crítico.</li>\n<li>☑ <strong>Dominio D (Responsabilidad):</strong> Recopilación de evidencia para reflexión pedagógica.</li>\n</ul>\n<hr />\n<p><em>Generado automáticamente por Antigravity - Sistema 2026</em></p>\n<hr />\n<h2>🖨️ Material Auto-Generado (listo para imprimir)</h2>\n<p>Biblia (Straubinger), cuaderno, pizarra.</p>",
+    "raw_md": "# Patrimonio — 3° Básico - Unidad: Unidad 1: Identidad y Territorio\n**Ciclo:** 3° Básico (Básica Media (3°-4° Básico)) | **Semana:** 2 | **Tiempo:** 90 minutos\n**Pregunta Esencial:** ¿Cómo comprendemos el misterio de Héroes y leyendas de nuestro barrio?\n\n---\n\n## 🎯 Objetivo de la Clase\nConocer relatos locales significativos.\n\n---\n\n## 🕒 Secuencia Didáctica (90 min)\n\n### ┌─ INICIO (15 min)\n**Rutina / Activación:**\n- Oración inicial (ciclo litúrgico) y recuerdo de la clase anterior.\n**Pregunta Gatilladora:**\n- *¿Qué sabemos sobre Héroes y leyendas de nuestro barrio?*\n\n### ├─ DESARROLLO (50 min)\n**Metodología ABP / Trabajo Central:**\n- **Actividad de Patrimonio para 3° Básico:** Héroes y leyendas de nuestro barrio\n\nActividad ABP diferenciada para 8-9 años: Inicio de trabajo grupal simple (parejas). Lectura de textos cortos. Preguntas dirigidas con opciones.\n**Agrupación:** Individual y plenario.\n**Materiales:** Ver sección Materiales abajo.\n\n### ├─ CIERRE (15 min)\n**Reflexión Guiada:**\n- Síntesis en la pizarra de la verdad enseñada.\n**Metacognición:**\n- *¿Qué aprendimos hoy? ¿Cómo lo conectamos con nuestro entorno?*\n\n### └─ EVIDENCIA (10 min)\n**📸 Bitácora / Registro:**\n- El estudiante toma la foto y escribe un párrafo corto (qué, cómo, cuándo).\n**Tipo de Evaluación:** Formativa (participación y bitácora)\n\n---\n\n## 🔲 Cobertura MBE 2021 (Indicadores)\n- [x] **Dominio A (Preparación):** Planificación desafiante y coherente con el currículum.\n- [ ] **Dominio B (Ambiente):** Espacio seguro, rutinas claras e interacciones respetuosas.\n- [x] **Dominio C (Enseñanza):** Estrategias activas (ABP) que promueven pensamiento crítico.\n- [x] **Dominio D (Responsabilidad):** Recopilación de evidencia para reflexión pedagógica.\n\n---\n*Generado automáticamente por Antigravity - Sistema 2026*\n\n\n---\n\n## 🖨️ Material Auto-Generado (listo para imprimir)\n\nBiblia (Straubinger), cuaderno, pizarra.\n"
+  },
+  {
+    "filename": "S2_PAT_4basico.md",
+    "semana": "2",
+    "asignatura": "Patrimonio",
+    "asignatura_code": "PAT",
+    "curso": "4basico",
+    "titulo": "Patrimonio — 4° Básico - Unidad: Unidad 1: Identidad y Territorio",
+    "objetivo": "Conocer relatos locales significativos.",
+    "mbe": {
+      "A": false,
+      "B": false,
+      "C": false,
+      "D": false
+    },
+    "materiales": [
+      {
+        "tipo": "basico",
+        "item": "Ver sección Materiales abajo",
+        "preparar": false
+      },
+      {
+        "tipo": "preparar",
+        "item": "🗺️ Mapa de: por definir",
+        "preparar": true
+      },
+      {
+        "tipo": "preparar",
+        "item": "📖 Pasajes: por definir",
+        "preparar": true
+      },
+      {
+        "tipo": "preparar",
+        "item": "📸 Registro para bitácora fotográfica",
+        "preparar": true
+      }
+    ],
+    "html": "<h1>Patrimonio — 4° Básico - Unidad: Unidad 1: Identidad y Territorio</h1>\n<p><strong>Ciclo:</strong> 4° Básico (Básica Media (3°-4° Básico)) | <strong>Semana:</strong> 2 | <strong>Tiempo:</strong> 90 minutos<br />\n<strong>Pregunta Esencial:</strong> ¿Cómo comprendemos el misterio de Héroes y leyendas de nuestro barrio?</p>\n<hr />\n<h2>🎯 Objetivo de la Clase</h2>\n<p>Conocer relatos locales significativos.</p>\n<hr />\n<h2>🕒 Secuencia Didáctica (90 min)</h2>\n<h3>┌─ INICIO (15 min)</h3>\n<p><strong>Rutina / Activación:</strong><br />\n- Oración inicial (ciclo litúrgico) y recuerdo de la clase anterior.<br />\n<strong>Pregunta Gatilladora:</strong><br />\n- <em>¿Qué sabemos sobre Héroes y leyendas de nuestro barrio?</em></p>\n<h3>├─ DESARROLLO (50 min)</h3>\n<p><strong>Metodología ABP / Trabajo Central:</strong><br />\n- <strong>Actividad de Patrimonio para 4° Básico:</strong> Héroes y leyendas de nuestro barrio</p>\n<p>Actividad ABP diferenciada para 9-10 años: Trabajo en equipos de 3-4. Mapas conceptuales simples. Redacción de párrafos cortos. Mayor autonomía lectora.<br />\n<strong>Agrupación:</strong> Individual y plenario.<br />\n<strong>Materiales:</strong> Ver sección Materiales abajo.</p>\n<h3>├─ CIERRE (15 min)</h3>\n<p><strong>Reflexión Guiada:</strong><br />\n- Síntesis en la pizarra de la verdad enseñada.<br />\n<strong>Metacognición:</strong><br />\n- <em>¿Qué aprendimos hoy? ¿Cómo lo conectamos con nuestro entorno?</em></p>\n<h3>└─ EVIDENCIA (10 min)</h3>\n<p><strong>📸 Bitácora / Registro:</strong><br />\n- El estudiante toma la foto y escribe un párrafo corto (qué, cómo, cuándo).<br />\n<strong>Tipo de Evaluación:</strong> Formativa (participación y bitácora)</p>\n<hr />\n<h2>🔲 Cobertura MBE 2021 (Indicadores)</h2>\n<ul>\n<li>☑ <strong>Dominio A (Preparación):</strong> Planificación desafiante y coherente con el currículum.</li>\n<li>☐ <strong>Dominio B (Ambiente):</strong> Espacio seguro, rutinas claras e interacciones respetuosas.</li>\n<li>☑ <strong>Dominio C (Enseñanza):</strong> Estrategias activas (ABP) que promueven pensamiento crítico.</li>\n<li>☑ <strong>Dominio D (Responsabilidad):</strong> Recopilación de evidencia para reflexión pedagógica.</li>\n</ul>\n<hr />\n<p><em>Generado automáticamente por Antigravity - Sistema 2026</em></p>\n<hr />\n<h2>🖨️ Material Auto-Generado (listo para imprimir)</h2>\n<p>Biblia (Straubinger), cuaderno, pizarra.</p>",
+    "raw_md": "# Patrimonio — 4° Básico - Unidad: Unidad 1: Identidad y Territorio\n**Ciclo:** 4° Básico (Básica Media (3°-4° Básico)) | **Semana:** 2 | **Tiempo:** 90 minutos\n**Pregunta Esencial:** ¿Cómo comprendemos el misterio de Héroes y leyendas de nuestro barrio?\n\n---\n\n## 🎯 Objetivo de la Clase\nConocer relatos locales significativos.\n\n---\n\n## 🕒 Secuencia Didáctica (90 min)\n\n### ┌─ INICIO (15 min)\n**Rutina / Activación:**\n- Oración inicial (ciclo litúrgico) y recuerdo de la clase anterior.\n**Pregunta Gatilladora:**\n- *¿Qué sabemos sobre Héroes y leyendas de nuestro barrio?*\n\n### ├─ DESARROLLO (50 min)\n**Metodología ABP / Trabajo Central:**\n- **Actividad de Patrimonio para 4° Básico:** Héroes y leyendas de nuestro barrio\n\nActividad ABP diferenciada para 9-10 años: Trabajo en equipos de 3-4. Mapas conceptuales simples. Redacción de párrafos cortos. Mayor autonomía lectora.\n**Agrupación:** Individual y plenario.\n**Materiales:** Ver sección Materiales abajo.\n\n### ├─ CIERRE (15 min)\n**Reflexión Guiada:**\n- Síntesis en la pizarra de la verdad enseñada.\n**Metacognición:**\n- *¿Qué aprendimos hoy? ¿Cómo lo conectamos con nuestro entorno?*\n\n### └─ EVIDENCIA (10 min)\n**📸 Bitácora / Registro:**\n- El estudiante toma la foto y escribe un párrafo corto (qué, cómo, cuándo).\n**Tipo de Evaluación:** Formativa (participación y bitácora)\n\n---\n\n## 🔲 Cobertura MBE 2021 (Indicadores)\n- [x] **Dominio A (Preparación):** Planificación desafiante y coherente con el currículum.\n- [ ] **Dominio B (Ambiente):** Espacio seguro, rutinas claras e interacciones respetuosas.\n- [x] **Dominio C (Enseñanza):** Estrategias activas (ABP) que promueven pensamiento crítico.\n- [x] **Dominio D (Responsabilidad):** Recopilación de evidencia para reflexión pedagógica.\n\n---\n*Generado automáticamente por Antigravity - Sistema 2026*\n\n\n---\n\n## 🖨️ Material Auto-Generado (listo para imprimir)\n\nBiblia (Straubinger), cuaderno, pizarra.\n"
+  },
+  {
+    "filename": "S2_PAT_5basico.md",
+    "semana": "2",
+    "asignatura": "Patrimonio",
+    "asignatura_code": "PAT",
+    "curso": "5basico",
+    "titulo": "Patrimonio — 5° Básico - Unidad: Unidad 1: Identidad y Territorio",
+    "objetivo": "Observar la evolución del entorno construido.",
+    "mbe": {
+      "A": false,
+      "B": false,
+      "C": false,
+      "D": false
+    },
+    "materiales": [
+      {
+        "tipo": "basico",
+        "item": "Ver sección Materiales abajo",
+        "preparar": false
+      },
+      {
+        "tipo": "preparar",
+        "item": "📖 Pasajes: por definir",
+        "preparar": true
+      },
+      {
+        "tipo": "preparar",
+        "item": "📸 Registro para bitácora fotográfica",
+        "preparar": true
+      }
+    ],
+    "html": "<h1>Patrimonio — 5° Básico - Unidad: Unidad 1: Identidad y Territorio</h1>\n<p><strong>Ciclo:</strong> 5° Básico (Básico Intermedio (5°-6° Básico)) | <strong>Semana:</strong> 2 | <strong>Tiempo:</strong> 90 minutos<br />\n<strong>Pregunta Esencial:</strong> ¿Cómo comprendemos el misterio de Arquitectura local: Estilos y transformaciones?</p>\n<hr />\n<h2>🎯 Objetivo de la Clase</h2>\n<p>Observar la evolución del entorno construido.</p>\n<hr />\n<h2>🕒 Secuencia Didáctica (90 min)</h2>\n<h3>┌─ INICIO (15 min)</h3>\n<p><strong>Rutina / Activación:</strong><br />\n- Oración inicial (ciclo litúrgico) y recuerdo de la clase anterior.<br />\n<strong>Pregunta Gatilladora:</strong><br />\n- <em>¿Qué sabemos sobre Arquitectura local: Estilos y transformaciones?</em></p>\n<h3>├─ DESARROLLO (50 min)</h3>\n<p><strong>Metodología ABP / Trabajo Central:</strong><br />\n- <strong>Actividad de Patrimonio para 5° Básico:</strong> Arquitectura local: Estilos y transformaciones</p>\n<p>Actividad ABP diferenciada para 10-11 años: Investigación guiada con preguntas. Exposiciones breves. Inicio de pensamiento abstracto. Trabajo con líneas de tiempo.<br />\n<strong>Agrupación:</strong> Individual y plenario.<br />\n<strong>Materiales:</strong> Ver sección Materiales abajo.</p>\n<h3>├─ CIERRE (15 min)</h3>\n<p><strong>Reflexión Guiada:</strong><br />\n- Síntesis en la pizarra de la verdad enseñada.<br />\n<strong>Metacognición:</strong><br />\n- <em>¿Qué aprendimos hoy? ¿Cómo lo conectamos con nuestro entorno?</em></p>\n<h3>└─ EVIDENCIA (10 min)</h3>\n<p><strong>📸 Bitácora / Registro:</strong><br />\n- Reportaje fotográfico (serie de fotos) con epígrafes críticos.<br />\n<strong>Tipo de Evaluación:</strong> Formativa (participación y bitácora)</p>\n<hr />\n<h2>🔲 Cobertura MBE 2021 (Indicadores)</h2>\n<ul>\n<li>☑ <strong>Dominio A (Preparación):</strong> Planificación desafiante y coherente con el currículum.</li>\n<li>☐ <strong>Dominio B (Ambiente):</strong> Espacio seguro, rutinas claras e interacciones respetuosas.</li>\n<li>☑ <strong>Dominio C (Enseñanza):</strong> Estrategias activas (ABP) que promueven pensamiento crítico.</li>\n<li>☑ <strong>Dominio D (Responsabilidad):</strong> Recopilación de evidencia para reflexión pedagógica.</li>\n</ul>\n<hr />\n<p><em>Generado automáticamente por Antigravity - Sistema 2026</em></p>\n<hr />\n<h2>🖨️ Material Auto-Generado (listo para imprimir)</h2>\n<p>Biblia (Straubinger), cuaderno, pizarra.</p>",
+    "raw_md": "# Patrimonio — 5° Básico - Unidad: Unidad 1: Identidad y Territorio\n**Ciclo:** 5° Básico (Básico Intermedio (5°-6° Básico)) | **Semana:** 2 | **Tiempo:** 90 minutos\n**Pregunta Esencial:** ¿Cómo comprendemos el misterio de Arquitectura local: Estilos y transformaciones?\n\n---\n\n## 🎯 Objetivo de la Clase\nObservar la evolución del entorno construido.\n\n---\n\n## 🕒 Secuencia Didáctica (90 min)\n\n### ┌─ INICIO (15 min)\n**Rutina / Activación:**\n- Oración inicial (ciclo litúrgico) y recuerdo de la clase anterior.\n**Pregunta Gatilladora:**\n- *¿Qué sabemos sobre Arquitectura local: Estilos y transformaciones?*\n\n### ├─ DESARROLLO (50 min)\n**Metodología ABP / Trabajo Central:**\n- **Actividad de Patrimonio para 5° Básico:** Arquitectura local: Estilos y transformaciones\n\nActividad ABP diferenciada para 10-11 años: Investigación guiada con preguntas. Exposiciones breves. Inicio de pensamiento abstracto. Trabajo con líneas de tiempo.\n**Agrupación:** Individual y plenario.\n**Materiales:** Ver sección Materiales abajo.\n\n### ├─ CIERRE (15 min)\n**Reflexión Guiada:**\n- Síntesis en la pizarra de la verdad enseñada.\n**Metacognición:**\n- *¿Qué aprendimos hoy? ¿Cómo lo conectamos con nuestro entorno?*\n\n### └─ EVIDENCIA (10 min)\n**📸 Bitácora / Registro:**\n- Reportaje fotográfico (serie de fotos) con epígrafes críticos.\n**Tipo de Evaluación:** Formativa (participación y bitácora)\n\n---\n\n## 🔲 Cobertura MBE 2021 (Indicadores)\n- [x] **Dominio A (Preparación):** Planificación desafiante y coherente con el currículum.\n- [ ] **Dominio B (Ambiente):** Espacio seguro, rutinas claras e interacciones respetuosas.\n- [x] **Dominio C (Enseñanza):** Estrategias activas (ABP) que promueven pensamiento crítico.\n- [x] **Dominio D (Responsabilidad):** Recopilación de evidencia para reflexión pedagógica.\n\n---\n*Generado automáticamente por Antigravity - Sistema 2026*\n\n\n---\n\n## 🖨️ Material Auto-Generado (listo para imprimir)\n\nBiblia (Straubinger), cuaderno, pizarra.\n"
+  },
+  {
+    "filename": "S2_PAT_6basico.md",
+    "semana": "2",
+    "asignatura": "Patrimonio",
+    "asignatura_code": "PAT",
+    "curso": "6basico",
+    "titulo": "Patrimonio — 6° Básico - Unidad: Unidad 1: Identidad y Territorio",
+    "objetivo": "Observar la evolución del entorno construido.",
+    "mbe": {
+      "A": false,
+      "B": false,
+      "C": false,
+      "D": false
+    },
+    "materiales": [
+      {
+        "tipo": "basico",
+        "item": "Ver sección Materiales abajo",
+        "preparar": false
+      },
+      {
+        "tipo": "preparar",
+        "item": "📖 Pasajes: por definir",
+        "preparar": true
+      },
+      {
+        "tipo": "preparar",
+        "item": "📸 Registro para bitácora fotográfica",
+        "preparar": true
+      }
+    ],
+    "html": "<h1>Patrimonio — 6° Básico - Unidad: Unidad 1: Identidad y Territorio</h1>\n<p><strong>Ciclo:</strong> 6° Básico (Básico Intermedio (5°-6° Básico)) | <strong>Semana:</strong> 2 | <strong>Tiempo:</strong> 90 minutos<br />\n<strong>Pregunta Esencial:</strong> ¿Cómo comprendemos el misterio de Arquitectura local: Estilos y transformaciones?</p>\n<hr />\n<h2>🎯 Objetivo de la Clase</h2>\n<p>Observar la evolución del entorno construido.</p>\n<hr />\n<h2>🕒 Secuencia Didáctica (90 min)</h2>\n<h3>┌─ INICIO (15 min)</h3>\n<p><strong>Rutina / Activación:</strong><br />\n- Oración inicial (ciclo litúrgico) y recuerdo de la clase anterior.<br />\n<strong>Pregunta Gatilladora:</strong><br />\n- <em>¿Qué sabemos sobre Arquitectura local: Estilos y transformaciones?</em></p>\n<h3>├─ DESARROLLO (50 min)</h3>\n<p><strong>Metodología ABP / Trabajo Central:</strong><br />\n- <strong>Actividad de Patrimonio para 6° Básico:</strong> Arquitectura local: Estilos y transformaciones</p>\n<p>Actividad ABP diferenciada para 11-12 años: Investigación con mayor autonomía. Debates simples. Redacción de textos argumentativos básicos. Co-evaluación entre pares.<br />\n<strong>Agrupación:</strong> Individual y plenario.<br />\n<strong>Materiales:</strong> Ver sección Materiales abajo.</p>\n<h3>├─ CIERRE (15 min)</h3>\n<p><strong>Reflexión Guiada:</strong><br />\n- Síntesis en la pizarra de la verdad enseñada.<br />\n<strong>Metacognición:</strong><br />\n- <em>¿Qué aprendimos hoy? ¿Cómo lo conectamos con nuestro entorno?</em></p>\n<h3>└─ EVIDENCIA (10 min)</h3>\n<p><strong>📸 Bitácora / Registro:</strong><br />\n- Reportaje fotográfico (serie de fotos) con epígrafes críticos.<br />\n<strong>Tipo de Evaluación:</strong> Formativa (participación y bitácora)</p>\n<hr />\n<h2>🔲 Cobertura MBE 2021 (Indicadores)</h2>\n<ul>\n<li>☑ <strong>Dominio A (Preparación):</strong> Planificación desafiante y coherente con el currículum.</li>\n<li>☐ <strong>Dominio B (Ambiente):</strong> Espacio seguro, rutinas claras e interacciones respetuosas.</li>\n<li>☑ <strong>Dominio C (Enseñanza):</strong> Estrategias activas (ABP) que promueven pensamiento crítico.</li>\n<li>☑ <strong>Dominio D (Responsabilidad):</strong> Recopilación de evidencia para reflexión pedagógica.</li>\n</ul>\n<hr />\n<p><em>Generado automáticamente por Antigravity - Sistema 2026</em></p>\n<hr />\n<h2>🖨️ Material Auto-Generado (listo para imprimir)</h2>\n<p>Biblia (Straubinger), cuaderno, pizarra.</p>",
+    "raw_md": "# Patrimonio — 6° Básico - Unidad: Unidad 1: Identidad y Territorio\n**Ciclo:** 6° Básico (Básico Intermedio (5°-6° Básico)) | **Semana:** 2 | **Tiempo:** 90 minutos\n**Pregunta Esencial:** ¿Cómo comprendemos el misterio de Arquitectura local: Estilos y transformaciones?\n\n---\n\n## 🎯 Objetivo de la Clase\nObservar la evolución del entorno construido.\n\n---\n\n## 🕒 Secuencia Didáctica (90 min)\n\n### ┌─ INICIO (15 min)\n**Rutina / Activación:**\n- Oración inicial (ciclo litúrgico) y recuerdo de la clase anterior.\n**Pregunta Gatilladora:**\n- *¿Qué sabemos sobre Arquitectura local: Estilos y transformaciones?*\n\n### ├─ DESARROLLO (50 min)\n**Metodología ABP / Trabajo Central:**\n- **Actividad de Patrimonio para 6° Básico:** Arquitectura local: Estilos y transformaciones\n\nActividad ABP diferenciada para 11-12 años: Investigación con mayor autonomía. Debates simples. Redacción de textos argumentativos básicos. Co-evaluación entre pares.\n**Agrupación:** Individual y plenario.\n**Materiales:** Ver sección Materiales abajo.\n\n### ├─ CIERRE (15 min)\n**Reflexión Guiada:**\n- Síntesis en la pizarra de la verdad enseñada.\n**Metacognición:**\n- *¿Qué aprendimos hoy? ¿Cómo lo conectamos con nuestro entorno?*\n\n### └─ EVIDENCIA (10 min)\n**📸 Bitácora / Registro:**\n- Reportaje fotográfico (serie de fotos) con epígrafes críticos.\n**Tipo de Evaluación:** Formativa (participación y bitácora)\n\n---\n\n## 🔲 Cobertura MBE 2021 (Indicadores)\n- [x] **Dominio A (Preparación):** Planificación desafiante y coherente con el currículum.\n- [ ] **Dominio B (Ambiente):** Espacio seguro, rutinas claras e interacciones respetuosas.\n- [x] **Dominio C (Enseñanza):** Estrategias activas (ABP) que promueven pensamiento crítico.\n- [x] **Dominio D (Responsabilidad):** Recopilación de evidencia para reflexión pedagógica.\n\n---\n*Generado automáticamente por Antigravity - Sistema 2026*\n\n\n---\n\n## 🖨️ Material Auto-Generado (listo para imprimir)\n\nBiblia (Straubinger), cuaderno, pizarra.\n"
+  },
+  {
+    "filename": "S2_PAT_7basico.md",
+    "semana": "2",
+    "asignatura": "Patrimonio",
+    "asignatura_code": "PAT",
+    "curso": "7basico",
+    "titulo": "Patrimonio — 7° Básico - Unidad: Unidad 1: Identidad y Territorio",
+    "objetivo": "Debatir sobre hitos históricos locales.",
+    "mbe": {
+      "A": false,
+      "B": false,
+      "C": false,
+      "D": false
+    },
+    "materiales": [
+      {
+        "tipo": "basico",
+        "item": "Ver sección Materiales abajo",
+        "preparar": false
+      },
+      {
+        "tipo": "preparar",
+        "item": "📷 Preparar fotos de: por definir",
+        "preparar": true
+      },
+      {
+        "tipo": "preparar",
+        "item": "📖 Pasajes: por definir",
+        "preparar": true
+      },
+      {
+        "tipo": "preparar",
+        "item": "📸 Registro para bitácora fotográfica",
+        "preparar": true
+      }
+    ],
+    "html": "<h1>Patrimonio — 7° Básico - Unidad: Unidad 1: Identidad y Territorio</h1>\n<p><strong>Ciclo:</strong> 7° Básico (Básico Superior (7°-8° Básico)) | <strong>Semana:</strong> 2 | <strong>Tiempo:</strong> 90 minutos<br />\n<strong>Pregunta Esencial:</strong> ¿Cómo comprendemos el misterio de Conflictos y acuerdos en nuestra historia?</p>\n<hr />\n<h2>🎯 Objetivo de la Clase</h2>\n<p>Debatir sobre hitos históricos locales.</p>\n<hr />\n<h2>🕒 Secuencia Didáctica (90 min)</h2>\n<h3>┌─ INICIO (15 min)</h3>\n<p><strong>Rutina / Activación:</strong><br />\n- Oración inicial (ciclo litúrgico) y recuerdo de la clase anterior.<br />\n<strong>Pregunta Gatilladora:</strong><br />\n- <em>¿Qué sabemos sobre Conflictos y acuerdos en nuestra historia?</em></p>\n<h3>├─ DESARROLLO (50 min)</h3>\n<p><strong>Metodología ABP / Trabajo Central:</strong><br />\n- <strong>Actividad de Patrimonio para 7° Básico:</strong> Conflictos y acuerdos en nuestra historia</p>\n<p>Actividad ABP diferenciada para 12-13 años: Pensamiento crítico inicial. Análisis de fuentes. Ensayos cortos. Debates estructurados. Conexión con actualidad.<br />\n<strong>Agrupación:</strong> Individual y plenario.<br />\n<strong>Materiales:</strong> Ver sección Materiales abajo.</p>\n<h3>├─ CIERRE (15 min)</h3>\n<p><strong>Reflexión Guiada:</strong><br />\n- Síntesis en la pizarra de la verdad enseñada.<br />\n<strong>Metacognición:</strong><br />\n- <em>¿Qué aprendimos hoy? ¿Cómo lo conectamos con nuestro entorno?</em></p>\n<h3>└─ EVIDENCIA (10 min)</h3>\n<p><strong>📸 Bitácora / Registro:</strong><br />\n- Ensayo visual. Fotografía abstracta/simbólica con justificación filosófica.<br />\n<strong>Tipo de Evaluación:</strong> Formativa (participación y bitácora)</p>\n<hr />\n<h2>🔲 Cobertura MBE 2021 (Indicadores)</h2>\n<ul>\n<li>☑ <strong>Dominio A (Preparación):</strong> Planificación desafiante y coherente con el currículum.</li>\n<li>☐ <strong>Dominio B (Ambiente):</strong> Espacio seguro, rutinas claras e interacciones respetuosas.</li>\n<li>☑ <strong>Dominio C (Enseñanza):</strong> Estrategias activas (ABP) que promueven pensamiento crítico.</li>\n<li>☑ <strong>Dominio D (Responsabilidad):</strong> Recopilación de evidencia para reflexión pedagógica.</li>\n</ul>\n<hr />\n<p><em>Generado automáticamente por Antigravity - Sistema 2026</em></p>\n<hr />\n<h2>🖨️ Material Auto-Generado (listo para imprimir)</h2>\n<p>Biblia (Straubinger), cuaderno, pizarra.</p>",
+    "raw_md": "# Patrimonio — 7° Básico - Unidad: Unidad 1: Identidad y Territorio\n**Ciclo:** 7° Básico (Básico Superior (7°-8° Básico)) | **Semana:** 2 | **Tiempo:** 90 minutos\n**Pregunta Esencial:** ¿Cómo comprendemos el misterio de Conflictos y acuerdos en nuestra historia?\n\n---\n\n## 🎯 Objetivo de la Clase\nDebatir sobre hitos históricos locales.\n\n---\n\n## 🕒 Secuencia Didáctica (90 min)\n\n### ┌─ INICIO (15 min)\n**Rutina / Activación:**\n- Oración inicial (ciclo litúrgico) y recuerdo de la clase anterior.\n**Pregunta Gatilladora:**\n- *¿Qué sabemos sobre Conflictos y acuerdos en nuestra historia?*\n\n### ├─ DESARROLLO (50 min)\n**Metodología ABP / Trabajo Central:**\n- **Actividad de Patrimonio para 7° Básico:** Conflictos y acuerdos en nuestra historia\n\nActividad ABP diferenciada para 12-13 años: Pensamiento crítico inicial. Análisis de fuentes. Ensayos cortos. Debates estructurados. Conexión con actualidad.\n**Agrupación:** Individual y plenario.\n**Materiales:** Ver sección Materiales abajo.\n\n### ├─ CIERRE (15 min)\n**Reflexión Guiada:**\n- Síntesis en la pizarra de la verdad enseñada.\n**Metacognición:**\n- *¿Qué aprendimos hoy? ¿Cómo lo conectamos con nuestro entorno?*\n\n### └─ EVIDENCIA (10 min)\n**📸 Bitácora / Registro:**\n- Ensayo visual. Fotografía abstracta/simbólica con justificación filosófica.\n**Tipo de Evaluación:** Formativa (participación y bitácora)\n\n---\n\n## 🔲 Cobertura MBE 2021 (Indicadores)\n- [x] **Dominio A (Preparación):** Planificación desafiante y coherente con el currículum.\n- [ ] **Dominio B (Ambiente):** Espacio seguro, rutinas claras e interacciones respetuosas.\n- [x] **Dominio C (Enseñanza):** Estrategias activas (ABP) que promueven pensamiento crítico.\n- [x] **Dominio D (Responsabilidad):** Recopilación de evidencia para reflexión pedagógica.\n\n---\n*Generado automáticamente por Antigravity - Sistema 2026*\n\n\n---\n\n## 🖨️ Material Auto-Generado (listo para imprimir)\n\nBiblia (Straubinger), cuaderno, pizarra.\n"
+  },
+  {
+    "filename": "S2_PAT_8basico.md",
+    "semana": "2",
+    "asignatura": "Patrimonio",
+    "asignatura_code": "PAT",
+    "curso": "8basico",
+    "titulo": "Patrimonio — 8° Básico - Unidad: Unidad 1: Identidad y Territorio",
+    "objetivo": "Debatir sobre hitos históricos locales.",
+    "mbe": {
+      "A": false,
+      "B": false,
+      "C": false,
+      "D": false
+    },
+    "materiales": [
+      {
+        "tipo": "basico",
+        "item": "Ver sección Materiales abajo",
+        "preparar": false
+      },
+      {
+        "tipo": "preparar",
+        "item": "📷 Preparar fotos de: por definir",
+        "preparar": true
+      },
+      {
+        "tipo": "preparar",
+        "item": "📖 Pasajes: por definir",
+        "preparar": true
+      },
+      {
+        "tipo": "preparar",
+        "item": "📸 Registro para bitácora fotográfica",
+        "preparar": true
+      }
+    ],
+    "html": "<h1>Patrimonio — 8° Básico - Unidad: Unidad 1: Identidad y Territorio</h1>\n<p><strong>Ciclo:</strong> 8° Básico (Básico Superior (7°-8° Básico)) | <strong>Semana:</strong> 2 | <strong>Tiempo:</strong> 90 minutos<br />\n<strong>Pregunta Esencial:</strong> ¿Cómo comprendemos el misterio de Conflictos y acuerdos en nuestra historia?</p>\n<hr />\n<h2>🎯 Objetivo de la Clase</h2>\n<p>Debatir sobre hitos históricos locales.</p>\n<hr />\n<h2>🕒 Secuencia Didáctica (90 min)</h2>\n<h3>┌─ INICIO (15 min)</h3>\n<p><strong>Rutina / Activación:</strong><br />\n- Oración inicial (ciclo litúrgico) y recuerdo de la clase anterior.<br />\n<strong>Pregunta Gatilladora:</strong><br />\n- <em>¿Qué sabemos sobre Conflictos y acuerdos en nuestra historia?</em></p>\n<h3>├─ DESARROLLO (50 min)</h3>\n<p><strong>Metodología ABP / Trabajo Central:</strong><br />\n- <strong>Actividad de Patrimonio para 8° Básico:</strong> Conflictos y acuerdos en nuestra historia</p>\n<p>Actividad ABP diferenciada para 13-14 años: Pensamiento hipotético-deductivo. Ensayos argumentativos. Proyectos autónomos. Filosofía y ética aplicada. Preparación para Media.<br />\n<strong>Agrupación:</strong> Individual y plenario.<br />\n<strong>Materiales:</strong> Ver sección Materiales abajo.</p>\n<h3>├─ CIERRE (15 min)</h3>\n<p><strong>Reflexión Guiada:</strong><br />\n- Síntesis en la pizarra de la verdad enseñada.<br />\n<strong>Metacognición:</strong><br />\n- <em>¿Qué aprendimos hoy? ¿Cómo lo conectamos con nuestro entorno?</em></p>\n<h3>└─ EVIDENCIA (10 min)</h3>\n<p><strong>📸 Bitácora / Registro:</strong><br />\n- Ensayo visual. Fotografía abstracta/simbólica con justificación filosófica.<br />\n<strong>Tipo de Evaluación:</strong> Formativa (participación y bitácora)</p>\n<hr />\n<h2>🔲 Cobertura MBE 2021 (Indicadores)</h2>\n<ul>\n<li>☑ <strong>Dominio A (Preparación):</strong> Planificación desafiante y coherente con el currículum.</li>\n<li>☐ <strong>Dominio B (Ambiente):</strong> Espacio seguro, rutinas claras e interacciones respetuosas.</li>\n<li>☑ <strong>Dominio C (Enseñanza):</strong> Estrategias activas (ABP) que promueven pensamiento crítico.</li>\n<li>☑ <strong>Dominio D (Responsabilidad):</strong> Recopilación de evidencia para reflexión pedagógica.</li>\n</ul>\n<hr />\n<p><em>Generado automáticamente por Antigravity - Sistema 2026</em></p>\n<hr />\n<h2>🖨️ Material Auto-Generado (listo para imprimir)</h2>\n<p>Biblia (Straubinger), cuaderno, pizarra.</p>",
+    "raw_md": "# Patrimonio — 8° Básico - Unidad: Unidad 1: Identidad y Territorio\n**Ciclo:** 8° Básico (Básico Superior (7°-8° Básico)) | **Semana:** 2 | **Tiempo:** 90 minutos\n**Pregunta Esencial:** ¿Cómo comprendemos el misterio de Conflictos y acuerdos en nuestra historia?\n\n---\n\n## 🎯 Objetivo de la Clase\nDebatir sobre hitos históricos locales.\n\n---\n\n## 🕒 Secuencia Didáctica (90 min)\n\n### ┌─ INICIO (15 min)\n**Rutina / Activación:**\n- Oración inicial (ciclo litúrgico) y recuerdo de la clase anterior.\n**Pregunta Gatilladora:**\n- *¿Qué sabemos sobre Conflictos y acuerdos en nuestra historia?*\n\n### ├─ DESARROLLO (50 min)\n**Metodología ABP / Trabajo Central:**\n- **Actividad de Patrimonio para 8° Básico:** Conflictos y acuerdos en nuestra historia\n\nActividad ABP diferenciada para 13-14 años: Pensamiento hipotético-deductivo. Ensayos argumentativos. Proyectos autónomos. Filosofía y ética aplicada. Preparación para Media.\n**Agrupación:** Individual y plenario.\n**Materiales:** Ver sección Materiales abajo.\n\n### ├─ CIERRE (15 min)\n**Reflexión Guiada:**\n- Síntesis en la pizarra de la verdad enseñada.\n**Metacognición:**\n- *¿Qué aprendimos hoy? ¿Cómo lo conectamos con nuestro entorno?*\n\n### └─ EVIDENCIA (10 min)\n**📸 Bitácora / Registro:**\n- Ensayo visual. Fotografía abstracta/simbólica con justificación filosófica.\n**Tipo de Evaluación:** Formativa (participación y bitácora)\n\n---\n\n## 🔲 Cobertura MBE 2021 (Indicadores)\n- [x] **Dominio A (Preparación):** Planificación desafiante y coherente con el currículum.\n- [ ] **Dominio B (Ambiente):** Espacio seguro, rutinas claras e interacciones respetuosas.\n- [x] **Dominio C (Enseñanza):** Estrategias activas (ABP) que promueven pensamiento crítico.\n- [x] **Dominio D (Responsabilidad):** Recopilación de evidencia para reflexión pedagógica.\n\n---\n*Generado automáticamente por Antigravity - Sistema 2026*\n\n\n---\n\n## 🖨️ Material Auto-Generado (listo para imprimir)\n\nBiblia (Straubinger), cuaderno, pizarra.\n"
+  },
+  {
+    "filename": "S2_REL_1basico.md",
+    "semana": "2",
+    "asignatura": "Religión",
+    "asignatura_code": "REL",
+    "curso": "1basico",
+    "titulo": "Religión — 1° Básico - Unidad: Unidad 0/1",
+    "objetivo": "Identificar la naturaleza como obra de Dios.",
+    "mbe": {
+      "A": false,
+      "B": false,
+      "C": false,
+      "D": false
+    },
+    "materiales": [
+      {
+        "tipo": "basico",
+        "item": "Ver sección Materiales abajo",
+        "preparar": false
+      },
+      {
+        "tipo": "preparar",
+        "item": "📖 Pasajes: por definir",
+        "preparar": true
+      }
+    ],
+    "html": "<h1>Religión — 1° Básico - Unidad: Unidad 0/1</h1>\n<p><strong>Ciclo:</strong> 1° Básico (Básica Baja (1°-2° Básico)) | <strong>Semana:</strong> 2 | <strong>Tiempo:</strong> 90 minutos<br />\n<strong>Pregunta Esencial:</strong> ¿Cómo comprendemos el misterio de El jardín de la Creación?</p>\n<hr />\n<h2>🎯 Objetivo de la Clase</h2>\n<p>Identificar la naturaleza como obra de Dios.</p>\n<hr />\n<h2>🕒 Secuencia Didáctica (90 min)</h2>\n<h3>┌─ INICIO (15 min)</h3>\n<p><strong>Rutina / Activación:</strong><br />\n- Oración inicial (ciclo litúrgico) y recuerdo de la clase anterior.<br />\n<strong>Pregunta Gatilladora:</strong><br />\n- <em>¿Qué sabemos sobre El jardín de la Creación?</em></p>\n<h3>├─ DESARROLLO (50 min)</h3>\n<p><strong>Metodología ABP / Trabajo Central:</strong><br />\n- <strong>[MOCK]</strong> Desarrollo generado por IA para: El jardín de la Creación<br />\nCurso: 1° Básico<br />\nEstructura: Videtur quod... Sed contra... Respondeo...<br />\n<strong>Agrupación:</strong> Individual y plenario.<br />\n<strong>Materiales:</strong> Ver sección Materiales abajo.</p>\n<h3>├─ CIERRE (15 min)</h3>\n<p><strong>Reflexión Guiada:</strong><br />\n- Síntesis en la pizarra de la verdad enseñada.<br />\n<strong>Metacognición:</strong><br />\n- <em>¿Qué aprendimos hoy? ¿Cómo lo conectamos con nuestro entorno?</em></p>\n<h3>└─ EVIDENCIA (10 min)</h3>\n<p><strong>📸 Bitácora / Registro:</strong><br />\n- El estudiante dibuja y el profesor o estudiante escribe el título.<br />\n<strong>Tipo de Evaluación:</strong> Formativa (participación y bitácora)</p>\n<hr />\n<h2>🔲 Cobertura MBE 2021 (Indicadores)</h2>\n<ul>\n<li>☑ <strong>Dominio A (Preparación):</strong> Planificación desafiante y coherente con el currículum.</li>\n<li>☑ <strong>Dominio B (Ambiente):</strong> Espacio seguro, rutinas claras e interacciones respetuosas.</li>\n<li>☑ <strong>Dominio C (Enseñanza):</strong> Estrategias activas (ABP) que promueven pensamiento crítico.</li>\n<li>☐ <strong>Dominio D (Responsabilidad):</strong> Recopilación de evidencia para reflexión pedagógica.</li>\n</ul>\n<hr />\n<p><em>Generado automáticamente por Antigravity - Sistema 2026</em></p>\n<hr />\n<h2>🖨️ Material Auto-Generado (listo para imprimir)</h2>\n<p>Biblia (Straubinger), cuaderno, pizarra.</p>",
+    "raw_md": "# Religión — 1° Básico - Unidad: Unidad 0/1\n**Ciclo:** 1° Básico (Básica Baja (1°-2° Básico)) | **Semana:** 2 | **Tiempo:** 90 minutos\n**Pregunta Esencial:** ¿Cómo comprendemos el misterio de El jardín de la Creación?\n\n---\n\n## 🎯 Objetivo de la Clase\nIdentificar la naturaleza como obra de Dios.\n\n---\n\n## 🕒 Secuencia Didáctica (90 min)\n\n### ┌─ INICIO (15 min)\n**Rutina / Activación:**\n- Oración inicial (ciclo litúrgico) y recuerdo de la clase anterior.\n**Pregunta Gatilladora:**\n- *¿Qué sabemos sobre El jardín de la Creación?*\n\n### ├─ DESARROLLO (50 min)\n**Metodología ABP / Trabajo Central:**\n- **[MOCK]** Desarrollo generado por IA para: El jardín de la Creación\nCurso: 1° Básico\nEstructura: Videtur quod... Sed contra... Respondeo...\n**Agrupación:** Individual y plenario.\n**Materiales:** Ver sección Materiales abajo.\n\n### ├─ CIERRE (15 min)\n**Reflexión Guiada:**\n- Síntesis en la pizarra de la verdad enseñada.\n**Metacognición:**\n- *¿Qué aprendimos hoy? ¿Cómo lo conectamos con nuestro entorno?*\n\n### └─ EVIDENCIA (10 min)\n**📸 Bitácora / Registro:**\n- El estudiante dibuja y el profesor o estudiante escribe el título.\n**Tipo de Evaluación:** Formativa (participación y bitácora)\n\n---\n\n## 🔲 Cobertura MBE 2021 (Indicadores)\n- [x] **Dominio A (Preparación):** Planificación desafiante y coherente con el currículum.\n- [x] **Dominio B (Ambiente):** Espacio seguro, rutinas claras e interacciones respetuosas.\n- [x] **Dominio C (Enseñanza):** Estrategias activas (ABP) que promueven pensamiento crítico.\n- [ ] **Dominio D (Responsabilidad):** Recopilación de evidencia para reflexión pedagógica.\n\n---\n*Generado automáticamente por Antigravity - Sistema 2026*\n\n\n---\n\n## 🖨️ Material Auto-Generado (listo para imprimir)\n\nBiblia (Straubinger), cuaderno, pizarra.\n"
+  },
+  {
+    "filename": "S2_REL_2basico.md",
+    "semana": "2",
+    "asignatura": "Religión",
+    "asignatura_code": "REL",
+    "curso": "2basico",
+    "titulo": "Religión — 2° Básico - Unidad: Unidad 0/1",
+    "objetivo": "Identificar la naturaleza como obra de Dios.",
+    "mbe": {
+      "A": false,
+      "B": false,
+      "C": false,
+      "D": false
+    },
+    "materiales": [
+      {
+        "tipo": "basico",
+        "item": "Ver sección Materiales abajo",
+        "preparar": false
+      },
+      {
+        "tipo": "preparar",
+        "item": "📖 Pasajes: por definir",
+        "preparar": true
+      }
+    ],
+    "html": "<h1>Religión — 2° Básico - Unidad: Unidad 0/1</h1>\n<p><strong>Ciclo:</strong> 2° Básico (Básica Baja (1°-2° Básico)) | <strong>Semana:</strong> 2 | <strong>Tiempo:</strong> 90 minutos<br />\n<strong>Pregunta Esencial:</strong> ¿Cómo comprendemos el misterio de El jardín de la Creación?</p>\n<hr />\n<h2>🎯 Objetivo de la Clase</h2>\n<p>Identificar la naturaleza como obra de Dios.</p>\n<hr />\n<h2>🕒 Secuencia Didáctica (90 min)</h2>\n<h3>┌─ INICIO (15 min)</h3>\n<p><strong>Rutina / Activación:</strong><br />\n- Oración inicial (ciclo litúrgico) y recuerdo de la clase anterior.<br />\n<strong>Pregunta Gatilladora:</strong><br />\n- <em>¿Qué sabemos sobre El jardín de la Creación?</em></p>\n<h3>├─ DESARROLLO (50 min)</h3>\n<p><strong>Metodología ABP / Trabajo Central:</strong><br />\n- <strong>[MOCK]</strong> Desarrollo generado por IA para: El jardín de la Creación<br />\nCurso: 2° Básico<br />\nEstructura: Videtur quod... Sed contra... Respondeo...<br />\n<strong>Agrupación:</strong> Individual y plenario.<br />\n<strong>Materiales:</strong> Ver sección Materiales abajo.</p>\n<h3>├─ CIERRE (15 min)</h3>\n<p><strong>Reflexión Guiada:</strong><br />\n- Síntesis en la pizarra de la verdad enseñada.<br />\n<strong>Metacognición:</strong><br />\n- <em>¿Qué aprendimos hoy? ¿Cómo lo conectamos con nuestro entorno?</em></p>\n<h3>└─ EVIDENCIA (10 min)</h3>\n<p><strong>📸 Bitácora / Registro:</strong><br />\n- El estudiante dibuja y el profesor o estudiante escribe el título.<br />\n<strong>Tipo de Evaluación:</strong> Formativa (participación y bitácora)</p>\n<hr />\n<h2>🔲 Cobertura MBE 2021 (Indicadores)</h2>\n<ul>\n<li>☑ <strong>Dominio A (Preparación):</strong> Planificación desafiante y coherente con el currículum.</li>\n<li>☑ <strong>Dominio B (Ambiente):</strong> Espacio seguro, rutinas claras e interacciones respetuosas.</li>\n<li>☑ <strong>Dominio C (Enseñanza):</strong> Estrategias activas (ABP) que promueven pensamiento crítico.</li>\n<li>☐ <strong>Dominio D (Responsabilidad):</strong> Recopilación de evidencia para reflexión pedagógica.</li>\n</ul>\n<hr />\n<p><em>Generado automáticamente por Antigravity - Sistema 2026</em></p>\n<hr />\n<h2>🖨️ Material Auto-Generado (listo para imprimir)</h2>\n<p>Biblia (Straubinger), cuaderno, pizarra.</p>",
+    "raw_md": "# Religión — 2° Básico - Unidad: Unidad 0/1\n**Ciclo:** 2° Básico (Básica Baja (1°-2° Básico)) | **Semana:** 2 | **Tiempo:** 90 minutos\n**Pregunta Esencial:** ¿Cómo comprendemos el misterio de El jardín de la Creación?\n\n---\n\n## 🎯 Objetivo de la Clase\nIdentificar la naturaleza como obra de Dios.\n\n---\n\n## 🕒 Secuencia Didáctica (90 min)\n\n### ┌─ INICIO (15 min)\n**Rutina / Activación:**\n- Oración inicial (ciclo litúrgico) y recuerdo de la clase anterior.\n**Pregunta Gatilladora:**\n- *¿Qué sabemos sobre El jardín de la Creación?*\n\n### ├─ DESARROLLO (50 min)\n**Metodología ABP / Trabajo Central:**\n- **[MOCK]** Desarrollo generado por IA para: El jardín de la Creación\nCurso: 2° Básico\nEstructura: Videtur quod... Sed contra... Respondeo...\n**Agrupación:** Individual y plenario.\n**Materiales:** Ver sección Materiales abajo.\n\n### ├─ CIERRE (15 min)\n**Reflexión Guiada:**\n- Síntesis en la pizarra de la verdad enseñada.\n**Metacognición:**\n- *¿Qué aprendimos hoy? ¿Cómo lo conectamos con nuestro entorno?*\n\n### └─ EVIDENCIA (10 min)\n**📸 Bitácora / Registro:**\n- El estudiante dibuja y el profesor o estudiante escribe el título.\n**Tipo de Evaluación:** Formativa (participación y bitácora)\n\n---\n\n## 🔲 Cobertura MBE 2021 (Indicadores)\n- [x] **Dominio A (Preparación):** Planificación desafiante y coherente con el currículum.\n- [x] **Dominio B (Ambiente):** Espacio seguro, rutinas claras e interacciones respetuosas.\n- [x] **Dominio C (Enseñanza):** Estrategias activas (ABP) que promueven pensamiento crítico.\n- [ ] **Dominio D (Responsabilidad):** Recopilación de evidencia para reflexión pedagógica.\n\n---\n*Generado automáticamente por Antigravity - Sistema 2026*\n\n\n---\n\n## 🖨️ Material Auto-Generado (listo para imprimir)\n\nBiblia (Straubinger), cuaderno, pizarra.\n"
+  },
+  {
+    "filename": "S2_REL_3basico.md",
+    "semana": "2",
+    "asignatura": "Religión",
+    "asignatura_code": "REL",
+    "curso": "3basico",
+    "titulo": "Religión — 3° Básico - Unidad: Unidad 0/1",
+    "objetivo": "Identificar a Dios como libertador de su pueblo.",
+    "mbe": {
+      "A": false,
+      "B": false,
+      "C": false,
+      "D": false
+    },
+    "materiales": [
+      {
+        "tipo": "basico",
+        "item": "Ver sección Materiales abajo",
+        "preparar": false
+      },
+      {
+        "tipo": "preparar",
+        "item": "📖 Pasajes: por definir",
+        "preparar": true
+      }
+    ],
+    "html": "<h1>Religión — 3° Básico - Unidad: Unidad 0/1</h1>\n<p><strong>Ciclo:</strong> 3° Básico (Básica Media (3°-4° Básico)) | <strong>Semana:</strong> 2 | <strong>Tiempo:</strong> 90 minutos<br />\n<strong>Pregunta Esencial:</strong> ¿Cómo comprendemos el misterio de Moisés y la liberación?</p>\n<hr />\n<h2>🎯 Objetivo de la Clase</h2>\n<p>Identificar a Dios como libertador de su pueblo.</p>\n<hr />\n<h2>🕒 Secuencia Didáctica (90 min)</h2>\n<h3>┌─ INICIO (15 min)</h3>\n<p><strong>Rutina / Activación:</strong><br />\n- Oración inicial (ciclo litúrgico) y recuerdo de la clase anterior.<br />\n<strong>Pregunta Gatilladora:</strong><br />\n- <em>¿Qué sabemos sobre Moisés y la liberación?</em></p>\n<h3>├─ DESARROLLO (50 min)</h3>\n<p><strong>Metodología ABP / Trabajo Central:</strong><br />\n- <strong>[MOCK]</strong> Desarrollo generado por IA para: Moisés y la liberación<br />\nCurso: 3° Básico<br />\nEstructura: Videtur quod... Sed contra... Respondeo...<br />\n<strong>Agrupación:</strong> Individual y plenario.<br />\n<strong>Materiales:</strong> Ver sección Materiales abajo.</p>\n<h3>├─ CIERRE (15 min)</h3>\n<p><strong>Reflexión Guiada:</strong><br />\n- Síntesis en la pizarra de la verdad enseñada.<br />\n<strong>Metacognición:</strong><br />\n- <em>¿Qué aprendimos hoy? ¿Cómo lo conectamos con nuestro entorno?</em></p>\n<h3>└─ EVIDENCIA (10 min)</h3>\n<p><strong>📸 Bitácora / Registro:</strong><br />\n- El estudiante toma la foto y escribe un párrafo corto (qué, cómo, cuándo).<br />\n<strong>Tipo de Evaluación:</strong> Formativa (participación y bitácora)</p>\n<hr />\n<h2>🔲 Cobertura MBE 2021 (Indicadores)</h2>\n<ul>\n<li>☑ <strong>Dominio A (Preparación):</strong> Planificación desafiante y coherente con el currículum.</li>\n<li>☑ <strong>Dominio B (Ambiente):</strong> Espacio seguro, rutinas claras e interacciones respetuosas.</li>\n<li>☑ <strong>Dominio C (Enseñanza):</strong> Estrategias activas (ABP) que promueven pensamiento crítico.</li>\n<li>☐ <strong>Dominio D (Responsabilidad):</strong> Recopilación de evidencia para reflexión pedagógica.</li>\n</ul>\n<hr />\n<p><em>Generado automáticamente por Antigravity - Sistema 2026</em></p>\n<hr />\n<h2>🖨️ Material Auto-Generado (listo para imprimir)</h2>\n<p>Biblia (Straubinger), cuaderno, pizarra.</p>",
+    "raw_md": "# Religión — 3° Básico - Unidad: Unidad 0/1\n**Ciclo:** 3° Básico (Básica Media (3°-4° Básico)) | **Semana:** 2 | **Tiempo:** 90 minutos\n**Pregunta Esencial:** ¿Cómo comprendemos el misterio de Moisés y la liberación?\n\n---\n\n## 🎯 Objetivo de la Clase\nIdentificar a Dios como libertador de su pueblo.\n\n---\n\n## 🕒 Secuencia Didáctica (90 min)\n\n### ┌─ INICIO (15 min)\n**Rutina / Activación:**\n- Oración inicial (ciclo litúrgico) y recuerdo de la clase anterior.\n**Pregunta Gatilladora:**\n- *¿Qué sabemos sobre Moisés y la liberación?*\n\n### ├─ DESARROLLO (50 min)\n**Metodología ABP / Trabajo Central:**\n- **[MOCK]** Desarrollo generado por IA para: Moisés y la liberación\nCurso: 3° Básico\nEstructura: Videtur quod... Sed contra... Respondeo...\n**Agrupación:** Individual y plenario.\n**Materiales:** Ver sección Materiales abajo.\n\n### ├─ CIERRE (15 min)\n**Reflexión Guiada:**\n- Síntesis en la pizarra de la verdad enseñada.\n**Metacognición:**\n- *¿Qué aprendimos hoy? ¿Cómo lo conectamos con nuestro entorno?*\n\n### └─ EVIDENCIA (10 min)\n**📸 Bitácora / Registro:**\n- El estudiante toma la foto y escribe un párrafo corto (qué, cómo, cuándo).\n**Tipo de Evaluación:** Formativa (participación y bitácora)\n\n---\n\n## 🔲 Cobertura MBE 2021 (Indicadores)\n- [x] **Dominio A (Preparación):** Planificación desafiante y coherente con el currículum.\n- [x] **Dominio B (Ambiente):** Espacio seguro, rutinas claras e interacciones respetuosas.\n- [x] **Dominio C (Enseñanza):** Estrategias activas (ABP) que promueven pensamiento crítico.\n- [ ] **Dominio D (Responsabilidad):** Recopilación de evidencia para reflexión pedagógica.\n\n---\n*Generado automáticamente por Antigravity - Sistema 2026*\n\n\n---\n\n## 🖨️ Material Auto-Generado (listo para imprimir)\n\nBiblia (Straubinger), cuaderno, pizarra.\n"
+  },
+  {
+    "filename": "S2_REL_4basico.md",
+    "semana": "2",
+    "asignatura": "Religión",
+    "asignatura_code": "REL",
+    "curso": "4basico",
+    "titulo": "Religión — 4° Básico - Unidad: Unidad 0/1",
+    "objetivo": "Identificar a Dios como libertador de su pueblo.",
+    "mbe": {
+      "A": false,
+      "B": false,
+      "C": false,
+      "D": false
+    },
+    "materiales": [
+      {
+        "tipo": "basico",
+        "item": "Ver sección Materiales abajo",
+        "preparar": false
+      },
+      {
+        "tipo": "preparar",
+        "item": "📖 Pasajes: por definir",
+        "preparar": true
+      }
+    ],
+    "html": "<h1>Religión — 4° Básico - Unidad: Unidad 0/1</h1>\n<p><strong>Ciclo:</strong> 4° Básico (Básica Media (3°-4° Básico)) | <strong>Semana:</strong> 2 | <strong>Tiempo:</strong> 90 minutos<br />\n<strong>Pregunta Esencial:</strong> ¿Cómo comprendemos el misterio de Moisés y la liberación?</p>\n<hr />\n<h2>🎯 Objetivo de la Clase</h2>\n<p>Identificar a Dios como libertador de su pueblo.</p>\n<hr />\n<h2>🕒 Secuencia Didáctica (90 min)</h2>\n<h3>┌─ INICIO (15 min)</h3>\n<p><strong>Rutina / Activación:</strong><br />\n- Oración inicial (ciclo litúrgico) y recuerdo de la clase anterior.<br />\n<strong>Pregunta Gatilladora:</strong><br />\n- <em>¿Qué sabemos sobre Moisés y la liberación?</em></p>\n<h3>├─ DESARROLLO (50 min)</h3>\n<p><strong>Metodología ABP / Trabajo Central:</strong><br />\n- <strong>[MOCK]</strong> Desarrollo generado por IA para: Moisés y la liberación<br />\nCurso: 4° Básico<br />\nEstructura: Videtur quod... Sed contra... Respondeo...<br />\n<strong>Agrupación:</strong> Individual y plenario.<br />\n<strong>Materiales:</strong> Ver sección Materiales abajo.</p>\n<h3>├─ CIERRE (15 min)</h3>\n<p><strong>Reflexión Guiada:</strong><br />\n- Síntesis en la pizarra de la verdad enseñada.<br />\n<strong>Metacognición:</strong><br />\n- <em>¿Qué aprendimos hoy? ¿Cómo lo conectamos con nuestro entorno?</em></p>\n<h3>└─ EVIDENCIA (10 min)</h3>\n<p><strong>📸 Bitácora / Registro:</strong><br />\n- El estudiante toma la foto y escribe un párrafo corto (qué, cómo, cuándo).<br />\n<strong>Tipo de Evaluación:</strong> Formativa (participación y bitácora)</p>\n<hr />\n<h2>🔲 Cobertura MBE 2021 (Indicadores)</h2>\n<ul>\n<li>☑ <strong>Dominio A (Preparación):</strong> Planificación desafiante y coherente con el currículum.</li>\n<li>☑ <strong>Dominio B (Ambiente):</strong> Espacio seguro, rutinas claras e interacciones respetuosas.</li>\n<li>☑ <strong>Dominio C (Enseñanza):</strong> Estrategias activas (ABP) que promueven pensamiento crítico.</li>\n<li>☐ <strong>Dominio D (Responsabilidad):</strong> Recopilación de evidencia para reflexión pedagógica.</li>\n</ul>\n<hr />\n<p><em>Generado automáticamente por Antigravity - Sistema 2026</em></p>\n<hr />\n<h2>🖨️ Material Auto-Generado (listo para imprimir)</h2>\n<p>Biblia (Straubinger), cuaderno, pizarra.</p>",
+    "raw_md": "# Religión — 4° Básico - Unidad: Unidad 0/1\n**Ciclo:** 4° Básico (Básica Media (3°-4° Básico)) | **Semana:** 2 | **Tiempo:** 90 minutos\n**Pregunta Esencial:** ¿Cómo comprendemos el misterio de Moisés y la liberación?\n\n---\n\n## 🎯 Objetivo de la Clase\nIdentificar a Dios como libertador de su pueblo.\n\n---\n\n## 🕒 Secuencia Didáctica (90 min)\n\n### ┌─ INICIO (15 min)\n**Rutina / Activación:**\n- Oración inicial (ciclo litúrgico) y recuerdo de la clase anterior.\n**Pregunta Gatilladora:**\n- *¿Qué sabemos sobre Moisés y la liberación?*\n\n### ├─ DESARROLLO (50 min)\n**Metodología ABP / Trabajo Central:**\n- **[MOCK]** Desarrollo generado por IA para: Moisés y la liberación\nCurso: 4° Básico\nEstructura: Videtur quod... Sed contra... Respondeo...\n**Agrupación:** Individual y plenario.\n**Materiales:** Ver sección Materiales abajo.\n\n### ├─ CIERRE (15 min)\n**Reflexión Guiada:**\n- Síntesis en la pizarra de la verdad enseñada.\n**Metacognición:**\n- *¿Qué aprendimos hoy? ¿Cómo lo conectamos con nuestro entorno?*\n\n### └─ EVIDENCIA (10 min)\n**📸 Bitácora / Registro:**\n- El estudiante toma la foto y escribe un párrafo corto (qué, cómo, cuándo).\n**Tipo de Evaluación:** Formativa (participación y bitácora)\n\n---\n\n## 🔲 Cobertura MBE 2021 (Indicadores)\n- [x] **Dominio A (Preparación):** Planificación desafiante y coherente con el currículum.\n- [x] **Dominio B (Ambiente):** Espacio seguro, rutinas claras e interacciones respetuosas.\n- [x] **Dominio C (Enseñanza):** Estrategias activas (ABP) que promueven pensamiento crítico.\n- [ ] **Dominio D (Responsabilidad):** Recopilación de evidencia para reflexión pedagógica.\n\n---\n*Generado automáticamente por Antigravity - Sistema 2026*\n\n\n---\n\n## 🖨️ Material Auto-Generado (listo para imprimir)\n\nBiblia (Straubinger), cuaderno, pizarra.\n"
+  },
+  {
+    "filename": "S2_REL_5basico.md",
+    "semana": "2",
+    "asignatura": "Religión",
+    "asignatura_code": "REL",
+    "curso": "5basico",
+    "titulo": "Religión — 5° Básico - Unidad: Unidad 0/1",
+    "objetivo": "Identificar el rol de los profetas.",
+    "mbe": {
+      "A": false,
+      "B": false,
+      "C": false,
+      "D": false
+    },
+    "materiales": [
+      {
+        "tipo": "basico",
+        "item": "Ver sección Materiales abajo",
+        "preparar": false
+      },
+      {
+        "tipo": "preparar",
+        "item": "📖 Pasajes: por definir",
+        "preparar": true
+      }
+    ],
+    "html": "<h1>Religión — 5° Básico - Unidad: Unidad 0/1</h1>\n<p><strong>Ciclo:</strong> 5° Básico (Básico Intermedio (5°-6° Básico)) | <strong>Semana:</strong> 2 | <strong>Tiempo:</strong> 90 minutos<br />\n<strong>Pregunta Esencial:</strong> ¿Cómo comprendemos el misterio de Profetas: La voz de Dios en el mundo?</p>\n<hr />\n<h2>🎯 Objetivo de la Clase</h2>\n<p>Identificar el rol de los profetas.</p>\n<hr />\n<h2>🕒 Secuencia Didáctica (90 min)</h2>\n<h3>┌─ INICIO (15 min)</h3>\n<p><strong>Rutina / Activación:</strong><br />\n- Oración inicial (ciclo litúrgico) y recuerdo de la clase anterior.<br />\n<strong>Pregunta Gatilladora:</strong><br />\n- <em>¿Qué sabemos sobre Profetas: La voz de Dios en el mundo?</em></p>\n<h3>├─ DESARROLLO (50 min)</h3>\n<p><strong>Metodología ABP / Trabajo Central:</strong><br />\n- <strong>[MOCK]</strong> Desarrollo generado por IA para: Profetas: La voz de Dios en el mundo<br />\nCurso: 5° Básico<br />\nEstructura: Videtur quod... Sed contra... Respondeo...<br />\n<strong>Agrupación:</strong> Individual y plenario.<br />\n<strong>Materiales:</strong> Ver sección Materiales abajo.</p>\n<h3>├─ CIERRE (15 min)</h3>\n<p><strong>Reflexión Guiada:</strong><br />\n- Síntesis en la pizarra de la verdad enseñada.<br />\n<strong>Metacognición:</strong><br />\n- <em>¿Qué aprendimos hoy? ¿Cómo lo conectamos con nuestro entorno?</em></p>\n<h3>└─ EVIDENCIA (10 min)</h3>\n<p><strong>📸 Bitácora / Registro:</strong><br />\n- Reportaje fotográfico (serie de fotos) con epígrafes críticos.<br />\n<strong>Tipo de Evaluación:</strong> Formativa (participación y bitácora)</p>\n<hr />\n<h2>🔲 Cobertura MBE 2021 (Indicadores)</h2>\n<ul>\n<li>☑ <strong>Dominio A (Preparación):</strong> Planificación desafiante y coherente con el currículum.</li>\n<li>☑ <strong>Dominio B (Ambiente):</strong> Espacio seguro, rutinas claras e interacciones respetuosas.</li>\n<li>☑ <strong>Dominio C (Enseñanza):</strong> Estrategias activas (ABP) que promueven pensamiento crítico.</li>\n<li>☐ <strong>Dominio D (Responsabilidad):</strong> Recopilación de evidencia para reflexión pedagógica.</li>\n</ul>\n<hr />\n<p><em>Generado automáticamente por Antigravity - Sistema 2026</em></p>\n<hr />\n<h2>🖨️ Material Auto-Generado (listo para imprimir)</h2>\n<p>Biblia (Straubinger), cuaderno, pizarra.</p>",
+    "raw_md": "# Religión — 5° Básico - Unidad: Unidad 0/1\n**Ciclo:** 5° Básico (Básico Intermedio (5°-6° Básico)) | **Semana:** 2 | **Tiempo:** 90 minutos\n**Pregunta Esencial:** ¿Cómo comprendemos el misterio de Profetas: La voz de Dios en el mundo?\n\n---\n\n## 🎯 Objetivo de la Clase\nIdentificar el rol de los profetas.\n\n---\n\n## 🕒 Secuencia Didáctica (90 min)\n\n### ┌─ INICIO (15 min)\n**Rutina / Activación:**\n- Oración inicial (ciclo litúrgico) y recuerdo de la clase anterior.\n**Pregunta Gatilladora:**\n- *¿Qué sabemos sobre Profetas: La voz de Dios en el mundo?*\n\n### ├─ DESARROLLO (50 min)\n**Metodología ABP / Trabajo Central:**\n- **[MOCK]** Desarrollo generado por IA para: Profetas: La voz de Dios en el mundo\nCurso: 5° Básico\nEstructura: Videtur quod... Sed contra... Respondeo...\n**Agrupación:** Individual y plenario.\n**Materiales:** Ver sección Materiales abajo.\n\n### ├─ CIERRE (15 min)\n**Reflexión Guiada:**\n- Síntesis en la pizarra de la verdad enseñada.\n**Metacognición:**\n- *¿Qué aprendimos hoy? ¿Cómo lo conectamos con nuestro entorno?*\n\n### └─ EVIDENCIA (10 min)\n**📸 Bitácora / Registro:**\n- Reportaje fotográfico (serie de fotos) con epígrafes críticos.\n**Tipo de Evaluación:** Formativa (participación y bitácora)\n\n---\n\n## 🔲 Cobertura MBE 2021 (Indicadores)\n- [x] **Dominio A (Preparación):** Planificación desafiante y coherente con el currículum.\n- [x] **Dominio B (Ambiente):** Espacio seguro, rutinas claras e interacciones respetuosas.\n- [x] **Dominio C (Enseñanza):** Estrategias activas (ABP) que promueven pensamiento crítico.\n- [ ] **Dominio D (Responsabilidad):** Recopilación de evidencia para reflexión pedagógica.\n\n---\n*Generado automáticamente por Antigravity - Sistema 2026*\n\n\n---\n\n## 🖨️ Material Auto-Generado (listo para imprimir)\n\nBiblia (Straubinger), cuaderno, pizarra.\n"
+  },
+  {
+    "filename": "S2_REL_6basico.md",
+    "semana": "2",
+    "asignatura": "Religión",
+    "asignatura_code": "REL",
+    "curso": "6basico",
+    "titulo": "Religión — 6° Básico - Unidad: Unidad 0/1",
+    "objetivo": "Identificar el rol de los profetas.",
+    "mbe": {
+      "A": false,
+      "B": false,
+      "C": false,
+      "D": false
+    },
+    "materiales": [
+      {
+        "tipo": "basico",
+        "item": "Ver sección Materiales abajo",
+        "preparar": false
+      },
+      {
+        "tipo": "preparar",
+        "item": "📖 Pasajes: por definir",
+        "preparar": true
+      }
+    ],
+    "html": "<h1>Religión — 6° Básico - Unidad: Unidad 0/1</h1>\n<p><strong>Ciclo:</strong> 6° Básico (Básico Intermedio (5°-6° Básico)) | <strong>Semana:</strong> 2 | <strong>Tiempo:</strong> 90 minutos<br />\n<strong>Pregunta Esencial:</strong> ¿Cómo comprendemos el misterio de Profetas: La voz de Dios en el mundo?</p>\n<hr />\n<h2>🎯 Objetivo de la Clase</h2>\n<p>Identificar el rol de los profetas.</p>\n<hr />\n<h2>🕒 Secuencia Didáctica (90 min)</h2>\n<h3>┌─ INICIO (15 min)</h3>\n<p><strong>Rutina / Activación:</strong><br />\n- Oración inicial (ciclo litúrgico) y recuerdo de la clase anterior.<br />\n<strong>Pregunta Gatilladora:</strong><br />\n- <em>¿Qué sabemos sobre Profetas: La voz de Dios en el mundo?</em></p>\n<h3>├─ DESARROLLO (50 min)</h3>\n<p><strong>Metodología ABP / Trabajo Central:</strong><br />\n- <strong>[MOCK]</strong> Desarrollo generado por IA para: Profetas: La voz de Dios en el mundo<br />\nCurso: 6° Básico<br />\nEstructura: Videtur quod... Sed contra... Respondeo...<br />\n<strong>Agrupación:</strong> Individual y plenario.<br />\n<strong>Materiales:</strong> Ver sección Materiales abajo.</p>\n<h3>├─ CIERRE (15 min)</h3>\n<p><strong>Reflexión Guiada:</strong><br />\n- Síntesis en la pizarra de la verdad enseñada.<br />\n<strong>Metacognición:</strong><br />\n- <em>¿Qué aprendimos hoy? ¿Cómo lo conectamos con nuestro entorno?</em></p>\n<h3>└─ EVIDENCIA (10 min)</h3>\n<p><strong>📸 Bitácora / Registro:</strong><br />\n- Reportaje fotográfico (serie de fotos) con epígrafes críticos.<br />\n<strong>Tipo de Evaluación:</strong> Formativa (participación y bitácora)</p>\n<hr />\n<h2>🔲 Cobertura MBE 2021 (Indicadores)</h2>\n<ul>\n<li>☑ <strong>Dominio A (Preparación):</strong> Planificación desafiante y coherente con el currículum.</li>\n<li>☑ <strong>Dominio B (Ambiente):</strong> Espacio seguro, rutinas claras e interacciones respetuosas.</li>\n<li>☑ <strong>Dominio C (Enseñanza):</strong> Estrategias activas (ABP) que promueven pensamiento crítico.</li>\n<li>☐ <strong>Dominio D (Responsabilidad):</strong> Recopilación de evidencia para reflexión pedagógica.</li>\n</ul>\n<hr />\n<p><em>Generado automáticamente por Antigravity - Sistema 2026</em></p>\n<hr />\n<h2>🖨️ Material Auto-Generado (listo para imprimir)</h2>\n<p>Biblia (Straubinger), cuaderno, pizarra.</p>",
+    "raw_md": "# Religión — 6° Básico - Unidad: Unidad 0/1\n**Ciclo:** 6° Básico (Básico Intermedio (5°-6° Básico)) | **Semana:** 2 | **Tiempo:** 90 minutos\n**Pregunta Esencial:** ¿Cómo comprendemos el misterio de Profetas: La voz de Dios en el mundo?\n\n---\n\n## 🎯 Objetivo de la Clase\nIdentificar el rol de los profetas.\n\n---\n\n## 🕒 Secuencia Didáctica (90 min)\n\n### ┌─ INICIO (15 min)\n**Rutina / Activación:**\n- Oración inicial (ciclo litúrgico) y recuerdo de la clase anterior.\n**Pregunta Gatilladora:**\n- *¿Qué sabemos sobre Profetas: La voz de Dios en el mundo?*\n\n### ├─ DESARROLLO (50 min)\n**Metodología ABP / Trabajo Central:**\n- **[MOCK]** Desarrollo generado por IA para: Profetas: La voz de Dios en el mundo\nCurso: 6° Básico\nEstructura: Videtur quod... Sed contra... Respondeo...\n**Agrupación:** Individual y plenario.\n**Materiales:** Ver sección Materiales abajo.\n\n### ├─ CIERRE (15 min)\n**Reflexión Guiada:**\n- Síntesis en la pizarra de la verdad enseñada.\n**Metacognición:**\n- *¿Qué aprendimos hoy? ¿Cómo lo conectamos con nuestro entorno?*\n\n### └─ EVIDENCIA (10 min)\n**📸 Bitácora / Registro:**\n- Reportaje fotográfico (serie de fotos) con epígrafes críticos.\n**Tipo de Evaluación:** Formativa (participación y bitácora)\n\n---\n\n## 🔲 Cobertura MBE 2021 (Indicadores)\n- [x] **Dominio A (Preparación):** Planificación desafiante y coherente con el currículum.\n- [x] **Dominio B (Ambiente):** Espacio seguro, rutinas claras e interacciones respetuosas.\n- [x] **Dominio C (Enseñanza):** Estrategias activas (ABP) que promueven pensamiento crítico.\n- [ ] **Dominio D (Responsabilidad):** Recopilación de evidencia para reflexión pedagógica.\n\n---\n*Generado automáticamente por Antigravity - Sistema 2026*\n\n\n---\n\n## 🖨️ Material Auto-Generado (listo para imprimir)\n\nBiblia (Straubinger), cuaderno, pizarra.\n"
+  },
+  {
+    "filename": "S2_REL_7basico.md",
+    "semana": "2",
+    "asignatura": "Religión",
+    "asignatura_code": "REL",
+    "curso": "7basico",
+    "titulo": "Religión — 7° Básico - Unidad: Unidad 0/1",
+    "objetivo": "Relacionar la fe con el compromiso social.",
+    "mbe": {
+      "A": false,
+      "B": false,
+      "C": false,
+      "D": false
+    },
+    "materiales": [
+      {
+        "tipo": "basico",
+        "item": "Ver sección Materiales abajo",
+        "preparar": false
+      },
+      {
+        "tipo": "preparar",
+        "item": "📷 Preparar fotos de: por definir",
+        "preparar": true
+      },
+      {
+        "tipo": "preparar",
+        "item": "📖 Pasajes: por definir",
+        "preparar": true
+      }
+    ],
+    "html": "<h1>Religión — 7° Básico - Unidad: Unidad 0/1</h1>\n<p><strong>Ciclo:</strong> 7° Básico (Básico Superior (7°-8° Básico)) | <strong>Semana:</strong> 2 | <strong>Tiempo:</strong> 90 minutos<br />\n<strong>Pregunta Esencial:</strong> ¿Cómo comprendemos el misterio de Justicia y Caridad en los profetas?</p>\n<hr />\n<h2>🎯 Objetivo de la Clase</h2>\n<p>Relacionar la fe con el compromiso social.</p>\n<hr />\n<h2>🕒 Secuencia Didáctica (90 min)</h2>\n<h3>┌─ INICIO (15 min)</h3>\n<p><strong>Rutina / Activación:</strong><br />\n- Oración inicial (ciclo litúrgico) y recuerdo de la clase anterior.<br />\n<strong>Pregunta Gatilladora:</strong><br />\n- <em>¿Qué sabemos sobre Justicia y Caridad en los profetas?</em></p>\n<h3>├─ DESARROLLO (50 min)</h3>\n<p><strong>Metodología ABP / Trabajo Central:</strong><br />\n- <strong>[MOCK]</strong> Desarrollo generado por IA para: Justicia y Caridad en los profetas<br />\nCurso: 7° Básico<br />\nEstructura: Videtur quod... Sed contra... Respondeo...<br />\n<strong>Agrupación:</strong> Individual y plenario.<br />\n<strong>Materiales:</strong> Ver sección Materiales abajo.</p>\n<h3>├─ CIERRE (15 min)</h3>\n<p><strong>Reflexión Guiada:</strong><br />\n- Síntesis en la pizarra de la verdad enseñada.<br />\n<strong>Metacognición:</strong><br />\n- <em>¿Qué aprendimos hoy? ¿Cómo lo conectamos con nuestro entorno?</em></p>\n<h3>└─ EVIDENCIA (10 min)</h3>\n<p><strong>📸 Bitácora / Registro:</strong><br />\n- Ensayo visual. Fotografía abstracta/simbólica con justificación filosófica.<br />\n<strong>Tipo de Evaluación:</strong> Formativa (participación y bitácora)</p>\n<hr />\n<h2>🔲 Cobertura MBE 2021 (Indicadores)</h2>\n<ul>\n<li>☑ <strong>Dominio A (Preparación):</strong> Planificación desafiante y coherente con el currículum.</li>\n<li>☑ <strong>Dominio B (Ambiente):</strong> Espacio seguro, rutinas claras e interacciones respetuosas.</li>\n<li>☑ <strong>Dominio C (Enseñanza):</strong> Estrategias activas (ABP) que promueven pensamiento crítico.</li>\n<li>☐ <strong>Dominio D (Responsabilidad):</strong> Recopilación de evidencia para reflexión pedagógica.</li>\n</ul>\n<hr />\n<p><em>Generado automáticamente por Antigravity - Sistema 2026</em></p>\n<hr />\n<h2>🖨️ Material Auto-Generado (listo para imprimir)</h2>\n<p>Biblia (Straubinger), cuaderno, pizarra.</p>",
+    "raw_md": "# Religión — 7° Básico - Unidad: Unidad 0/1\n**Ciclo:** 7° Básico (Básico Superior (7°-8° Básico)) | **Semana:** 2 | **Tiempo:** 90 minutos\n**Pregunta Esencial:** ¿Cómo comprendemos el misterio de Justicia y Caridad en los profetas?\n\n---\n\n## 🎯 Objetivo de la Clase\nRelacionar la fe con el compromiso social.\n\n---\n\n## 🕒 Secuencia Didáctica (90 min)\n\n### ┌─ INICIO (15 min)\n**Rutina / Activación:**\n- Oración inicial (ciclo litúrgico) y recuerdo de la clase anterior.\n**Pregunta Gatilladora:**\n- *¿Qué sabemos sobre Justicia y Caridad en los profetas?*\n\n### ├─ DESARROLLO (50 min)\n**Metodología ABP / Trabajo Central:**\n- **[MOCK]** Desarrollo generado por IA para: Justicia y Caridad en los profetas\nCurso: 7° Básico\nEstructura: Videtur quod... Sed contra... Respondeo...\n**Agrupación:** Individual y plenario.\n**Materiales:** Ver sección Materiales abajo.\n\n### ├─ CIERRE (15 min)\n**Reflexión Guiada:**\n- Síntesis en la pizarra de la verdad enseñada.\n**Metacognición:**\n- *¿Qué aprendimos hoy? ¿Cómo lo conectamos con nuestro entorno?*\n\n### └─ EVIDENCIA (10 min)\n**📸 Bitácora / Registro:**\n- Ensayo visual. Fotografía abstracta/simbólica con justificación filosófica.\n**Tipo de Evaluación:** Formativa (participación y bitácora)\n\n---\n\n## 🔲 Cobertura MBE 2021 (Indicadores)\n- [x] **Dominio A (Preparación):** Planificación desafiante y coherente con el currículum.\n- [x] **Dominio B (Ambiente):** Espacio seguro, rutinas claras e interacciones respetuosas.\n- [x] **Dominio C (Enseñanza):** Estrategias activas (ABP) que promueven pensamiento crítico.\n- [ ] **Dominio D (Responsabilidad):** Recopilación de evidencia para reflexión pedagógica.\n\n---\n*Generado automáticamente por Antigravity - Sistema 2026*\n\n\n---\n\n## 🖨️ Material Auto-Generado (listo para imprimir)\n\nBiblia (Straubinger), cuaderno, pizarra.\n"
+  },
+  {
+    "filename": "S2_REL_8basico.md",
+    "semana": "2",
+    "asignatura": "Religión",
+    "asignatura_code": "REL",
+    "curso": "8basico",
+    "titulo": "Religión — 8° Básico - Unidad: Unidad 0/1",
+    "objetivo": "Relacionar la fe con el compromiso social.",
+    "mbe": {
+      "A": false,
+      "B": false,
+      "C": false,
+      "D": false
+    },
+    "materiales": [
+      {
+        "tipo": "basico",
+        "item": "Ver sección Materiales abajo",
+        "preparar": false
+      },
+      {
+        "tipo": "preparar",
+        "item": "📷 Preparar fotos de: por definir",
+        "preparar": true
+      },
+      {
+        "tipo": "preparar",
+        "item": "📖 Pasajes: por definir",
+        "preparar": true
+      }
+    ],
+    "html": "<h1>Religión — 8° Básico - Unidad: Unidad 0/1</h1>\n<p><strong>Ciclo:</strong> 8° Básico (Básico Superior (7°-8° Básico)) | <strong>Semana:</strong> 2 | <strong>Tiempo:</strong> 90 minutos<br />\n<strong>Pregunta Esencial:</strong> ¿Cómo comprendemos el misterio de Justicia y Caridad en los profetas?</p>\n<hr />\n<h2>🎯 Objetivo de la Clase</h2>\n<p>Relacionar la fe con el compromiso social.</p>\n<hr />\n<h2>🕒 Secuencia Didáctica (90 min)</h2>\n<h3>┌─ INICIO (15 min)</h3>\n<p><strong>Rutina / Activación:</strong><br />\n- Oración inicial (ciclo litúrgico) y recuerdo de la clase anterior.<br />\n<strong>Pregunta Gatilladora:</strong><br />\n- <em>¿Qué sabemos sobre Justicia y Caridad en los profetas?</em></p>\n<h3>├─ DESARROLLO (50 min)</h3>\n<p><strong>Metodología ABP / Trabajo Central:</strong><br />\n- <strong>[MOCK]</strong> Desarrollo generado por IA para: Justicia y Caridad en los profetas<br />\nCurso: 8° Básico<br />\nEstructura: Videtur quod... Sed contra... Respondeo...<br />\n<strong>Agrupación:</strong> Individual y plenario.<br />\n<strong>Materiales:</strong> Ver sección Materiales abajo.</p>\n<h3>├─ CIERRE (15 min)</h3>\n<p><strong>Reflexión Guiada:</strong><br />\n- Síntesis en la pizarra de la verdad enseñada.<br />\n<strong>Metacognición:</strong><br />\n- <em>¿Qué aprendimos hoy? ¿Cómo lo conectamos con nuestro entorno?</em></p>\n<h3>└─ EVIDENCIA (10 min)</h3>\n<p><strong>📸 Bitácora / Registro:</strong><br />\n- Ensayo visual. Fotografía abstracta/simbólica con justificación filosófica.<br />\n<strong>Tipo de Evaluación:</strong> Formativa (participación y bitácora)</p>\n<hr />\n<h2>🔲 Cobertura MBE 2021 (Indicadores)</h2>\n<ul>\n<li>☑ <strong>Dominio A (Preparación):</strong> Planificación desafiante y coherente con el currículum.</li>\n<li>☑ <strong>Dominio B (Ambiente):</strong> Espacio seguro, rutinas claras e interacciones respetuosas.</li>\n<li>☑ <strong>Dominio C (Enseñanza):</strong> Estrategias activas (ABP) que promueven pensamiento crítico.</li>\n<li>☐ <strong>Dominio D (Responsabilidad):</strong> Recopilación de evidencia para reflexión pedagógica.</li>\n</ul>\n<hr />\n<p><em>Generado automáticamente por Antigravity - Sistema 2026</em></p>\n<hr />\n<h2>🖨️ Material Auto-Generado (listo para imprimir)</h2>\n<p>Biblia (Straubinger), cuaderno, pizarra.</p>",
+    "raw_md": "# Religión — 8° Básico - Unidad: Unidad 0/1\n**Ciclo:** 8° Básico (Básico Superior (7°-8° Básico)) | **Semana:** 2 | **Tiempo:** 90 minutos\n**Pregunta Esencial:** ¿Cómo comprendemos el misterio de Justicia y Caridad en los profetas?\n\n---\n\n## 🎯 Objetivo de la Clase\nRelacionar la fe con el compromiso social.\n\n---\n\n## 🕒 Secuencia Didáctica (90 min)\n\n### ┌─ INICIO (15 min)\n**Rutina / Activación:**\n- Oración inicial (ciclo litúrgico) y recuerdo de la clase anterior.\n**Pregunta Gatilladora:**\n- *¿Qué sabemos sobre Justicia y Caridad en los profetas?*\n\n### ├─ DESARROLLO (50 min)\n**Metodología ABP / Trabajo Central:**\n- **[MOCK]** Desarrollo generado por IA para: Justicia y Caridad en los profetas\nCurso: 8° Básico\nEstructura: Videtur quod... Sed contra... Respondeo...\n**Agrupación:** Individual y plenario.\n**Materiales:** Ver sección Materiales abajo.\n\n### ├─ CIERRE (15 min)\n**Reflexión Guiada:**\n- Síntesis en la pizarra de la verdad enseñada.\n**Metacognición:**\n- *¿Qué aprendimos hoy? ¿Cómo lo conectamos con nuestro entorno?*\n\n### └─ EVIDENCIA (10 min)\n**📸 Bitácora / Registro:**\n- Ensayo visual. Fotografía abstracta/simbólica con justificación filosófica.\n**Tipo de Evaluación:** Formativa (participación y bitácora)\n\n---\n\n## 🔲 Cobertura MBE 2021 (Indicadores)\n- [x] **Dominio A (Preparación):** Planificación desafiante y coherente con el currículum.\n- [x] **Dominio B (Ambiente):** Espacio seguro, rutinas claras e interacciones respetuosas.\n- [x] **Dominio C (Enseñanza):** Estrategias activas (ABP) que promueven pensamiento crítico.\n- [ ] **Dominio D (Responsabilidad):** Recopilación de evidencia para reflexión pedagógica.\n\n---\n*Generado automáticamente por Antigravity - Sistema 2026*\n\n\n---\n\n## 🖨️ Material Auto-Generado (listo para imprimir)\n\nBiblia (Straubinger), cuaderno, pizarra.\n"
+  },
+  {
+    "filename": "S3_PAT_1basico.md",
+    "semana": "3",
+    "asignatura": "Patrimonio",
+    "asignatura_code": "PAT",
+    "curso": "1basico",
+    "titulo": "Patrimonio — 1° Básico - Unidad: Unidad 1: Identidad y Territorio",
+    "objetivo": "Observar elementos del entorno en el trayecto diario.",
+    "mbe": {
+      "A": false,
+      "B": false,
+      "C": false,
+      "D": false
+    },
+    "materiales": [
+      {
+        "tipo": "basico",
+        "item": "Ver sección Materiales abajo",
+        "preparar": false
+      },
+      {
+        "tipo": "preparar",
+        "item": "📖 Pasajes: por definir",
+        "preparar": true
+      },
+      {
+        "tipo": "preparar",
+        "item": "📸 Registro para bitácora fotográfica",
+        "preparar": true
+      }
+    ],
+    "html": "<h1>Patrimonio — 1° Básico - Unidad: Unidad 1: Identidad y Territorio</h1>\n<p><strong>Ciclo:</strong> 1° Básico (Básica Baja (1°-2° Básico)) | <strong>Semana:</strong> 3 | <strong>Tiempo:</strong> 90 minutos<br />\n<strong>Pregunta Esencial:</strong> ¿Cómo comprendemos el misterio de El camino a la escuela: Paisajes cotidianos?</p>\n<hr />\n<h2>🎯 Objetivo de la Clase</h2>\n<p>Observar elementos del entorno en el trayecto diario.</p>\n<hr />\n<h2>🕒 Secuencia Didáctica (90 min)</h2>\n<h3>┌─ INICIO (15 min)</h3>\n<p><strong>Rutina / Activación:</strong><br />\n- Oración inicial (ciclo litúrgico) y recuerdo de la clase anterior.<br />\n<strong>Pregunta Gatilladora:</strong><br />\n- <em>¿Qué sabemos sobre El camino a la escuela: Paisajes cotidianos?</em></p>\n<h3>├─ DESARROLLO (50 min)</h3>\n<p><strong>Metodología ABP / Trabajo Central:</strong><br />\n- <strong>Actividad de Patrimonio para 1° Básico:</strong> El camino a la escuela: Paisajes cotidianos</p>\n<p>Actividad ABP diferenciada para 6-7 años: Actividades concretas: dibujar, colorear, cantar, escuchar cuentos. Frases muy cortas. Vocabulario simple.<br />\n<strong>Agrupación:</strong> Individual y plenario.<br />\n<strong>Materiales:</strong> Ver sección Materiales abajo.</p>\n<h3>├─ CIERRE (15 min)</h3>\n<p><strong>Reflexión Guiada:</strong><br />\n- Síntesis en la pizarra de la verdad enseñada.<br />\n<strong>Metacognición:</strong><br />\n- <em>¿Qué aprendimos hoy? ¿Cómo lo conectamos con nuestro entorno?</em></p>\n<h3>└─ EVIDENCIA (10 min)</h3>\n<p><strong>📸 Bitácora / Registro:</strong><br />\n- El estudiante dibuja y el profesor o estudiante escribe el título.<br />\n<strong>Tipo de Evaluación:</strong> Formativa (participación y bitácora)</p>\n<hr />\n<h2>🔲 Cobertura MBE 2021 (Indicadores)</h2>\n<ul>\n<li>☑ <strong>Dominio A (Preparación):</strong> Planificación desafiante y coherente con el currículum.</li>\n<li>☐ <strong>Dominio B (Ambiente):</strong> Espacio seguro, rutinas claras e interacciones respetuosas.</li>\n<li>☑ <strong>Dominio C (Enseñanza):</strong> Estrategias activas (ABP) que promueven pensamiento crítico.</li>\n<li>☑ <strong>Dominio D (Responsabilidad):</strong> Recopilación de evidencia para reflexión pedagógica.</li>\n</ul>\n<hr />\n<p><em>Generado automáticamente por Antigravity - Sistema 2026</em></p>\n<hr />\n<h2>🖨️ Material Auto-Generado (listo para imprimir)</h2>\n<p>Biblia (Straubinger), cuaderno, pizarra.</p>",
+    "raw_md": "# Patrimonio — 1° Básico - Unidad: Unidad 1: Identidad y Territorio\n**Ciclo:** 1° Básico (Básica Baja (1°-2° Básico)) | **Semana:** 3 | **Tiempo:** 90 minutos\n**Pregunta Esencial:** ¿Cómo comprendemos el misterio de El camino a la escuela: Paisajes cotidianos?\n\n---\n\n## 🎯 Objetivo de la Clase\nObservar elementos del entorno en el trayecto diario.\n\n---\n\n## 🕒 Secuencia Didáctica (90 min)\n\n### ┌─ INICIO (15 min)\n**Rutina / Activación:**\n- Oración inicial (ciclo litúrgico) y recuerdo de la clase anterior.\n**Pregunta Gatilladora:**\n- *¿Qué sabemos sobre El camino a la escuela: Paisajes cotidianos?*\n\n### ├─ DESARROLLO (50 min)\n**Metodología ABP / Trabajo Central:**\n- **Actividad de Patrimonio para 1° Básico:** El camino a la escuela: Paisajes cotidianos\n\nActividad ABP diferenciada para 6-7 años: Actividades concretas: dibujar, colorear, cantar, escuchar cuentos. Frases muy cortas. Vocabulario simple.\n**Agrupación:** Individual y plenario.\n**Materiales:** Ver sección Materiales abajo.\n\n### ├─ CIERRE (15 min)\n**Reflexión Guiada:**\n- Síntesis en la pizarra de la verdad enseñada.\n**Metacognición:**\n- *¿Qué aprendimos hoy? ¿Cómo lo conectamos con nuestro entorno?*\n\n### └─ EVIDENCIA (10 min)\n**📸 Bitácora / Registro:**\n- El estudiante dibuja y el profesor o estudiante escribe el título.\n**Tipo de Evaluación:** Formativa (participación y bitácora)\n\n---\n\n## 🔲 Cobertura MBE 2021 (Indicadores)\n- [x] **Dominio A (Preparación):** Planificación desafiante y coherente con el currículum.\n- [ ] **Dominio B (Ambiente):** Espacio seguro, rutinas claras e interacciones respetuosas.\n- [x] **Dominio C (Enseñanza):** Estrategias activas (ABP) que promueven pensamiento crítico.\n- [x] **Dominio D (Responsabilidad):** Recopilación de evidencia para reflexión pedagógica.\n\n---\n*Generado automáticamente por Antigravity - Sistema 2026*\n\n\n---\n\n## 🖨️ Material Auto-Generado (listo para imprimir)\n\nBiblia (Straubinger), cuaderno, pizarra.\n"
+  },
+  {
+    "filename": "S3_PAT_2basico.md",
+    "semana": "3",
+    "asignatura": "Patrimonio",
+    "asignatura_code": "PAT",
+    "curso": "2basico",
+    "titulo": "Patrimonio — 2° Básico - Unidad: Unidad 1: Identidad y Territorio",
+    "objetivo": "Observar elementos del entorno en el trayecto diario.",
+    "mbe": {
+      "A": false,
+      "B": false,
+      "C": false,
+      "D": false
+    },
+    "materiales": [
+      {
+        "tipo": "basico",
+        "item": "Ver sección Materiales abajo",
+        "preparar": false
+      },
+      {
+        "tipo": "preparar",
+        "item": "📖 Pasajes: por definir",
+        "preparar": true
+      },
+      {
+        "tipo": "preparar",
+        "item": "📸 Registro para bitácora fotográfica",
+        "preparar": true
+      }
+    ],
+    "html": "<h1>Patrimonio — 2° Básico - Unidad: Unidad 1: Identidad y Territorio</h1>\n<p><strong>Ciclo:</strong> 2° Básico (Básica Baja (1°-2° Básico)) | <strong>Semana:</strong> 3 | <strong>Tiempo:</strong> 90 minutos<br />\n<strong>Pregunta Esencial:</strong> ¿Cómo comprendemos el misterio de El camino a la escuela: Paisajes cotidianos?</p>\n<hr />\n<h2>🎯 Objetivo de la Clase</h2>\n<p>Observar elementos del entorno en el trayecto diario.</p>\n<hr />\n<h2>🕒 Secuencia Didáctica (90 min)</h2>\n<h3>┌─ INICIO (15 min)</h3>\n<p><strong>Rutina / Activación:</strong><br />\n- Oración inicial (ciclo litúrgico) y recuerdo de la clase anterior.<br />\n<strong>Pregunta Gatilladora:</strong><br />\n- <em>¿Qué sabemos sobre El camino a la escuela: Paisajes cotidianos?</em></p>\n<h3>├─ DESARROLLO (50 min)</h3>\n<p><strong>Metodología ABP / Trabajo Central:</strong><br />\n- <strong>Actividad de Patrimonio para 2° Básico:</strong> El camino a la escuela: Paisajes cotidianos</p>\n<p>Actividad ABP diferenciada para 7-8 años: Ya lee y escribe oraciones cortas. Puede copiar del pizarrón. Actividades con escritura guiada y narración oral más extensa.<br />\n<strong>Agrupación:</strong> Individual y plenario.<br />\n<strong>Materiales:</strong> Ver sección Materiales abajo.</p>\n<h3>├─ CIERRE (15 min)</h3>\n<p><strong>Reflexión Guiada:</strong><br />\n- Síntesis en la pizarra de la verdad enseñada.<br />\n<strong>Metacognición:</strong><br />\n- <em>¿Qué aprendimos hoy? ¿Cómo lo conectamos con nuestro entorno?</em></p>\n<h3>└─ EVIDENCIA (10 min)</h3>\n<p><strong>📸 Bitácora / Registro:</strong><br />\n- El estudiante dibuja y el profesor o estudiante escribe el título.<br />\n<strong>Tipo de Evaluación:</strong> Formativa (participación y bitácora)</p>\n<hr />\n<h2>🔲 Cobertura MBE 2021 (Indicadores)</h2>\n<ul>\n<li>☑ <strong>Dominio A (Preparación):</strong> Planificación desafiante y coherente con el currículum.</li>\n<li>☐ <strong>Dominio B (Ambiente):</strong> Espacio seguro, rutinas claras e interacciones respetuosas.</li>\n<li>☑ <strong>Dominio C (Enseñanza):</strong> Estrategias activas (ABP) que promueven pensamiento crítico.</li>\n<li>☑ <strong>Dominio D (Responsabilidad):</strong> Recopilación de evidencia para reflexión pedagógica.</li>\n</ul>\n<hr />\n<p><em>Generado automáticamente por Antigravity - Sistema 2026</em></p>\n<hr />\n<h2>🖨️ Material Auto-Generado (listo para imprimir)</h2>\n<p>Biblia (Straubinger), cuaderno, pizarra.</p>",
+    "raw_md": "# Patrimonio — 2° Básico - Unidad: Unidad 1: Identidad y Territorio\n**Ciclo:** 2° Básico (Básica Baja (1°-2° Básico)) | **Semana:** 3 | **Tiempo:** 90 minutos\n**Pregunta Esencial:** ¿Cómo comprendemos el misterio de El camino a la escuela: Paisajes cotidianos?\n\n---\n\n## 🎯 Objetivo de la Clase\nObservar elementos del entorno en el trayecto diario.\n\n---\n\n## 🕒 Secuencia Didáctica (90 min)\n\n### ┌─ INICIO (15 min)\n**Rutina / Activación:**\n- Oración inicial (ciclo litúrgico) y recuerdo de la clase anterior.\n**Pregunta Gatilladora:**\n- *¿Qué sabemos sobre El camino a la escuela: Paisajes cotidianos?*\n\n### ├─ DESARROLLO (50 min)\n**Metodología ABP / Trabajo Central:**\n- **Actividad de Patrimonio para 2° Básico:** El camino a la escuela: Paisajes cotidianos\n\nActividad ABP diferenciada para 7-8 años: Ya lee y escribe oraciones cortas. Puede copiar del pizarrón. Actividades con escritura guiada y narración oral más extensa.\n**Agrupación:** Individual y plenario.\n**Materiales:** Ver sección Materiales abajo.\n\n### ├─ CIERRE (15 min)\n**Reflexión Guiada:**\n- Síntesis en la pizarra de la verdad enseñada.\n**Metacognición:**\n- *¿Qué aprendimos hoy? ¿Cómo lo conectamos con nuestro entorno?*\n\n### └─ EVIDENCIA (10 min)\n**📸 Bitácora / Registro:**\n- El estudiante dibuja y el profesor o estudiante escribe el título.\n**Tipo de Evaluación:** Formativa (participación y bitácora)\n\n---\n\n## 🔲 Cobertura MBE 2021 (Indicadores)\n- [x] **Dominio A (Preparación):** Planificación desafiante y coherente con el currículum.\n- [ ] **Dominio B (Ambiente):** Espacio seguro, rutinas claras e interacciones respetuosas.\n- [x] **Dominio C (Enseñanza):** Estrategias activas (ABP) que promueven pensamiento crítico.\n- [x] **Dominio D (Responsabilidad):** Recopilación de evidencia para reflexión pedagógica.\n\n---\n*Generado automáticamente por Antigravity - Sistema 2026*\n\n\n---\n\n## 🖨️ Material Auto-Generado (listo para imprimir)\n\nBiblia (Straubinger), cuaderno, pizarra.\n"
+  },
+  {
+    "filename": "S3_PAT_3basico.md",
+    "semana": "3",
+    "asignatura": "Patrimonio",
+    "asignatura_code": "PAT",
+    "curso": "3basico",
+    "titulo": "Patrimonio — 3° Básico - Unidad: Unidad 1: Identidad y Territorio",
+    "objetivo": "Valorar el patrimonio material doméstico.",
+    "mbe": {
+      "A": false,
+      "B": false,
+      "C": false,
+      "D": false
+    },
+    "materiales": [
+      {
+        "tipo": "basico",
+        "item": "Ver sección Materiales abajo",
+        "preparar": false
+      },
+      {
+        "tipo": "preparar",
+        "item": "📖 Pasajes: por definir",
+        "preparar": true
+      },
+      {
+        "tipo": "preparar",
+        "item": "📸 Registro para bitácora fotográfica",
+        "preparar": true
+      }
+    ],
+    "html": "<h1>Patrimonio — 3° Básico - Unidad: Unidad 1: Identidad y Territorio</h1>\n<p><strong>Ciclo:</strong> 3° Básico (Básica Media (3°-4° Básico)) | <strong>Semana:</strong> 3 | <strong>Tiempo:</strong> 90 minutos<br />\n<strong>Pregunta Esencial:</strong> ¿Cómo comprendemos el misterio de Objetos con historia: Mi tesoro familiar?</p>\n<hr />\n<h2>🎯 Objetivo de la Clase</h2>\n<p>Valorar el patrimonio material doméstico.</p>\n<hr />\n<h2>🕒 Secuencia Didáctica (90 min)</h2>\n<h3>┌─ INICIO (15 min)</h3>\n<p><strong>Rutina / Activación:</strong><br />\n- Oración inicial (ciclo litúrgico) y recuerdo de la clase anterior.<br />\n<strong>Pregunta Gatilladora:</strong><br />\n- <em>¿Qué sabemos sobre Objetos con historia: Mi tesoro familiar?</em></p>\n<h3>├─ DESARROLLO (50 min)</h3>\n<p><strong>Metodología ABP / Trabajo Central:</strong><br />\n- <strong>Actividad de Patrimonio para 3° Básico:</strong> Objetos con historia: Mi tesoro familiar</p>\n<p>Actividad ABP diferenciada para 8-9 años: Inicio de trabajo grupal simple (parejas). Lectura de textos cortos. Preguntas dirigidas con opciones.<br />\n<strong>Agrupación:</strong> Individual y plenario.<br />\n<strong>Materiales:</strong> Ver sección Materiales abajo.</p>\n<h3>├─ CIERRE (15 min)</h3>\n<p><strong>Reflexión Guiada:</strong><br />\n- Síntesis en la pizarra de la verdad enseñada.<br />\n<strong>Metacognición:</strong><br />\n- <em>¿Qué aprendimos hoy? ¿Cómo lo conectamos con nuestro entorno?</em></p>\n<h3>└─ EVIDENCIA (10 min)</h3>\n<p><strong>📸 Bitácora / Registro:</strong><br />\n- El estudiante toma la foto y escribe un párrafo corto (qué, cómo, cuándo).<br />\n<strong>Tipo de Evaluación:</strong> Formativa (participación y bitácora)</p>\n<hr />\n<h2>🔲 Cobertura MBE 2021 (Indicadores)</h2>\n<ul>\n<li>☑ <strong>Dominio A (Preparación):</strong> Planificación desafiante y coherente con el currículum.</li>\n<li>☐ <strong>Dominio B (Ambiente):</strong> Espacio seguro, rutinas claras e interacciones respetuosas.</li>\n<li>☑ <strong>Dominio C (Enseñanza):</strong> Estrategias activas (ABP) que promueven pensamiento crítico.</li>\n<li>☑ <strong>Dominio D (Responsabilidad):</strong> Recopilación de evidencia para reflexión pedagógica.</li>\n</ul>\n<hr />\n<p><em>Generado automáticamente por Antigravity - Sistema 2026</em></p>\n<hr />\n<h2>🖨️ Material Auto-Generado (listo para imprimir)</h2>\n<p>Biblia (Straubinger), cuaderno, pizarra.</p>",
+    "raw_md": "# Patrimonio — 3° Básico - Unidad: Unidad 1: Identidad y Territorio\n**Ciclo:** 3° Básico (Básica Media (3°-4° Básico)) | **Semana:** 3 | **Tiempo:** 90 minutos\n**Pregunta Esencial:** ¿Cómo comprendemos el misterio de Objetos con historia: Mi tesoro familiar?\n\n---\n\n## 🎯 Objetivo de la Clase\nValorar el patrimonio material doméstico.\n\n---\n\n## 🕒 Secuencia Didáctica (90 min)\n\n### ┌─ INICIO (15 min)\n**Rutina / Activación:**\n- Oración inicial (ciclo litúrgico) y recuerdo de la clase anterior.\n**Pregunta Gatilladora:**\n- *¿Qué sabemos sobre Objetos con historia: Mi tesoro familiar?*\n\n### ├─ DESARROLLO (50 min)\n**Metodología ABP / Trabajo Central:**\n- **Actividad de Patrimonio para 3° Básico:** Objetos con historia: Mi tesoro familiar\n\nActividad ABP diferenciada para 8-9 años: Inicio de trabajo grupal simple (parejas). Lectura de textos cortos. Preguntas dirigidas con opciones.\n**Agrupación:** Individual y plenario.\n**Materiales:** Ver sección Materiales abajo.\n\n### ├─ CIERRE (15 min)\n**Reflexión Guiada:**\n- Síntesis en la pizarra de la verdad enseñada.\n**Metacognición:**\n- *¿Qué aprendimos hoy? ¿Cómo lo conectamos con nuestro entorno?*\n\n### └─ EVIDENCIA (10 min)\n**📸 Bitácora / Registro:**\n- El estudiante toma la foto y escribe un párrafo corto (qué, cómo, cuándo).\n**Tipo de Evaluación:** Formativa (participación y bitácora)\n\n---\n\n## 🔲 Cobertura MBE 2021 (Indicadores)\n- [x] **Dominio A (Preparación):** Planificación desafiante y coherente con el currículum.\n- [ ] **Dominio B (Ambiente):** Espacio seguro, rutinas claras e interacciones respetuosas.\n- [x] **Dominio C (Enseñanza):** Estrategias activas (ABP) que promueven pensamiento crítico.\n- [x] **Dominio D (Responsabilidad):** Recopilación de evidencia para reflexión pedagógica.\n\n---\n*Generado automáticamente por Antigravity - Sistema 2026*\n\n\n---\n\n## 🖨️ Material Auto-Generado (listo para imprimir)\n\nBiblia (Straubinger), cuaderno, pizarra.\n"
+  },
+  {
+    "filename": "S3_PAT_4basico.md",
+    "semana": "3",
+    "asignatura": "Patrimonio",
+    "asignatura_code": "PAT",
+    "curso": "4basico",
+    "titulo": "Patrimonio — 4° Básico - Unidad: Unidad 1: Identidad y Territorio",
+    "objetivo": "Valorar el patrimonio material doméstico.",
+    "mbe": {
+      "A": false,
+      "B": false,
+      "C": false,
+      "D": false
+    },
+    "materiales": [
+      {
+        "tipo": "basico",
+        "item": "Ver sección Materiales abajo",
+        "preparar": false
+      },
+      {
+        "tipo": "preparar",
+        "item": "🗺️ Mapa de: por definir",
+        "preparar": true
+      },
+      {
+        "tipo": "preparar",
+        "item": "📖 Pasajes: por definir",
+        "preparar": true
+      },
+      {
+        "tipo": "preparar",
+        "item": "📸 Registro para bitácora fotográfica",
+        "preparar": true
+      }
+    ],
+    "html": "<h1>Patrimonio — 4° Básico - Unidad: Unidad 1: Identidad y Territorio</h1>\n<p><strong>Ciclo:</strong> 4° Básico (Básica Media (3°-4° Básico)) | <strong>Semana:</strong> 3 | <strong>Tiempo:</strong> 90 minutos<br />\n<strong>Pregunta Esencial:</strong> ¿Cómo comprendemos el misterio de Objetos con historia: Mi tesoro familiar?</p>\n<hr />\n<h2>🎯 Objetivo de la Clase</h2>\n<p>Valorar el patrimonio material doméstico.</p>\n<hr />\n<h2>🕒 Secuencia Didáctica (90 min)</h2>\n<h3>┌─ INICIO (15 min)</h3>\n<p><strong>Rutina / Activación:</strong><br />\n- Oración inicial (ciclo litúrgico) y recuerdo de la clase anterior.<br />\n<strong>Pregunta Gatilladora:</strong><br />\n- <em>¿Qué sabemos sobre Objetos con historia: Mi tesoro familiar?</em></p>\n<h3>├─ DESARROLLO (50 min)</h3>\n<p><strong>Metodología ABP / Trabajo Central:</strong><br />\n- <strong>Actividad de Patrimonio para 4° Básico:</strong> Objetos con historia: Mi tesoro familiar</p>\n<p>Actividad ABP diferenciada para 9-10 años: Trabajo en equipos de 3-4. Mapas conceptuales simples. Redacción de párrafos cortos. Mayor autonomía lectora.<br />\n<strong>Agrupación:</strong> Individual y plenario.<br />\n<strong>Materiales:</strong> Ver sección Materiales abajo.</p>\n<h3>├─ CIERRE (15 min)</h3>\n<p><strong>Reflexión Guiada:</strong><br />\n- Síntesis en la pizarra de la verdad enseñada.<br />\n<strong>Metacognición:</strong><br />\n- <em>¿Qué aprendimos hoy? ¿Cómo lo conectamos con nuestro entorno?</em></p>\n<h3>└─ EVIDENCIA (10 min)</h3>\n<p><strong>📸 Bitácora / Registro:</strong><br />\n- El estudiante toma la foto y escribe un párrafo corto (qué, cómo, cuándo).<br />\n<strong>Tipo de Evaluación:</strong> Formativa (participación y bitácora)</p>\n<hr />\n<h2>🔲 Cobertura MBE 2021 (Indicadores)</h2>\n<ul>\n<li>☑ <strong>Dominio A (Preparación):</strong> Planificación desafiante y coherente con el currículum.</li>\n<li>☐ <strong>Dominio B (Ambiente):</strong> Espacio seguro, rutinas claras e interacciones respetuosas.</li>\n<li>☑ <strong>Dominio C (Enseñanza):</strong> Estrategias activas (ABP) que promueven pensamiento crítico.</li>\n<li>☑ <strong>Dominio D (Responsabilidad):</strong> Recopilación de evidencia para reflexión pedagógica.</li>\n</ul>\n<hr />\n<p><em>Generado automáticamente por Antigravity - Sistema 2026</em></p>\n<hr />\n<h2>🖨️ Material Auto-Generado (listo para imprimir)</h2>\n<p>Biblia (Straubinger), cuaderno, pizarra.</p>",
+    "raw_md": "# Patrimonio — 4° Básico - Unidad: Unidad 1: Identidad y Territorio\n**Ciclo:** 4° Básico (Básica Media (3°-4° Básico)) | **Semana:** 3 | **Tiempo:** 90 minutos\n**Pregunta Esencial:** ¿Cómo comprendemos el misterio de Objetos con historia: Mi tesoro familiar?\n\n---\n\n## 🎯 Objetivo de la Clase\nValorar el patrimonio material doméstico.\n\n---\n\n## 🕒 Secuencia Didáctica (90 min)\n\n### ┌─ INICIO (15 min)\n**Rutina / Activación:**\n- Oración inicial (ciclo litúrgico) y recuerdo de la clase anterior.\n**Pregunta Gatilladora:**\n- *¿Qué sabemos sobre Objetos con historia: Mi tesoro familiar?*\n\n### ├─ DESARROLLO (50 min)\n**Metodología ABP / Trabajo Central:**\n- **Actividad de Patrimonio para 4° Básico:** Objetos con historia: Mi tesoro familiar\n\nActividad ABP diferenciada para 9-10 años: Trabajo en equipos de 3-4. Mapas conceptuales simples. Redacción de párrafos cortos. Mayor autonomía lectora.\n**Agrupación:** Individual y plenario.\n**Materiales:** Ver sección Materiales abajo.\n\n### ├─ CIERRE (15 min)\n**Reflexión Guiada:**\n- Síntesis en la pizarra de la verdad enseñada.\n**Metacognición:**\n- *¿Qué aprendimos hoy? ¿Cómo lo conectamos con nuestro entorno?*\n\n### └─ EVIDENCIA (10 min)\n**📸 Bitácora / Registro:**\n- El estudiante toma la foto y escribe un párrafo corto (qué, cómo, cuándo).\n**Tipo de Evaluación:** Formativa (participación y bitácora)\n\n---\n\n## 🔲 Cobertura MBE 2021 (Indicadores)\n- [x] **Dominio A (Preparación):** Planificación desafiante y coherente con el currículum.\n- [ ] **Dominio B (Ambiente):** Espacio seguro, rutinas claras e interacciones respetuosas.\n- [x] **Dominio C (Enseñanza):** Estrategias activas (ABP) que promueven pensamiento crítico.\n- [x] **Dominio D (Responsabilidad):** Recopilación de evidencia para reflexión pedagógica.\n\n---\n*Generado automáticamente por Antigravity - Sistema 2026*\n\n\n---\n\n## 🖨️ Material Auto-Generado (listo para imprimir)\n\nBiblia (Straubinger), cuaderno, pizarra.\n"
+  },
+  {
+    "filename": "S3_PAT_5basico.md",
+    "semana": "3",
+    "asignatura": "Patrimonio",
+    "asignatura_code": "PAT",
+    "curso": "5basico",
+    "titulo": "Patrimonio — 5° Básico - Unidad: Unidad 1: Identidad y Territorio",
+    "objetivo": "Identificar saberes locales en riesgo de desaparecer.",
+    "mbe": {
+      "A": false,
+      "B": false,
+      "C": false,
+      "D": false
+    },
+    "materiales": [
+      {
+        "tipo": "basico",
+        "item": "Ver sección Materiales abajo",
+        "preparar": false
+      },
+      {
+        "tipo": "preparar",
+        "item": "📖 Pasajes: por definir",
+        "preparar": true
+      },
+      {
+        "tipo": "preparar",
+        "item": "📸 Registro para bitácora fotográfica",
+        "preparar": true
+      }
+    ],
+    "html": "<h1>Patrimonio — 5° Básico - Unidad: Unidad 1: Identidad y Territorio</h1>\n<p><strong>Ciclo:</strong> 5° Básico (Básico Intermedio (5°-6° Básico)) | <strong>Semana:</strong> 3 | <strong>Tiempo:</strong> 90 minutos<br />\n<strong>Pregunta Esencial:</strong> ¿Cómo comprendemos el misterio de Oficios tradicionales de la zona?</p>\n<hr />\n<h2>🎯 Objetivo de la Clase</h2>\n<p>Identificar saberes locales en riesgo de desaparecer.</p>\n<hr />\n<h2>🕒 Secuencia Didáctica (90 min)</h2>\n<h3>┌─ INICIO (15 min)</h3>\n<p><strong>Rutina / Activación:</strong><br />\n- Oración inicial (ciclo litúrgico) y recuerdo de la clase anterior.<br />\n<strong>Pregunta Gatilladora:</strong><br />\n- <em>¿Qué sabemos sobre Oficios tradicionales de la zona?</em></p>\n<h3>├─ DESARROLLO (50 min)</h3>\n<p><strong>Metodología ABP / Trabajo Central:</strong><br />\n- <strong>Actividad de Patrimonio para 5° Básico:</strong> Oficios tradicionales de la zona</p>\n<p>Actividad ABP diferenciada para 10-11 años: Investigación guiada con preguntas. Exposiciones breves. Inicio de pensamiento abstracto. Trabajo con líneas de tiempo.<br />\n<strong>Agrupación:</strong> Individual y plenario.<br />\n<strong>Materiales:</strong> Ver sección Materiales abajo.</p>\n<h3>├─ CIERRE (15 min)</h3>\n<p><strong>Reflexión Guiada:</strong><br />\n- Síntesis en la pizarra de la verdad enseñada.<br />\n<strong>Metacognición:</strong><br />\n- <em>¿Qué aprendimos hoy? ¿Cómo lo conectamos con nuestro entorno?</em></p>\n<h3>└─ EVIDENCIA (10 min)</h3>\n<p><strong>📸 Bitácora / Registro:</strong><br />\n- Reportaje fotográfico (serie de fotos) con epígrafes críticos.<br />\n<strong>Tipo de Evaluación:</strong> Formativa (participación y bitácora)</p>\n<hr />\n<h2>🔲 Cobertura MBE 2021 (Indicadores)</h2>\n<ul>\n<li>☑ <strong>Dominio A (Preparación):</strong> Planificación desafiante y coherente con el currículum.</li>\n<li>☐ <strong>Dominio B (Ambiente):</strong> Espacio seguro, rutinas claras e interacciones respetuosas.</li>\n<li>☑ <strong>Dominio C (Enseñanza):</strong> Estrategias activas (ABP) que promueven pensamiento crítico.</li>\n<li>☑ <strong>Dominio D (Responsabilidad):</strong> Recopilación de evidencia para reflexión pedagógica.</li>\n</ul>\n<hr />\n<p><em>Generado automáticamente por Antigravity - Sistema 2026</em></p>\n<hr />\n<h2>🖨️ Material Auto-Generado (listo para imprimir)</h2>\n<p>Biblia (Straubinger), cuaderno, pizarra.</p>",
+    "raw_md": "# Patrimonio — 5° Básico - Unidad: Unidad 1: Identidad y Territorio\n**Ciclo:** 5° Básico (Básico Intermedio (5°-6° Básico)) | **Semana:** 3 | **Tiempo:** 90 minutos\n**Pregunta Esencial:** ¿Cómo comprendemos el misterio de Oficios tradicionales de la zona?\n\n---\n\n## 🎯 Objetivo de la Clase\nIdentificar saberes locales en riesgo de desaparecer.\n\n---\n\n## 🕒 Secuencia Didáctica (90 min)\n\n### ┌─ INICIO (15 min)\n**Rutina / Activación:**\n- Oración inicial (ciclo litúrgico) y recuerdo de la clase anterior.\n**Pregunta Gatilladora:**\n- *¿Qué sabemos sobre Oficios tradicionales de la zona?*\n\n### ├─ DESARROLLO (50 min)\n**Metodología ABP / Trabajo Central:**\n- **Actividad de Patrimonio para 5° Básico:** Oficios tradicionales de la zona\n\nActividad ABP diferenciada para 10-11 años: Investigación guiada con preguntas. Exposiciones breves. Inicio de pensamiento abstracto. Trabajo con líneas de tiempo.\n**Agrupación:** Individual y plenario.\n**Materiales:** Ver sección Materiales abajo.\n\n### ├─ CIERRE (15 min)\n**Reflexión Guiada:**\n- Síntesis en la pizarra de la verdad enseñada.\n**Metacognición:**\n- *¿Qué aprendimos hoy? ¿Cómo lo conectamos con nuestro entorno?*\n\n### └─ EVIDENCIA (10 min)\n**📸 Bitácora / Registro:**\n- Reportaje fotográfico (serie de fotos) con epígrafes críticos.\n**Tipo de Evaluación:** Formativa (participación y bitácora)\n\n---\n\n## 🔲 Cobertura MBE 2021 (Indicadores)\n- [x] **Dominio A (Preparación):** Planificación desafiante y coherente con el currículum.\n- [ ] **Dominio B (Ambiente):** Espacio seguro, rutinas claras e interacciones respetuosas.\n- [x] **Dominio C (Enseñanza):** Estrategias activas (ABP) que promueven pensamiento crítico.\n- [x] **Dominio D (Responsabilidad):** Recopilación de evidencia para reflexión pedagógica.\n\n---\n*Generado automáticamente por Antigravity - Sistema 2026*\n\n\n---\n\n## 🖨️ Material Auto-Generado (listo para imprimir)\n\nBiblia (Straubinger), cuaderno, pizarra.\n"
+  },
+  {
+    "filename": "S3_PAT_6basico.md",
+    "semana": "3",
+    "asignatura": "Patrimonio",
+    "asignatura_code": "PAT",
+    "curso": "6basico",
+    "titulo": "Patrimonio — 6° Básico - Unidad: Unidad 1: Identidad y Territorio",
+    "objetivo": "Identificar saberes locales en riesgo de desaparecer.",
+    "mbe": {
+      "A": false,
+      "B": false,
+      "C": false,
+      "D": false
+    },
+    "materiales": [
+      {
+        "tipo": "basico",
+        "item": "Ver sección Materiales abajo",
+        "preparar": false
+      },
+      {
+        "tipo": "preparar",
+        "item": "📖 Pasajes: por definir",
+        "preparar": true
+      },
+      {
+        "tipo": "preparar",
+        "item": "📸 Registro para bitácora fotográfica",
+        "preparar": true
+      }
+    ],
+    "html": "<h1>Patrimonio — 6° Básico - Unidad: Unidad 1: Identidad y Territorio</h1>\n<p><strong>Ciclo:</strong> 6° Básico (Básico Intermedio (5°-6° Básico)) | <strong>Semana:</strong> 3 | <strong>Tiempo:</strong> 90 minutos<br />\n<strong>Pregunta Esencial:</strong> ¿Cómo comprendemos el misterio de Oficios tradicionales de la zona?</p>\n<hr />\n<h2>🎯 Objetivo de la Clase</h2>\n<p>Identificar saberes locales en riesgo de desaparecer.</p>\n<hr />\n<h2>🕒 Secuencia Didáctica (90 min)</h2>\n<h3>┌─ INICIO (15 min)</h3>\n<p><strong>Rutina / Activación:</strong><br />\n- Oración inicial (ciclo litúrgico) y recuerdo de la clase anterior.<br />\n<strong>Pregunta Gatilladora:</strong><br />\n- <em>¿Qué sabemos sobre Oficios tradicionales de la zona?</em></p>\n<h3>├─ DESARROLLO (50 min)</h3>\n<p><strong>Metodología ABP / Trabajo Central:</strong><br />\n- <strong>Actividad de Patrimonio para 6° Básico:</strong> Oficios tradicionales de la zona</p>\n<p>Actividad ABP diferenciada para 11-12 años: Investigación con mayor autonomía. Debates simples. Redacción de textos argumentativos básicos. Co-evaluación entre pares.<br />\n<strong>Agrupación:</strong> Individual y plenario.<br />\n<strong>Materiales:</strong> Ver sección Materiales abajo.</p>\n<h3>├─ CIERRE (15 min)</h3>\n<p><strong>Reflexión Guiada:</strong><br />\n- Síntesis en la pizarra de la verdad enseñada.<br />\n<strong>Metacognición:</strong><br />\n- <em>¿Qué aprendimos hoy? ¿Cómo lo conectamos con nuestro entorno?</em></p>\n<h3>└─ EVIDENCIA (10 min)</h3>\n<p><strong>📸 Bitácora / Registro:</strong><br />\n- Reportaje fotográfico (serie de fotos) con epígrafes críticos.<br />\n<strong>Tipo de Evaluación:</strong> Formativa (participación y bitácora)</p>\n<hr />\n<h2>🔲 Cobertura MBE 2021 (Indicadores)</h2>\n<ul>\n<li>☑ <strong>Dominio A (Preparación):</strong> Planificación desafiante y coherente con el currículum.</li>\n<li>☐ <strong>Dominio B (Ambiente):</strong> Espacio seguro, rutinas claras e interacciones respetuosas.</li>\n<li>☑ <strong>Dominio C (Enseñanza):</strong> Estrategias activas (ABP) que promueven pensamiento crítico.</li>\n<li>☑ <strong>Dominio D (Responsabilidad):</strong> Recopilación de evidencia para reflexión pedagógica.</li>\n</ul>\n<hr />\n<p><em>Generado automáticamente por Antigravity - Sistema 2026</em></p>\n<hr />\n<h2>🖨️ Material Auto-Generado (listo para imprimir)</h2>\n<p>Biblia (Straubinger), cuaderno, pizarra.</p>",
+    "raw_md": "# Patrimonio — 6° Básico - Unidad: Unidad 1: Identidad y Territorio\n**Ciclo:** 6° Básico (Básico Intermedio (5°-6° Básico)) | **Semana:** 3 | **Tiempo:** 90 minutos\n**Pregunta Esencial:** ¿Cómo comprendemos el misterio de Oficios tradicionales de la zona?\n\n---\n\n## 🎯 Objetivo de la Clase\nIdentificar saberes locales en riesgo de desaparecer.\n\n---\n\n## 🕒 Secuencia Didáctica (90 min)\n\n### ┌─ INICIO (15 min)\n**Rutina / Activación:**\n- Oración inicial (ciclo litúrgico) y recuerdo de la clase anterior.\n**Pregunta Gatilladora:**\n- *¿Qué sabemos sobre Oficios tradicionales de la zona?*\n\n### ├─ DESARROLLO (50 min)\n**Metodología ABP / Trabajo Central:**\n- **Actividad de Patrimonio para 6° Básico:** Oficios tradicionales de la zona\n\nActividad ABP diferenciada para 11-12 años: Investigación con mayor autonomía. Debates simples. Redacción de textos argumentativos básicos. Co-evaluación entre pares.\n**Agrupación:** Individual y plenario.\n**Materiales:** Ver sección Materiales abajo.\n\n### ├─ CIERRE (15 min)\n**Reflexión Guiada:**\n- Síntesis en la pizarra de la verdad enseñada.\n**Metacognición:**\n- *¿Qué aprendimos hoy? ¿Cómo lo conectamos con nuestro entorno?*\n\n### └─ EVIDENCIA (10 min)\n**📸 Bitácora / Registro:**\n- Reportaje fotográfico (serie de fotos) con epígrafes críticos.\n**Tipo de Evaluación:** Formativa (participación y bitácora)\n\n---\n\n## 🔲 Cobertura MBE 2021 (Indicadores)\n- [x] **Dominio A (Preparación):** Planificación desafiante y coherente con el currículum.\n- [ ] **Dominio B (Ambiente):** Espacio seguro, rutinas claras e interacciones respetuosas.\n- [x] **Dominio C (Enseñanza):** Estrategias activas (ABP) que promueven pensamiento crítico.\n- [x] **Dominio D (Responsabilidad):** Recopilación de evidencia para reflexión pedagógica.\n\n---\n*Generado automáticamente por Antigravity - Sistema 2026*\n\n\n---\n\n## 🖨️ Material Auto-Generado (listo para imprimir)\n\nBiblia (Straubinger), cuaderno, pizarra.\n"
+  },
+  {
+    "filename": "S3_PAT_7basico.md",
+    "semana": "3",
+    "asignatura": "Patrimonio",
+    "asignatura_code": "PAT",
+    "curso": "7basico",
+    "titulo": "Patrimonio — 7° Básico - Unidad: Unidad 1: Identidad y Territorio",
+    "objetivo": "Valorar expresiones culturales vivas.",
+    "mbe": {
+      "A": false,
+      "B": false,
+      "C": false,
+      "D": false
+    },
+    "materiales": [
+      {
+        "tipo": "basico",
+        "item": "Ver sección Materiales abajo",
+        "preparar": false
+      },
+      {
+        "tipo": "preparar",
+        "item": "📷 Preparar fotos de: por definir",
+        "preparar": true
+      },
+      {
+        "tipo": "preparar",
+        "item": "📖 Pasajes: por definir",
+        "preparar": true
+      },
+      {
+        "tipo": "preparar",
+        "item": "📸 Registro para bitácora fotográfica",
+        "preparar": true
+      }
+    ],
+    "html": "<h1>Patrimonio — 7° Básico - Unidad: Unidad 1: Identidad y Territorio</h1>\n<p><strong>Ciclo:</strong> 7° Básico (Básico Superior (7°-8° Básico)) | <strong>Semana:</strong> 3 | <strong>Tiempo:</strong> 90 minutos<br />\n<strong>Pregunta Esencial:</strong> ¿Cómo comprendemos el misterio de Patrimonio Inmaterial: Lenguaje y costumbres?</p>\n<hr />\n<h2>🎯 Objetivo de la Clase</h2>\n<p>Valorar expresiones culturales vivas.</p>\n<hr />\n<h2>🕒 Secuencia Didáctica (90 min)</h2>\n<h3>┌─ INICIO (15 min)</h3>\n<p><strong>Rutina / Activación:</strong><br />\n- Oración inicial (ciclo litúrgico) y recuerdo de la clase anterior.<br />\n<strong>Pregunta Gatilladora:</strong><br />\n- <em>¿Qué sabemos sobre Patrimonio Inmaterial: Lenguaje y costumbres?</em></p>\n<h3>├─ DESARROLLO (50 min)</h3>\n<p><strong>Metodología ABP / Trabajo Central:</strong><br />\n- <strong>Actividad de Patrimonio para 7° Básico:</strong> Patrimonio Inmaterial: Lenguaje y costumbres</p>\n<p>Actividad ABP diferenciada para 12-13 años: Pensamiento crítico inicial. Análisis de fuentes. Ensayos cortos. Debates estructurados. Conexión con actualidad.<br />\n<strong>Agrupación:</strong> Individual y plenario.<br />\n<strong>Materiales:</strong> Ver sección Materiales abajo.</p>\n<h3>├─ CIERRE (15 min)</h3>\n<p><strong>Reflexión Guiada:</strong><br />\n- Síntesis en la pizarra de la verdad enseñada.<br />\n<strong>Metacognición:</strong><br />\n- <em>¿Qué aprendimos hoy? ¿Cómo lo conectamos con nuestro entorno?</em></p>\n<h3>└─ EVIDENCIA (10 min)</h3>\n<p><strong>📸 Bitácora / Registro:</strong><br />\n- Ensayo visual. Fotografía abstracta/simbólica con justificación filosófica.<br />\n<strong>Tipo de Evaluación:</strong> Formativa (participación y bitácora)</p>\n<hr />\n<h2>🔲 Cobertura MBE 2021 (Indicadores)</h2>\n<ul>\n<li>☑ <strong>Dominio A (Preparación):</strong> Planificación desafiante y coherente con el currículum.</li>\n<li>☐ <strong>Dominio B (Ambiente):</strong> Espacio seguro, rutinas claras e interacciones respetuosas.</li>\n<li>☑ <strong>Dominio C (Enseñanza):</strong> Estrategias activas (ABP) que promueven pensamiento crítico.</li>\n<li>☑ <strong>Dominio D (Responsabilidad):</strong> Recopilación de evidencia para reflexión pedagógica.</li>\n</ul>\n<hr />\n<p><em>Generado automáticamente por Antigravity - Sistema 2026</em></p>\n<hr />\n<h2>🖨️ Material Auto-Generado (listo para imprimir)</h2>\n<p>Biblia (Straubinger), cuaderno, pizarra.</p>",
+    "raw_md": "# Patrimonio — 7° Básico - Unidad: Unidad 1: Identidad y Territorio\n**Ciclo:** 7° Básico (Básico Superior (7°-8° Básico)) | **Semana:** 3 | **Tiempo:** 90 minutos\n**Pregunta Esencial:** ¿Cómo comprendemos el misterio de Patrimonio Inmaterial: Lenguaje y costumbres?\n\n---\n\n## 🎯 Objetivo de la Clase\nValorar expresiones culturales vivas.\n\n---\n\n## 🕒 Secuencia Didáctica (90 min)\n\n### ┌─ INICIO (15 min)\n**Rutina / Activación:**\n- Oración inicial (ciclo litúrgico) y recuerdo de la clase anterior.\n**Pregunta Gatilladora:**\n- *¿Qué sabemos sobre Patrimonio Inmaterial: Lenguaje y costumbres?*\n\n### ├─ DESARROLLO (50 min)\n**Metodología ABP / Trabajo Central:**\n- **Actividad de Patrimonio para 7° Básico:** Patrimonio Inmaterial: Lenguaje y costumbres\n\nActividad ABP diferenciada para 12-13 años: Pensamiento crítico inicial. Análisis de fuentes. Ensayos cortos. Debates estructurados. Conexión con actualidad.\n**Agrupación:** Individual y plenario.\n**Materiales:** Ver sección Materiales abajo.\n\n### ├─ CIERRE (15 min)\n**Reflexión Guiada:**\n- Síntesis en la pizarra de la verdad enseñada.\n**Metacognición:**\n- *¿Qué aprendimos hoy? ¿Cómo lo conectamos con nuestro entorno?*\n\n### └─ EVIDENCIA (10 min)\n**📸 Bitácora / Registro:**\n- Ensayo visual. Fotografía abstracta/simbólica con justificación filosófica.\n**Tipo de Evaluación:** Formativa (participación y bitácora)\n\n---\n\n## 🔲 Cobertura MBE 2021 (Indicadores)\n- [x] **Dominio A (Preparación):** Planificación desafiante y coherente con el currículum.\n- [ ] **Dominio B (Ambiente):** Espacio seguro, rutinas claras e interacciones respetuosas.\n- [x] **Dominio C (Enseñanza):** Estrategias activas (ABP) que promueven pensamiento crítico.\n- [x] **Dominio D (Responsabilidad):** Recopilación de evidencia para reflexión pedagógica.\n\n---\n*Generado automáticamente por Antigravity - Sistema 2026*\n\n\n---\n\n## 🖨️ Material Auto-Generado (listo para imprimir)\n\nBiblia (Straubinger), cuaderno, pizarra.\n"
+  },
+  {
+    "filename": "S3_PAT_8basico.md",
+    "semana": "3",
+    "asignatura": "Patrimonio",
+    "asignatura_code": "PAT",
+    "curso": "8basico",
+    "titulo": "Patrimonio — 8° Básico - Unidad: Unidad 1: Identidad y Territorio",
+    "objetivo": "Valorar expresiones culturales vivas.",
+    "mbe": {
+      "A": false,
+      "B": false,
+      "C": false,
+      "D": false
+    },
+    "materiales": [
+      {
+        "tipo": "basico",
+        "item": "Ver sección Materiales abajo",
+        "preparar": false
+      },
+      {
+        "tipo": "preparar",
+        "item": "📷 Preparar fotos de: por definir",
+        "preparar": true
+      },
+      {
+        "tipo": "preparar",
+        "item": "📖 Pasajes: por definir",
+        "preparar": true
+      },
+      {
+        "tipo": "preparar",
+        "item": "📸 Registro para bitácora fotográfica",
+        "preparar": true
+      }
+    ],
+    "html": "<h1>Patrimonio — 8° Básico - Unidad: Unidad 1: Identidad y Territorio</h1>\n<p><strong>Ciclo:</strong> 8° Básico (Básico Superior (7°-8° Básico)) | <strong>Semana:</strong> 3 | <strong>Tiempo:</strong> 90 minutos<br />\n<strong>Pregunta Esencial:</strong> ¿Cómo comprendemos el misterio de Patrimonio Inmaterial: Lenguaje y costumbres?</p>\n<hr />\n<h2>🎯 Objetivo de la Clase</h2>\n<p>Valorar expresiones culturales vivas.</p>\n<hr />\n<h2>🕒 Secuencia Didáctica (90 min)</h2>\n<h3>┌─ INICIO (15 min)</h3>\n<p><strong>Rutina / Activación:</strong><br />\n- Oración inicial (ciclo litúrgico) y recuerdo de la clase anterior.<br />\n<strong>Pregunta Gatilladora:</strong><br />\n- <em>¿Qué sabemos sobre Patrimonio Inmaterial: Lenguaje y costumbres?</em></p>\n<h3>├─ DESARROLLO (50 min)</h3>\n<p><strong>Metodología ABP / Trabajo Central:</strong><br />\n- <strong>Actividad de Patrimonio para 8° Básico:</strong> Patrimonio Inmaterial: Lenguaje y costumbres</p>\n<p>Actividad ABP diferenciada para 13-14 años: Pensamiento hipotético-deductivo. Ensayos argumentativos. Proyectos autónomos. Filosofía y ética aplicada. Preparación para Media.<br />\n<strong>Agrupación:</strong> Individual y plenario.<br />\n<strong>Materiales:</strong> Ver sección Materiales abajo.</p>\n<h3>├─ CIERRE (15 min)</h3>\n<p><strong>Reflexión Guiada:</strong><br />\n- Síntesis en la pizarra de la verdad enseñada.<br />\n<strong>Metacognición:</strong><br />\n- <em>¿Qué aprendimos hoy? ¿Cómo lo conectamos con nuestro entorno?</em></p>\n<h3>└─ EVIDENCIA (10 min)</h3>\n<p><strong>📸 Bitácora / Registro:</strong><br />\n- Ensayo visual. Fotografía abstracta/simbólica con justificación filosófica.<br />\n<strong>Tipo de Evaluación:</strong> Formativa (participación y bitácora)</p>\n<hr />\n<h2>🔲 Cobertura MBE 2021 (Indicadores)</h2>\n<ul>\n<li>☑ <strong>Dominio A (Preparación):</strong> Planificación desafiante y coherente con el currículum.</li>\n<li>☐ <strong>Dominio B (Ambiente):</strong> Espacio seguro, rutinas claras e interacciones respetuosas.</li>\n<li>☑ <strong>Dominio C (Enseñanza):</strong> Estrategias activas (ABP) que promueven pensamiento crítico.</li>\n<li>☑ <strong>Dominio D (Responsabilidad):</strong> Recopilación de evidencia para reflexión pedagógica.</li>\n</ul>\n<hr />\n<p><em>Generado automáticamente por Antigravity - Sistema 2026</em></p>\n<hr />\n<h2>🖨️ Material Auto-Generado (listo para imprimir)</h2>\n<p>Biblia (Straubinger), cuaderno, pizarra.</p>",
+    "raw_md": "# Patrimonio — 8° Básico - Unidad: Unidad 1: Identidad y Territorio\n**Ciclo:** 8° Básico (Básico Superior (7°-8° Básico)) | **Semana:** 3 | **Tiempo:** 90 minutos\n**Pregunta Esencial:** ¿Cómo comprendemos el misterio de Patrimonio Inmaterial: Lenguaje y costumbres?\n\n---\n\n## 🎯 Objetivo de la Clase\nValorar expresiones culturales vivas.\n\n---\n\n## 🕒 Secuencia Didáctica (90 min)\n\n### ┌─ INICIO (15 min)\n**Rutina / Activación:**\n- Oración inicial (ciclo litúrgico) y recuerdo de la clase anterior.\n**Pregunta Gatilladora:**\n- *¿Qué sabemos sobre Patrimonio Inmaterial: Lenguaje y costumbres?*\n\n### ├─ DESARROLLO (50 min)\n**Metodología ABP / Trabajo Central:**\n- **Actividad de Patrimonio para 8° Básico:** Patrimonio Inmaterial: Lenguaje y costumbres\n\nActividad ABP diferenciada para 13-14 años: Pensamiento hipotético-deductivo. Ensayos argumentativos. Proyectos autónomos. Filosofía y ética aplicada. Preparación para Media.\n**Agrupación:** Individual y plenario.\n**Materiales:** Ver sección Materiales abajo.\n\n### ├─ CIERRE (15 min)\n**Reflexión Guiada:**\n- Síntesis en la pizarra de la verdad enseñada.\n**Metacognición:**\n- *¿Qué aprendimos hoy? ¿Cómo lo conectamos con nuestro entorno?*\n\n### └─ EVIDENCIA (10 min)\n**📸 Bitácora / Registro:**\n- Ensayo visual. Fotografía abstracta/simbólica con justificación filosófica.\n**Tipo de Evaluación:** Formativa (participación y bitácora)\n\n---\n\n## 🔲 Cobertura MBE 2021 (Indicadores)\n- [x] **Dominio A (Preparación):** Planificación desafiante y coherente con el currículum.\n- [ ] **Dominio B (Ambiente):** Espacio seguro, rutinas claras e interacciones respetuosas.\n- [x] **Dominio C (Enseñanza):** Estrategias activas (ABP) que promueven pensamiento crítico.\n- [x] **Dominio D (Responsabilidad):** Recopilación de evidencia para reflexión pedagógica.\n\n---\n*Generado automáticamente por Antigravity - Sistema 2026*\n\n\n---\n\n## 🖨️ Material Auto-Generado (listo para imprimir)\n\nBiblia (Straubinger), cuaderno, pizarra.\n"
+  },
+  {
+    "filename": "S3_REL_1basico.md",
+    "semana": "3",
+    "asignatura": "Religión",
+    "asignatura_code": "REL",
+    "curso": "1basico",
+    "titulo": "Religión — 1° Básico - Unidad: Unidad 0/1",
+    "objetivo": "Comprender la protección divina constante.",
+    "mbe": {
+      "A": false,
+      "B": false,
+      "C": false,
+      "D": false
+    },
+    "materiales": [
+      {
+        "tipo": "basico",
+        "item": "Ver sección Materiales abajo",
+        "preparar": false
+      },
+      {
+        "tipo": "preparar",
+        "item": "📖 Pasajes: por definir",
+        "preparar": true
+      }
+    ],
+    "html": "<h1>Religión — 1° Básico - Unidad: Unidad 0/1</h1>\n<p><strong>Ciclo:</strong> 1° Básico (Básica Baja (1°-2° Básico)) | <strong>Semana:</strong> 3 | <strong>Tiempo:</strong> 90 minutos<br />\n<strong>Pregunta Esencial:</strong> ¿Cómo comprendemos el misterio de Mi Ángel de la Guarda?</p>\n<hr />\n<h2>🎯 Objetivo de la Clase</h2>\n<p>Comprender la protección divina constante.</p>\n<hr />\n<h2>🕒 Secuencia Didáctica (90 min)</h2>\n<h3>┌─ INICIO (15 min)</h3>\n<p><strong>Rutina / Activación:</strong><br />\n- Oración inicial (ciclo litúrgico) y recuerdo de la clase anterior.<br />\n<strong>Pregunta Gatilladora:</strong><br />\n- <em>¿Qué sabemos sobre Mi Ángel de la Guarda?</em></p>\n<h3>├─ DESARROLLO (50 min)</h3>\n<p><strong>Metodología ABP / Trabajo Central:</strong><br />\n- <strong>[MOCK]</strong> Desarrollo generado por IA para: Mi Ángel de la Guarda<br />\nCurso: 1° Básico<br />\nEstructura: Videtur quod... Sed contra... Respondeo...<br />\n<strong>Agrupación:</strong> Individual y plenario.<br />\n<strong>Materiales:</strong> Ver sección Materiales abajo.</p>\n<h3>├─ CIERRE (15 min)</h3>\n<p><strong>Reflexión Guiada:</strong><br />\n- Síntesis en la pizarra de la verdad enseñada.<br />\n<strong>Metacognición:</strong><br />\n- <em>¿Qué aprendimos hoy? ¿Cómo lo conectamos con nuestro entorno?</em></p>\n<h3>└─ EVIDENCIA (10 min)</h3>\n<p><strong>📸 Bitácora / Registro:</strong><br />\n- El estudiante dibuja y el profesor o estudiante escribe el título.<br />\n<strong>Tipo de Evaluación:</strong> Formativa (participación y bitácora)</p>\n<hr />\n<h2>🔲 Cobertura MBE 2021 (Indicadores)</h2>\n<ul>\n<li>☑ <strong>Dominio A (Preparación):</strong> Planificación desafiante y coherente con el currículum.</li>\n<li>☑ <strong>Dominio B (Ambiente):</strong> Espacio seguro, rutinas claras e interacciones respetuosas.</li>\n<li>☑ <strong>Dominio C (Enseñanza):</strong> Estrategias activas (ABP) que promueven pensamiento crítico.</li>\n<li>☐ <strong>Dominio D (Responsabilidad):</strong> Recopilación de evidencia para reflexión pedagógica.</li>\n</ul>\n<hr />\n<p><em>Generado automáticamente por Antigravity - Sistema 2026</em></p>\n<hr />\n<h2>🖨️ Material Auto-Generado (listo para imprimir)</h2>\n<p>Biblia (Straubinger), cuaderno, pizarra.</p>",
+    "raw_md": "# Religión — 1° Básico - Unidad: Unidad 0/1\n**Ciclo:** 1° Básico (Básica Baja (1°-2° Básico)) | **Semana:** 3 | **Tiempo:** 90 minutos\n**Pregunta Esencial:** ¿Cómo comprendemos el misterio de Mi Ángel de la Guarda?\n\n---\n\n## 🎯 Objetivo de la Clase\nComprender la protección divina constante.\n\n---\n\n## 🕒 Secuencia Didáctica (90 min)\n\n### ┌─ INICIO (15 min)\n**Rutina / Activación:**\n- Oración inicial (ciclo litúrgico) y recuerdo de la clase anterior.\n**Pregunta Gatilladora:**\n- *¿Qué sabemos sobre Mi Ángel de la Guarda?*\n\n### ├─ DESARROLLO (50 min)\n**Metodología ABP / Trabajo Central:**\n- **[MOCK]** Desarrollo generado por IA para: Mi Ángel de la Guarda\nCurso: 1° Básico\nEstructura: Videtur quod... Sed contra... Respondeo...\n**Agrupación:** Individual y plenario.\n**Materiales:** Ver sección Materiales abajo.\n\n### ├─ CIERRE (15 min)\n**Reflexión Guiada:**\n- Síntesis en la pizarra de la verdad enseñada.\n**Metacognición:**\n- *¿Qué aprendimos hoy? ¿Cómo lo conectamos con nuestro entorno?*\n\n### └─ EVIDENCIA (10 min)\n**📸 Bitácora / Registro:**\n- El estudiante dibuja y el profesor o estudiante escribe el título.\n**Tipo de Evaluación:** Formativa (participación y bitácora)\n\n---\n\n## 🔲 Cobertura MBE 2021 (Indicadores)\n- [x] **Dominio A (Preparación):** Planificación desafiante y coherente con el currículum.\n- [x] **Dominio B (Ambiente):** Espacio seguro, rutinas claras e interacciones respetuosas.\n- [x] **Dominio C (Enseñanza):** Estrategias activas (ABP) que promueven pensamiento crítico.\n- [ ] **Dominio D (Responsabilidad):** Recopilación de evidencia para reflexión pedagógica.\n\n---\n*Generado automáticamente por Antigravity - Sistema 2026*\n\n\n---\n\n## 🖨️ Material Auto-Generado (listo para imprimir)\n\nBiblia (Straubinger), cuaderno, pizarra.\n"
+  },
+  {
+    "filename": "S3_REL_2basico.md",
+    "semana": "3",
+    "asignatura": "Religión",
+    "asignatura_code": "REL",
+    "curso": "2basico",
+    "titulo": "Religión — 2° Básico - Unidad: Unidad 0/1",
+    "objetivo": "Comprender la protección divina constante.",
+    "mbe": {
+      "A": false,
+      "B": false,
+      "C": false,
+      "D": false
+    },
+    "materiales": [
+      {
+        "tipo": "basico",
+        "item": "Ver sección Materiales abajo",
+        "preparar": false
+      },
+      {
+        "tipo": "preparar",
+        "item": "📖 Pasajes: por definir",
+        "preparar": true
+      }
+    ],
+    "html": "<h1>Religión — 2° Básico - Unidad: Unidad 0/1</h1>\n<p><strong>Ciclo:</strong> 2° Básico (Básica Baja (1°-2° Básico)) | <strong>Semana:</strong> 3 | <strong>Tiempo:</strong> 90 minutos<br />\n<strong>Pregunta Esencial:</strong> ¿Cómo comprendemos el misterio de Mi Ángel de la Guarda?</p>\n<hr />\n<h2>🎯 Objetivo de la Clase</h2>\n<p>Comprender la protección divina constante.</p>\n<hr />\n<h2>🕒 Secuencia Didáctica (90 min)</h2>\n<h3>┌─ INICIO (15 min)</h3>\n<p><strong>Rutina / Activación:</strong><br />\n- Oración inicial (ciclo litúrgico) y recuerdo de la clase anterior.<br />\n<strong>Pregunta Gatilladora:</strong><br />\n- <em>¿Qué sabemos sobre Mi Ángel de la Guarda?</em></p>\n<h3>├─ DESARROLLO (50 min)</h3>\n<p><strong>Metodología ABP / Trabajo Central:</strong><br />\n- <strong>[MOCK]</strong> Desarrollo generado por IA para: Mi Ángel de la Guarda<br />\nCurso: 2° Básico<br />\nEstructura: Videtur quod... Sed contra... Respondeo...<br />\n<strong>Agrupación:</strong> Individual y plenario.<br />\n<strong>Materiales:</strong> Ver sección Materiales abajo.</p>\n<h3>├─ CIERRE (15 min)</h3>\n<p><strong>Reflexión Guiada:</strong><br />\n- Síntesis en la pizarra de la verdad enseñada.<br />\n<strong>Metacognición:</strong><br />\n- <em>¿Qué aprendimos hoy? ¿Cómo lo conectamos con nuestro entorno?</em></p>\n<h3>└─ EVIDENCIA (10 min)</h3>\n<p><strong>📸 Bitácora / Registro:</strong><br />\n- El estudiante dibuja y el profesor o estudiante escribe el título.<br />\n<strong>Tipo de Evaluación:</strong> Formativa (participación y bitácora)</p>\n<hr />\n<h2>🔲 Cobertura MBE 2021 (Indicadores)</h2>\n<ul>\n<li>☑ <strong>Dominio A (Preparación):</strong> Planificación desafiante y coherente con el currículum.</li>\n<li>☑ <strong>Dominio B (Ambiente):</strong> Espacio seguro, rutinas claras e interacciones respetuosas.</li>\n<li>☑ <strong>Dominio C (Enseñanza):</strong> Estrategias activas (ABP) que promueven pensamiento crítico.</li>\n<li>☐ <strong>Dominio D (Responsabilidad):</strong> Recopilación de evidencia para reflexión pedagógica.</li>\n</ul>\n<hr />\n<p><em>Generado automáticamente por Antigravity - Sistema 2026</em></p>\n<hr />\n<h2>🖨️ Material Auto-Generado (listo para imprimir)</h2>\n<p>Biblia (Straubinger), cuaderno, pizarra.</p>",
+    "raw_md": "# Religión — 2° Básico - Unidad: Unidad 0/1\n**Ciclo:** 2° Básico (Básica Baja (1°-2° Básico)) | **Semana:** 3 | **Tiempo:** 90 minutos\n**Pregunta Esencial:** ¿Cómo comprendemos el misterio de Mi Ángel de la Guarda?\n\n---\n\n## 🎯 Objetivo de la Clase\nComprender la protección divina constante.\n\n---\n\n## 🕒 Secuencia Didáctica (90 min)\n\n### ┌─ INICIO (15 min)\n**Rutina / Activación:**\n- Oración inicial (ciclo litúrgico) y recuerdo de la clase anterior.\n**Pregunta Gatilladora:**\n- *¿Qué sabemos sobre Mi Ángel de la Guarda?*\n\n### ├─ DESARROLLO (50 min)\n**Metodología ABP / Trabajo Central:**\n- **[MOCK]** Desarrollo generado por IA para: Mi Ángel de la Guarda\nCurso: 2° Básico\nEstructura: Videtur quod... Sed contra... Respondeo...\n**Agrupación:** Individual y plenario.\n**Materiales:** Ver sección Materiales abajo.\n\n### ├─ CIERRE (15 min)\n**Reflexión Guiada:**\n- Síntesis en la pizarra de la verdad enseñada.\n**Metacognición:**\n- *¿Qué aprendimos hoy? ¿Cómo lo conectamos con nuestro entorno?*\n\n### └─ EVIDENCIA (10 min)\n**📸 Bitácora / Registro:**\n- El estudiante dibuja y el profesor o estudiante escribe el título.\n**Tipo de Evaluación:** Formativa (participación y bitácora)\n\n---\n\n## 🔲 Cobertura MBE 2021 (Indicadores)\n- [x] **Dominio A (Preparación):** Planificación desafiante y coherente con el currículum.\n- [x] **Dominio B (Ambiente):** Espacio seguro, rutinas claras e interacciones respetuosas.\n- [x] **Dominio C (Enseñanza):** Estrategias activas (ABP) que promueven pensamiento crítico.\n- [ ] **Dominio D (Responsabilidad):** Recopilación de evidencia para reflexión pedagógica.\n\n---\n*Generado automáticamente por Antigravity - Sistema 2026*\n\n\n---\n\n## 🖨️ Material Auto-Generado (listo para imprimir)\n\nBiblia (Straubinger), cuaderno, pizarra.\n"
+  },
+  {
+    "filename": "S3_REL_3basico.md",
+    "semana": "3",
+    "asignatura": "Religión",
+    "asignatura_code": "REL",
+    "curso": "3basico",
+    "titulo": "Religión — 3° Básico - Unidad: Unidad 0/1",
+    "objetivo": "Comprender el compromiso entre Dios y el hombre.",
+    "mbe": {
+      "A": false,
+      "B": false,
+      "C": false,
+      "D": false
+    },
+    "materiales": [
+      {
+        "tipo": "basico",
+        "item": "Ver sección Materiales abajo",
+        "preparar": false
+      },
+      {
+        "tipo": "preparar",
+        "item": "📖 Pasajes: por definir",
+        "preparar": true
+      }
+    ],
+    "html": "<h1>Religión — 3° Básico - Unidad: Unidad 0/1</h1>\n<p><strong>Ciclo:</strong> 3° Básico (Básica Media (3°-4° Básico)) | <strong>Semana:</strong> 3 | <strong>Tiempo:</strong> 90 minutos<br />\n<strong>Pregunta Esencial:</strong> ¿Cómo comprendemos el misterio de La Alianza en el Sinaí?</p>\n<hr />\n<h2>🎯 Objetivo de la Clase</h2>\n<p>Comprender el compromiso entre Dios y el hombre.</p>\n<hr />\n<h2>🕒 Secuencia Didáctica (90 min)</h2>\n<h3>┌─ INICIO (15 min)</h3>\n<p><strong>Rutina / Activación:</strong><br />\n- Oración inicial (ciclo litúrgico) y recuerdo de la clase anterior.<br />\n<strong>Pregunta Gatilladora:</strong><br />\n- <em>¿Qué sabemos sobre La Alianza en el Sinaí?</em></p>\n<h3>├─ DESARROLLO (50 min)</h3>\n<p><strong>Metodología ABP / Trabajo Central:</strong><br />\n- <strong>[MOCK]</strong> Desarrollo generado por IA para: La Alianza en el Sinaí<br />\nCurso: 3° Básico<br />\nEstructura: Videtur quod... Sed contra... Respondeo...<br />\n<strong>Agrupación:</strong> Individual y plenario.<br />\n<strong>Materiales:</strong> Ver sección Materiales abajo.</p>\n<h3>├─ CIERRE (15 min)</h3>\n<p><strong>Reflexión Guiada:</strong><br />\n- Síntesis en la pizarra de la verdad enseñada.<br />\n<strong>Metacognición:</strong><br />\n- <em>¿Qué aprendimos hoy? ¿Cómo lo conectamos con nuestro entorno?</em></p>\n<h3>└─ EVIDENCIA (10 min)</h3>\n<p><strong>📸 Bitácora / Registro:</strong><br />\n- El estudiante toma la foto y escribe un párrafo corto (qué, cómo, cuándo).<br />\n<strong>Tipo de Evaluación:</strong> Formativa (participación y bitácora)</p>\n<hr />\n<h2>🔲 Cobertura MBE 2021 (Indicadores)</h2>\n<ul>\n<li>☑ <strong>Dominio A (Preparación):</strong> Planificación desafiante y coherente con el currículum.</li>\n<li>☑ <strong>Dominio B (Ambiente):</strong> Espacio seguro, rutinas claras e interacciones respetuosas.</li>\n<li>☑ <strong>Dominio C (Enseñanza):</strong> Estrategias activas (ABP) que promueven pensamiento crítico.</li>\n<li>☐ <strong>Dominio D (Responsabilidad):</strong> Recopilación de evidencia para reflexión pedagógica.</li>\n</ul>\n<hr />\n<p><em>Generado automáticamente por Antigravity - Sistema 2026</em></p>\n<hr />\n<h2>🖨️ Material Auto-Generado (listo para imprimir)</h2>\n<p>Biblia (Straubinger), cuaderno, pizarra.</p>",
+    "raw_md": "# Religión — 3° Básico - Unidad: Unidad 0/1\n**Ciclo:** 3° Básico (Básica Media (3°-4° Básico)) | **Semana:** 3 | **Tiempo:** 90 minutos\n**Pregunta Esencial:** ¿Cómo comprendemos el misterio de La Alianza en el Sinaí?\n\n---\n\n## 🎯 Objetivo de la Clase\nComprender el compromiso entre Dios y el hombre.\n\n---\n\n## 🕒 Secuencia Didáctica (90 min)\n\n### ┌─ INICIO (15 min)\n**Rutina / Activación:**\n- Oración inicial (ciclo litúrgico) y recuerdo de la clase anterior.\n**Pregunta Gatilladora:**\n- *¿Qué sabemos sobre La Alianza en el Sinaí?*\n\n### ├─ DESARROLLO (50 min)\n**Metodología ABP / Trabajo Central:**\n- **[MOCK]** Desarrollo generado por IA para: La Alianza en el Sinaí\nCurso: 3° Básico\nEstructura: Videtur quod... Sed contra... Respondeo...\n**Agrupación:** Individual y plenario.\n**Materiales:** Ver sección Materiales abajo.\n\n### ├─ CIERRE (15 min)\n**Reflexión Guiada:**\n- Síntesis en la pizarra de la verdad enseñada.\n**Metacognición:**\n- *¿Qué aprendimos hoy? ¿Cómo lo conectamos con nuestro entorno?*\n\n### └─ EVIDENCIA (10 min)\n**📸 Bitácora / Registro:**\n- El estudiante toma la foto y escribe un párrafo corto (qué, cómo, cuándo).\n**Tipo de Evaluación:** Formativa (participación y bitácora)\n\n---\n\n## 🔲 Cobertura MBE 2021 (Indicadores)\n- [x] **Dominio A (Preparación):** Planificación desafiante y coherente con el currículum.\n- [x] **Dominio B (Ambiente):** Espacio seguro, rutinas claras e interacciones respetuosas.\n- [x] **Dominio C (Enseñanza):** Estrategias activas (ABP) que promueven pensamiento crítico.\n- [ ] **Dominio D (Responsabilidad):** Recopilación de evidencia para reflexión pedagógica.\n\n---\n*Generado automáticamente por Antigravity - Sistema 2026*\n\n\n---\n\n## 🖨️ Material Auto-Generado (listo para imprimir)\n\nBiblia (Straubinger), cuaderno, pizarra.\n"
+  },
+  {
+    "filename": "S3_REL_4basico.md",
+    "semana": "3",
+    "asignatura": "Religión",
+    "asignatura_code": "REL",
+    "curso": "4basico",
+    "titulo": "Religión — 4° Básico - Unidad: Unidad 0/1",
+    "objetivo": "Comprender el compromiso entre Dios y el hombre.",
+    "mbe": {
+      "A": false,
+      "B": false,
+      "C": false,
+      "D": false
+    },
+    "materiales": [
+      {
+        "tipo": "basico",
+        "item": "Ver sección Materiales abajo",
+        "preparar": false
+      },
+      {
+        "tipo": "preparar",
+        "item": "📖 Pasajes: por definir",
+        "preparar": true
+      }
+    ],
+    "html": "<h1>Religión — 4° Básico - Unidad: Unidad 0/1</h1>\n<p><strong>Ciclo:</strong> 4° Básico (Básica Media (3°-4° Básico)) | <strong>Semana:</strong> 3 | <strong>Tiempo:</strong> 90 minutos<br />\n<strong>Pregunta Esencial:</strong> ¿Cómo comprendemos el misterio de La Alianza en el Sinaí?</p>\n<hr />\n<h2>🎯 Objetivo de la Clase</h2>\n<p>Comprender el compromiso entre Dios y el hombre.</p>\n<hr />\n<h2>🕒 Secuencia Didáctica (90 min)</h2>\n<h3>┌─ INICIO (15 min)</h3>\n<p><strong>Rutina / Activación:</strong><br />\n- Oración inicial (ciclo litúrgico) y recuerdo de la clase anterior.<br />\n<strong>Pregunta Gatilladora:</strong><br />\n- <em>¿Qué sabemos sobre La Alianza en el Sinaí?</em></p>\n<h3>├─ DESARROLLO (50 min)</h3>\n<p><strong>Metodología ABP / Trabajo Central:</strong><br />\n- <strong>[MOCK]</strong> Desarrollo generado por IA para: La Alianza en el Sinaí<br />\nCurso: 4° Básico<br />\nEstructura: Videtur quod... Sed contra... Respondeo...<br />\n<strong>Agrupación:</strong> Individual y plenario.<br />\n<strong>Materiales:</strong> Ver sección Materiales abajo.</p>\n<h3>├─ CIERRE (15 min)</h3>\n<p><strong>Reflexión Guiada:</strong><br />\n- Síntesis en la pizarra de la verdad enseñada.<br />\n<strong>Metacognición:</strong><br />\n- <em>¿Qué aprendimos hoy? ¿Cómo lo conectamos con nuestro entorno?</em></p>\n<h3>└─ EVIDENCIA (10 min)</h3>\n<p><strong>📸 Bitácora / Registro:</strong><br />\n- El estudiante toma la foto y escribe un párrafo corto (qué, cómo, cuándo).<br />\n<strong>Tipo de Evaluación:</strong> Formativa (participación y bitácora)</p>\n<hr />\n<h2>🔲 Cobertura MBE 2021 (Indicadores)</h2>\n<ul>\n<li>☑ <strong>Dominio A (Preparación):</strong> Planificación desafiante y coherente con el currículum.</li>\n<li>☑ <strong>Dominio B (Ambiente):</strong> Espacio seguro, rutinas claras e interacciones respetuosas.</li>\n<li>☑ <strong>Dominio C (Enseñanza):</strong> Estrategias activas (ABP) que promueven pensamiento crítico.</li>\n<li>☐ <strong>Dominio D (Responsabilidad):</strong> Recopilación de evidencia para reflexión pedagógica.</li>\n</ul>\n<hr />\n<p><em>Generado automáticamente por Antigravity - Sistema 2026</em></p>\n<hr />\n<h2>🖨️ Material Auto-Generado (listo para imprimir)</h2>\n<p>Biblia (Straubinger), cuaderno, pizarra.</p>",
+    "raw_md": "# Religión — 4° Básico - Unidad: Unidad 0/1\n**Ciclo:** 4° Básico (Básica Media (3°-4° Básico)) | **Semana:** 3 | **Tiempo:** 90 minutos\n**Pregunta Esencial:** ¿Cómo comprendemos el misterio de La Alianza en el Sinaí?\n\n---\n\n## 🎯 Objetivo de la Clase\nComprender el compromiso entre Dios y el hombre.\n\n---\n\n## 🕒 Secuencia Didáctica (90 min)\n\n### ┌─ INICIO (15 min)\n**Rutina / Activación:**\n- Oración inicial (ciclo litúrgico) y recuerdo de la clase anterior.\n**Pregunta Gatilladora:**\n- *¿Qué sabemos sobre La Alianza en el Sinaí?*\n\n### ├─ DESARROLLO (50 min)\n**Metodología ABP / Trabajo Central:**\n- **[MOCK]** Desarrollo generado por IA para: La Alianza en el Sinaí\nCurso: 4° Básico\nEstructura: Videtur quod... Sed contra... Respondeo...\n**Agrupación:** Individual y plenario.\n**Materiales:** Ver sección Materiales abajo.\n\n### ├─ CIERRE (15 min)\n**Reflexión Guiada:**\n- Síntesis en la pizarra de la verdad enseñada.\n**Metacognición:**\n- *¿Qué aprendimos hoy? ¿Cómo lo conectamos con nuestro entorno?*\n\n### └─ EVIDENCIA (10 min)\n**📸 Bitácora / Registro:**\n- El estudiante toma la foto y escribe un párrafo corto (qué, cómo, cuándo).\n**Tipo de Evaluación:** Formativa (participación y bitácora)\n\n---\n\n## 🔲 Cobertura MBE 2021 (Indicadores)\n- [x] **Dominio A (Preparación):** Planificación desafiante y coherente con el currículum.\n- [x] **Dominio B (Ambiente):** Espacio seguro, rutinas claras e interacciones respetuosas.\n- [x] **Dominio C (Enseñanza):** Estrategias activas (ABP) que promueven pensamiento crítico.\n- [ ] **Dominio D (Responsabilidad):** Recopilación de evidencia para reflexión pedagógica.\n\n---\n*Generado automáticamente por Antigravity - Sistema 2026*\n\n\n---\n\n## 🖨️ Material Auto-Generado (listo para imprimir)\n\nBiblia (Straubinger), cuaderno, pizarra.\n"
+  },
+  {
+    "filename": "S3_REL_5basico.md",
+    "semana": "3",
+    "asignatura": "Religión",
+    "asignatura_code": "REL",
+    "curso": "5basico",
+    "titulo": "Religión — 5° Básico - Unidad: Unidad 0/1",
+    "objetivo": "Conocer la figura que anuncia al Mesías.",
+    "mbe": {
+      "A": false,
+      "B": false,
+      "C": false,
+      "D": false
+    },
+    "materiales": [
+      {
+        "tipo": "basico",
+        "item": "Ver sección Materiales abajo",
+        "preparar": false
+      },
+      {
+        "tipo": "preparar",
+        "item": "📖 Pasajes: por definir",
+        "preparar": true
+      }
+    ],
+    "html": "<h1>Religión — 5° Básico - Unidad: Unidad 0/1</h1>\n<p><strong>Ciclo:</strong> 5° Básico (Básico Intermedio (5°-6° Básico)) | <strong>Semana:</strong> 3 | <strong>Tiempo:</strong> 90 minutos<br />\n<strong>Pregunta Esencial:</strong> ¿Cómo comprendemos el misterio de Juan el Bautista: El precursor?</p>\n<hr />\n<h2>🎯 Objetivo de la Clase</h2>\n<p>Conocer la figura que anuncia al Mesías.</p>\n<hr />\n<h2>🕒 Secuencia Didáctica (90 min)</h2>\n<h3>┌─ INICIO (15 min)</h3>\n<p><strong>Rutina / Activación:</strong><br />\n- Oración inicial (ciclo litúrgico) y recuerdo de la clase anterior.<br />\n<strong>Pregunta Gatilladora:</strong><br />\n- <em>¿Qué sabemos sobre Juan el Bautista: El precursor?</em></p>\n<h3>├─ DESARROLLO (50 min)</h3>\n<p><strong>Metodología ABP / Trabajo Central:</strong><br />\n- <strong>[MOCK]</strong> Desarrollo generado por IA para: Juan el Bautista: El precursor<br />\nCurso: 5° Básico<br />\nEstructura: Videtur quod... Sed contra... Respondeo...<br />\n<strong>Agrupación:</strong> Individual y plenario.<br />\n<strong>Materiales:</strong> Ver sección Materiales abajo.</p>\n<h3>├─ CIERRE (15 min)</h3>\n<p><strong>Reflexión Guiada:</strong><br />\n- Síntesis en la pizarra de la verdad enseñada.<br />\n<strong>Metacognición:</strong><br />\n- <em>¿Qué aprendimos hoy? ¿Cómo lo conectamos con nuestro entorno?</em></p>\n<h3>└─ EVIDENCIA (10 min)</h3>\n<p><strong>📸 Bitácora / Registro:</strong><br />\n- Reportaje fotográfico (serie de fotos) con epígrafes críticos.<br />\n<strong>Tipo de Evaluación:</strong> Formativa (participación y bitácora)</p>\n<hr />\n<h2>🔲 Cobertura MBE 2021 (Indicadores)</h2>\n<ul>\n<li>☑ <strong>Dominio A (Preparación):</strong> Planificación desafiante y coherente con el currículum.</li>\n<li>☑ <strong>Dominio B (Ambiente):</strong> Espacio seguro, rutinas claras e interacciones respetuosas.</li>\n<li>☑ <strong>Dominio C (Enseñanza):</strong> Estrategias activas (ABP) que promueven pensamiento crítico.</li>\n<li>☐ <strong>Dominio D (Responsabilidad):</strong> Recopilación de evidencia para reflexión pedagógica.</li>\n</ul>\n<hr />\n<p><em>Generado automáticamente por Antigravity - Sistema 2026</em></p>\n<hr />\n<h2>🖨️ Material Auto-Generado (listo para imprimir)</h2>\n<p>Biblia (Straubinger), cuaderno, pizarra.</p>",
+    "raw_md": "# Religión — 5° Básico - Unidad: Unidad 0/1\n**Ciclo:** 5° Básico (Básico Intermedio (5°-6° Básico)) | **Semana:** 3 | **Tiempo:** 90 minutos\n**Pregunta Esencial:** ¿Cómo comprendemos el misterio de Juan el Bautista: El precursor?\n\n---\n\n## 🎯 Objetivo de la Clase\nConocer la figura que anuncia al Mesías.\n\n---\n\n## 🕒 Secuencia Didáctica (90 min)\n\n### ┌─ INICIO (15 min)\n**Rutina / Activación:**\n- Oración inicial (ciclo litúrgico) y recuerdo de la clase anterior.\n**Pregunta Gatilladora:**\n- *¿Qué sabemos sobre Juan el Bautista: El precursor?*\n\n### ├─ DESARROLLO (50 min)\n**Metodología ABP / Trabajo Central:**\n- **[MOCK]** Desarrollo generado por IA para: Juan el Bautista: El precursor\nCurso: 5° Básico\nEstructura: Videtur quod... Sed contra... Respondeo...\n**Agrupación:** Individual y plenario.\n**Materiales:** Ver sección Materiales abajo.\n\n### ├─ CIERRE (15 min)\n**Reflexión Guiada:**\n- Síntesis en la pizarra de la verdad enseñada.\n**Metacognición:**\n- *¿Qué aprendimos hoy? ¿Cómo lo conectamos con nuestro entorno?*\n\n### └─ EVIDENCIA (10 min)\n**📸 Bitácora / Registro:**\n- Reportaje fotográfico (serie de fotos) con epígrafes críticos.\n**Tipo de Evaluación:** Formativa (participación y bitácora)\n\n---\n\n## 🔲 Cobertura MBE 2021 (Indicadores)\n- [x] **Dominio A (Preparación):** Planificación desafiante y coherente con el currículum.\n- [x] **Dominio B (Ambiente):** Espacio seguro, rutinas claras e interacciones respetuosas.\n- [x] **Dominio C (Enseñanza):** Estrategias activas (ABP) que promueven pensamiento crítico.\n- [ ] **Dominio D (Responsabilidad):** Recopilación de evidencia para reflexión pedagógica.\n\n---\n*Generado automáticamente por Antigravity - Sistema 2026*\n\n\n---\n\n## 🖨️ Material Auto-Generado (listo para imprimir)\n\nBiblia (Straubinger), cuaderno, pizarra.\n"
+  },
+  {
+    "filename": "S3_REL_6basico.md",
+    "semana": "3",
+    "asignatura": "Religión",
+    "asignatura_code": "REL",
+    "curso": "6basico",
+    "titulo": "Religión — 6° Básico - Unidad: Unidad 0/1",
+    "objetivo": "Conocer la figura que anuncia al Mesías.",
+    "mbe": {
+      "A": false,
+      "B": false,
+      "C": false,
+      "D": false
+    },
+    "materiales": [
+      {
+        "tipo": "basico",
+        "item": "Ver sección Materiales abajo",
+        "preparar": false
+      },
+      {
+        "tipo": "preparar",
+        "item": "📖 Pasajes: por definir",
+        "preparar": true
+      }
+    ],
+    "html": "<h1>Religión — 6° Básico - Unidad: Unidad 0/1</h1>\n<p><strong>Ciclo:</strong> 6° Básico (Básico Intermedio (5°-6° Básico)) | <strong>Semana:</strong> 3 | <strong>Tiempo:</strong> 90 minutos<br />\n<strong>Pregunta Esencial:</strong> ¿Cómo comprendemos el misterio de Juan el Bautista: El precursor?</p>\n<hr />\n<h2>🎯 Objetivo de la Clase</h2>\n<p>Conocer la figura que anuncia al Mesías.</p>\n<hr />\n<h2>🕒 Secuencia Didáctica (90 min)</h2>\n<h3>┌─ INICIO (15 min)</h3>\n<p><strong>Rutina / Activación:</strong><br />\n- Oración inicial (ciclo litúrgico) y recuerdo de la clase anterior.<br />\n<strong>Pregunta Gatilladora:</strong><br />\n- <em>¿Qué sabemos sobre Juan el Bautista: El precursor?</em></p>\n<h3>├─ DESARROLLO (50 min)</h3>\n<p><strong>Metodología ABP / Trabajo Central:</strong><br />\n- <strong>[MOCK]</strong> Desarrollo generado por IA para: Juan el Bautista: El precursor<br />\nCurso: 6° Básico<br />\nEstructura: Videtur quod... Sed contra... Respondeo...<br />\n<strong>Agrupación:</strong> Individual y plenario.<br />\n<strong>Materiales:</strong> Ver sección Materiales abajo.</p>\n<h3>├─ CIERRE (15 min)</h3>\n<p><strong>Reflexión Guiada:</strong><br />\n- Síntesis en la pizarra de la verdad enseñada.<br />\n<strong>Metacognición:</strong><br />\n- <em>¿Qué aprendimos hoy? ¿Cómo lo conectamos con nuestro entorno?</em></p>\n<h3>└─ EVIDENCIA (10 min)</h3>\n<p><strong>📸 Bitácora / Registro:</strong><br />\n- Reportaje fotográfico (serie de fotos) con epígrafes críticos.<br />\n<strong>Tipo de Evaluación:</strong> Formativa (participación y bitácora)</p>\n<hr />\n<h2>🔲 Cobertura MBE 2021 (Indicadores)</h2>\n<ul>\n<li>☑ <strong>Dominio A (Preparación):</strong> Planificación desafiante y coherente con el currículum.</li>\n<li>☑ <strong>Dominio B (Ambiente):</strong> Espacio seguro, rutinas claras e interacciones respetuosas.</li>\n<li>☑ <strong>Dominio C (Enseñanza):</strong> Estrategias activas (ABP) que promueven pensamiento crítico.</li>\n<li>☐ <strong>Dominio D (Responsabilidad):</strong> Recopilación de evidencia para reflexión pedagógica.</li>\n</ul>\n<hr />\n<p><em>Generado automáticamente por Antigravity - Sistema 2026</em></p>\n<hr />\n<h2>🖨️ Material Auto-Generado (listo para imprimir)</h2>\n<p>Biblia (Straubinger), cuaderno, pizarra.</p>",
+    "raw_md": "# Religión — 6° Básico - Unidad: Unidad 0/1\n**Ciclo:** 6° Básico (Básico Intermedio (5°-6° Básico)) | **Semana:** 3 | **Tiempo:** 90 minutos\n**Pregunta Esencial:** ¿Cómo comprendemos el misterio de Juan el Bautista: El precursor?\n\n---\n\n## 🎯 Objetivo de la Clase\nConocer la figura que anuncia al Mesías.\n\n---\n\n## 🕒 Secuencia Didáctica (90 min)\n\n### ┌─ INICIO (15 min)\n**Rutina / Activación:**\n- Oración inicial (ciclo litúrgico) y recuerdo de la clase anterior.\n**Pregunta Gatilladora:**\n- *¿Qué sabemos sobre Juan el Bautista: El precursor?*\n\n### ├─ DESARROLLO (50 min)\n**Metodología ABP / Trabajo Central:**\n- **[MOCK]** Desarrollo generado por IA para: Juan el Bautista: El precursor\nCurso: 6° Básico\nEstructura: Videtur quod... Sed contra... Respondeo...\n**Agrupación:** Individual y plenario.\n**Materiales:** Ver sección Materiales abajo.\n\n### ├─ CIERRE (15 min)\n**Reflexión Guiada:**\n- Síntesis en la pizarra de la verdad enseñada.\n**Metacognición:**\n- *¿Qué aprendimos hoy? ¿Cómo lo conectamos con nuestro entorno?*\n\n### └─ EVIDENCIA (10 min)\n**📸 Bitácora / Registro:**\n- Reportaje fotográfico (serie de fotos) con epígrafes críticos.\n**Tipo de Evaluación:** Formativa (participación y bitácora)\n\n---\n\n## 🔲 Cobertura MBE 2021 (Indicadores)\n- [x] **Dominio A (Preparación):** Planificación desafiante y coherente con el currículum.\n- [x] **Dominio B (Ambiente):** Espacio seguro, rutinas claras e interacciones respetuosas.\n- [x] **Dominio C (Enseñanza):** Estrategias activas (ABP) que promueven pensamiento crítico.\n- [ ] **Dominio D (Responsabilidad):** Recopilación de evidencia para reflexión pedagógica.\n\n---\n*Generado automáticamente por Antigravity - Sistema 2026*\n\n\n---\n\n## 🖨️ Material Auto-Generado (listo para imprimir)\n\nBiblia (Straubinger), cuaderno, pizarra.\n"
+  },
+  {
+    "filename": "S3_REL_7basico.md",
+    "semana": "3",
+    "asignatura": "Religión",
+    "asignatura_code": "REL",
+    "curso": "7basico",
+    "titulo": "Religión — 7° Básico - Unidad: Unidad 0/1",
+    "objetivo": "Discernir fundamentos éticos universales.",
+    "mbe": {
+      "A": false,
+      "B": false,
+      "C": false,
+      "D": false
+    },
+    "materiales": [
+      {
+        "tipo": "basico",
+        "item": "Ver sección Materiales abajo",
+        "preparar": false
+      },
+      {
+        "tipo": "preparar",
+        "item": "📷 Preparar fotos de: por definir",
+        "preparar": true
+      },
+      {
+        "tipo": "preparar",
+        "item": "📖 Pasajes: por definir",
+        "preparar": true
+      }
+    ],
+    "html": "<h1>Religión — 7° Básico - Unidad: Unidad 0/1</h1>\n<p><strong>Ciclo:</strong> 7° Básico (Básico Superior (7°-8° Básico)) | <strong>Semana:</strong> 3 | <strong>Tiempo:</strong> 90 minutos<br />\n<strong>Pregunta Esencial:</strong> ¿Cómo comprendemos el misterio de La Ley Natural y la Ley Divina?</p>\n<hr />\n<h2>🎯 Objetivo de la Clase</h2>\n<p>Discernir fundamentos éticos universales.</p>\n<hr />\n<h2>🕒 Secuencia Didáctica (90 min)</h2>\n<h3>┌─ INICIO (15 min)</h3>\n<p><strong>Rutina / Activación:</strong><br />\n- Oración inicial (ciclo litúrgico) y recuerdo de la clase anterior.<br />\n<strong>Pregunta Gatilladora:</strong><br />\n- <em>¿Qué sabemos sobre La Ley Natural y la Ley Divina?</em></p>\n<h3>├─ DESARROLLO (50 min)</h3>\n<p><strong>Metodología ABP / Trabajo Central:</strong><br />\n- <strong>[MOCK]</strong> Desarrollo generado por IA para: La Ley Natural y la Ley Divina<br />\nCurso: 7° Básico<br />\nEstructura: Videtur quod... Sed contra... Respondeo...<br />\n<strong>Agrupación:</strong> Individual y plenario.<br />\n<strong>Materiales:</strong> Ver sección Materiales abajo.</p>\n<h3>├─ CIERRE (15 min)</h3>\n<p><strong>Reflexión Guiada:</strong><br />\n- Síntesis en la pizarra de la verdad enseñada.<br />\n<strong>Metacognición:</strong><br />\n- <em>¿Qué aprendimos hoy? ¿Cómo lo conectamos con nuestro entorno?</em></p>\n<h3>└─ EVIDENCIA (10 min)</h3>\n<p><strong>📸 Bitácora / Registro:</strong><br />\n- Ensayo visual. Fotografía abstracta/simbólica con justificación filosófica.<br />\n<strong>Tipo de Evaluación:</strong> Formativa (participación y bitácora)</p>\n<hr />\n<h2>🔲 Cobertura MBE 2021 (Indicadores)</h2>\n<ul>\n<li>☑ <strong>Dominio A (Preparación):</strong> Planificación desafiante y coherente con el currículum.</li>\n<li>☑ <strong>Dominio B (Ambiente):</strong> Espacio seguro, rutinas claras e interacciones respetuosas.</li>\n<li>☑ <strong>Dominio C (Enseñanza):</strong> Estrategias activas (ABP) que promueven pensamiento crítico.</li>\n<li>☐ <strong>Dominio D (Responsabilidad):</strong> Recopilación de evidencia para reflexión pedagógica.</li>\n</ul>\n<hr />\n<p><em>Generado automáticamente por Antigravity - Sistema 2026</em></p>\n<hr />\n<h2>🖨️ Material Auto-Generado (listo para imprimir)</h2>\n<p>Biblia (Straubinger), cuaderno, pizarra.</p>",
+    "raw_md": "# Religión — 7° Básico - Unidad: Unidad 0/1\n**Ciclo:** 7° Básico (Básico Superior (7°-8° Básico)) | **Semana:** 3 | **Tiempo:** 90 minutos\n**Pregunta Esencial:** ¿Cómo comprendemos el misterio de La Ley Natural y la Ley Divina?\n\n---\n\n## 🎯 Objetivo de la Clase\nDiscernir fundamentos éticos universales.\n\n---\n\n## 🕒 Secuencia Didáctica (90 min)\n\n### ┌─ INICIO (15 min)\n**Rutina / Activación:**\n- Oración inicial (ciclo litúrgico) y recuerdo de la clase anterior.\n**Pregunta Gatilladora:**\n- *¿Qué sabemos sobre La Ley Natural y la Ley Divina?*\n\n### ├─ DESARROLLO (50 min)\n**Metodología ABP / Trabajo Central:**\n- **[MOCK]** Desarrollo generado por IA para: La Ley Natural y la Ley Divina\nCurso: 7° Básico\nEstructura: Videtur quod... Sed contra... Respondeo...\n**Agrupación:** Individual y plenario.\n**Materiales:** Ver sección Materiales abajo.\n\n### ├─ CIERRE (15 min)\n**Reflexión Guiada:**\n- Síntesis en la pizarra de la verdad enseñada.\n**Metacognición:**\n- *¿Qué aprendimos hoy? ¿Cómo lo conectamos con nuestro entorno?*\n\n### └─ EVIDENCIA (10 min)\n**📸 Bitácora / Registro:**\n- Ensayo visual. Fotografía abstracta/simbólica con justificación filosófica.\n**Tipo de Evaluación:** Formativa (participación y bitácora)\n\n---\n\n## 🔲 Cobertura MBE 2021 (Indicadores)\n- [x] **Dominio A (Preparación):** Planificación desafiante y coherente con el currículum.\n- [x] **Dominio B (Ambiente):** Espacio seguro, rutinas claras e interacciones respetuosas.\n- [x] **Dominio C (Enseñanza):** Estrategias activas (ABP) que promueven pensamiento crítico.\n- [ ] **Dominio D (Responsabilidad):** Recopilación de evidencia para reflexión pedagógica.\n\n---\n*Generado automáticamente por Antigravity - Sistema 2026*\n\n\n---\n\n## 🖨️ Material Auto-Generado (listo para imprimir)\n\nBiblia (Straubinger), cuaderno, pizarra.\n"
+  },
+  {
+    "filename": "S3_REL_8basico.md",
+    "semana": "3",
+    "asignatura": "Religión",
+    "asignatura_code": "REL",
+    "curso": "8basico",
+    "titulo": "Religión — 8° Básico - Unidad: Unidad 0/1",
+    "objetivo": "Discernir fundamentos éticos universales.",
+    "mbe": {
+      "A": false,
+      "B": false,
+      "C": false,
+      "D": false
+    },
+    "materiales": [
+      {
+        "tipo": "basico",
+        "item": "Ver sección Materiales abajo",
+        "preparar": false
+      },
+      {
+        "tipo": "preparar",
+        "item": "📷 Preparar fotos de: por definir",
+        "preparar": true
+      },
+      {
+        "tipo": "preparar",
+        "item": "📖 Pasajes: por definir",
+        "preparar": true
+      }
+    ],
+    "html": "<h1>Religión — 8° Básico - Unidad: Unidad 0/1</h1>\n<p><strong>Ciclo:</strong> 8° Básico (Básico Superior (7°-8° Básico)) | <strong>Semana:</strong> 3 | <strong>Tiempo:</strong> 90 minutos<br />\n<strong>Pregunta Esencial:</strong> ¿Cómo comprendemos el misterio de La Ley Natural y la Ley Divina?</p>\n<hr />\n<h2>🎯 Objetivo de la Clase</h2>\n<p>Discernir fundamentos éticos universales.</p>\n<hr />\n<h2>🕒 Secuencia Didáctica (90 min)</h2>\n<h3>┌─ INICIO (15 min)</h3>\n<p><strong>Rutina / Activación:</strong><br />\n- Oración inicial (ciclo litúrgico) y recuerdo de la clase anterior.<br />\n<strong>Pregunta Gatilladora:</strong><br />\n- <em>¿Qué sabemos sobre La Ley Natural y la Ley Divina?</em></p>\n<h3>├─ DESARROLLO (50 min)</h3>\n<p><strong>Metodología ABP / Trabajo Central:</strong><br />\n- <strong>[MOCK]</strong> Desarrollo generado por IA para: La Ley Natural y la Ley Divina<br />\nCurso: 8° Básico<br />\nEstructura: Videtur quod... Sed contra... Respondeo...<br />\n<strong>Agrupación:</strong> Individual y plenario.<br />\n<strong>Materiales:</strong> Ver sección Materiales abajo.</p>\n<h3>├─ CIERRE (15 min)</h3>\n<p><strong>Reflexión Guiada:</strong><br />\n- Síntesis en la pizarra de la verdad enseñada.<br />\n<strong>Metacognición:</strong><br />\n- <em>¿Qué aprendimos hoy? ¿Cómo lo conectamos con nuestro entorno?</em></p>\n<h3>└─ EVIDENCIA (10 min)</h3>\n<p><strong>📸 Bitácora / Registro:</strong><br />\n- Ensayo visual. Fotografía abstracta/simbólica con justificación filosófica.<br />\n<strong>Tipo de Evaluación:</strong> Formativa (participación y bitácora)</p>\n<hr />\n<h2>🔲 Cobertura MBE 2021 (Indicadores)</h2>\n<ul>\n<li>☑ <strong>Dominio A (Preparación):</strong> Planificación desafiante y coherente con el currículum.</li>\n<li>☑ <strong>Dominio B (Ambiente):</strong> Espacio seguro, rutinas claras e interacciones respetuosas.</li>\n<li>☑ <strong>Dominio C (Enseñanza):</strong> Estrategias activas (ABP) que promueven pensamiento crítico.</li>\n<li>☐ <strong>Dominio D (Responsabilidad):</strong> Recopilación de evidencia para reflexión pedagógica.</li>\n</ul>\n<hr />\n<p><em>Generado automáticamente por Antigravity - Sistema 2026</em></p>\n<hr />\n<h2>🖨️ Material Auto-Generado (listo para imprimir)</h2>\n<p>Biblia (Straubinger), cuaderno, pizarra.</p>",
+    "raw_md": "# Religión — 8° Básico - Unidad: Unidad 0/1\n**Ciclo:** 8° Básico (Básico Superior (7°-8° Básico)) | **Semana:** 3 | **Tiempo:** 90 minutos\n**Pregunta Esencial:** ¿Cómo comprendemos el misterio de La Ley Natural y la Ley Divina?\n\n---\n\n## 🎯 Objetivo de la Clase\nDiscernir fundamentos éticos universales.\n\n---\n\n## 🕒 Secuencia Didáctica (90 min)\n\n### ┌─ INICIO (15 min)\n**Rutina / Activación:**\n- Oración inicial (ciclo litúrgico) y recuerdo de la clase anterior.\n**Pregunta Gatilladora:**\n- *¿Qué sabemos sobre La Ley Natural y la Ley Divina?*\n\n### ├─ DESARROLLO (50 min)\n**Metodología ABP / Trabajo Central:**\n- **[MOCK]** Desarrollo generado por IA para: La Ley Natural y la Ley Divina\nCurso: 8° Básico\nEstructura: Videtur quod... Sed contra... Respondeo...\n**Agrupación:** Individual y plenario.\n**Materiales:** Ver sección Materiales abajo.\n\n### ├─ CIERRE (15 min)\n**Reflexión Guiada:**\n- Síntesis en la pizarra de la verdad enseñada.\n**Metacognición:**\n- *¿Qué aprendimos hoy? ¿Cómo lo conectamos con nuestro entorno?*\n\n### └─ EVIDENCIA (10 min)\n**📸 Bitácora / Registro:**\n- Ensayo visual. Fotografía abstracta/simbólica con justificación filosófica.\n**Tipo de Evaluación:** Formativa (participación y bitácora)\n\n---\n\n## 🔲 Cobertura MBE 2021 (Indicadores)\n- [x] **Dominio A (Preparación):** Planificación desafiante y coherente con el currículum.\n- [x] **Dominio B (Ambiente):** Espacio seguro, rutinas claras e interacciones respetuosas.\n- [x] **Dominio C (Enseñanza):** Estrategias activas (ABP) que promueven pensamiento crítico.\n- [ ] **Dominio D (Responsabilidad):** Recopilación de evidencia para reflexión pedagógica.\n\n---\n*Generado automáticamente por Antigravity - Sistema 2026*\n\n\n---\n\n## 🖨️ Material Auto-Generado (listo para imprimir)\n\nBiblia (Straubinger), cuaderno, pizarra.\n"
+  },
+  {
+    "filename": "S4_PAT_1basico.md",
+    "semana": "4",
+    "asignatura": "Patrimonio",
+    "asignatura_code": "PAT",
+    "curso": "1basico",
+    "titulo": "Patrimonio — 1° Básico - Unidad: Unidad 1: Identidad y Territorio",
+    "objetivo": "Identificar la escuela como espacio de pertenencia.",
+    "mbe": {
+      "A": false,
+      "B": false,
+      "C": false,
+      "D": false
+    },
+    "materiales": [
+      {
+        "tipo": "basico",
+        "item": "Ver sección Materiales abajo",
+        "preparar": false
+      },
+      {
+        "tipo": "preparar",
+        "item": "📖 Pasajes: por definir",
+        "preparar": true
+      },
+      {
+        "tipo": "preparar",
+        "item": "📸 Registro para bitácora fotográfica",
+        "preparar": true
+      }
+    ],
+    "html": "<h1>Patrimonio — 1° Básico - Unidad: Unidad 1: Identidad y Territorio</h1>\n<p><strong>Ciclo:</strong> 1° Básico (Básica Baja (1°-2° Básico)) | <strong>Semana:</strong> 4 | <strong>Tiempo:</strong> 90 minutos<br />\n<strong>Pregunta Esencial:</strong> ¿Cómo comprendemos el misterio de Mi escuela Aonikenk: Nuestra casa común?</p>\n<hr />\n<h2>🎯 Objetivo de la Clase</h2>\n<p>Identificar la escuela como espacio de pertenencia.</p>\n<hr />\n<h2>🕒 Secuencia Didáctica (90 min)</h2>\n<h3>┌─ INICIO (15 min)</h3>\n<p><strong>Rutina / Activación:</strong><br />\n- Oración inicial (ciclo litúrgico) y recuerdo de la clase anterior.<br />\n<strong>Pregunta Gatilladora:</strong><br />\n- <em>¿Qué sabemos sobre Mi escuela Aonikenk: Nuestra casa común?</em></p>\n<h3>├─ DESARROLLO (50 min)</h3>\n<p><strong>Metodología ABP / Trabajo Central:</strong><br />\n- <strong>Actividad de Patrimonio para 1° Básico:</strong> Mi escuela Aonikenk: Nuestra casa común</p>\n<p>Actividad ABP diferenciada para 6-7 años: Actividades concretas: dibujar, colorear, cantar, escuchar cuentos. Frases muy cortas. Vocabulario simple.<br />\n<strong>Agrupación:</strong> Individual y plenario.<br />\n<strong>Materiales:</strong> Ver sección Materiales abajo.</p>\n<h3>├─ CIERRE (15 min)</h3>\n<p><strong>Reflexión Guiada:</strong><br />\n- Síntesis en la pizarra de la verdad enseñada.<br />\n<strong>Metacognición:</strong><br />\n- <em>¿Qué aprendimos hoy? ¿Cómo lo conectamos con nuestro entorno?</em></p>\n<h3>└─ EVIDENCIA (10 min)</h3>\n<p><strong>📸 Bitácora / Registro:</strong><br />\n- El estudiante dibuja y el profesor o estudiante escribe el título.<br />\n<strong>Tipo de Evaluación:</strong> Formativa (participación y bitácora)</p>\n<hr />\n<h2>🔲 Cobertura MBE 2021 (Indicadores)</h2>\n<ul>\n<li>☑ <strong>Dominio A (Preparación):</strong> Planificación desafiante y coherente con el currículum.</li>\n<li>☐ <strong>Dominio B (Ambiente):</strong> Espacio seguro, rutinas claras e interacciones respetuosas.</li>\n<li>☑ <strong>Dominio C (Enseñanza):</strong> Estrategias activas (ABP) que promueven pensamiento crítico.</li>\n<li>☑ <strong>Dominio D (Responsabilidad):</strong> Recopilación de evidencia para reflexión pedagógica.</li>\n</ul>\n<hr />\n<p><em>Generado automáticamente por Antigravity - Sistema 2026</em></p>\n<hr />\n<h2>🖨️ Material Auto-Generado (listo para imprimir)</h2>\n<p>Biblia (Straubinger), cuaderno, pizarra.</p>",
+    "raw_md": "# Patrimonio — 1° Básico - Unidad: Unidad 1: Identidad y Territorio\n**Ciclo:** 1° Básico (Básica Baja (1°-2° Básico)) | **Semana:** 4 | **Tiempo:** 90 minutos\n**Pregunta Esencial:** ¿Cómo comprendemos el misterio de Mi escuela Aonikenk: Nuestra casa común?\n\n---\n\n## 🎯 Objetivo de la Clase\nIdentificar la escuela como espacio de pertenencia.\n\n---\n\n## 🕒 Secuencia Didáctica (90 min)\n\n### ┌─ INICIO (15 min)\n**Rutina / Activación:**\n- Oración inicial (ciclo litúrgico) y recuerdo de la clase anterior.\n**Pregunta Gatilladora:**\n- *¿Qué sabemos sobre Mi escuela Aonikenk: Nuestra casa común?*\n\n### ├─ DESARROLLO (50 min)\n**Metodología ABP / Trabajo Central:**\n- **Actividad de Patrimonio para 1° Básico:** Mi escuela Aonikenk: Nuestra casa común\n\nActividad ABP diferenciada para 6-7 años: Actividades concretas: dibujar, colorear, cantar, escuchar cuentos. Frases muy cortas. Vocabulario simple.\n**Agrupación:** Individual y plenario.\n**Materiales:** Ver sección Materiales abajo.\n\n### ├─ CIERRE (15 min)\n**Reflexión Guiada:**\n- Síntesis en la pizarra de la verdad enseñada.\n**Metacognición:**\n- *¿Qué aprendimos hoy? ¿Cómo lo conectamos con nuestro entorno?*\n\n### └─ EVIDENCIA (10 min)\n**📸 Bitácora / Registro:**\n- El estudiante dibuja y el profesor o estudiante escribe el título.\n**Tipo de Evaluación:** Formativa (participación y bitácora)\n\n---\n\n## 🔲 Cobertura MBE 2021 (Indicadores)\n- [x] **Dominio A (Preparación):** Planificación desafiante y coherente con el currículum.\n- [ ] **Dominio B (Ambiente):** Espacio seguro, rutinas claras e interacciones respetuosas.\n- [x] **Dominio C (Enseñanza):** Estrategias activas (ABP) que promueven pensamiento crítico.\n- [x] **Dominio D (Responsabilidad):** Recopilación de evidencia para reflexión pedagógica.\n\n---\n*Generado automáticamente por Antigravity - Sistema 2026*\n\n\n---\n\n## 🖨️ Material Auto-Generado (listo para imprimir)\n\nBiblia (Straubinger), cuaderno, pizarra.\n"
+  },
+  {
+    "filename": "S4_PAT_2basico.md",
+    "semana": "4",
+    "asignatura": "Patrimonio",
+    "asignatura_code": "PAT",
+    "curso": "2basico",
+    "titulo": "Patrimonio — 2° Básico - Unidad: Unidad 1: Identidad y Territorio",
+    "objetivo": "Identificar la escuela como espacio de pertenencia.",
+    "mbe": {
+      "A": false,
+      "B": false,
+      "C": false,
+      "D": false
+    },
+    "materiales": [
+      {
+        "tipo": "basico",
+        "item": "Ver sección Materiales abajo",
+        "preparar": false
+      },
+      {
+        "tipo": "preparar",
+        "item": "📖 Pasajes: por definir",
+        "preparar": true
+      },
+      {
+        "tipo": "preparar",
+        "item": "📸 Registro para bitácora fotográfica",
+        "preparar": true
+      }
+    ],
+    "html": "<h1>Patrimonio — 2° Básico - Unidad: Unidad 1: Identidad y Territorio</h1>\n<p><strong>Ciclo:</strong> 2° Básico (Básica Baja (1°-2° Básico)) | <strong>Semana:</strong> 4 | <strong>Tiempo:</strong> 90 minutos<br />\n<strong>Pregunta Esencial:</strong> ¿Cómo comprendemos el misterio de Mi escuela Aonikenk: Nuestra casa común?</p>\n<hr />\n<h2>🎯 Objetivo de la Clase</h2>\n<p>Identificar la escuela como espacio de pertenencia.</p>\n<hr />\n<h2>🕒 Secuencia Didáctica (90 min)</h2>\n<h3>┌─ INICIO (15 min)</h3>\n<p><strong>Rutina / Activación:</strong><br />\n- Oración inicial (ciclo litúrgico) y recuerdo de la clase anterior.<br />\n<strong>Pregunta Gatilladora:</strong><br />\n- <em>¿Qué sabemos sobre Mi escuela Aonikenk: Nuestra casa común?</em></p>\n<h3>├─ DESARROLLO (50 min)</h3>\n<p><strong>Metodología ABP / Trabajo Central:</strong><br />\n- <strong>Actividad de Patrimonio para 2° Básico:</strong> Mi escuela Aonikenk: Nuestra casa común</p>\n<p>Actividad ABP diferenciada para 7-8 años: Ya lee y escribe oraciones cortas. Puede copiar del pizarrón. Actividades con escritura guiada y narración oral más extensa.<br />\n<strong>Agrupación:</strong> Individual y plenario.<br />\n<strong>Materiales:</strong> Ver sección Materiales abajo.</p>\n<h3>├─ CIERRE (15 min)</h3>\n<p><strong>Reflexión Guiada:</strong><br />\n- Síntesis en la pizarra de la verdad enseñada.<br />\n<strong>Metacognición:</strong><br />\n- <em>¿Qué aprendimos hoy? ¿Cómo lo conectamos con nuestro entorno?</em></p>\n<h3>└─ EVIDENCIA (10 min)</h3>\n<p><strong>📸 Bitácora / Registro:</strong><br />\n- El estudiante dibuja y el profesor o estudiante escribe el título.<br />\n<strong>Tipo de Evaluación:</strong> Formativa (participación y bitácora)</p>\n<hr />\n<h2>🔲 Cobertura MBE 2021 (Indicadores)</h2>\n<ul>\n<li>☑ <strong>Dominio A (Preparación):</strong> Planificación desafiante y coherente con el currículum.</li>\n<li>☐ <strong>Dominio B (Ambiente):</strong> Espacio seguro, rutinas claras e interacciones respetuosas.</li>\n<li>☑ <strong>Dominio C (Enseñanza):</strong> Estrategias activas (ABP) que promueven pensamiento crítico.</li>\n<li>☑ <strong>Dominio D (Responsabilidad):</strong> Recopilación de evidencia para reflexión pedagógica.</li>\n</ul>\n<hr />\n<p><em>Generado automáticamente por Antigravity - Sistema 2026</em></p>\n<hr />\n<h2>🖨️ Material Auto-Generado (listo para imprimir)</h2>\n<p>Biblia (Straubinger), cuaderno, pizarra.</p>",
+    "raw_md": "# Patrimonio — 2° Básico - Unidad: Unidad 1: Identidad y Territorio\n**Ciclo:** 2° Básico (Básica Baja (1°-2° Básico)) | **Semana:** 4 | **Tiempo:** 90 minutos\n**Pregunta Esencial:** ¿Cómo comprendemos el misterio de Mi escuela Aonikenk: Nuestra casa común?\n\n---\n\n## 🎯 Objetivo de la Clase\nIdentificar la escuela como espacio de pertenencia.\n\n---\n\n## 🕒 Secuencia Didáctica (90 min)\n\n### ┌─ INICIO (15 min)\n**Rutina / Activación:**\n- Oración inicial (ciclo litúrgico) y recuerdo de la clase anterior.\n**Pregunta Gatilladora:**\n- *¿Qué sabemos sobre Mi escuela Aonikenk: Nuestra casa común?*\n\n### ├─ DESARROLLO (50 min)\n**Metodología ABP / Trabajo Central:**\n- **Actividad de Patrimonio para 2° Básico:** Mi escuela Aonikenk: Nuestra casa común\n\nActividad ABP diferenciada para 7-8 años: Ya lee y escribe oraciones cortas. Puede copiar del pizarrón. Actividades con escritura guiada y narración oral más extensa.\n**Agrupación:** Individual y plenario.\n**Materiales:** Ver sección Materiales abajo.\n\n### ├─ CIERRE (15 min)\n**Reflexión Guiada:**\n- Síntesis en la pizarra de la verdad enseñada.\n**Metacognición:**\n- *¿Qué aprendimos hoy? ¿Cómo lo conectamos con nuestro entorno?*\n\n### └─ EVIDENCIA (10 min)\n**📸 Bitácora / Registro:**\n- El estudiante dibuja y el profesor o estudiante escribe el título.\n**Tipo de Evaluación:** Formativa (participación y bitácora)\n\n---\n\n## 🔲 Cobertura MBE 2021 (Indicadores)\n- [x] **Dominio A (Preparación):** Planificación desafiante y coherente con el currículum.\n- [ ] **Dominio B (Ambiente):** Espacio seguro, rutinas claras e interacciones respetuosas.\n- [x] **Dominio C (Enseñanza):** Estrategias activas (ABP) que promueven pensamiento crítico.\n- [x] **Dominio D (Responsabilidad):** Recopilación de evidencia para reflexión pedagógica.\n\n---\n*Generado automáticamente por Antigravity - Sistema 2026*\n\n\n---\n\n## 🖨️ Material Auto-Generado (listo para imprimir)\n\nBiblia (Straubinger), cuaderno, pizarra.\n"
+  },
+  {
+    "filename": "S4_PAT_3basico.md",
+    "semana": "4",
+    "asignatura": "Patrimonio",
+    "asignatura_code": "PAT",
+    "curso": "3basico",
+    "titulo": "Patrimonio — 3° Básico - Unidad: Unidad 1: Identidad y Territorio",
+    "objetivo": "Crear un mapa básico de hitos locales.",
+    "mbe": {
+      "A": false,
+      "B": false,
+      "C": false,
+      "D": false
+    },
+    "materiales": [
+      {
+        "tipo": "basico",
+        "item": "Ver sección Materiales abajo",
+        "preparar": false
+      },
+      {
+        "tipo": "preparar",
+        "item": "🗺️ Mapa de: por definir",
+        "preparar": true
+      },
+      {
+        "tipo": "preparar",
+        "item": "📖 Pasajes: por definir",
+        "preparar": true
+      },
+      {
+        "tipo": "preparar",
+        "item": "📸 Registro para bitácora fotográfica",
+        "preparar": true
+      }
+    ],
+    "html": "<h1>Patrimonio — 3° Básico - Unidad: Unidad 1: Identidad y Territorio</h1>\n<p><strong>Ciclo:</strong> 3° Básico (Básica Media (3°-4° Básico)) | <strong>Semana:</strong> 4 | <strong>Tiempo:</strong> 90 minutos<br />\n<strong>Pregunta Esencial:</strong> ¿Cómo comprendemos el misterio de Mapeando mi comunidad?</p>\n<hr />\n<h2>🎯 Objetivo de la Clase</h2>\n<p>Crear un mapa básico de hitos locales.</p>\n<hr />\n<h2>🕒 Secuencia Didáctica (90 min)</h2>\n<h3>┌─ INICIO (15 min)</h3>\n<p><strong>Rutina / Activación:</strong><br />\n- Oración inicial (ciclo litúrgico) y recuerdo de la clase anterior.<br />\n<strong>Pregunta Gatilladora:</strong><br />\n- <em>¿Qué sabemos sobre Mapeando mi comunidad?</em></p>\n<h3>├─ DESARROLLO (50 min)</h3>\n<p><strong>Metodología ABP / Trabajo Central:</strong><br />\n- <strong>Actividad de Patrimonio para 3° Básico:</strong> Mapeando mi comunidad</p>\n<p>Actividad ABP diferenciada para 8-9 años: Inicio de trabajo grupal simple (parejas). Lectura de textos cortos. Preguntas dirigidas con opciones.<br />\n<strong>Agrupación:</strong> Individual y plenario.<br />\n<strong>Materiales:</strong> Ver sección Materiales abajo.</p>\n<h3>├─ CIERRE (15 min)</h3>\n<p><strong>Reflexión Guiada:</strong><br />\n- Síntesis en la pizarra de la verdad enseñada.<br />\n<strong>Metacognición:</strong><br />\n- <em>¿Qué aprendimos hoy? ¿Cómo lo conectamos con nuestro entorno?</em></p>\n<h3>└─ EVIDENCIA (10 min)</h3>\n<p><strong>📸 Bitácora / Registro:</strong><br />\n- El estudiante toma la foto y escribe un párrafo corto (qué, cómo, cuándo).<br />\n<strong>Tipo de Evaluación:</strong> Formativa (participación y bitácora)</p>\n<hr />\n<h2>🔲 Cobertura MBE 2021 (Indicadores)</h2>\n<ul>\n<li>☑ <strong>Dominio A (Preparación):</strong> Planificación desafiante y coherente con el currículum.</li>\n<li>☐ <strong>Dominio B (Ambiente):</strong> Espacio seguro, rutinas claras e interacciones respetuosas.</li>\n<li>☑ <strong>Dominio C (Enseñanza):</strong> Estrategias activas (ABP) que promueven pensamiento crítico.</li>\n<li>☑ <strong>Dominio D (Responsabilidad):</strong> Recopilación de evidencia para reflexión pedagógica.</li>\n</ul>\n<hr />\n<p><em>Generado automáticamente por Antigravity - Sistema 2026</em></p>\n<hr />\n<h2>🖨️ Material Auto-Generado (listo para imprimir)</h2>\n<p>Biblia (Straubinger), cuaderno, pizarra.</p>",
+    "raw_md": "# Patrimonio — 3° Básico - Unidad: Unidad 1: Identidad y Territorio\n**Ciclo:** 3° Básico (Básica Media (3°-4° Básico)) | **Semana:** 4 | **Tiempo:** 90 minutos\n**Pregunta Esencial:** ¿Cómo comprendemos el misterio de Mapeando mi comunidad?\n\n---\n\n## 🎯 Objetivo de la Clase\nCrear un mapa básico de hitos locales.\n\n---\n\n## 🕒 Secuencia Didáctica (90 min)\n\n### ┌─ INICIO (15 min)\n**Rutina / Activación:**\n- Oración inicial (ciclo litúrgico) y recuerdo de la clase anterior.\n**Pregunta Gatilladora:**\n- *¿Qué sabemos sobre Mapeando mi comunidad?*\n\n### ├─ DESARROLLO (50 min)\n**Metodología ABP / Trabajo Central:**\n- **Actividad de Patrimonio para 3° Básico:** Mapeando mi comunidad\n\nActividad ABP diferenciada para 8-9 años: Inicio de trabajo grupal simple (parejas). Lectura de textos cortos. Preguntas dirigidas con opciones.\n**Agrupación:** Individual y plenario.\n**Materiales:** Ver sección Materiales abajo.\n\n### ├─ CIERRE (15 min)\n**Reflexión Guiada:**\n- Síntesis en la pizarra de la verdad enseñada.\n**Metacognición:**\n- *¿Qué aprendimos hoy? ¿Cómo lo conectamos con nuestro entorno?*\n\n### └─ EVIDENCIA (10 min)\n**📸 Bitácora / Registro:**\n- El estudiante toma la foto y escribe un párrafo corto (qué, cómo, cuándo).\n**Tipo de Evaluación:** Formativa (participación y bitácora)\n\n---\n\n## 🔲 Cobertura MBE 2021 (Indicadores)\n- [x] **Dominio A (Preparación):** Planificación desafiante y coherente con el currículum.\n- [ ] **Dominio B (Ambiente):** Espacio seguro, rutinas claras e interacciones respetuosas.\n- [x] **Dominio C (Enseñanza):** Estrategias activas (ABP) que promueven pensamiento crítico.\n- [x] **Dominio D (Responsabilidad):** Recopilación de evidencia para reflexión pedagógica.\n\n---\n*Generado automáticamente por Antigravity - Sistema 2026*\n\n\n---\n\n## 🖨️ Material Auto-Generado (listo para imprimir)\n\nBiblia (Straubinger), cuaderno, pizarra.\n"
+  },
+  {
+    "filename": "S4_PAT_4basico.md",
+    "semana": "4",
+    "asignatura": "Patrimonio",
+    "asignatura_code": "PAT",
+    "curso": "4basico",
+    "titulo": "Patrimonio — 4° Básico - Unidad: Unidad 1: Identidad y Territorio",
+    "objetivo": "Crear un mapa básico de hitos locales.",
+    "mbe": {
+      "A": false,
+      "B": false,
+      "C": false,
+      "D": false
+    },
+    "materiales": [
+      {
+        "tipo": "basico",
+        "item": "Ver sección Materiales abajo",
+        "preparar": false
+      },
+      {
+        "tipo": "preparar",
+        "item": "🗺️ Mapa de: por definir",
+        "preparar": true
+      },
+      {
+        "tipo": "preparar",
+        "item": "📖 Pasajes: por definir",
+        "preparar": true
+      },
+      {
+        "tipo": "preparar",
+        "item": "📸 Registro para bitácora fotográfica",
+        "preparar": true
+      }
+    ],
+    "html": "<h1>Patrimonio — 4° Básico - Unidad: Unidad 1: Identidad y Territorio</h1>\n<p><strong>Ciclo:</strong> 4° Básico (Básica Media (3°-4° Básico)) | <strong>Semana:</strong> 4 | <strong>Tiempo:</strong> 90 minutos<br />\n<strong>Pregunta Esencial:</strong> ¿Cómo comprendemos el misterio de Mapeando mi comunidad?</p>\n<hr />\n<h2>🎯 Objetivo de la Clase</h2>\n<p>Crear un mapa básico de hitos locales.</p>\n<hr />\n<h2>🕒 Secuencia Didáctica (90 min)</h2>\n<h3>┌─ INICIO (15 min)</h3>\n<p><strong>Rutina / Activación:</strong><br />\n- Oración inicial (ciclo litúrgico) y recuerdo de la clase anterior.<br />\n<strong>Pregunta Gatilladora:</strong><br />\n- <em>¿Qué sabemos sobre Mapeando mi comunidad?</em></p>\n<h3>├─ DESARROLLO (50 min)</h3>\n<p><strong>Metodología ABP / Trabajo Central:</strong><br />\n- <strong>Actividad de Patrimonio para 4° Básico:</strong> Mapeando mi comunidad</p>\n<p>Actividad ABP diferenciada para 9-10 años: Trabajo en equipos de 3-4. Mapas conceptuales simples. Redacción de párrafos cortos. Mayor autonomía lectora.<br />\n<strong>Agrupación:</strong> Individual y plenario.<br />\n<strong>Materiales:</strong> Ver sección Materiales abajo.</p>\n<h3>├─ CIERRE (15 min)</h3>\n<p><strong>Reflexión Guiada:</strong><br />\n- Síntesis en la pizarra de la verdad enseñada.<br />\n<strong>Metacognición:</strong><br />\n- <em>¿Qué aprendimos hoy? ¿Cómo lo conectamos con nuestro entorno?</em></p>\n<h3>└─ EVIDENCIA (10 min)</h3>\n<p><strong>📸 Bitácora / Registro:</strong><br />\n- El estudiante toma la foto y escribe un párrafo corto (qué, cómo, cuándo).<br />\n<strong>Tipo de Evaluación:</strong> Formativa (participación y bitácora)</p>\n<hr />\n<h2>🔲 Cobertura MBE 2021 (Indicadores)</h2>\n<ul>\n<li>☑ <strong>Dominio A (Preparación):</strong> Planificación desafiante y coherente con el currículum.</li>\n<li>☐ <strong>Dominio B (Ambiente):</strong> Espacio seguro, rutinas claras e interacciones respetuosas.</li>\n<li>☑ <strong>Dominio C (Enseñanza):</strong> Estrategias activas (ABP) que promueven pensamiento crítico.</li>\n<li>☑ <strong>Dominio D (Responsabilidad):</strong> Recopilación de evidencia para reflexión pedagógica.</li>\n</ul>\n<hr />\n<p><em>Generado automáticamente por Antigravity - Sistema 2026</em></p>\n<hr />\n<h2>🖨️ Material Auto-Generado (listo para imprimir)</h2>\n<p>Biblia (Straubinger), cuaderno, pizarra.</p>",
+    "raw_md": "# Patrimonio — 4° Básico - Unidad: Unidad 1: Identidad y Territorio\n**Ciclo:** 4° Básico (Básica Media (3°-4° Básico)) | **Semana:** 4 | **Tiempo:** 90 minutos\n**Pregunta Esencial:** ¿Cómo comprendemos el misterio de Mapeando mi comunidad?\n\n---\n\n## 🎯 Objetivo de la Clase\nCrear un mapa básico de hitos locales.\n\n---\n\n## 🕒 Secuencia Didáctica (90 min)\n\n### ┌─ INICIO (15 min)\n**Rutina / Activación:**\n- Oración inicial (ciclo litúrgico) y recuerdo de la clase anterior.\n**Pregunta Gatilladora:**\n- *¿Qué sabemos sobre Mapeando mi comunidad?*\n\n### ├─ DESARROLLO (50 min)\n**Metodología ABP / Trabajo Central:**\n- **Actividad de Patrimonio para 4° Básico:** Mapeando mi comunidad\n\nActividad ABP diferenciada para 9-10 años: Trabajo en equipos de 3-4. Mapas conceptuales simples. Redacción de párrafos cortos. Mayor autonomía lectora.\n**Agrupación:** Individual y plenario.\n**Materiales:** Ver sección Materiales abajo.\n\n### ├─ CIERRE (15 min)\n**Reflexión Guiada:**\n- Síntesis en la pizarra de la verdad enseñada.\n**Metacognición:**\n- *¿Qué aprendimos hoy? ¿Cómo lo conectamos con nuestro entorno?*\n\n### └─ EVIDENCIA (10 min)\n**📸 Bitácora / Registro:**\n- El estudiante toma la foto y escribe un párrafo corto (qué, cómo, cuándo).\n**Tipo de Evaluación:** Formativa (participación y bitácora)\n\n---\n\n## 🔲 Cobertura MBE 2021 (Indicadores)\n- [x] **Dominio A (Preparación):** Planificación desafiante y coherente con el currículum.\n- [ ] **Dominio B (Ambiente):** Espacio seguro, rutinas claras e interacciones respetuosas.\n- [x] **Dominio C (Enseñanza):** Estrategias activas (ABP) que promueven pensamiento crítico.\n- [x] **Dominio D (Responsabilidad):** Recopilación de evidencia para reflexión pedagógica.\n\n---\n*Generado automáticamente por Antigravity - Sistema 2026*\n\n\n---\n\n## 🖨️ Material Auto-Generado (listo para imprimir)\n\nBiblia (Straubinger), cuaderno, pizarra.\n"
+  },
+  {
+    "filename": "S4_PAT_5basico.md",
+    "semana": "4",
+    "asignatura": "Patrimonio",
+    "asignatura_code": "PAT",
+    "curso": "5basico",
+    "titulo": "Patrimonio — 5° Básico - Unidad: Unidad 1: Identidad y Territorio",
+    "objetivo": "Analizar fuentes primarias de la historia local.",
+    "mbe": {
+      "A": false,
+      "B": false,
+      "C": false,
+      "D": false
+    },
+    "materiales": [
+      {
+        "tipo": "basico",
+        "item": "Ver sección Materiales abajo",
+        "preparar": false
+      },
+      {
+        "tipo": "preparar",
+        "item": "📖 Pasajes: por definir",
+        "preparar": true
+      },
+      {
+        "tipo": "preparar",
+        "item": "📸 Registro para bitácora fotográfica",
+        "preparar": true
+      }
+    ],
+    "html": "<h1>Patrimonio — 5° Básico - Unidad: Unidad 1: Identidad y Territorio</h1>\n<p><strong>Ciclo:</strong> 5° Básico (Básico Intermedio (5°-6° Básico)) | <strong>Semana:</strong> 4 | <strong>Tiempo:</strong> 90 minutos<br />\n<strong>Pregunta Esencial:</strong> ¿Cómo comprendemos el misterio de Archivos y fotos: El pasado en el presente?</p>\n<hr />\n<h2>🎯 Objetivo de la Clase</h2>\n<p>Analizar fuentes primarias de la historia local.</p>\n<hr />\n<h2>🕒 Secuencia Didáctica (90 min)</h2>\n<h3>┌─ INICIO (15 min)</h3>\n<p><strong>Rutina / Activación:</strong><br />\n- Oración inicial (ciclo litúrgico) y recuerdo de la clase anterior.<br />\n<strong>Pregunta Gatilladora:</strong><br />\n- <em>¿Qué sabemos sobre Archivos y fotos: El pasado en el presente?</em></p>\n<h3>├─ DESARROLLO (50 min)</h3>\n<p><strong>Metodología ABP / Trabajo Central:</strong><br />\n- <strong>Actividad de Patrimonio para 5° Básico:</strong> Archivos y fotos: El pasado en el presente</p>\n<p>Actividad ABP diferenciada para 10-11 años: Investigación guiada con preguntas. Exposiciones breves. Inicio de pensamiento abstracto. Trabajo con líneas de tiempo.<br />\n<strong>Agrupación:</strong> Individual y plenario.<br />\n<strong>Materiales:</strong> Ver sección Materiales abajo.</p>\n<h3>├─ CIERRE (15 min)</h3>\n<p><strong>Reflexión Guiada:</strong><br />\n- Síntesis en la pizarra de la verdad enseñada.<br />\n<strong>Metacognición:</strong><br />\n- <em>¿Qué aprendimos hoy? ¿Cómo lo conectamos con nuestro entorno?</em></p>\n<h3>└─ EVIDENCIA (10 min)</h3>\n<p><strong>📸 Bitácora / Registro:</strong><br />\n- Reportaje fotográfico (serie de fotos) con epígrafes críticos.<br />\n<strong>Tipo de Evaluación:</strong> Formativa (participación y bitácora)</p>\n<hr />\n<h2>🔲 Cobertura MBE 2021 (Indicadores)</h2>\n<ul>\n<li>☑ <strong>Dominio A (Preparación):</strong> Planificación desafiante y coherente con el currículum.</li>\n<li>☐ <strong>Dominio B (Ambiente):</strong> Espacio seguro, rutinas claras e interacciones respetuosas.</li>\n<li>☑ <strong>Dominio C (Enseñanza):</strong> Estrategias activas (ABP) que promueven pensamiento crítico.</li>\n<li>☑ <strong>Dominio D (Responsabilidad):</strong> Recopilación de evidencia para reflexión pedagógica.</li>\n</ul>\n<hr />\n<p><em>Generado automáticamente por Antigravity - Sistema 2026</em></p>\n<hr />\n<h2>🖨️ Material Auto-Generado (listo para imprimir)</h2>\n<p>Biblia (Straubinger), cuaderno, pizarra.</p>",
+    "raw_md": "# Patrimonio — 5° Básico - Unidad: Unidad 1: Identidad y Territorio\n**Ciclo:** 5° Básico (Básico Intermedio (5°-6° Básico)) | **Semana:** 4 | **Tiempo:** 90 minutos\n**Pregunta Esencial:** ¿Cómo comprendemos el misterio de Archivos y fotos: El pasado en el presente?\n\n---\n\n## 🎯 Objetivo de la Clase\nAnalizar fuentes primarias de la historia local.\n\n---\n\n## 🕒 Secuencia Didáctica (90 min)\n\n### ┌─ INICIO (15 min)\n**Rutina / Activación:**\n- Oración inicial (ciclo litúrgico) y recuerdo de la clase anterior.\n**Pregunta Gatilladora:**\n- *¿Qué sabemos sobre Archivos y fotos: El pasado en el presente?*\n\n### ├─ DESARROLLO (50 min)\n**Metodología ABP / Trabajo Central:**\n- **Actividad de Patrimonio para 5° Básico:** Archivos y fotos: El pasado en el presente\n\nActividad ABP diferenciada para 10-11 años: Investigación guiada con preguntas. Exposiciones breves. Inicio de pensamiento abstracto. Trabajo con líneas de tiempo.\n**Agrupación:** Individual y plenario.\n**Materiales:** Ver sección Materiales abajo.\n\n### ├─ CIERRE (15 min)\n**Reflexión Guiada:**\n- Síntesis en la pizarra de la verdad enseñada.\n**Metacognición:**\n- *¿Qué aprendimos hoy? ¿Cómo lo conectamos con nuestro entorno?*\n\n### └─ EVIDENCIA (10 min)\n**📸 Bitácora / Registro:**\n- Reportaje fotográfico (serie de fotos) con epígrafes críticos.\n**Tipo de Evaluación:** Formativa (participación y bitácora)\n\n---\n\n## 🔲 Cobertura MBE 2021 (Indicadores)\n- [x] **Dominio A (Preparación):** Planificación desafiante y coherente con el currículum.\n- [ ] **Dominio B (Ambiente):** Espacio seguro, rutinas claras e interacciones respetuosas.\n- [x] **Dominio C (Enseñanza):** Estrategias activas (ABP) que promueven pensamiento crítico.\n- [x] **Dominio D (Responsabilidad):** Recopilación de evidencia para reflexión pedagógica.\n\n---\n*Generado automáticamente por Antigravity - Sistema 2026*\n\n\n---\n\n## 🖨️ Material Auto-Generado (listo para imprimir)\n\nBiblia (Straubinger), cuaderno, pizarra.\n"
+  },
+  {
+    "filename": "S4_PAT_6basico.md",
+    "semana": "4",
+    "asignatura": "Patrimonio",
+    "asignatura_code": "PAT",
+    "curso": "6basico",
+    "titulo": "Patrimonio — 6° Básico - Unidad: Unidad 1: Identidad y Territorio",
+    "objetivo": "Analizar fuentes primarias de la historia local.",
+    "mbe": {
+      "A": false,
+      "B": false,
+      "C": false,
+      "D": false
+    },
+    "materiales": [
+      {
+        "tipo": "basico",
+        "item": "Ver sección Materiales abajo",
+        "preparar": false
+      },
+      {
+        "tipo": "preparar",
+        "item": "📖 Pasajes: por definir",
+        "preparar": true
+      },
+      {
+        "tipo": "preparar",
+        "item": "📸 Registro para bitácora fotográfica",
+        "preparar": true
+      }
+    ],
+    "html": "<h1>Patrimonio — 6° Básico - Unidad: Unidad 1: Identidad y Territorio</h1>\n<p><strong>Ciclo:</strong> 6° Básico (Básico Intermedio (5°-6° Básico)) | <strong>Semana:</strong> 4 | <strong>Tiempo:</strong> 90 minutos<br />\n<strong>Pregunta Esencial:</strong> ¿Cómo comprendemos el misterio de Archivos y fotos: El pasado en el presente?</p>\n<hr />\n<h2>🎯 Objetivo de la Clase</h2>\n<p>Analizar fuentes primarias de la historia local.</p>\n<hr />\n<h2>🕒 Secuencia Didáctica (90 min)</h2>\n<h3>┌─ INICIO (15 min)</h3>\n<p><strong>Rutina / Activación:</strong><br />\n- Oración inicial (ciclo litúrgico) y recuerdo de la clase anterior.<br />\n<strong>Pregunta Gatilladora:</strong><br />\n- <em>¿Qué sabemos sobre Archivos y fotos: El pasado en el presente?</em></p>\n<h3>├─ DESARROLLO (50 min)</h3>\n<p><strong>Metodología ABP / Trabajo Central:</strong><br />\n- <strong>Actividad de Patrimonio para 6° Básico:</strong> Archivos y fotos: El pasado en el presente</p>\n<p>Actividad ABP diferenciada para 11-12 años: Investigación con mayor autonomía. Debates simples. Redacción de textos argumentativos básicos. Co-evaluación entre pares.<br />\n<strong>Agrupación:</strong> Individual y plenario.<br />\n<strong>Materiales:</strong> Ver sección Materiales abajo.</p>\n<h3>├─ CIERRE (15 min)</h3>\n<p><strong>Reflexión Guiada:</strong><br />\n- Síntesis en la pizarra de la verdad enseñada.<br />\n<strong>Metacognición:</strong><br />\n- <em>¿Qué aprendimos hoy? ¿Cómo lo conectamos con nuestro entorno?</em></p>\n<h3>└─ EVIDENCIA (10 min)</h3>\n<p><strong>📸 Bitácora / Registro:</strong><br />\n- Reportaje fotográfico (serie de fotos) con epígrafes críticos.<br />\n<strong>Tipo de Evaluación:</strong> Formativa (participación y bitácora)</p>\n<hr />\n<h2>🔲 Cobertura MBE 2021 (Indicadores)</h2>\n<ul>\n<li>☑ <strong>Dominio A (Preparación):</strong> Planificación desafiante y coherente con el currículum.</li>\n<li>☐ <strong>Dominio B (Ambiente):</strong> Espacio seguro, rutinas claras e interacciones respetuosas.</li>\n<li>☑ <strong>Dominio C (Enseñanza):</strong> Estrategias activas (ABP) que promueven pensamiento crítico.</li>\n<li>☑ <strong>Dominio D (Responsabilidad):</strong> Recopilación de evidencia para reflexión pedagógica.</li>\n</ul>\n<hr />\n<p><em>Generado automáticamente por Antigravity - Sistema 2026</em></p>\n<hr />\n<h2>🖨️ Material Auto-Generado (listo para imprimir)</h2>\n<p>Biblia (Straubinger), cuaderno, pizarra.</p>",
+    "raw_md": "# Patrimonio — 6° Básico - Unidad: Unidad 1: Identidad y Territorio\n**Ciclo:** 6° Básico (Básico Intermedio (5°-6° Básico)) | **Semana:** 4 | **Tiempo:** 90 minutos\n**Pregunta Esencial:** ¿Cómo comprendemos el misterio de Archivos y fotos: El pasado en el presente?\n\n---\n\n## 🎯 Objetivo de la Clase\nAnalizar fuentes primarias de la historia local.\n\n---\n\n## 🕒 Secuencia Didáctica (90 min)\n\n### ┌─ INICIO (15 min)\n**Rutina / Activación:**\n- Oración inicial (ciclo litúrgico) y recuerdo de la clase anterior.\n**Pregunta Gatilladora:**\n- *¿Qué sabemos sobre Archivos y fotos: El pasado en el presente?*\n\n### ├─ DESARROLLO (50 min)\n**Metodología ABP / Trabajo Central:**\n- **Actividad de Patrimonio para 6° Básico:** Archivos y fotos: El pasado en el presente\n\nActividad ABP diferenciada para 11-12 años: Investigación con mayor autonomía. Debates simples. Redacción de textos argumentativos básicos. Co-evaluación entre pares.\n**Agrupación:** Individual y plenario.\n**Materiales:** Ver sección Materiales abajo.\n\n### ├─ CIERRE (15 min)\n**Reflexión Guiada:**\n- Síntesis en la pizarra de la verdad enseñada.\n**Metacognición:**\n- *¿Qué aprendimos hoy? ¿Cómo lo conectamos con nuestro entorno?*\n\n### └─ EVIDENCIA (10 min)\n**📸 Bitácora / Registro:**\n- Reportaje fotográfico (serie de fotos) con epígrafes críticos.\n**Tipo de Evaluación:** Formativa (participación y bitácora)\n\n---\n\n## 🔲 Cobertura MBE 2021 (Indicadores)\n- [x] **Dominio A (Preparación):** Planificación desafiante y coherente con el currículum.\n- [ ] **Dominio B (Ambiente):** Espacio seguro, rutinas claras e interacciones respetuosas.\n- [x] **Dominio C (Enseñanza):** Estrategias activas (ABP) que promueven pensamiento crítico.\n- [x] **Dominio D (Responsabilidad):** Recopilación de evidencia para reflexión pedagógica.\n\n---\n*Generado automáticamente por Antigravity - Sistema 2026*\n\n\n---\n\n## 🖨️ Material Auto-Generado (listo para imprimir)\n\nBiblia (Straubinger), cuaderno, pizarra.\n"
+  },
+  {
+    "filename": "S4_PAT_7basico.md",
+    "semana": "4",
+    "asignatura": "Patrimonio",
+    "asignatura_code": "PAT",
+    "curso": "7basico",
+    "titulo": "Patrimonio — 7° Básico - Unidad: Unidad 1: Identidad y Territorio",
+    "objetivo": "Identificar roles ciudadanos en la conservación.",
+    "mbe": {
+      "A": false,
+      "B": false,
+      "C": false,
+      "D": false
+    },
+    "materiales": [
+      {
+        "tipo": "basico",
+        "item": "Ver sección Materiales abajo",
+        "preparar": false
+      },
+      {
+        "tipo": "preparar",
+        "item": "📷 Preparar fotos de: por definir",
+        "preparar": true
+      },
+      {
+        "tipo": "preparar",
+        "item": "📖 Pasajes: por definir",
+        "preparar": true
+      },
+      {
+        "tipo": "preparar",
+        "item": "📸 Registro para bitácora fotográfica",
+        "preparar": true
+      }
+    ],
+    "html": "<h1>Patrimonio — 7° Básico - Unidad: Unidad 1: Identidad y Territorio</h1>\n<p><strong>Ciclo:</strong> 7° Básico (Básico Superior (7°-8° Básico)) | <strong>Semana:</strong> 4 | <strong>Tiempo:</strong> 90 minutos<br />\n<strong>Pregunta Esencial:</strong> ¿Cómo comprendemos el misterio de Gestión del Patrimonio: ¿Cómo protegemos lo nuestro??</p>\n<hr />\n<h2>🎯 Objetivo de la Clase</h2>\n<p>Identificar roles ciudadanos en la conservación.</p>\n<hr />\n<h2>🕒 Secuencia Didáctica (90 min)</h2>\n<h3>┌─ INICIO (15 min)</h3>\n<p><strong>Rutina / Activación:</strong><br />\n- Oración inicial (ciclo litúrgico) y recuerdo de la clase anterior.<br />\n<strong>Pregunta Gatilladora:</strong><br />\n- <em>¿Qué sabemos sobre Gestión del Patrimonio: ¿Cómo protegemos lo nuestro??</em></p>\n<h3>├─ DESARROLLO (50 min)</h3>\n<p><strong>Metodología ABP / Trabajo Central:</strong><br />\n- <strong>Actividad de Patrimonio para 7° Básico:</strong> Gestión del Patrimonio: ¿Cómo protegemos lo nuestro?</p>\n<p>Actividad ABP diferenciada para 12-13 años: Pensamiento crítico inicial. Análisis de fuentes. Ensayos cortos. Debates estructurados. Conexión con actualidad.<br />\n<strong>Agrupación:</strong> Individual y plenario.<br />\n<strong>Materiales:</strong> Ver sección Materiales abajo.</p>\n<h3>├─ CIERRE (15 min)</h3>\n<p><strong>Reflexión Guiada:</strong><br />\n- Síntesis en la pizarra de la verdad enseñada.<br />\n<strong>Metacognición:</strong><br />\n- <em>¿Qué aprendimos hoy? ¿Cómo lo conectamos con nuestro entorno?</em></p>\n<h3>└─ EVIDENCIA (10 min)</h3>\n<p><strong>📸 Bitácora / Registro:</strong><br />\n- Ensayo visual. Fotografía abstracta/simbólica con justificación filosófica.<br />\n<strong>Tipo de Evaluación:</strong> Formativa (participación y bitácora)</p>\n<hr />\n<h2>🔲 Cobertura MBE 2021 (Indicadores)</h2>\n<ul>\n<li>☑ <strong>Dominio A (Preparación):</strong> Planificación desafiante y coherente con el currículum.</li>\n<li>☐ <strong>Dominio B (Ambiente):</strong> Espacio seguro, rutinas claras e interacciones respetuosas.</li>\n<li>☑ <strong>Dominio C (Enseñanza):</strong> Estrategias activas (ABP) que promueven pensamiento crítico.</li>\n<li>☑ <strong>Dominio D (Responsabilidad):</strong> Recopilación de evidencia para reflexión pedagógica.</li>\n</ul>\n<hr />\n<p><em>Generado automáticamente por Antigravity - Sistema 2026</em></p>\n<hr />\n<h2>🖨️ Material Auto-Generado (listo para imprimir)</h2>\n<p>Biblia (Straubinger), cuaderno, pizarra.</p>",
+    "raw_md": "# Patrimonio — 7° Básico - Unidad: Unidad 1: Identidad y Territorio\n**Ciclo:** 7° Básico (Básico Superior (7°-8° Básico)) | **Semana:** 4 | **Tiempo:** 90 minutos\n**Pregunta Esencial:** ¿Cómo comprendemos el misterio de Gestión del Patrimonio: ¿Cómo protegemos lo nuestro??\n\n---\n\n## 🎯 Objetivo de la Clase\nIdentificar roles ciudadanos en la conservación.\n\n---\n\n## 🕒 Secuencia Didáctica (90 min)\n\n### ┌─ INICIO (15 min)\n**Rutina / Activación:**\n- Oración inicial (ciclo litúrgico) y recuerdo de la clase anterior.\n**Pregunta Gatilladora:**\n- *¿Qué sabemos sobre Gestión del Patrimonio: ¿Cómo protegemos lo nuestro??*\n\n### ├─ DESARROLLO (50 min)\n**Metodología ABP / Trabajo Central:**\n- **Actividad de Patrimonio para 7° Básico:** Gestión del Patrimonio: ¿Cómo protegemos lo nuestro?\n\nActividad ABP diferenciada para 12-13 años: Pensamiento crítico inicial. Análisis de fuentes. Ensayos cortos. Debates estructurados. Conexión con actualidad.\n**Agrupación:** Individual y plenario.\n**Materiales:** Ver sección Materiales abajo.\n\n### ├─ CIERRE (15 min)\n**Reflexión Guiada:**\n- Síntesis en la pizarra de la verdad enseñada.\n**Metacognición:**\n- *¿Qué aprendimos hoy? ¿Cómo lo conectamos con nuestro entorno?*\n\n### └─ EVIDENCIA (10 min)\n**📸 Bitácora / Registro:**\n- Ensayo visual. Fotografía abstracta/simbólica con justificación filosófica.\n**Tipo de Evaluación:** Formativa (participación y bitácora)\n\n---\n\n## 🔲 Cobertura MBE 2021 (Indicadores)\n- [x] **Dominio A (Preparación):** Planificación desafiante y coherente con el currículum.\n- [ ] **Dominio B (Ambiente):** Espacio seguro, rutinas claras e interacciones respetuosas.\n- [x] **Dominio C (Enseñanza):** Estrategias activas (ABP) que promueven pensamiento crítico.\n- [x] **Dominio D (Responsabilidad):** Recopilación de evidencia para reflexión pedagógica.\n\n---\n*Generado automáticamente por Antigravity - Sistema 2026*\n\n\n---\n\n## 🖨️ Material Auto-Generado (listo para imprimir)\n\nBiblia (Straubinger), cuaderno, pizarra.\n"
+  },
+  {
+    "filename": "S4_PAT_8basico.md",
+    "semana": "4",
+    "asignatura": "Patrimonio",
+    "asignatura_code": "PAT",
+    "curso": "8basico",
+    "titulo": "Patrimonio — 8° Básico - Unidad: Unidad 1: Identidad y Territorio",
+    "objetivo": "Identificar roles ciudadanos en la conservación.",
+    "mbe": {
+      "A": false,
+      "B": false,
+      "C": false,
+      "D": false
+    },
+    "materiales": [
+      {
+        "tipo": "basico",
+        "item": "Ver sección Materiales abajo",
+        "preparar": false
+      },
+      {
+        "tipo": "preparar",
+        "item": "📷 Preparar fotos de: por definir",
+        "preparar": true
+      },
+      {
+        "tipo": "preparar",
+        "item": "📖 Pasajes: por definir",
+        "preparar": true
+      },
+      {
+        "tipo": "preparar",
+        "item": "📸 Registro para bitácora fotográfica",
+        "preparar": true
+      }
+    ],
+    "html": "<h1>Patrimonio — 8° Básico - Unidad: Unidad 1: Identidad y Territorio</h1>\n<p><strong>Ciclo:</strong> 8° Básico (Básico Superior (7°-8° Básico)) | <strong>Semana:</strong> 4 | <strong>Tiempo:</strong> 90 minutos<br />\n<strong>Pregunta Esencial:</strong> ¿Cómo comprendemos el misterio de Gestión del Patrimonio: ¿Cómo protegemos lo nuestro??</p>\n<hr />\n<h2>🎯 Objetivo de la Clase</h2>\n<p>Identificar roles ciudadanos en la conservación.</p>\n<hr />\n<h2>🕒 Secuencia Didáctica (90 min)</h2>\n<h3>┌─ INICIO (15 min)</h3>\n<p><strong>Rutina / Activación:</strong><br />\n- Oración inicial (ciclo litúrgico) y recuerdo de la clase anterior.<br />\n<strong>Pregunta Gatilladora:</strong><br />\n- <em>¿Qué sabemos sobre Gestión del Patrimonio: ¿Cómo protegemos lo nuestro??</em></p>\n<h3>├─ DESARROLLO (50 min)</h3>\n<p><strong>Metodología ABP / Trabajo Central:</strong><br />\n- <strong>Actividad de Patrimonio para 8° Básico:</strong> Gestión del Patrimonio: ¿Cómo protegemos lo nuestro?</p>\n<p>Actividad ABP diferenciada para 13-14 años: Pensamiento hipotético-deductivo. Ensayos argumentativos. Proyectos autónomos. Filosofía y ética aplicada. Preparación para Media.<br />\n<strong>Agrupación:</strong> Individual y plenario.<br />\n<strong>Materiales:</strong> Ver sección Materiales abajo.</p>\n<h3>├─ CIERRE (15 min)</h3>\n<p><strong>Reflexión Guiada:</strong><br />\n- Síntesis en la pizarra de la verdad enseñada.<br />\n<strong>Metacognición:</strong><br />\n- <em>¿Qué aprendimos hoy? ¿Cómo lo conectamos con nuestro entorno?</em></p>\n<h3>└─ EVIDENCIA (10 min)</h3>\n<p><strong>📸 Bitácora / Registro:</strong><br />\n- Ensayo visual. Fotografía abstracta/simbólica con justificación filosófica.<br />\n<strong>Tipo de Evaluación:</strong> Formativa (participación y bitácora)</p>\n<hr />\n<h2>🔲 Cobertura MBE 2021 (Indicadores)</h2>\n<ul>\n<li>☑ <strong>Dominio A (Preparación):</strong> Planificación desafiante y coherente con el currículum.</li>\n<li>☐ <strong>Dominio B (Ambiente):</strong> Espacio seguro, rutinas claras e interacciones respetuosas.</li>\n<li>☑ <strong>Dominio C (Enseñanza):</strong> Estrategias activas (ABP) que promueven pensamiento crítico.</li>\n<li>☑ <strong>Dominio D (Responsabilidad):</strong> Recopilación de evidencia para reflexión pedagógica.</li>\n</ul>\n<hr />\n<p><em>Generado automáticamente por Antigravity - Sistema 2026</em></p>\n<hr />\n<h2>🖨️ Material Auto-Generado (listo para imprimir)</h2>\n<p>Biblia (Straubinger), cuaderno, pizarra.</p>",
+    "raw_md": "# Patrimonio — 8° Básico - Unidad: Unidad 1: Identidad y Territorio\n**Ciclo:** 8° Básico (Básico Superior (7°-8° Básico)) | **Semana:** 4 | **Tiempo:** 90 minutos\n**Pregunta Esencial:** ¿Cómo comprendemos el misterio de Gestión del Patrimonio: ¿Cómo protegemos lo nuestro??\n\n---\n\n## 🎯 Objetivo de la Clase\nIdentificar roles ciudadanos en la conservación.\n\n---\n\n## 🕒 Secuencia Didáctica (90 min)\n\n### ┌─ INICIO (15 min)\n**Rutina / Activación:**\n- Oración inicial (ciclo litúrgico) y recuerdo de la clase anterior.\n**Pregunta Gatilladora:**\n- *¿Qué sabemos sobre Gestión del Patrimonio: ¿Cómo protegemos lo nuestro??*\n\n### ├─ DESARROLLO (50 min)\n**Metodología ABP / Trabajo Central:**\n- **Actividad de Patrimonio para 8° Básico:** Gestión del Patrimonio: ¿Cómo protegemos lo nuestro?\n\nActividad ABP diferenciada para 13-14 años: Pensamiento hipotético-deductivo. Ensayos argumentativos. Proyectos autónomos. Filosofía y ética aplicada. Preparación para Media.\n**Agrupación:** Individual y plenario.\n**Materiales:** Ver sección Materiales abajo.\n\n### ├─ CIERRE (15 min)\n**Reflexión Guiada:**\n- Síntesis en la pizarra de la verdad enseñada.\n**Metacognición:**\n- *¿Qué aprendimos hoy? ¿Cómo lo conectamos con nuestro entorno?*\n\n### └─ EVIDENCIA (10 min)\n**📸 Bitácora / Registro:**\n- Ensayo visual. Fotografía abstracta/simbólica con justificación filosófica.\n**Tipo de Evaluación:** Formativa (participación y bitácora)\n\n---\n\n## 🔲 Cobertura MBE 2021 (Indicadores)\n- [x] **Dominio A (Preparación):** Planificación desafiante y coherente con el currículum.\n- [ ] **Dominio B (Ambiente):** Espacio seguro, rutinas claras e interacciones respetuosas.\n- [x] **Dominio C (Enseñanza):** Estrategias activas (ABP) que promueven pensamiento crítico.\n- [x] **Dominio D (Responsabilidad):** Recopilación de evidencia para reflexión pedagógica.\n\n---\n*Generado automáticamente por Antigravity - Sistema 2026*\n\n\n---\n\n## 🖨️ Material Auto-Generado (listo para imprimir)\n\nBiblia (Straubinger), cuaderno, pizarra.\n"
+  },
+  {
+    "filename": "S4_REL_1basico.md",
+    "semana": "4",
+    "asignatura": "Religión",
+    "asignatura_code": "REL",
+    "curso": "1basico",
+    "titulo": "Religión — 1° Básico - Unidad: Unidad 0/1",
+    "objetivo": "Valorar la comunidad cristiana.",
+    "mbe": {
+      "A": false,
+      "B": false,
+      "C": false,
+      "D": false
+    },
+    "materiales": [
+      {
+        "tipo": "basico",
+        "item": "Ver sección Materiales abajo",
+        "preparar": false
+      },
+      {
+        "tipo": "preparar",
+        "item": "📖 Pasajes: por definir",
+        "preparar": true
+      }
+    ],
+    "html": "<h1>Religión — 1° Básico - Unidad: Unidad 0/1</h1>\n<p><strong>Ciclo:</strong> 1° Básico (Básica Baja (1°-2° Básico)) | <strong>Semana:</strong> 4 | <strong>Tiempo:</strong> 90 minutos<br />\n<strong>Pregunta Esencial:</strong> ¿Cómo comprendemos el misterio de La gran familia de Dios?</p>\n<hr />\n<h2>🎯 Objetivo de la Clase</h2>\n<p>Valorar la comunidad cristiana.</p>\n<hr />\n<h2>🕒 Secuencia Didáctica (90 min)</h2>\n<h3>┌─ INICIO (15 min)</h3>\n<p><strong>Rutina / Activación:</strong><br />\n- Oración inicial (ciclo litúrgico) y recuerdo de la clase anterior.<br />\n<strong>Pregunta Gatilladora:</strong><br />\n- <em>¿Qué sabemos sobre La gran familia de Dios?</em></p>\n<h3>├─ DESARROLLO (50 min)</h3>\n<p><strong>Metodología ABP / Trabajo Central:</strong><br />\n- <strong>[MOCK]</strong> Desarrollo generado por IA para: La gran familia de Dios<br />\nCurso: 1° Básico<br />\nEstructura: Videtur quod... Sed contra... Respondeo...<br />\n<strong>Agrupación:</strong> Individual y plenario.<br />\n<strong>Materiales:</strong> Ver sección Materiales abajo.</p>\n<h3>├─ CIERRE (15 min)</h3>\n<p><strong>Reflexión Guiada:</strong><br />\n- Síntesis en la pizarra de la verdad enseñada.<br />\n<strong>Metacognición:</strong><br />\n- <em>¿Qué aprendimos hoy? ¿Cómo lo conectamos con nuestro entorno?</em></p>\n<h3>└─ EVIDENCIA (10 min)</h3>\n<p><strong>📸 Bitácora / Registro:</strong><br />\n- El estudiante dibuja y el profesor o estudiante escribe el título.<br />\n<strong>Tipo de Evaluación:</strong> Formativa (participación y bitácora)</p>\n<hr />\n<h2>🔲 Cobertura MBE 2021 (Indicadores)</h2>\n<ul>\n<li>☑ <strong>Dominio A (Preparación):</strong> Planificación desafiante y coherente con el currículum.</li>\n<li>☑ <strong>Dominio B (Ambiente):</strong> Espacio seguro, rutinas claras e interacciones respetuosas.</li>\n<li>☑ <strong>Dominio C (Enseñanza):</strong> Estrategias activas (ABP) que promueven pensamiento crítico.</li>\n<li>☐ <strong>Dominio D (Responsabilidad):</strong> Recopilación de evidencia para reflexión pedagógica.</li>\n</ul>\n<hr />\n<p><em>Generado automáticamente por Antigravity - Sistema 2026</em></p>\n<hr />\n<h2>🖨️ Material Auto-Generado (listo para imprimir)</h2>\n<p>Biblia (Straubinger), cuaderno, pizarra.</p>",
+    "raw_md": "# Religión — 1° Básico - Unidad: Unidad 0/1\n**Ciclo:** 1° Básico (Básica Baja (1°-2° Básico)) | **Semana:** 4 | **Tiempo:** 90 minutos\n**Pregunta Esencial:** ¿Cómo comprendemos el misterio de La gran familia de Dios?\n\n---\n\n## 🎯 Objetivo de la Clase\nValorar la comunidad cristiana.\n\n---\n\n## 🕒 Secuencia Didáctica (90 min)\n\n### ┌─ INICIO (15 min)\n**Rutina / Activación:**\n- Oración inicial (ciclo litúrgico) y recuerdo de la clase anterior.\n**Pregunta Gatilladora:**\n- *¿Qué sabemos sobre La gran familia de Dios?*\n\n### ├─ DESARROLLO (50 min)\n**Metodología ABP / Trabajo Central:**\n- **[MOCK]** Desarrollo generado por IA para: La gran familia de Dios\nCurso: 1° Básico\nEstructura: Videtur quod... Sed contra... Respondeo...\n**Agrupación:** Individual y plenario.\n**Materiales:** Ver sección Materiales abajo.\n\n### ├─ CIERRE (15 min)\n**Reflexión Guiada:**\n- Síntesis en la pizarra de la verdad enseñada.\n**Metacognición:**\n- *¿Qué aprendimos hoy? ¿Cómo lo conectamos con nuestro entorno?*\n\n### └─ EVIDENCIA (10 min)\n**📸 Bitácora / Registro:**\n- El estudiante dibuja y el profesor o estudiante escribe el título.\n**Tipo de Evaluación:** Formativa (participación y bitácora)\n\n---\n\n## 🔲 Cobertura MBE 2021 (Indicadores)\n- [x] **Dominio A (Preparación):** Planificación desafiante y coherente con el currículum.\n- [x] **Dominio B (Ambiente):** Espacio seguro, rutinas claras e interacciones respetuosas.\n- [x] **Dominio C (Enseñanza):** Estrategias activas (ABP) que promueven pensamiento crítico.\n- [ ] **Dominio D (Responsabilidad):** Recopilación de evidencia para reflexión pedagógica.\n\n---\n*Generado automáticamente por Antigravity - Sistema 2026*\n\n\n---\n\n## 🖨️ Material Auto-Generado (listo para imprimir)\n\nBiblia (Straubinger), cuaderno, pizarra.\n"
+  },
+  {
+    "filename": "S4_REL_2basico.md",
+    "semana": "4",
+    "asignatura": "Religión",
+    "asignatura_code": "REL",
+    "curso": "2basico",
+    "titulo": "Religión — 2° Básico - Unidad: Unidad 0/1",
+    "objetivo": "Valorar la comunidad cristiana.",
+    "mbe": {
+      "A": false,
+      "B": false,
+      "C": false,
+      "D": false
+    },
+    "materiales": [
+      {
+        "tipo": "basico",
+        "item": "Ver sección Materiales abajo",
+        "preparar": false
+      },
+      {
+        "tipo": "preparar",
+        "item": "📖 Pasajes: por definir",
+        "preparar": true
+      }
+    ],
+    "html": "<h1>Religión — 2° Básico - Unidad: Unidad 0/1</h1>\n<p><strong>Ciclo:</strong> 2° Básico (Básica Baja (1°-2° Básico)) | <strong>Semana:</strong> 4 | <strong>Tiempo:</strong> 90 minutos<br />\n<strong>Pregunta Esencial:</strong> ¿Cómo comprendemos el misterio de La gran familia de Dios?</p>\n<hr />\n<h2>🎯 Objetivo de la Clase</h2>\n<p>Valorar la comunidad cristiana.</p>\n<hr />\n<h2>🕒 Secuencia Didáctica (90 min)</h2>\n<h3>┌─ INICIO (15 min)</h3>\n<p><strong>Rutina / Activación:</strong><br />\n- Oración inicial (ciclo litúrgico) y recuerdo de la clase anterior.<br />\n<strong>Pregunta Gatilladora:</strong><br />\n- <em>¿Qué sabemos sobre La gran familia de Dios?</em></p>\n<h3>├─ DESARROLLO (50 min)</h3>\n<p><strong>Metodología ABP / Trabajo Central:</strong><br />\n- <strong>[MOCK]</strong> Desarrollo generado por IA para: La gran familia de Dios<br />\nCurso: 2° Básico<br />\nEstructura: Videtur quod... Sed contra... Respondeo...<br />\n<strong>Agrupación:</strong> Individual y plenario.<br />\n<strong>Materiales:</strong> Ver sección Materiales abajo.</p>\n<h3>├─ CIERRE (15 min)</h3>\n<p><strong>Reflexión Guiada:</strong><br />\n- Síntesis en la pizarra de la verdad enseñada.<br />\n<strong>Metacognición:</strong><br />\n- <em>¿Qué aprendimos hoy? ¿Cómo lo conectamos con nuestro entorno?</em></p>\n<h3>└─ EVIDENCIA (10 min)</h3>\n<p><strong>📸 Bitácora / Registro:</strong><br />\n- El estudiante dibuja y el profesor o estudiante escribe el título.<br />\n<strong>Tipo de Evaluación:</strong> Formativa (participación y bitácora)</p>\n<hr />\n<h2>🔲 Cobertura MBE 2021 (Indicadores)</h2>\n<ul>\n<li>☑ <strong>Dominio A (Preparación):</strong> Planificación desafiante y coherente con el currículum.</li>\n<li>☑ <strong>Dominio B (Ambiente):</strong> Espacio seguro, rutinas claras e interacciones respetuosas.</li>\n<li>☑ <strong>Dominio C (Enseñanza):</strong> Estrategias activas (ABP) que promueven pensamiento crítico.</li>\n<li>☐ <strong>Dominio D (Responsabilidad):</strong> Recopilación de evidencia para reflexión pedagógica.</li>\n</ul>\n<hr />\n<p><em>Generado automáticamente por Antigravity - Sistema 2026</em></p>\n<hr />\n<h2>🖨️ Material Auto-Generado (listo para imprimir)</h2>\n<p>Biblia (Straubinger), cuaderno, pizarra.</p>",
+    "raw_md": "# Religión — 2° Básico - Unidad: Unidad 0/1\n**Ciclo:** 2° Básico (Básica Baja (1°-2° Básico)) | **Semana:** 4 | **Tiempo:** 90 minutos\n**Pregunta Esencial:** ¿Cómo comprendemos el misterio de La gran familia de Dios?\n\n---\n\n## 🎯 Objetivo de la Clase\nValorar la comunidad cristiana.\n\n---\n\n## 🕒 Secuencia Didáctica (90 min)\n\n### ┌─ INICIO (15 min)\n**Rutina / Activación:**\n- Oración inicial (ciclo litúrgico) y recuerdo de la clase anterior.\n**Pregunta Gatilladora:**\n- *¿Qué sabemos sobre La gran familia de Dios?*\n\n### ├─ DESARROLLO (50 min)\n**Metodología ABP / Trabajo Central:**\n- **[MOCK]** Desarrollo generado por IA para: La gran familia de Dios\nCurso: 2° Básico\nEstructura: Videtur quod... Sed contra... Respondeo...\n**Agrupación:** Individual y plenario.\n**Materiales:** Ver sección Materiales abajo.\n\n### ├─ CIERRE (15 min)\n**Reflexión Guiada:**\n- Síntesis en la pizarra de la verdad enseñada.\n**Metacognición:**\n- *¿Qué aprendimos hoy? ¿Cómo lo conectamos con nuestro entorno?*\n\n### └─ EVIDENCIA (10 min)\n**📸 Bitácora / Registro:**\n- El estudiante dibuja y el profesor o estudiante escribe el título.\n**Tipo de Evaluación:** Formativa (participación y bitácora)\n\n---\n\n## 🔲 Cobertura MBE 2021 (Indicadores)\n- [x] **Dominio A (Preparación):** Planificación desafiante y coherente con el currículum.\n- [x] **Dominio B (Ambiente):** Espacio seguro, rutinas claras e interacciones respetuosas.\n- [x] **Dominio C (Enseñanza):** Estrategias activas (ABP) que promueven pensamiento crítico.\n- [ ] **Dominio D (Responsabilidad):** Recopilación de evidencia para reflexión pedagógica.\n\n---\n*Generado automáticamente por Antigravity - Sistema 2026*\n\n\n---\n\n## 🖨️ Material Auto-Generado (listo para imprimir)\n\nBiblia (Straubinger), cuaderno, pizarra.\n"
+  },
+  {
+    "filename": "S4_REL_3basico.md",
+    "semana": "4",
+    "asignatura": "Religión",
+    "asignatura_code": "REL",
+    "curso": "3basico",
+    "titulo": "Religión — 3° Básico - Unidad: Unidad 0/1",
+    "objetivo": "Relacionar el AT con el cumplimiento en Cristo.",
+    "mbe": {
+      "A": false,
+      "B": false,
+      "C": false,
+      "D": false
+    },
+    "materiales": [
+      {
+        "tipo": "basico",
+        "item": "Ver sección Materiales abajo",
+        "preparar": false
+      },
+      {
+        "tipo": "preparar",
+        "item": "📖 Pasajes: por definir",
+        "preparar": true
+      }
+    ],
+    "html": "<h1>Religión — 3° Básico - Unidad: Unidad 0/1</h1>\n<p><strong>Ciclo:</strong> 3° Básico (Básica Media (3°-4° Básico)) | <strong>Semana:</strong> 4 | <strong>Tiempo:</strong> 90 minutos<br />\n<strong>Pregunta Esencial:</strong> ¿Cómo comprendemos el misterio de Preparando el camino a Jesús?</p>\n<hr />\n<h2>🎯 Objetivo de la Clase</h2>\n<p>Relacionar el AT con el cumplimiento en Cristo.</p>\n<hr />\n<h2>🕒 Secuencia Didáctica (90 min)</h2>\n<h3>┌─ INICIO (15 min)</h3>\n<p><strong>Rutina / Activación:</strong><br />\n- Oración inicial (ciclo litúrgico) y recuerdo de la clase anterior.<br />\n<strong>Pregunta Gatilladora:</strong><br />\n- <em>¿Qué sabemos sobre Preparando el camino a Jesús?</em></p>\n<h3>├─ DESARROLLO (50 min)</h3>\n<p><strong>Metodología ABP / Trabajo Central:</strong><br />\n- <strong>[MOCK]</strong> Desarrollo generado por IA para: Preparando el camino a Jesús<br />\nCurso: 3° Básico<br />\nEstructura: Videtur quod... Sed contra... Respondeo...<br />\n<strong>Agrupación:</strong> Individual y plenario.<br />\n<strong>Materiales:</strong> Ver sección Materiales abajo.</p>\n<h3>├─ CIERRE (15 min)</h3>\n<p><strong>Reflexión Guiada:</strong><br />\n- Síntesis en la pizarra de la verdad enseñada.<br />\n<strong>Metacognición:</strong><br />\n- <em>¿Qué aprendimos hoy? ¿Cómo lo conectamos con nuestro entorno?</em></p>\n<h3>└─ EVIDENCIA (10 min)</h3>\n<p><strong>📸 Bitácora / Registro:</strong><br />\n- El estudiante toma la foto y escribe un párrafo corto (qué, cómo, cuándo).<br />\n<strong>Tipo de Evaluación:</strong> Formativa (participación y bitácora)</p>\n<hr />\n<h2>🔲 Cobertura MBE 2021 (Indicadores)</h2>\n<ul>\n<li>☑ <strong>Dominio A (Preparación):</strong> Planificación desafiante y coherente con el currículum.</li>\n<li>☑ <strong>Dominio B (Ambiente):</strong> Espacio seguro, rutinas claras e interacciones respetuosas.</li>\n<li>☑ <strong>Dominio C (Enseñanza):</strong> Estrategias activas (ABP) que promueven pensamiento crítico.</li>\n<li>☐ <strong>Dominio D (Responsabilidad):</strong> Recopilación de evidencia para reflexión pedagógica.</li>\n</ul>\n<hr />\n<p><em>Generado automáticamente por Antigravity - Sistema 2026</em></p>\n<hr />\n<h2>🖨️ Material Auto-Generado (listo para imprimir)</h2>\n<p>Biblia (Straubinger), cuaderno, pizarra.</p>",
+    "raw_md": "# Religión — 3° Básico - Unidad: Unidad 0/1\n**Ciclo:** 3° Básico (Básica Media (3°-4° Básico)) | **Semana:** 4 | **Tiempo:** 90 minutos\n**Pregunta Esencial:** ¿Cómo comprendemos el misterio de Preparando el camino a Jesús?\n\n---\n\n## 🎯 Objetivo de la Clase\nRelacionar el AT con el cumplimiento en Cristo.\n\n---\n\n## 🕒 Secuencia Didáctica (90 min)\n\n### ┌─ INICIO (15 min)\n**Rutina / Activación:**\n- Oración inicial (ciclo litúrgico) y recuerdo de la clase anterior.\n**Pregunta Gatilladora:**\n- *¿Qué sabemos sobre Preparando el camino a Jesús?*\n\n### ├─ DESARROLLO (50 min)\n**Metodología ABP / Trabajo Central:**\n- **[MOCK]** Desarrollo generado por IA para: Preparando el camino a Jesús\nCurso: 3° Básico\nEstructura: Videtur quod... Sed contra... Respondeo...\n**Agrupación:** Individual y plenario.\n**Materiales:** Ver sección Materiales abajo.\n\n### ├─ CIERRE (15 min)\n**Reflexión Guiada:**\n- Síntesis en la pizarra de la verdad enseñada.\n**Metacognición:**\n- *¿Qué aprendimos hoy? ¿Cómo lo conectamos con nuestro entorno?*\n\n### └─ EVIDENCIA (10 min)\n**📸 Bitácora / Registro:**\n- El estudiante toma la foto y escribe un párrafo corto (qué, cómo, cuándo).\n**Tipo de Evaluación:** Formativa (participación y bitácora)\n\n---\n\n## 🔲 Cobertura MBE 2021 (Indicadores)\n- [x] **Dominio A (Preparación):** Planificación desafiante y coherente con el currículum.\n- [x] **Dominio B (Ambiente):** Espacio seguro, rutinas claras e interacciones respetuosas.\n- [x] **Dominio C (Enseñanza):** Estrategias activas (ABP) que promueven pensamiento crítico.\n- [ ] **Dominio D (Responsabilidad):** Recopilación de evidencia para reflexión pedagógica.\n\n---\n*Generado automáticamente por Antigravity - Sistema 2026*\n\n\n---\n\n## 🖨️ Material Auto-Generado (listo para imprimir)\n\nBiblia (Straubinger), cuaderno, pizarra.\n"
+  },
+  {
+    "filename": "S4_REL_4basico.md",
+    "semana": "4",
+    "asignatura": "Religión",
+    "asignatura_code": "REL",
+    "curso": "4basico",
+    "titulo": "Religión — 4° Básico - Unidad: Unidad 0/1",
+    "objetivo": "Relacionar el AT con el cumplimiento en Cristo.",
+    "mbe": {
+      "A": false,
+      "B": false,
+      "C": false,
+      "D": false
+    },
+    "materiales": [
+      {
+        "tipo": "basico",
+        "item": "Ver sección Materiales abajo",
+        "preparar": false
+      },
+      {
+        "tipo": "preparar",
+        "item": "📖 Pasajes: por definir",
+        "preparar": true
+      }
+    ],
+    "html": "<h1>Religión — 4° Básico - Unidad: Unidad 0/1</h1>\n<p><strong>Ciclo:</strong> 4° Básico (Básica Media (3°-4° Básico)) | <strong>Semana:</strong> 4 | <strong>Tiempo:</strong> 90 minutos<br />\n<strong>Pregunta Esencial:</strong> ¿Cómo comprendemos el misterio de Preparando el camino a Jesús?</p>\n<hr />\n<h2>🎯 Objetivo de la Clase</h2>\n<p>Relacionar el AT con el cumplimiento en Cristo.</p>\n<hr />\n<h2>🕒 Secuencia Didáctica (90 min)</h2>\n<h3>┌─ INICIO (15 min)</h3>\n<p><strong>Rutina / Activación:</strong><br />\n- Oración inicial (ciclo litúrgico) y recuerdo de la clase anterior.<br />\n<strong>Pregunta Gatilladora:</strong><br />\n- <em>¿Qué sabemos sobre Preparando el camino a Jesús?</em></p>\n<h3>├─ DESARROLLO (50 min)</h3>\n<p><strong>Metodología ABP / Trabajo Central:</strong><br />\n- <strong>[MOCK]</strong> Desarrollo generado por IA para: Preparando el camino a Jesús<br />\nCurso: 4° Básico<br />\nEstructura: Videtur quod... Sed contra... Respondeo...<br />\n<strong>Agrupación:</strong> Individual y plenario.<br />\n<strong>Materiales:</strong> Ver sección Materiales abajo.</p>\n<h3>├─ CIERRE (15 min)</h3>\n<p><strong>Reflexión Guiada:</strong><br />\n- Síntesis en la pizarra de la verdad enseñada.<br />\n<strong>Metacognición:</strong><br />\n- <em>¿Qué aprendimos hoy? ¿Cómo lo conectamos con nuestro entorno?</em></p>\n<h3>└─ EVIDENCIA (10 min)</h3>\n<p><strong>📸 Bitácora / Registro:</strong><br />\n- El estudiante toma la foto y escribe un párrafo corto (qué, cómo, cuándo).<br />\n<strong>Tipo de Evaluación:</strong> Formativa (participación y bitácora)</p>\n<hr />\n<h2>🔲 Cobertura MBE 2021 (Indicadores)</h2>\n<ul>\n<li>☑ <strong>Dominio A (Preparación):</strong> Planificación desafiante y coherente con el currículum.</li>\n<li>☑ <strong>Dominio B (Ambiente):</strong> Espacio seguro, rutinas claras e interacciones respetuosas.</li>\n<li>☑ <strong>Dominio C (Enseñanza):</strong> Estrategias activas (ABP) que promueven pensamiento crítico.</li>\n<li>☐ <strong>Dominio D (Responsabilidad):</strong> Recopilación de evidencia para reflexión pedagógica.</li>\n</ul>\n<hr />\n<p><em>Generado automáticamente por Antigravity - Sistema 2026</em></p>\n<hr />\n<h2>🖨️ Material Auto-Generado (listo para imprimir)</h2>\n<p>Biblia (Straubinger), cuaderno, pizarra.</p>",
+    "raw_md": "# Religión — 4° Básico - Unidad: Unidad 0/1\n**Ciclo:** 4° Básico (Básica Media (3°-4° Básico)) | **Semana:** 4 | **Tiempo:** 90 minutos\n**Pregunta Esencial:** ¿Cómo comprendemos el misterio de Preparando el camino a Jesús?\n\n---\n\n## 🎯 Objetivo de la Clase\nRelacionar el AT con el cumplimiento en Cristo.\n\n---\n\n## 🕒 Secuencia Didáctica (90 min)\n\n### ┌─ INICIO (15 min)\n**Rutina / Activación:**\n- Oración inicial (ciclo litúrgico) y recuerdo de la clase anterior.\n**Pregunta Gatilladora:**\n- *¿Qué sabemos sobre Preparando el camino a Jesús?*\n\n### ├─ DESARROLLO (50 min)\n**Metodología ABP / Trabajo Central:**\n- **[MOCK]** Desarrollo generado por IA para: Preparando el camino a Jesús\nCurso: 4° Básico\nEstructura: Videtur quod... Sed contra... Respondeo...\n**Agrupación:** Individual y plenario.\n**Materiales:** Ver sección Materiales abajo.\n\n### ├─ CIERRE (15 min)\n**Reflexión Guiada:**\n- Síntesis en la pizarra de la verdad enseñada.\n**Metacognición:**\n- *¿Qué aprendimos hoy? ¿Cómo lo conectamos con nuestro entorno?*\n\n### └─ EVIDENCIA (10 min)\n**📸 Bitácora / Registro:**\n- El estudiante toma la foto y escribe un párrafo corto (qué, cómo, cuándo).\n**Tipo de Evaluación:** Formativa (participación y bitácora)\n\n---\n\n## 🔲 Cobertura MBE 2021 (Indicadores)\n- [x] **Dominio A (Preparación):** Planificación desafiante y coherente con el currículum.\n- [x] **Dominio B (Ambiente):** Espacio seguro, rutinas claras e interacciones respetuosas.\n- [x] **Dominio C (Enseñanza):** Estrategias activas (ABP) que promueven pensamiento crítico.\n- [ ] **Dominio D (Responsabilidad):** Recopilación de evidencia para reflexión pedagógica.\n\n---\n*Generado automáticamente por Antigravity - Sistema 2026*\n\n\n---\n\n## 🖨️ Material Auto-Generado (listo para imprimir)\n\nBiblia (Straubinger), cuaderno, pizarra.\n"
+  },
+  {
+    "filename": "S4_REL_5basico.md",
+    "semana": "4",
+    "asignatura": "Religión",
+    "asignatura_code": "REL",
+    "curso": "5basico",
+    "titulo": "Religión — 5° Básico - Unidad: Unidad 0/1",
+    "objetivo": "Valorar la obediencia de fe en la Virgen.",
+    "mbe": {
+      "A": false,
+      "B": false,
+      "C": false,
+      "D": false
+    },
+    "materiales": [
+      {
+        "tipo": "basico",
+        "item": "Ver sección Materiales abajo",
+        "preparar": false
+      },
+      {
+        "tipo": "preparar",
+        "item": "📖 Pasajes: por definir",
+        "preparar": true
+      }
+    ],
+    "html": "<h1>Religión — 5° Básico - Unidad: Unidad 0/1</h1>\n<p><strong>Ciclo:</strong> 5° Básico (Básico Intermedio (5°-6° Básico)) | <strong>Semana:</strong> 4 | <strong>Tiempo:</strong> 90 minutos<br />\n<strong>Pregunta Esencial:</strong> ¿Cómo comprendemos el misterio de La Anunciación: El 'Sí' de María?</p>\n<hr />\n<h2>🎯 Objetivo de la Clase</h2>\n<p>Valorar la obediencia de fe en la Virgen.</p>\n<hr />\n<h2>🕒 Secuencia Didáctica (90 min)</h2>\n<h3>┌─ INICIO (15 min)</h3>\n<p><strong>Rutina / Activación:</strong><br />\n- Oración inicial (ciclo litúrgico) y recuerdo de la clase anterior.<br />\n<strong>Pregunta Gatilladora:</strong><br />\n- <em>¿Qué sabemos sobre La Anunciación: El 'Sí' de María?</em></p>\n<h3>├─ DESARROLLO (50 min)</h3>\n<p><strong>Metodología ABP / Trabajo Central:</strong><br />\n- <strong>[MOCK]</strong> Desarrollo generado por IA para: La Anunciación: El 'Sí' de María<br />\nCurso: 5° Básico<br />\nEstructura: Videtur quod... Sed contra... Respondeo...<br />\n<strong>Agrupación:</strong> Individual y plenario.<br />\n<strong>Materiales:</strong> Ver sección Materiales abajo.</p>\n<h3>├─ CIERRE (15 min)</h3>\n<p><strong>Reflexión Guiada:</strong><br />\n- Síntesis en la pizarra de la verdad enseñada.<br />\n<strong>Metacognición:</strong><br />\n- <em>¿Qué aprendimos hoy? ¿Cómo lo conectamos con nuestro entorno?</em></p>\n<h3>└─ EVIDENCIA (10 min)</h3>\n<p><strong>📸 Bitácora / Registro:</strong><br />\n- Reportaje fotográfico (serie de fotos) con epígrafes críticos.<br />\n<strong>Tipo de Evaluación:</strong> Formativa (participación y bitácora)</p>\n<hr />\n<h2>🔲 Cobertura MBE 2021 (Indicadores)</h2>\n<ul>\n<li>☑ <strong>Dominio A (Preparación):</strong> Planificación desafiante y coherente con el currículum.</li>\n<li>☑ <strong>Dominio B (Ambiente):</strong> Espacio seguro, rutinas claras e interacciones respetuosas.</li>\n<li>☑ <strong>Dominio C (Enseñanza):</strong> Estrategias activas (ABP) que promueven pensamiento crítico.</li>\n<li>☐ <strong>Dominio D (Responsabilidad):</strong> Recopilación de evidencia para reflexión pedagógica.</li>\n</ul>\n<hr />\n<p><em>Generado automáticamente por Antigravity - Sistema 2026</em></p>\n<hr />\n<h2>🖨️ Material Auto-Generado (listo para imprimir)</h2>\n<p>Biblia (Straubinger), cuaderno, pizarra.</p>",
+    "raw_md": "# Religión — 5° Básico - Unidad: Unidad 0/1\n**Ciclo:** 5° Básico (Básico Intermedio (5°-6° Básico)) | **Semana:** 4 | **Tiempo:** 90 minutos\n**Pregunta Esencial:** ¿Cómo comprendemos el misterio de La Anunciación: El 'Sí' de María?\n\n---\n\n## 🎯 Objetivo de la Clase\nValorar la obediencia de fe en la Virgen.\n\n---\n\n## 🕒 Secuencia Didáctica (90 min)\n\n### ┌─ INICIO (15 min)\n**Rutina / Activación:**\n- Oración inicial (ciclo litúrgico) y recuerdo de la clase anterior.\n**Pregunta Gatilladora:**\n- *¿Qué sabemos sobre La Anunciación: El 'Sí' de María?*\n\n### ├─ DESARROLLO (50 min)\n**Metodología ABP / Trabajo Central:**\n- **[MOCK]** Desarrollo generado por IA para: La Anunciación: El 'Sí' de María\nCurso: 5° Básico\nEstructura: Videtur quod... Sed contra... Respondeo...\n**Agrupación:** Individual y plenario.\n**Materiales:** Ver sección Materiales abajo.\n\n### ├─ CIERRE (15 min)\n**Reflexión Guiada:**\n- Síntesis en la pizarra de la verdad enseñada.\n**Metacognición:**\n- *¿Qué aprendimos hoy? ¿Cómo lo conectamos con nuestro entorno?*\n\n### └─ EVIDENCIA (10 min)\n**📸 Bitácora / Registro:**\n- Reportaje fotográfico (serie de fotos) con epígrafes críticos.\n**Tipo de Evaluación:** Formativa (participación y bitácora)\n\n---\n\n## 🔲 Cobertura MBE 2021 (Indicadores)\n- [x] **Dominio A (Preparación):** Planificación desafiante y coherente con el currículum.\n- [x] **Dominio B (Ambiente):** Espacio seguro, rutinas claras e interacciones respetuosas.\n- [x] **Dominio C (Enseñanza):** Estrategias activas (ABP) que promueven pensamiento crítico.\n- [ ] **Dominio D (Responsabilidad):** Recopilación de evidencia para reflexión pedagógica.\n\n---\n*Generado automáticamente por Antigravity - Sistema 2026*\n\n\n---\n\n## 🖨️ Material Auto-Generado (listo para imprimir)\n\nBiblia (Straubinger), cuaderno, pizarra.\n"
+  },
+  {
+    "filename": "S4_REL_6basico.md",
+    "semana": "4",
+    "asignatura": "Religión",
+    "asignatura_code": "REL",
+    "curso": "6basico",
+    "titulo": "Religión — 6° Básico - Unidad: Unidad 0/1",
+    "objetivo": "Valorar la obediencia de fe en la Virgen.",
+    "mbe": {
+      "A": false,
+      "B": false,
+      "C": false,
+      "D": false
+    },
+    "materiales": [
+      {
+        "tipo": "basico",
+        "item": "Ver sección Materiales abajo",
+        "preparar": false
+      },
+      {
+        "tipo": "preparar",
+        "item": "📖 Pasajes: por definir",
+        "preparar": true
+      }
+    ],
+    "html": "<h1>Religión — 6° Básico - Unidad: Unidad 0/1</h1>\n<p><strong>Ciclo:</strong> 6° Básico (Básico Intermedio (5°-6° Básico)) | <strong>Semana:</strong> 4 | <strong>Tiempo:</strong> 90 minutos<br />\n<strong>Pregunta Esencial:</strong> ¿Cómo comprendemos el misterio de La Anunciación: El 'Sí' de María?</p>\n<hr />\n<h2>🎯 Objetivo de la Clase</h2>\n<p>Valorar la obediencia de fe en la Virgen.</p>\n<hr />\n<h2>🕒 Secuencia Didáctica (90 min)</h2>\n<h3>┌─ INICIO (15 min)</h3>\n<p><strong>Rutina / Activación:</strong><br />\n- Oración inicial (ciclo litúrgico) y recuerdo de la clase anterior.<br />\n<strong>Pregunta Gatilladora:</strong><br />\n- <em>¿Qué sabemos sobre La Anunciación: El 'Sí' de María?</em></p>\n<h3>├─ DESARROLLO (50 min)</h3>\n<p><strong>Metodología ABP / Trabajo Central:</strong><br />\n- <strong>[MOCK]</strong> Desarrollo generado por IA para: La Anunciación: El 'Sí' de María<br />\nCurso: 6° Básico<br />\nEstructura: Videtur quod... Sed contra... Respondeo...<br />\n<strong>Agrupación:</strong> Individual y plenario.<br />\n<strong>Materiales:</strong> Ver sección Materiales abajo.</p>\n<h3>├─ CIERRE (15 min)</h3>\n<p><strong>Reflexión Guiada:</strong><br />\n- Síntesis en la pizarra de la verdad enseñada.<br />\n<strong>Metacognición:</strong><br />\n- <em>¿Qué aprendimos hoy? ¿Cómo lo conectamos con nuestro entorno?</em></p>\n<h3>└─ EVIDENCIA (10 min)</h3>\n<p><strong>📸 Bitácora / Registro:</strong><br />\n- Reportaje fotográfico (serie de fotos) con epígrafes críticos.<br />\n<strong>Tipo de Evaluación:</strong> Formativa (participación y bitácora)</p>\n<hr />\n<h2>🔲 Cobertura MBE 2021 (Indicadores)</h2>\n<ul>\n<li>☑ <strong>Dominio A (Preparación):</strong> Planificación desafiante y coherente con el currículum.</li>\n<li>☑ <strong>Dominio B (Ambiente):</strong> Espacio seguro, rutinas claras e interacciones respetuosas.</li>\n<li>☑ <strong>Dominio C (Enseñanza):</strong> Estrategias activas (ABP) que promueven pensamiento crítico.</li>\n<li>☐ <strong>Dominio D (Responsabilidad):</strong> Recopilación de evidencia para reflexión pedagógica.</li>\n</ul>\n<hr />\n<p><em>Generado automáticamente por Antigravity - Sistema 2026</em></p>\n<hr />\n<h2>🖨️ Material Auto-Generado (listo para imprimir)</h2>\n<p>Biblia (Straubinger), cuaderno, pizarra.</p>",
+    "raw_md": "# Religión — 6° Básico - Unidad: Unidad 0/1\n**Ciclo:** 6° Básico (Básico Intermedio (5°-6° Básico)) | **Semana:** 4 | **Tiempo:** 90 minutos\n**Pregunta Esencial:** ¿Cómo comprendemos el misterio de La Anunciación: El 'Sí' de María?\n\n---\n\n## 🎯 Objetivo de la Clase\nValorar la obediencia de fe en la Virgen.\n\n---\n\n## 🕒 Secuencia Didáctica (90 min)\n\n### ┌─ INICIO (15 min)\n**Rutina / Activación:**\n- Oración inicial (ciclo litúrgico) y recuerdo de la clase anterior.\n**Pregunta Gatilladora:**\n- *¿Qué sabemos sobre La Anunciación: El 'Sí' de María?*\n\n### ├─ DESARROLLO (50 min)\n**Metodología ABP / Trabajo Central:**\n- **[MOCK]** Desarrollo generado por IA para: La Anunciación: El 'Sí' de María\nCurso: 6° Básico\nEstructura: Videtur quod... Sed contra... Respondeo...\n**Agrupación:** Individual y plenario.\n**Materiales:** Ver sección Materiales abajo.\n\n### ├─ CIERRE (15 min)\n**Reflexión Guiada:**\n- Síntesis en la pizarra de la verdad enseñada.\n**Metacognición:**\n- *¿Qué aprendimos hoy? ¿Cómo lo conectamos con nuestro entorno?*\n\n### └─ EVIDENCIA (10 min)\n**📸 Bitácora / Registro:**\n- Reportaje fotográfico (serie de fotos) con epígrafes críticos.\n**Tipo de Evaluación:** Formativa (participación y bitácora)\n\n---\n\n## 🔲 Cobertura MBE 2021 (Indicadores)\n- [x] **Dominio A (Preparación):** Planificación desafiante y coherente con el currículum.\n- [x] **Dominio B (Ambiente):** Espacio seguro, rutinas claras e interacciones respetuosas.\n- [x] **Dominio C (Enseñanza):** Estrategias activas (ABP) que promueven pensamiento crítico.\n- [ ] **Dominio D (Responsabilidad):** Recopilación de evidencia para reflexión pedagógica.\n\n---\n*Generado automáticamente por Antigravity - Sistema 2026*\n\n\n---\n\n## 🖨️ Material Auto-Generado (listo para imprimir)\n\nBiblia (Straubinger), cuaderno, pizarra.\n"
+  },
+  {
+    "filename": "S4_REL_7basico.md",
+    "semana": "4",
+    "asignatura": "Religión",
+    "asignatura_code": "REL",
+    "curso": "7basico",
+    "titulo": "Religión — 7° Básico - Unidad: Unidad 0/1",
+    "objetivo": "Comprender la Gracia como motor de santidad.",
+    "mbe": {
+      "A": false,
+      "B": false,
+      "C": false,
+      "D": false
+    },
+    "materiales": [
+      {
+        "tipo": "basico",
+        "item": "Ver sección Materiales abajo",
+        "preparar": false
+      },
+      {
+        "tipo": "preparar",
+        "item": "📷 Preparar fotos de: por definir",
+        "preparar": true
+      },
+      {
+        "tipo": "preparar",
+        "item": "📖 Pasajes: por definir",
+        "preparar": true
+      }
+    ],
+    "html": "<h1>Religión — 7° Básico - Unidad: Unidad 0/1</h1>\n<p><strong>Ciclo:</strong> 7° Básico (Básico Superior (7°-8° Básico)) | <strong>Semana:</strong> 4 | <strong>Tiempo:</strong> 90 minutos<br />\n<strong>Pregunta Esencial:</strong> ¿Cómo comprendemos el misterio de Cristo: Plenitud de la Ley y la Libertad?</p>\n<hr />\n<h2>🎯 Objetivo de la Clase</h2>\n<p>Comprender la Gracia como motor de santidad.</p>\n<hr />\n<h2>🕒 Secuencia Didáctica (90 min)</h2>\n<h3>┌─ INICIO (15 min)</h3>\n<p><strong>Rutina / Activación:</strong><br />\n- Oración inicial (ciclo litúrgico) y recuerdo de la clase anterior.<br />\n<strong>Pregunta Gatilladora:</strong><br />\n- <em>¿Qué sabemos sobre Cristo: Plenitud de la Ley y la Libertad?</em></p>\n<h3>├─ DESARROLLO (50 min)</h3>\n<p><strong>Metodología ABP / Trabajo Central:</strong><br />\n- <strong>[MOCK]</strong> Desarrollo generado por IA para: Cristo: Plenitud de la Ley y la Libertad<br />\nCurso: 7° Básico<br />\nEstructura: Videtur quod... Sed contra... Respondeo...<br />\n<strong>Agrupación:</strong> Individual y plenario.<br />\n<strong>Materiales:</strong> Ver sección Materiales abajo.</p>\n<h3>├─ CIERRE (15 min)</h3>\n<p><strong>Reflexión Guiada:</strong><br />\n- Síntesis en la pizarra de la verdad enseñada.<br />\n<strong>Metacognición:</strong><br />\n- <em>¿Qué aprendimos hoy? ¿Cómo lo conectamos con nuestro entorno?</em></p>\n<h3>└─ EVIDENCIA (10 min)</h3>\n<p><strong>📸 Bitácora / Registro:</strong><br />\n- Ensayo visual. Fotografía abstracta/simbólica con justificación filosófica.<br />\n<strong>Tipo de Evaluación:</strong> Formativa (participación y bitácora)</p>\n<hr />\n<h2>🔲 Cobertura MBE 2021 (Indicadores)</h2>\n<ul>\n<li>☑ <strong>Dominio A (Preparación):</strong> Planificación desafiante y coherente con el currículum.</li>\n<li>☑ <strong>Dominio B (Ambiente):</strong> Espacio seguro, rutinas claras e interacciones respetuosas.</li>\n<li>☑ <strong>Dominio C (Enseñanza):</strong> Estrategias activas (ABP) que promueven pensamiento crítico.</li>\n<li>☐ <strong>Dominio D (Responsabilidad):</strong> Recopilación de evidencia para reflexión pedagógica.</li>\n</ul>\n<hr />\n<p><em>Generado automáticamente por Antigravity - Sistema 2026</em></p>\n<hr />\n<h2>🖨️ Material Auto-Generado (listo para imprimir)</h2>\n<p>Biblia (Straubinger), cuaderno, pizarra.</p>",
+    "raw_md": "# Religión — 7° Básico - Unidad: Unidad 0/1\n**Ciclo:** 7° Básico (Básico Superior (7°-8° Básico)) | **Semana:** 4 | **Tiempo:** 90 minutos\n**Pregunta Esencial:** ¿Cómo comprendemos el misterio de Cristo: Plenitud de la Ley y la Libertad?\n\n---\n\n## 🎯 Objetivo de la Clase\nComprender la Gracia como motor de santidad.\n\n---\n\n## 🕒 Secuencia Didáctica (90 min)\n\n### ┌─ INICIO (15 min)\n**Rutina / Activación:**\n- Oración inicial (ciclo litúrgico) y recuerdo de la clase anterior.\n**Pregunta Gatilladora:**\n- *¿Qué sabemos sobre Cristo: Plenitud de la Ley y la Libertad?*\n\n### ├─ DESARROLLO (50 min)\n**Metodología ABP / Trabajo Central:**\n- **[MOCK]** Desarrollo generado por IA para: Cristo: Plenitud de la Ley y la Libertad\nCurso: 7° Básico\nEstructura: Videtur quod... Sed contra... Respondeo...\n**Agrupación:** Individual y plenario.\n**Materiales:** Ver sección Materiales abajo.\n\n### ├─ CIERRE (15 min)\n**Reflexión Guiada:**\n- Síntesis en la pizarra de la verdad enseñada.\n**Metacognición:**\n- *¿Qué aprendimos hoy? ¿Cómo lo conectamos con nuestro entorno?*\n\n### └─ EVIDENCIA (10 min)\n**📸 Bitácora / Registro:**\n- Ensayo visual. Fotografía abstracta/simbólica con justificación filosófica.\n**Tipo de Evaluación:** Formativa (participación y bitácora)\n\n---\n\n## 🔲 Cobertura MBE 2021 (Indicadores)\n- [x] **Dominio A (Preparación):** Planificación desafiante y coherente con el currículum.\n- [x] **Dominio B (Ambiente):** Espacio seguro, rutinas claras e interacciones respetuosas.\n- [x] **Dominio C (Enseñanza):** Estrategias activas (ABP) que promueven pensamiento crítico.\n- [ ] **Dominio D (Responsabilidad):** Recopilación de evidencia para reflexión pedagógica.\n\n---\n*Generado automáticamente por Antigravity - Sistema 2026*\n\n\n---\n\n## 🖨️ Material Auto-Generado (listo para imprimir)\n\nBiblia (Straubinger), cuaderno, pizarra.\n"
+  },
+  {
+    "filename": "S4_REL_8basico.md",
+    "semana": "4",
+    "asignatura": "Religión",
+    "asignatura_code": "REL",
+    "curso": "8basico",
+    "titulo": "Religión — 8° Básico - Unidad: Unidad 0/1",
+    "objetivo": "Comprender la Gracia como motor de santidad.",
+    "mbe": {
+      "A": false,
+      "B": false,
+      "C": false,
+      "D": false
+    },
+    "materiales": [
+      {
+        "tipo": "basico",
+        "item": "Ver sección Materiales abajo",
+        "preparar": false
+      },
+      {
+        "tipo": "preparar",
+        "item": "📷 Preparar fotos de: por definir",
+        "preparar": true
+      },
+      {
+        "tipo": "preparar",
+        "item": "📖 Pasajes: por definir",
+        "preparar": true
+      }
+    ],
+    "html": "<h1>Religión — 8° Básico - Unidad: Unidad 0/1</h1>\n<p><strong>Ciclo:</strong> 8° Básico (Básico Superior (7°-8° Básico)) | <strong>Semana:</strong> 4 | <strong>Tiempo:</strong> 90 minutos<br />\n<strong>Pregunta Esencial:</strong> ¿Cómo comprendemos el misterio de Cristo: Plenitud de la Ley y la Libertad?</p>\n<hr />\n<h2>🎯 Objetivo de la Clase</h2>\n<p>Comprender la Gracia como motor de santidad.</p>\n<hr />\n<h2>🕒 Secuencia Didáctica (90 min)</h2>\n<h3>┌─ INICIO (15 min)</h3>\n<p><strong>Rutina / Activación:</strong><br />\n- Oración inicial (ciclo litúrgico) y recuerdo de la clase anterior.<br />\n<strong>Pregunta Gatilladora:</strong><br />\n- <em>¿Qué sabemos sobre Cristo: Plenitud de la Ley y la Libertad?</em></p>\n<h3>├─ DESARROLLO (50 min)</h3>\n<p><strong>Metodología ABP / Trabajo Central:</strong><br />\n- <strong>[MOCK]</strong> Desarrollo generado por IA para: Cristo: Plenitud de la Ley y la Libertad<br />\nCurso: 8° Básico<br />\nEstructura: Videtur quod... Sed contra... Respondeo...<br />\n<strong>Agrupación:</strong> Individual y plenario.<br />\n<strong>Materiales:</strong> Ver sección Materiales abajo.</p>\n<h3>├─ CIERRE (15 min)</h3>\n<p><strong>Reflexión Guiada:</strong><br />\n- Síntesis en la pizarra de la verdad enseñada.<br />\n<strong>Metacognición:</strong><br />\n- <em>¿Qué aprendimos hoy? ¿Cómo lo conectamos con nuestro entorno?</em></p>\n<h3>└─ EVIDENCIA (10 min)</h3>\n<p><strong>📸 Bitácora / Registro:</strong><br />\n- Ensayo visual. Fotografía abstracta/simbólica con justificación filosófica.<br />\n<strong>Tipo de Evaluación:</strong> Formativa (participación y bitácora)</p>\n<hr />\n<h2>🔲 Cobertura MBE 2021 (Indicadores)</h2>\n<ul>\n<li>☑ <strong>Dominio A (Preparación):</strong> Planificación desafiante y coherente con el currículum.</li>\n<li>☑ <strong>Dominio B (Ambiente):</strong> Espacio seguro, rutinas claras e interacciones respetuosas.</li>\n<li>☑ <strong>Dominio C (Enseñanza):</strong> Estrategias activas (ABP) que promueven pensamiento crítico.</li>\n<li>☐ <strong>Dominio D (Responsabilidad):</strong> Recopilación de evidencia para reflexión pedagógica.</li>\n</ul>\n<hr />\n<p><em>Generado automáticamente por Antigravity - Sistema 2026</em></p>\n<hr />\n<h2>🖨️ Material Auto-Generado (listo para imprimir)</h2>\n<p>Biblia (Straubinger), cuaderno, pizarra.</p>",
+    "raw_md": "# Religión — 8° Básico - Unidad: Unidad 0/1\n**Ciclo:** 8° Básico (Básico Superior (7°-8° Básico)) | **Semana:** 4 | **Tiempo:** 90 minutos\n**Pregunta Esencial:** ¿Cómo comprendemos el misterio de Cristo: Plenitud de la Ley y la Libertad?\n\n---\n\n## 🎯 Objetivo de la Clase\nComprender la Gracia como motor de santidad.\n\n---\n\n## 🕒 Secuencia Didáctica (90 min)\n\n### ┌─ INICIO (15 min)\n**Rutina / Activación:**\n- Oración inicial (ciclo litúrgico) y recuerdo de la clase anterior.\n**Pregunta Gatilladora:**\n- *¿Qué sabemos sobre Cristo: Plenitud de la Ley y la Libertad?*\n\n### ├─ DESARROLLO (50 min)\n**Metodología ABP / Trabajo Central:**\n- **[MOCK]** Desarrollo generado por IA para: Cristo: Plenitud de la Ley y la Libertad\nCurso: 8° Básico\nEstructura: Videtur quod... Sed contra... Respondeo...\n**Agrupación:** Individual y plenario.\n**Materiales:** Ver sección Materiales abajo.\n\n### ├─ CIERRE (15 min)\n**Reflexión Guiada:**\n- Síntesis en la pizarra de la verdad enseñada.\n**Metacognición:**\n- *¿Qué aprendimos hoy? ¿Cómo lo conectamos con nuestro entorno?*\n\n### └─ EVIDENCIA (10 min)\n**📸 Bitácora / Registro:**\n- Ensayo visual. Fotografía abstracta/simbólica con justificación filosófica.\n**Tipo de Evaluación:** Formativa (participación y bitácora)\n\n---\n\n## 🔲 Cobertura MBE 2021 (Indicadores)\n- [x] **Dominio A (Preparación):** Planificación desafiante y coherente con el currículum.\n- [x] **Dominio B (Ambiente):** Espacio seguro, rutinas claras e interacciones respetuosas.\n- [x] **Dominio C (Enseñanza):** Estrategias activas (ABP) que promueven pensamiento crítico.\n- [ ] **Dominio D (Responsabilidad):** Recopilación de evidencia para reflexión pedagógica.\n\n---\n*Generado automáticamente por Antigravity - Sistema 2026*\n\n\n---\n\n## 🖨️ Material Auto-Generado (listo para imprimir)\n\nBiblia (Straubinger), cuaderno, pizarra.\n"
+  }
+];
+const SEMANA_FECHAS = {"1": "3-7 Mar", "2": "10-14 Mar", "3": "17-21 Mar", "4": "24-28 Mar", "5": "31 Mar-4 Abr", "6": "7-11 Abr", "7": "21-25 Abr", "8": "28 Abr-2 May", "9": "5-9 May", "10": "12-16 May", "11": "19-23 May", "12": "26-30 May", "13": "2-6 Jun", "14": "9-13 Jun", "15": "16-20 Jun", "16": "23-27 Jun", "17": "30 Jun-4 Jul", "18": "7-11 Jul", "19": "28 Jul-1 Ago", "20": "4-8 Ago", "21": "11-15 Ago", "22": "18-22 Ago", "23": "25-29 Ago", "24": "1-5 Sep", "25": "8-12 Sep", "26": "22-26 Sep", "27": "29 Sep-3 Oct", "28": "6-10 Oct", "29": "13-17 Oct", "30": "20-24 Oct", "31": "27-31 Oct", "32": "3-7 Nov", "33": "10-14 Nov", "34": "17-21 Nov", "35": "24-28 Nov", "36": "1-5 Dic"};
+const HORARIO = {"bloques": {"1": {"hora": "08:15 - 09:00"}, "2": {"hora": "09:00 - 09:45"}, "3": {"hora": "10:00 - 10:45"}, "4": {"hora": "10:45 - 11:30"}, "5": {"hora": "11:45 - 12:30"}, "6": {"hora": "12:30 - 13:15"}, "7": {"hora": "14:15 - 15:00"}, "8": {"hora": "15:00 - 15:45"}}, "semana": {"lunes": {"1": {"curso": null, "asig": "plan", "label": "Planificación"}, "2": {"curso": null, "asig": "plan", "label": "Planificación"}, "3": {"curso": "6basico", "asig": "Patrimonio"}, "4": {"curso": "6basico", "asig": "Patrimonio"}, "5": {"curso": "8basico", "asig": "Patrimonio"}, "6": {"curso": "8basico", "asig": "Patrimonio"}, "7": {"curso": "4basico", "asig": "Patrimonio"}, "8": {"curso": "4basico", "asig": "Patrimonio"}}, "martes": {"1": {"curso": "2basico", "asig": "Religión"}, "2": {"curso": "2basico", "asig": "Religión"}, "3": {"curso": "1basico", "asig": "Religión"}, "4": {"curso": "1basico", "asig": "Religión"}, "5": {"curso": null, "asig": "error", "label": "Atención (Choque 3° Rel)"}, "6": {"curso": null, "asig": "admin", "label": "Atención Apoderados"}, "7": {"curso": null, "asig": "plan", "label": "Planificación"}, "8": {"curso": null, "asig": "plan", "label": "Creación Material"}}, "miercoles": {"1": {"curso": "4basico", "asig": "Religión"}, "2": {"curso": "4basico", "asig": "Religión"}, "3": {"curso": "3basico", "asig": "Patrimonio"}, "4": {"curso": "3basico", "asig": "Patrimonio"}, "5": {"curso": "5basico", "asig": "Religión"}, "6": {"curso": "5basico", "asig": "Religión"}, "7": {"curso": "1basico", "asig": "Patrimonio"}, "8": {"curso": "1basico", "asig": "Patrimonio"}}, "jueves": {"1": {"curso": null, "asig": "plan", "label": "Prep. Clases"}, "2": {"curso": "2basico", "asig": "Patrimonio"}, "3": {"curso": "7basico", "asig": "Religión"}, "4": {"curso": "7basico", "asig": "Religión"}, "5": {"curso": "2basico", "asig": "Patrimonio"}, "6": {"curso": null, "asig": "plan", "label": "Cierre Administrativo"}}, "viernes": {"1": {"curso": "5basico", "asig": "Patrimonio"}, "2": {"curso": "5basico", "asig": "Patrimonio"}, "3": {"curso": "8basico", "asig": "Religión"}, "4": {"curso": "8basico", "asig": "Religión"}, "5": {"curso": null, "asig": "error", "label": "7° Pat / 6° Rel (Choque)"}, "6": {"curso": null, "asig": "error", "label": "7° Pat / 6° Rel (Choque)"}}}};
+const EVENTOS = [{"fecha": "2026-03-02", "tipo": "Reunión", "desc": "CONSEJO DE PRESENTACIÓN Y ORGANIZACIÓN AÑO ESCOLAR 2026"}, {"fecha": "2026-03-03", "tipo": "Hito", "desc": "PREPARACIÓN DE ESPACIOS EDUCATIVOS"}, {"fecha": "2026-03-04", "tipo": "Hito", "desc": "Inicio de Clases - Primer día operativo"}, {"fecha": "2026-03-04", "tipo": "Hito", "desc": "INICIO AÑO ESCOLAR"}, {"fecha": "2026-03-09", "tipo": "Reunión", "desc": "EFEMÉRIDE: DÍA DE LA MUJER. REUNIÓN DE APODERADOS 1ER. CICLO."}, {"fecha": "2026-03-10", "tipo": "Reunión", "desc": "INICIO APLICACIÓN DIA DIAGNÓSTICO. REUNIÓN DE APODERADOS 2DO. CICLO."}, {"fecha": "2026-03-12", "tipo": "Hito", "desc": "HITO RENOVAL. PM ACTIVIDAD AL AIRE LIBRE: RENOVAL."}, {"fecha": "2026-03-13", "tipo": "Hito", "desc": "CEREMONIA INAUGURACIÓN OBRAS DE CONSERVACIÓN ESCUELA AONIKENK."}, {"fecha": "2026-03-16", "tipo": "Efeméride", "desc": "EFEMÉRIDE: DÍA CONTRA EL CIBERACOSO."}, {"fecha": "2026-03-20", "tipo": "Hito", "desc": "FIN APLICACIÓN DIA DG."}, {"fecha": "2026-03-23", "tipo": "Hito", "desc": "EMISIÓN DE INFORMES DIA DG."}, {"fecha": "2026-03-24", "tipo": "Advertencia", "desc": "Posible Reunión de Apoderados (Tarde)"}, {"fecha": "2026-03-24", "tipo": "Hito", "desc": "CUENTA PÚBLICA - GESTIÓN 2025."}, {"fecha": "2026-04-02", "tipo": "Efeméride", "desc": "EFEMÉRIDE: DÍA DE CONCIENCIACIÓN SOBRE EL AUTISMO. CEREMONIA RECONOCIMIENTO TRAYECTORIA DOCENTE JOSÉ ULLOA."}, {"fecha": "2026-04-06", "tipo": "Reunión", "desc": "EFEMÉRIDE/ ARTICULACIÓN: DÍA DE LA ACTIVIDAD FÍSICA Y SEMANA DE LA MATEMÁTICA. REUNIÓN DE APODERADOS 1ER. CICLO."}, {"fecha": "2026-04-07", "tipo": "Reunión", "desc": "EFEMÉRIDE: SEMANA DE LA MATEMÁTICA. REUNIÓN DE APODERADOS 2DO. CICLO."}, {"fecha": "2026-04-08", "tipo": "Efeméride", "desc": "EFEMÉRIDE: SEMANA DE LA MATEMÁTICA."}, {"fecha": "2026-04-09", "tipo": "Efeméride", "desc": "EFEMÉRIDE: SEMANA DE LA MATEMÁTICA."}, {"fecha": "2026-04-10", "tipo": "Efeméride", "desc": "EFEMÉRIDE: SEMANA DE LA MATEMÁTICA."}, {"fecha": "2026-04-14", "tipo": "Suspensión", "desc": "Jornada de Planificación Institucional"}, {"fecha": "2026-04-23", "tipo": "Efeméride", "desc": "EFEMÉRIDES/ ARTICULACIÓN: DÍA DEL LIBRO, DÍA DE LA TIERRA Y DÍA DE LA EDUCACIÓN RURAL."}, {"fecha": "2026-04-27", "tipo": "Efeméride", "desc": "EFEMÉRIDE: DÍA DEL CARABINERO."}, {"fecha": "2026-04-29", "tipo": "Efeméride", "desc": "EFEMÉRIDE: DÍA DE LA CONVIVENCIA EDUCATIVA."}];
+const MESES_SEMANAS = {
+    "Marzo": ["1","2","3","4"],
+    "Abril": ["5","6","7","8"],
+    "Mayo": ["9","10","11","12"],
+    "Junio": ["13","14","15","16"],
+    "Julio": ["17","18"],
+    "Agosto": ["19","20","21","22","23"],
+    "Septiembre": ["24","25","26","27"],
+    "Octubre": ["28","29","30","31"],
+    "Noviembre": ["32","33","34","35"],
+    "Diciembre": ["36"]
+};
+const CURSOS = ["1basico","2basico","3basico","4basico","5basico","6basico","7basico","8basico"];
+
+let activeView = 'schedule';
+let activeFilters = { asignatura: 'all', curso: 'all' };
+let currentWeek = "1";
+
+function init() { 
+    renderStats(); 
+    renderFilters(); 
+    renderGrid(); 
+    renderCalendar(); 
+    renderMaterials(); 
+    renderSchedule();
+    renderEvents();
+}
+
+// localStorage helper for material tracking
+function getMatState() { try { return JSON.parse(localStorage.getItem('matState2026') || '{}'); } catch(e) { return {}; } }
+function setMatState(s) { localStorage.setItem('matState2026', JSON.stringify(s)); }
+function toggleMat(key) {
+    const s = getMatState();
+    s[key] = !s[key];
+    setMatState(s);
+    renderMaterials();
+}
+
+function switchView(v) {
+    activeView = v;
+    document.getElementById('grid').style.display = v==='grid' ? 'grid' : 'none';
+    document.getElementById('calendar').style.display = v==='calendar' ? 'block' : 'none';
+    document.getElementById('materials').style.display = v==='materials' ? 'block' : 'none';
+    document.getElementById('strategies').style.display = v==='strategies' ? 'block' : 'none';
+    document.getElementById('view-schedule').style.display = v==='schedule' ? 'block' : 'none';
+    document.getElementById('view-events').style.display = v==='events' ? 'block' : 'none';
+    
+    document.getElementById('tabGrid').className = 'view-tab' + (v==='grid' ? ' active' : '');
+    document.getElementById('tabCal').className = 'view-tab' + (v==='calendar' ? ' active' : '');
+    document.getElementById('tabMat').className = 'view-tab' + (v==='materials' ? ' active' : '');
+    document.getElementById('tabPro').className = 'view-tab' + (v==='strategies' ? ' active' : '');
+    document.getElementById('tabSchedule').className = 'view-tab' + (v==='schedule' ? ' active' : '');
+    document.getElementById('tabEvents').className = 'view-tab' + (v==='events' ? ' active' : '');
+    
+    if (v==='materials') renderMaterials();
+    if (v==='strategies') renderStrategies();
+    if (v==='schedule') renderSchedule();
+    if (v==='events') renderEvents();
+}
+
+function renderSchedule() {
+    const container = document.getElementById('scheduleContainer');
+    const dias = ['lunes', 'martes', 'miercoles', 'jueves', 'viernes'];
+    const bloques = Object.keys(HORARIO.bloques).sort((a,b) => parseInt(a) - parseInt(b));
+    
+    let html = `
+        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem;">
+            <h3>📅 Horario Semanal</h3>
+            <div style="font-size: 0.8rem; background: var(--surface2); padding: 0.5rem 1rem; border-radius: 8px;">
+                Semana Actual: <strong>Semana ${currentWeek}</strong>
+            </div>
+        </div>
+        <table class="schedule-table">
+            <thead>
+                <tr>
+                    <th style="width: 100px;">Bloque</th>
+                    ${dias.map(d => `<th class="schedule-header">${d}</th>`).join('')}
+                </tr>
+            </thead>
+            <tbody>
+    `;
+    
+    bloques.forEach(b => {
+        html += `<tr>
+            <td style="text-align:center; font-size:0.7rem; color:var(--text-muted);">
+                <strong>${b}</strong><br>${HORARIO.bloques[b].hora}
+            </td>`;
+        
+        dias.forEach(d => {
+            const data = HORARIO.semana[d][b];
+            if (!data) {
+                html += `<td></td>`;
+            } else {
+                let css = 'schedule-cell';
+                if (data.asig === 'Religión') css += ' rel';
+                if (data.asig === 'Patrimonio') css += ' pat';
+                if (data.asig === 'plan') css += ' plan';
+                if (data.asig === 'error') css += ' error';
+                
+                const label = data.curso ? `<strong>${data.curso}</strong><br>${data.asig}` : (data.label || data.asig);
+                const clickAction = data.curso ? `onclick="openClassFromSchedule('${d}', '${b}')"` : "";
+                
+                html += `<td>
+                    <div class="${css}" ${clickAction}>
+                        <span>${label}</span>
+                        ${data.curso ? '<span style="font-size:0.6rem; opacity:0.7;">Ver clase ➔</span>' : ''}
+                    </div>
+                </td>`;
+            }
+        });
+        html += `</tr>`;
+    });
+    
+    html += `</tbody></table>`;
+    container.innerHTML = html;
+}
+
+function openClassFromSchedule(dia, bloque) {
+    const data = HORARIO.semana[dia][bloque];
+    if (!data || !data.curso) return;
+    
+    // Buscar la clase en CLASES
+    const asigLow = data.asig.toLowerCase();
+    const targetKey = `S${currentWeek}_${asigLow === 'patrimonio' ? 'PAT' : 'REL'}_${data.curso}`;
+    
+    const clase = CLASES.find(c => c.id === targetKey);
+    if (clase) {
+        openModal(clase);
+    } else {
+        alert(`Clase ${targetKey} no encontrada para la Semana ${currentWeek}. Asegúrate de haberla generado.`);
+    }
+}
+
+function renderEvents() {
+    const container = document.getElementById('eventsContainer');
+    let html = "";
+    EVENTOS.forEach(e => {
+        const typeClass = e.tipo.toLowerCase().replace('ó','o');
+        html += `
+            <div class="event-card ${typeClass}">
+                <div class="event-date">${e.fecha.split('-').reverse().slice(0,2).join('/')}</div>
+                <div>
+                    <div style="font-weight:600; font-size: 0.85rem;">${e.tipo}</div>
+                    <div style="font-size: 0.95rem;">${e.desc}</div>
+                </div>
+            </div>
+        `;
+    });
+    container.innerHTML = html || "<p>No hay eventos registrados.</p>";
+}
+
+function renderStrategies() {
+    const html = `
+        <div class="pro-card">
+            <h2>🚀 Estrategias de Productividad Docente</h2>
+            <p style="font-size:0.9rem; color:var(--text-muted);">Cómo hacer rendir las 4:30 hrs de planificación semanal sin llevar trabajo a casa.</p>
+            
+            <h3>1. La Regla del Promedio (Balance de Carga)</h3>
+            <div class="pro-grid">
+                <div class="pro-item">
+                    <div class="pro-time">5 MIN</div>
+                    <strong>Bajo Mantenimiento</strong>
+                    <p>Protagonismo del alumno: debates, videos, o trabajo con el texto escolar. Ideal para 3 de cada 4 clases.</p>
+                </div>
+                <div class="pro-item gold">
+                    <div class="pro-time">60 MIN</div>
+                    <strong>Alta Inversión</strong>
+                    <p>Aquí es donde creas esa guía excelente. Úsala para hitos clave de la unidad.</p>
+                </div>
+            </div>
+
+            <h3>2. Sistematización y Rutinas</h3>
+            <div class="pro-grid">
+                <div class="pro-item pat">
+                    <strong>Ficha de Análisis Patrimonial</strong>
+                    <p>Usa matrices universales: ¿Qué es?, ¿Época?, ¿Valor?, ¿Conservación?. Mismo formato para distintos hitos.</p>
+                </div>
+                <div class="pro-item rel">
+                    <strong>Método Proyectos / Mini-unidades</strong>
+                    <p>Secuencias de 2-3 clases. Planificas la primera, facilitas las siguientes.</p>
+                </div>
+            </div>
+
+            <h3>3. Trabajo por Bloques (Batching)</h3>
+            <div class="pro-grid">
+                <div class="pro-item">
+                    <strong>Lunes (08:15 a 09:45): DISEÑO MACRO</strong>
+                    <p>No hagas guías. Anota qué harás en las 16 clases y súbelo al sistema escolar.</p>
+                </div>
+                <div class="pro-item gold">
+                    <strong>Martes (14:15 a 15:45): FÁBRICA DE MATERIAL</strong>
+                    <p>90 min de corrido solo fabricando: guías, PPTs, videos. Batch processing puro.</p>
+                </div>
+                <div class="pro-item pat">
+                    <strong>Jueves (08:15 / 12:30): LOGÍSTICA</strong>
+                    <p>Corrección de trabajos, sacar fotocopias y preparar material concreto.</p>
+                </div>
+            </div>
+
+            <div class="pro-tip">
+                <strong>💡 Tip Pro: Recicla sin culpa.</strong><br/>
+                Lo que sirvió este año en 4° básico, guárdalo bien. En 2027 esa planificación te tomará 0 minutos.
+            </div>
+        </div>
+    `;
+    document.getElementById('strategies').innerHTML = html;
+}
+
+function renderStats() {
+    const valid = CLASES.filter(c => !c.curso.includes('ciclo'));
+    const total = valid.length;
+    const pat = valid.filter(c => c.asignatura === 'Patrimonio').length;
+    const rel = valid.filter(c => c.asignatura === 'Religión' || c.asignatura === 'Religion').length;
+    const semanas = new Set(valid.map(c => c.semana)).size;
+    document.getElementById('statsBar').innerHTML = `
+        <div class="stat-card"><div class="number" style="color:var(--accent)">${total}</div><div class="label">Planificaciones</div></div>
+        <div class="stat-card"><div class="number" style="color:var(--pat-primary)">${pat}</div><div class="label">Patrimonio</div></div>
+        <div class="stat-card"><div class="number" style="color:var(--rel-primary)">${rel}</div><div class="label">Religión</div></div>
+        <div class="stat-card"><div class="number" style="color:var(--gold)">${semanas}</div><div class="label">Semanas</div></div>
+    `;
+}
+
+function renderFilters() {
+    const cursos = [...new Set(CLASES.map(c => c.curso))].filter(c => !c.includes('ciclo')).sort();
+    let html = `
+        <button class="filter-btn active" onclick="setFilter('asignatura','all',this)">Todas</button>
+        <button class="filter-btn" onclick="setFilter('asignatura','Patrimonio',this)" data-type="pat">📗 Patrimonio</button>
+        <button class="filter-btn" onclick="setFilter('asignatura','Religion',this)" data-type="rel">📕 Religión</button>
+        <span style="width:1px;background:var(--border);margin:0 0.25rem"></span>
+    `;
+    cursos.forEach(c => {
+        html += `<button class="filter-btn" onclick="setFilter('curso','${c}',this)">${c.replace('basico','°')}</button>`;
+    });
+    document.getElementById('filtersBar').innerHTML = html;
+}
+
+function setFilter(key, value, btn) {
+    activeFilters[key] = value;
+    if (key === 'asignatura') {
+        document.querySelectorAll('.filter-btn').forEach(b => {
+            if (b.textContent.includes('Todas') || b.textContent.includes('Patrimonio') || b.textContent.includes('Religión'))
+                b.className = 'filter-btn';
+        });
+        if (value === 'Patrimonio') btn.className = 'filter-btn pat-active';
+        else if (value === 'Religion') btn.className = 'filter-btn rel-active';
+        else btn.className = 'filter-btn active';
+    } else {
+        document.querySelectorAll('.filter-btn').forEach(b => {
+            if (!b.dataset.type && !['Todas','Patrimonio','Religión'].some(t => b.textContent.includes(t)))
+                b.className = 'filter-btn';
+        });
+        btn.className = 'filter-btn active';
+    }
+    renderGrid(); renderCalendar();
+}
+
+function getFiltered() {
+    let f = CLASES.filter(c => !c.curso.includes('ciclo'));
+    if (activeFilters.asignatura !== 'all')
+        f = f.filter(c => c.asignatura === activeFilters.asignatura || c.asignatura.normalize('NFD').replace(/[\\u0300-\\u036f]/g,'') === activeFilters.asignatura);
+    if (activeFilters.curso !== 'all')
+        f = f.filter(c => c.curso === activeFilters.curso);
+    return f;
+}
+
+function renderGrid() {
+    const filtered = getFiltered();
+    document.getElementById('grid').innerHTML = filtered.map(c => `
+        <div class="card ${c.asignatura_code==='PAT'?'pat':'rel'}" onclick="openModal(${CLASES.indexOf(c)})">
+            <div class="card-header">
+                <span class="card-badge">${c.asignatura}</span>
+                <span style="color:var(--text-muted);font-size:0.75rem">${c.curso.replace('basico','° Básico')}</span>
+            </div>
+            <div class="card-title">${c.titulo.substring(0,75)}</div>
+            <div class="card-objetivo">${c.objetivo.substring(0,100)}${c.objetivo.length>100?'...':''}</div>
+            <div class="card-footer">
+                <div class="mbe-dots">
+                    <div class="mbe-dot ${c.mbe.A?'active':''}">A</div>
+                    <div class="mbe-dot ${c.mbe.B?'active':''}">B</div>
+                    <div class="mbe-dot ${c.mbe.C?'active':''}">C</div>
+                    <div class="mbe-dot ${c.mbe.D?'active':''}">D</div>
+                </div>
+                <span class="card-week">S${c.semana}</span>
+            </div>
+        </div>
+    `).join('') || '<p style="color:var(--text-muted);padding:2rem;text-align:center">Sin planificaciones para este filtro.</p>';
+}
+
+function renderCalendar() {
+    const filtered = getFiltered();
+    let html = '';
+    for (const [mes, semNums] of Object.entries(MESES_SEMANAS)) {
+        const semanasConClases = semNums.filter(s => filtered.some(c => c.semana === s));
+        const semanasVacias = semNums.filter(s => !filtered.some(c => c.semana === s));
+        
+        html += `<div class="cal-month">
+            <div class="cal-month-title">📅 ${mes} <span style="font-weight:400;font-size:0.8rem;color:var(--text-muted)">${semanasConClases.length}/${semNums.length} semanas</span></div>`;
+        
+        for (const sn of semNums) {
+            const weekClases = filtered.filter(c => c.semana === sn);
+            const hasContent = weekClases.length > 0;
+            const fecha = SEMANA_FECHAS[sn] || '';
+            
+            html += `<div class="cal-week ${hasContent?'':''}" onclick="this.classList.toggle('expanded')">
+                <div class="cal-week-header">
+                    <div class="cal-week-label">
+                        <span class="cal-week-num" style="${!hasContent?'opacity:0.3;background:var(--border)':''}">S${sn}</span>
+                        <span class="cal-week-date">${fecha}</span>
+                    </div>
+                    <div class="cal-week-dots">`;
+            
+            if (hasContent) {
+                weekClases.forEach(c => {
+                    const tipo = c.asignatura_code === 'PAT' ? 'pat' : 'rel';
+                    const label = c.curso.replace('basico','°');
+                    html += `<div class="cal-dot ${tipo}" onclick="event.stopPropagation();openModal(${CLASES.indexOf(c)})" title="${c.asignatura} ${c.curso.replace('basico','° Básico')}">${label}</div>`;
+                });
+            } else {
+                html += '<span style="color:var(--text-muted);font-size:0.7rem;opacity:0.5">Sin planificar</span>';
+            }
+            
+            html += `</div>
+                    <span class="cal-week-count">${hasContent ? weekClases.length + ' clases' : ''}</span>
+                    <span class="cal-week-arrow">${hasContent ? '▸' : ''}</span>
+                </div>`;
+            
+            if (hasContent) {
+                html += `<div class="cal-week-body"><div class="cal-week-grid">`;
+                weekClases.forEach(c => {
+                    const tipo = c.asignatura_code === 'PAT' ? 'pat' : 'rel';
+                    html += `<div class="cal-mini-card ${tipo}" onclick="event.stopPropagation();openModal(${CLASES.indexOf(c)})">
+                        <div class="cal-mini-title">${c.curso.replace('basico','° Básico')} — ${c.asignatura}</div>
+                        <div class="cal-mini-sub">${c.titulo.substring(0,60)}</div>
+                    </div>`;
+                });
+                html += `</div></div>`;
+            }
+            
+            html += `</div>`;
+        }
+        html += `</div>`;
+    }
+    document.getElementById('calendar').innerHTML = html;
+}
+
+function openModal(idx) {
+    const c = CLASES[idx];
+    
+    // Separar contenido en Planificación y Material
+    let planHtml = c.html;
+    let matHtml = "";
+    
+    if (planHtml.includes('<h2 id="material-auto-generado">') || planHtml.includes('<h2>🖨️ Material Auto-Generado')) {
+        const splitTag = planHtml.includes('<h2 id="material-auto-generado">') ? '<h2 id="material-auto-generado">' : '<h2>🖨️ Material Auto-Generado';
+        const parts = planHtml.split(splitTag);
+        planHtml = parts[0];
+        matHtml = splitTag + parts[1];
+    }
+
+    document.getElementById('modalContent').innerHTML = `
+        <div class="print-only">
+            <div class="print-header">
+                <div class="print-logo-placeholder">LOGO<br>SLEP</div>
+                <div class="print-title-area">
+                    <div class="print-school-name">Escuela Aonikenk</div>
+                    <div class="print-slep">Servicio Local de Educación Pública</div>
+                    <div class="print-meta">${c.asignatura} | Semana ${c.semana} | ${c.curso.replace('basico', '° Básico')}</div>
+                </div>
+                <div class="print-logo-placeholder">LOGO<br>ESCUELA</div>
+            </div>
+        </div>
+        <button class="modal-close" onclick="closeModal()">✕</button>
+        
+        <div class="only-plan">${planHtml}</div>
+        ${matHtml ? `<div class="only-material">${matHtml}</div>` : ''}
+        
+        <div class="modal-actions">
+            <button class="btn btn-print" onclick="printDoc('plan')">🖨️ Imprimir Planificación</button>
+            ${matHtml ? `<button class="btn btn-print" style="background:var(--gold);border-color:var(--gold)" onclick="printDoc('material')">📄 Imprimir Material / Ficha</button>` : ''}
+            <button class="btn" onclick="copyToClipboard(${idx})">📋 Copiar texto</button>
+            <button class="btn" onclick="closeModal()">Cerrar</button>
+        </div>
+    `;
+    document.getElementById('modalOverlay').classList.add('active');
+}
+
+function printDoc(type) {
+    document.body.classList.remove('print-plan', 'print-material');
+    if (type === 'plan') document.body.classList.add('print-plan');
+    if (type === 'material') document.body.classList.add('print-material');
+    window.print();
+}
+function closeModal() { document.getElementById('modalOverlay').classList.remove('active'); }
+function copyToClipboard(idx) {
+    navigator.clipboard.writeText(CLASES[idx].raw_md).then(() => alert('¡Texto copiado!'));
+}
+document.addEventListener('keydown', e => { if (e.key==='Escape') closeModal(); });
+
+function renderMaterials() {
+    const valid = CLASES.filter(c => !c.curso.includes('ciclo'));
+    const semanas = [...new Set(valid.map(c => c.semana))].sort((a,b) => parseInt(a)-parseInt(b));
+    const state = getMatState();
+    let totalItems = 0, doneItems = 0;
+    const weekData = semanas.map(sn => {
+        const clases = valid.filter(c => c.semana === sn);
+        let items = 0, done = 0;
+        clases.forEach(c => {
+            const mats = c.materiales.filter(m => m.preparar);
+            mats.forEach(m => {
+                const key = c.filename + '_' + m.item;
+                items++;
+                if (state[key]) done++;
+            });
+        });
+        totalItems += items; doneItems += done;
+        return { sn, clases, items, done };
+    });
+    const pendiente = totalItems - doneItems;
+    let html = '<div class="mat-summary">';
+    html += '<div class="mat-summary-card"><div class="mat-summary-num" style="color:var(--danger)">' + pendiente + '</div><div class="mat-summary-label">Pendientes</div></div>';
+    html += '<div class="mat-summary-card"><div class="mat-summary-num" style="color:var(--pat-primary)">' + doneItems + '</div><div class="mat-summary-label">Listos</div></div>';
+    html += '<div class="mat-summary-card"><div class="mat-summary-num" style="color:var(--gold)">' + totalItems + '</div><div class="mat-summary-label">Total</div></div>';
+    html += '<div class="mat-summary-card"><div class="mat-summary-num" style="color:var(--accent)">' + (totalItems > 0 ? Math.round(doneItems/totalItems*100) : 0) + '%</div><div class="mat-summary-label">Avance</div></div>';
+    html += '</div>';
+    for (const wd of weekData) {
+        const fecha = SEMANA_FECHAS[wd.sn] || '';
+        const pct = wd.items > 0 ? Math.round(wd.done/wd.items*100) : 100;
+        const urgency = parseInt(wd.sn) <= 1 ? 'urgent' : parseInt(wd.sn) <= 2 ? 'soon' : 'planned';
+        const urgLabel = urgency === 'urgent' ? 'ESTA SEMANA' : urgency === 'soon' ? 'Proxima' : 'Semana ' + wd.sn;
+        if (wd.items === 0) continue;
+        html += '<div class="mat-week">';
+        html += '<div class="mat-week-header" onclick="var b=this.parentElement.querySelector(\\'.mat-week-body\\');b.style.display=b.style.display===\\'none\\'?\\'block\\':\\'none\\'">';
+        html += '<div class="mat-week-title">Semana ' + wd.sn + ' <span style="font-weight:400;color:var(--text-muted)">(' + fecha + ')</span> ';
+        html += '<span class="mat-week-badge ' + urgency + '">' + urgLabel + '</span></div>';
+        html += '<div class="mat-progress"><div class="mat-progress-bar"><div class="mat-progress-fill" style="width:' + pct + '%;' + (pct===100?'background:var(--pat-primary)':'background:var(--gold)') + '"></div></div>';
+        html += '<span class="mat-progress-text">' + wd.done + '/' + wd.items + '</span></div></div>';
+        html += '<div class="mat-week-body">';
+        for (const c of wd.clases) {
+            const mats = c.materiales.filter(m => m.preparar);
+            if (mats.length === 0) continue;
+            const tipo = c.asignatura_code === 'PAT' ? 'pat' : 'rel';
+            html += '<div class="mat-clase ' + tipo + '"><div class="mat-clase-title">' + c.curso.replace('basico',' Basico') + ' - ' + c.asignatura + '</div>';
+            for (const m of mats) {
+                const key = c.filename + '_' + m.item;
+                const checked = state[key] ? true : false;
+                const safeKey = key.replace(/[^a-zA-Z0-9_.]/g, '');
+                html += '<div class="mat-item ' + (checked?'done':'') + '" onclick="toggleMat(\\\'' + safeKey + '\\\')">';
+                html += '<div class="mat-checkbox ' + (checked?'checked':'') + '">' + (checked?'\\u2713':'') + '</div>';
+                html += '<span>' + m.item + '</span></div>';
+            }
+            html += '</div>';
+        }
+        html += '</div></div>';
+    }
+    if (totalItems === 0) {
+        html += '<p style="text-align:center;color:var(--text-muted);padding:2rem">No hay materiales detectados.</p>';
+    }
+    document.getElementById('materials').innerHTML = html;
+}
+
+init();
