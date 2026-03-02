@@ -44,6 +44,7 @@ def parse_md_file(filepath):
     html_content = md_to_html(content)
     
     return {
+        "id": filename.replace(".md", ""),
         "filename": filename,
         "semana": semana,
         "asignatura": asignatura,
@@ -518,6 +519,43 @@ body { font-family: 'Inter', sans-serif; background: var(--bg); color: var(--tex
     body.print-plan .only-material { display: none !important; }
     body.print-material .only-plan { display: none !important; }
 }
+
+/* Schedule View Enhanced */
+.schedule-table { 
+    width: 100%; border-collapse: separate; border-spacing: 0.5rem; 
+    table-layout: fixed; margin-top: 0.5rem;
+}
+.schedule-table th { 
+    font-size: 0.85rem; color: var(--text-muted); text-transform: uppercase; 
+    font-weight: 700; padding: 0.5rem; letter-spacing: 0.5px;
+    text-align: center;
+}
+.schedule-cell { 
+    background: var(--surface2); border: 1px solid var(--border); 
+    border-radius: 12px; padding: 1rem 0.5rem; text-align: center;
+    transition: all 0.2s; display: flex; flex-direction: column; gap: 0.4rem;
+    height: 100%; justify-content: center; min-height: 80px; position: relative;
+    overflow: hidden;
+}
+.schedule-cell::before {
+    content: ''; position: absolute; top: 0; left: 0; right: 0; bottom: 0;
+    background: linear-gradient(135deg, rgba(255,255,255,0.05) 0%, rgba(255,255,255,0) 100%);
+    pointer-events: none;
+}
+.schedule-cell.pat { background: var(--pat-bg); border-color: var(--pat-primary)50; color: var(--text); border-left: 4px solid var(--pat-primary); }
+.schedule-cell.rel { background: var(--rel-bg); border-color: var(--rel-primary)50; color: var(--text); border-left: 4px solid var(--rel-primary); }
+.schedule-cell.plan { background: rgba(59,130,246,0.1); border-color: var(--accent)50; color: var(--text); border-left: 4px solid var(--accent); }
+.schedule-cell.error { opacity: 0.4; border-style: dashed; }
+.schedule-cell[onclick] { cursor: pointer; }
+.schedule-cell[onclick]:hover { 
+    transform: translateY(-3px); 
+    box-shadow: 0 8px 15px rgba(0,0,0,0.3);
+    border-color: var(--accent);
+}
+.schedule-cell-cur { font-weight: 700; font-size: 0.95rem; }
+.schedule-cell-asig { font-size: 0.75rem; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.5px; }
+.schedule-cell[onclick]:hover .schedule-cell-cur { color: var(--accent); }
+
 </style>
 </head>
 <body>
@@ -668,13 +706,15 @@ function renderSchedule() {
                 if (data.asig === 'plan') css += ' plan';
                 if (data.asig === 'error') css += ' error';
                 
-                const label = data.curso ? `<strong>${data.curso}</strong><br>${data.asig}` : (data.label || data.asig);
+                const curHtml = data.curso ? `<div class="schedule-cell-cur">${data.curso}</div>` : "";
+                const asigHtml = data.curso ? `<div class="schedule-cell-asig">${data.asig}</div>` : `<div style="font-weight: 500">${data.label || data.asig}</div>`;
                 const clickAction = data.curso ? `onclick="openClassFromSchedule('${d}', '${b}')"` : "";
                 
                 html += `<td>
                     <div class="${css}" ${clickAction}>
-                        <span>${label}</span>
-                        ${data.curso ? '<span style="font-size:0.6rem; opacity:0.7;">Ver clase ➔</span>' : ''}
+                        ${curHtml}
+                        ${asigHtml}
+                        ${data.curso ? '<span style="font-size:0.6rem; opacity:0.7; margin-top: 0.2rem; display:inline-block; border: 1px solid var(--border); border-radius:10px; padding: 2px 6px;">Ver clase ➔</span>' : ''}
                     </div>
                 </td>`;
             }
@@ -694,9 +734,9 @@ function openClassFromSchedule(dia, bloque) {
     const asigLow = data.asig.toLowerCase();
     const targetKey = `S${currentWeek}_${asigLow === 'patrimonio' ? 'PAT' : 'REL'}_${data.curso}`;
     
-    const clase = CLASES.find(c => c.id === targetKey);
-    if (clase) {
-        openModal(clase);
+    const idx = CLASES.findIndex(c => c.id === targetKey);
+    if (idx !== -1) {
+        openModal(idx);
     } else {
         alert(`Clase ${targetKey} no encontrada para la Semana ${currentWeek}. Asegúrate de haberla generado.`);
     }
