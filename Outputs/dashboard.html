@@ -330,11 +330,16 @@ body { font-family: 'Inter', sans-serif; background: var(--bg); color: var(--tex
     .modal { padding: 1.25rem; }
     
     /* Responsive Schedule */
-    #scheduleContainer { overflow-x: auto; padding-bottom: 1rem; }
-    .schedule-table { min-width: 600px; /* Forces scroll instead of squishing */ }
-    .schedule-cell { min-height: 60px; padding: 0.5rem; }
-    .schedule-cell-cur { font-size: 0.85rem; }
-    .schedule-cell-asig { font-size: 0.65rem; }
+    .schedule-desktop-view { display: none; }
+    .schedule-mobile-view { display: flex; flex-direction: column; gap: 1rem; }
+    
+    .mobile-day { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; overflow: hidden; }
+    .mobile-day-title { background: var(--surface2); padding: 0.75rem 1rem; font-weight: 700; text-transform: uppercase; font-size: 0.85rem; border-bottom: 1px solid var(--border); color: var(--gold); }
+    .mobile-block { display: flex; align-items: stretch; border-bottom: 1px solid var(--border); }
+    .mobile-block:last-child { border-bottom: none; }
+    .mobile-time { width: 80px; padding: 0.75rem; font-size: 0.7rem; color: var(--text-muted); text-align: center; border-right: 1px solid var(--border); display: flex; flex-direction: column; justify-content: center; background: rgba(0,0,0,0.2); }
+    .mobile-content { flex: 1; padding: 0.75rem; }
+    .mobile-content .schedule-cell { min-height: 70px; height: 100%; justify-content: center; }
 }
 
 /* Print Styles & Header */
@@ -409,6 +414,9 @@ body { font-family: 'Inter', sans-serif; background: var(--bg); color: var(--tex
 .schedule-cell-asig { font-size: 0.75rem; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.5px; }
 .schedule-cell[onclick]:hover .schedule-cell-cur { color: var(--accent); }
 
+.schedule-desktop-view { display: block; overflow-x: auto; padding-bottom: 1rem; }
+.schedule-mobile-view { display: none; }
+
 </style>
 </head>
 <body>
@@ -419,7 +427,7 @@ body { font-family: 'Inter', sans-serif; background: var(--bg); color: var(--tex
         <div class="subtitle">Escuela Aonikenk — Generado por Antigravity</div>
     </div>
     <div style="color: var(--text-muted); font-size: 0.75rem;">
-        Actualizado: 02/03/2026 16:48
+        Actualizado: 02/03/2026 17:06
     </div>
 </div>
 
@@ -2768,14 +2776,15 @@ function renderSchedule() {
                 Semana Actual: <strong>Semana ${currentWeek}</strong>
             </div>
         </div>
-        <table class="schedule-table">
-            <thead>
-                <tr>
-                    <th style="width: 100px;">Bloque</th>
-                    ${dias.map(d => `<th class="schedule-header">${d}</th>`).join('')}
-                </tr>
-            </thead>
-            <tbody>
+        <div class="schedule-desktop-view">
+            <table class="schedule-table">
+                <thead>
+                    <tr>
+                        <th style="width: 100px;">Bloque</th>
+                        ${dias.map(d => `<th class="schedule-header">${d}</th>`).join('')}
+                    </tr>
+                </thead>
+                <tbody>
     `;
     
     bloques.forEach(b => {
@@ -2811,7 +2820,44 @@ function renderSchedule() {
         html += `</tr>`;
     });
     
-    html += `</tbody></table>`;
+    html += `</tbody></table></div>`;
+    
+    // VISTA MÓVIL (CARTAS POR DÍA)
+    html += `<div class="schedule-mobile-view">`;
+    dias.forEach(d => {
+        let hasClasses = false;
+        bloques.forEach(b => { if (HORARIO.semana[d][b]) hasClasses = true; });
+        if (!hasClasses) return;
+        
+        html += `<div class="mobile-day">`;
+        html += `<div class="mobile-day-title">${d}</div>`;
+        bloques.forEach(b => {
+            const data = HORARIO.semana[d][b];
+            if (data) {
+                let css = 'schedule-cell';
+                if (data.asig === 'Religión') css += ' rel';
+                if (data.asig === 'Patrimonio') css += ' pat';
+                if (data.asig === 'plan') css += ' plan';
+                if (data.asig === 'error') css += ' error';
+                
+                const curHtml = data.curso ? `<div class="schedule-cell-cur">${data.curso}</div>` : "";
+                const asigHtml = data.curso ? `<div class="schedule-cell-asig">${data.asig}</div>` : `<div style="font-weight: 500">${data.label || data.asig}</div>`;
+                const clickAction = data.curso ? `onclick="openClassFromSchedule('${d}', '${b}')"` : "";
+                
+                html += `<div class="mobile-block">`;
+                html += `<div class="mobile-time"><strong>Bloque ${b}</strong><span style="margin-top:0.2rem">${HORARIO.bloques[b].hora.replace(' - ', '<br>')}</span></div>`;
+                html += `<div class="mobile-content">`;
+                html += `<div class="${css}" ${clickAction}>
+                        ${curHtml}
+                        ${asigHtml}
+                    </div>`;
+                html += `</div></div>`;
+            }
+        });
+        html += `</div>`;
+    });
+    html += `</div>`;
+    
     container.innerHTML = html;
 }
 
