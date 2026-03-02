@@ -482,6 +482,13 @@ body { font-family: 'Inter', sans-serif; background: var(--bg); color: var(--tex
     .cal-week-dots { justify-content: flex-start; }
     .cal-week-grid { grid-template-columns: 1fr; }
     .modal { padding: 1.25rem; }
+    
+    /* Responsive Schedule */
+    #scheduleContainer { overflow-x: auto; padding-bottom: 1rem; }
+    .schedule-table { min-width: 600px; /* Forces scroll instead of squishing */ }
+    .schedule-cell { min-height: 60px; padding: 0.5rem; }
+    .schedule-cell-cur { font-size: 0.85rem; }
+    .schedule-cell-asig { font-size: 0.65rem; }
 }
 
 /* Print Styles & Header */
