@@ -208,7 +208,10 @@ body { font-family: 'Inter', sans-serif; background: var(--bg); color: var(--tex
 .view-toggle {
     display: flex; gap: 0; padding: 0 2rem;
     border-bottom: 1px solid var(--border); background: var(--surface);
+    overflow-x: auto; white-space: nowrap; -webkit-overflow-scrolling: touch;
 }
+.view-toggle::-webkit-scrollbar { height: 4px; }
+.view-toggle::-webkit-scrollbar-thumb { background: var(--border); border-radius: 4px; }
 .view-tab {
     padding: 0.75rem 1.5rem; border: none; background: none;
     color: var(--text-muted); cursor: pointer; font-family: inherit;
@@ -921,7 +924,7 @@ function setFilter(key, value, btn) {
 function getFiltered() {
     let f = CLASES.filter(c => !c.curso.includes('ciclo'));
     if (activeFilters.asignatura !== 'all')
-        f = f.filter(c => c.asignatura === activeFilters.asignatura || c.asignatura.normalize('NFD').replace(/[\\u0300-\\u036f]/g,'') === activeFilters.asignatura);
+        f = f.filter(c => c.asignatura.toLowerCase().replace('ó','o') === activeFilters.asignatura.toLowerCase().replace('ó','o'));
     if (activeFilters.curso !== 'all')
         f = f.filter(c => c.curso === activeFilters.curso);
     return f;
