@@ -471,6 +471,21 @@ body { font-family: 'Inter', sans-serif; background: var(--bg); color: var(--tex
 .pro-time { position: absolute; top: -10px; right: 10px; background: var(--accent); color: white; padding: 0.1rem 0.5rem; border-radius: 4px; font-size: 0.65rem; font-weight: 800; }
 .pro-tip { background: #3b82f610; border: 1px dashed var(--accent); border-radius: 8px; padding: 1rem; margin-top: 1.5rem; font-size: 0.85rem; color: var(--text-muted); line-height: 1.5; }
 
+/* Interactive Mapas */
+.map-item { background: var(--surface2); border: 1px solid var(--border); border-radius: 12px; margin-bottom: 1rem; overflow: hidden; transition: all 0.3s; cursor: pointer; }
+.map-item.pat { border-left: 4px solid var(--pat-primary); }
+.map-item.rel { border-left: 4px solid var(--rel-primary); }
+.map-item:hover { border-color: var(--accent); }
+.map-header { padding: 1.25rem; display: flex; justify-content: space-between; align-items: center; }
+.map-title { font-size: 1.05rem; }
+.map-title strong { color: var(--text); }
+.map-icon { font-size: 0.8rem; color: var(--text-muted); transition: transform 0.3s; }
+.map-body { padding: 0 1.25rem 1.25rem; display: none; border-top: 1px dashed var(--border); margin-top: 0.5rem; padding-top: 1rem; color: var(--text-muted); }
+.map-item.active .map-body { display: block; }
+.map-item.active .map-icon { transform: rotate(180deg); color: var(--accent); }
+.map-hito { background: rgba(0,0,0,0.2); padding: 1rem; border-radius: 8px; margin-top: 1rem; border-left: 3px solid var(--gold); }
+.map-mes { font-size: 0.8rem; opacity: 0.7; font-weight: 400; margin-left: 0.5rem; }
+
 @media (max-width: 700px) {
     .header { padding: 1rem; }
     .header h1 { font-size: 1.1rem; }
@@ -592,20 +607,19 @@ body { font-family: 'Inter', sans-serif; background: var(--bg); color: var(--tex
 <div class="view-toggle">
     <button class="view-tab active" id="tabSchedule" onclick="switchView('schedule')">🗓️ Mi Horario</button>
     <button class="view-tab" id="tabGrid" onclick="switchView('grid')">🔲 Tarjetas</button>
+    <button class="view-tab" id="tabMaps" onclick="switchView('maps')">🗺️ Mapas Anuales</button>
     <button class="view-tab" id="tabCal" onclick="switchView('calendar')">📅 Calendario</button>
     <button class="view-tab" id="tabMat" onclick="switchView('materials')">📦 Material</button>
     <button class="view-tab" id="tabEvents" onclick="switchView('events')">🔔 Eventos</button>
     <button class="view-tab" id="tabPro" onclick="switchView('strategies')" style="background: linear-gradient(135deg, #3b82f630, #f59e0b30);">🚀 Estrategias Pro</button>
 </div>
 
-<div style="text-align: center; margin-bottom: 1rem; font-size: 0.85rem;">
-    🗺️ Ver Mapas Anuales: 
-    <a href="mapa_patrimonio.md" style="color:var(--accent); text-decoration:none; margin-right: 1rem;">[Patrimonio]</a>
-    <a href="mapa_religion.md" style="color:var(--gold); text-decoration:none;">[Religión]</a>
-</div>
 <div class="filters" id="filtersBar"></div>
 <div class="view-content" id="view-schedule" style="padding: 1rem 2rem;">
     <div id="scheduleContainer"></div>
+</div>
+<div class="view-content" id="view-maps" style="display:none; padding: 2rem; max-width: 1000px; margin: 0 auto;">
+    [[MAPAS_HTML]]
 </div>
 <div class="view-content" id="view-events" style="display:none; padding: 2rem;">
     <h2 style="margin-bottom: 1.5rem;">Próximos Eventos y Suspensiones</h2>
@@ -671,6 +685,7 @@ function switchView(v) {
     document.getElementById('strategies').style.display = v==='strategies' ? 'block' : 'none';
     document.getElementById('view-schedule').style.display = v==='schedule' ? 'block' : 'none';
     document.getElementById('view-events').style.display = v==='events' ? 'block' : 'none';
+    document.getElementById('view-maps').style.display = v==='maps' ? 'block' : 'none';
     
     document.getElementById('tabGrid').className = 'view-tab' + (v==='grid' ? ' active' : '');
     document.getElementById('tabCal').className = 'view-tab' + (v==='calendar' ? ' active' : '');
@@ -678,6 +693,7 @@ function switchView(v) {
     document.getElementById('tabPro').className = 'view-tab' + (v==='strategies' ? ' active' : '');
     document.getElementById('tabSchedule').className = 'view-tab' + (v==='schedule' ? ' active' : '');
     document.getElementById('tabEvents').className = 'view-tab' + (v==='events' ? ' active' : '');
+    document.getElementById('tabMaps').className = 'view-tab' + (v==='maps' ? ' active' : '');
     
     if (v==='materials') renderMaterials();
     if (v==='strategies') renderStrategies();
@@ -1132,11 +1148,78 @@ init();
 </script>
 </body>
 </html>"""
+    # Generar vistas de Mapas
+    mapas_html = ""
+    # Mapas de Patrimonio
+    if (BASE_DIR / "patrimonio_unidades.yml").exists():
+        with open(BASE_DIR / "patrimonio_unidades.yml", "r", encoding="utf-8") as f:
+            pat_data = yaml.safe_load(f)["patrimonio_anual"]
+        
+        mapas_html += f'''
+        <div class="pro-card" style="border-top: 4px solid var(--pat-primary);">
+            <h2 style="color:var(--text); font-size:1.5rem">📗 {pat_data['asignatura']}</h2>
+            <p style="color:var(--text-muted); margin-bottom: 2rem;">{pat_data['enfoque']}</p>
+        '''
+        for u_key, u in pat_data["unidades"].items():
+            mapas_html += f'''
+                <div class="map-item pat" onclick="this.classList.toggle('active')">
+                    <div class="map-header">
+                        <div class="map-title"><strong>{u['id'].upper()}:</strong> {u['titulo']} <span class="map-mes">({u['meses']})</span></div>
+                        <div class="map-icon">▼</div>
+                    </div>
+                    <div class="map-body">
+                        <p style="color:var(--text); margin-bottom:1rem"><strong>Meta:</strong> <em>{u['pregunta_esencial']}</em></p>
+                        <p><strong>Foco Educativo:</strong> {u['foco_didactico']}</p>
+                        <div class="map-hito">
+                            <strong>🎯 Proyecto/Producto:</strong> {u['producto_esperado']}<br/>
+                            <span style="font-size: 0.85rem; color: var(--gold); display:inline-block; margin-top:0.4rem;">🏆 Hito Vinculado: {u['hito_vinculado']}</span>
+                        </div>
+                    </div>
+                </div>
+            '''
+        mapas_html += "</div>"
+
+    # Mapas de Religión
+    if (BASE_DIR / "religion_unidades.yml").exists():
+        with open(BASE_DIR / "religion_unidades.yml", "r", encoding="utf-8") as f:
+            rel_data = yaml.safe_load(f)["religion_anual"]
+
+        mapas_html += f'''
+        <div class="pro-card" style="border-top: 4px solid var(--rel-primary); margin-top: 2rem;">
+            <h2 style="color:var(--text); font-size:1.5rem">📕 {rel_data['asignatura']}</h2>
+            <p style="color:var(--text-muted); margin-bottom: 2rem;">{rel_data['enfoque']}</p>
+        '''
+        for ciclo, data in rel_data["ciclos"].items():
+            label = ciclo.replace("_", " ").title()
+            mapas_html += f'''
+                <div class="map-item rel" onclick="this.classList.toggle('active')">
+                    <div class="map-header">
+                        <div class="map-title"><strong>{label}</strong> <span class="map-mes">({data.get('foco_pedagogico', '')[:40]}...)</span></div>
+                        <div class="map-icon">▼</div>
+                    </div>
+                    <div class="map-body">
+                        <div style="background:rgba(0,0,0,0.2); padding:1rem; border-radius:8px; border-left:3px solid var(--rel-primary); margin-bottom:1.5rem">
+                            <strong style="color:var(--text)">Foco Pedagógico del Ciclo:</strong> {data.get('foco_pedagogico', '')}
+                        </div>
+            '''
+            for u in data["unidades"]:
+                mapas_html += f'''
+                        <div style="margin-bottom:1rem; padding-bottom:1rem; border-bottom:1px dashed var(--border)">
+                            <strong style="color:var(--text)">Unidad {u['id'].upper().replace('R','')} ({u['mes']}):</strong> <span style="color:var(--accent)">{u['titulo']}</span>
+                        </div>
+                '''
+            mapas_html += '''
+                    </div>
+                </div>
+            '''
+        mapas_html += "</div>"
+
     html = template.replace("[[TIMESTAMP]]", timestamp)
     html = html.replace("[[CLASES_JSON]]", clases_json)
     html = html.replace("[[SEMANA_FECHAS_JSON]]", semana_fechas_json)
     html = html.replace("[[HORARIO_JSON]]", horario_json)
     html = html.replace("[[EVENTOS_JSON]]", eventos_json)
+    html = html.replace("[[MAPAS_HTML]]", mapas_html)
     return html
 
 def main():

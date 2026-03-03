@@ -317,6 +317,21 @@ body { font-family: 'Inter', sans-serif; background: var(--bg); color: var(--tex
 .pro-time { position: absolute; top: -10px; right: 10px; background: var(--accent); color: white; padding: 0.1rem 0.5rem; border-radius: 4px; font-size: 0.65rem; font-weight: 800; }
 .pro-tip { background: #3b82f610; border: 1px dashed var(--accent); border-radius: 8px; padding: 1rem; margin-top: 1.5rem; font-size: 0.85rem; color: var(--text-muted); line-height: 1.5; }
 
+/* Interactive Mapas */
+.map-item { background: var(--surface2); border: 1px solid var(--border); border-radius: 12px; margin-bottom: 1rem; overflow: hidden; transition: all 0.3s; cursor: pointer; }
+.map-item.pat { border-left: 4px solid var(--pat-primary); }
+.map-item.rel { border-left: 4px solid var(--rel-primary); }
+.map-item:hover { border-color: var(--accent); }
+.map-header { padding: 1.25rem; display: flex; justify-content: space-between; align-items: center; }
+.map-title { font-size: 1.05rem; }
+.map-title strong { color: var(--text); }
+.map-icon { font-size: 0.8rem; color: var(--text-muted); transition: transform 0.3s; }
+.map-body { padding: 0 1.25rem 1.25rem; display: none; border-top: 1px dashed var(--border); margin-top: 0.5rem; padding-top: 1rem; color: var(--text-muted); }
+.map-item.active .map-body { display: block; }
+.map-item.active .map-icon { transform: rotate(180deg); color: var(--accent); }
+.map-hito { background: rgba(0,0,0,0.2); padding: 1rem; border-radius: 8px; margin-top: 1rem; border-left: 3px solid var(--gold); }
+.map-mes { font-size: 0.8rem; opacity: 0.7; font-weight: 400; margin-left: 0.5rem; }
+
 @media (max-width: 700px) {
     .header { padding: 1rem; }
     .header h1 { font-size: 1.1rem; }
@@ -430,7 +445,7 @@ body { font-family: 'Inter', sans-serif; background: var(--bg); color: var(--tex
         <div class="subtitle">Escuela Aonikenk — Generado por Antigravity</div>
     </div>
     <div style="color: var(--text-muted); font-size: 0.75rem;">
-        Actualizado: 02/03/2026 22:28
+        Actualizado: 02/03/2026 23:57
     </div>
 </div>
 
@@ -438,20 +453,171 @@ body { font-family: 'Inter', sans-serif; background: var(--bg); color: var(--tex
 <div class="view-toggle">
     <button class="view-tab active" id="tabSchedule" onclick="switchView('schedule')">🗓️ Mi Horario</button>
     <button class="view-tab" id="tabGrid" onclick="switchView('grid')">🔲 Tarjetas</button>
+    <button class="view-tab" id="tabMaps" onclick="switchView('maps')">🗺️ Mapas Anuales</button>
     <button class="view-tab" id="tabCal" onclick="switchView('calendar')">📅 Calendario</button>
     <button class="view-tab" id="tabMat" onclick="switchView('materials')">📦 Material</button>
     <button class="view-tab" id="tabEvents" onclick="switchView('events')">🔔 Eventos</button>
     <button class="view-tab" id="tabPro" onclick="switchView('strategies')" style="background: linear-gradient(135deg, #3b82f630, #f59e0b30);">🚀 Estrategias Pro</button>
 </div>
 
-<div style="text-align: center; margin-bottom: 1rem; font-size: 0.85rem;">
-    🗺️ Ver Mapas Anuales: 
-    <a href="mapa_patrimonio.md" style="color:var(--accent); text-decoration:none; margin-right: 1rem;">[Patrimonio]</a>
-    <a href="mapa_religion.md" style="color:var(--gold); text-decoration:none;">[Religión]</a>
-</div>
 <div class="filters" id="filtersBar"></div>
 <div class="view-content" id="view-schedule" style="padding: 1rem 2rem;">
     <div id="scheduleContainer"></div>
+</div>
+<div class="view-content" id="view-maps" style="display:none; padding: 2rem; max-width: 1000px; margin: 0 auto;">
+    
+        <div class="pro-card" style="border-top: 4px solid var(--pat-primary);">
+            <h2 style="color:var(--text); font-size:1.5rem">📗 Taller de Patrimonio</h2>
+            <p style="color:var(--text-muted); margin-bottom: 2rem;">Identidad cultural local y huerto escolar</p>
+        
+                <div class="map-item pat" onclick="this.classList.toggle('active')">
+                    <div class="map-header">
+                        <div class="map-title"><strong>U1:</strong> Identidad y Territorio <span class="map-mes">(Marzo - Abril)</span></div>
+                        <div class="map-icon">▼</div>
+                    </div>
+                    <div class="map-body">
+                        <p style="color:var(--text); margin-bottom:1rem"><strong>Meta:</strong> <em>¿Quiénes somos y dónde vivimos?</em></p>
+                        <p><strong>Foco Educativo:</strong> Mapeo del entorno cercano y reconocimiento personal.</p>
+                        <div class="map-hito">
+                            <strong>🎯 Proyecto/Producto:</strong> Bitácora inicial y mapa de la comunidad escolar.<br/>
+                            <span style="font-size: 0.85rem; color: var(--gold); display:inline-block; margin-top:0.4rem;">🏆 Hito Vinculado: Día de los Patrimonios (Mayo)</span>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="map-item pat" onclick="this.classList.toggle('active')">
+                    <div class="map-header">
+                        <div class="map-title"><strong>U2:</strong> Historia Viva y Memoria <span class="map-mes">(Mayo - Julio)</span></div>
+                        <div class="map-icon">▼</div>
+                    </div>
+                    <div class="map-body">
+                        <p style="color:var(--text); margin-bottom:1rem"><strong>Meta:</strong> <em>¿Qué historias cuentan nuestros mayores?</em></p>
+                        <p><strong>Foco Educativo:</strong> Investigación local, uso de cámara, entrevistas simples.</p>
+                        <div class="map-hito">
+                            <strong>🎯 Proyecto/Producto:</strong> Exposición de registros fotográficos y narrativas cortas.<br/>
+                            <span style="font-size: 0.85rem; color: var(--gold); display:inline-block; margin-top:0.4rem;">🏆 Hito Vinculado: We Tripantu (Junio)</span>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="map-item pat" onclick="this.classList.toggle('active')">
+                    <div class="map-header">
+                        <div class="map-title"><strong>U3:</strong> Patrimonio Natural y Cultural <span class="map-mes">(Agosto - Septiembre)</span></div>
+                        <div class="map-icon">▼</div>
+                    </div>
+                    <div class="map-body">
+                        <p style="color:var(--text); margin-bottom:1rem"><strong>Meta:</strong> <em>¿Qué nos enseña la naturaleza y cómo la cuidamos?</em></p>
+                        <p><strong>Foco Educativo:</strong> Trabajo en terreno, siembra, saberes ancestrales botánicos.</p>
+                        <div class="map-hito">
+                            <strong>🎯 Proyecto/Producto:</strong> Herbario patrimonial o diario del huerto.<br/>
+                            <span style="font-size: 0.85rem; color: var(--gold); display:inline-block; margin-top:0.4rem;">🏆 Hito Vinculado: Activación del Aula-Huerto</span>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="map-item pat" onclick="this.classList.toggle('active')">
+                    <div class="map-header">
+                        <div class="map-title"><strong>U4:</strong> Proyección, Legado y Escuela <span class="map-mes">(Octubre - Diciembre)</span></div>
+                        <div class="map-icon">▼</div>
+                    </div>
+                    <div class="map-body">
+                        <p style="color:var(--text); margin-bottom:1rem"><strong>Meta:</strong> <em>¿Qué marca dejamos en Aonikenk?</em></p>
+                        <p><strong>Foco Educativo:</strong> Síntesis, preparación de muestra pública, autoevaluación.</p>
+                        <div class="map-hito">
+                            <strong>🎯 Proyecto/Producto:</strong> Intervención artística en la escuela y cierre de bitácora fotográfica.<br/>
+                            <span style="font-size: 0.85rem; color: var(--gold); display:inline-block; margin-top:0.4rem;">🏆 Hito Vinculado: Aniversario Escuela (Octubre) y Muestra Final</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <div class="pro-card" style="border-top: 4px solid var(--rel-primary); margin-top: 2rem;">
+            <h2 style="color:var(--text); font-size:1.5rem">📕 Religión Católica</h2>
+            <p style="color:var(--text-muted); margin-bottom: 2rem;">Formación integral, reflexión filosófica y conexión vida-fe (MBE)</p>
+        
+                <div class="map-item rel" onclick="this.classList.toggle('active')">
+                    <div class="map-header">
+                        <div class="map-title"><strong>Primer Ciclo</strong> <span class="map-mes">(Narrativas fundacionales, valores básico...)</span></div>
+                        <div class="map-icon">▼</div>
+                    </div>
+                    <div class="map-body">
+                        <div style="background:rgba(0,0,0,0.2); padding:1rem; border-radius:8px; border-left:3px solid var(--rel-primary); margin-bottom:1.5rem">
+                            <strong style="color:var(--text)">Foco Pedagógico del Ciclo:</strong> Narrativas fundacionales, valores básicos (amor, familia, creación).
+                        </div>
+            
+                        <div style="margin-bottom:1rem; padding-bottom:1rem; border-bottom:1px dashed var(--border)">
+                            <strong style="color:var(--text)">Unidad 1 (Marzo-Abril):</strong> <span style="color:var(--accent)">La Creación: Regalo de Dios</span>
+                        </div>
+                
+                        <div style="margin-bottom:1rem; padding-bottom:1rem; border-bottom:1px dashed var(--border)">
+                            <strong style="color:var(--text)">Unidad 2 (Mayo-Junio):</strong> <span style="color:var(--accent)">Jesús: El Gran Amigo</span>
+                        </div>
+                
+                    </div>
+                </div>
+            
+                <div class="map-item rel" onclick="this.classList.toggle('active')">
+                    <div class="map-header">
+                        <div class="map-title"><strong>Segundo Ciclo</strong> <span class="map-mes">(La figura de Jesús, los sacramentos inic...)</span></div>
+                        <div class="map-icon">▼</div>
+                    </div>
+                    <div class="map-body">
+                        <div style="background:rgba(0,0,0,0.2); padding:1rem; border-radius:8px; border-left:3px solid var(--rel-primary); margin-bottom:1.5rem">
+                            <strong style="color:var(--text)">Foco Pedagógico del Ciclo:</strong> La figura de Jesús, los sacramentos iniciales, la comunidad escolar.
+                        </div>
+            
+                        <div style="margin-bottom:1rem; padding-bottom:1rem; border-bottom:1px dashed var(--border)">
+                            <strong style="color:var(--text)">Unidad 3 (Marzo-Abril):</strong> <span style="color:var(--accent)">Grandes Amigos de Dios (AT)</span>
+                        </div>
+                
+                        <div style="margin-bottom:1rem; padding-bottom:1rem; border-bottom:1px dashed var(--border)">
+                            <strong style="color:var(--text)">Unidad 4 (Mayo-Junio):</strong> <span style="color:var(--accent)">La Iglesia: Una Gran Familia</span>
+                        </div>
+                
+                    </div>
+                </div>
+            
+                <div class="map-item rel" onclick="this.classList.toggle('active')">
+                    <div class="map-header">
+                        <div class="map-title"><strong>Tercer Ciclo</strong> <span class="map-mes">(Historia de la salvación, los mandamient...)</span></div>
+                        <div class="map-icon">▼</div>
+                    </div>
+                    <div class="map-body">
+                        <div style="background:rgba(0,0,0,0.2); padding:1rem; border-radius:8px; border-left:3px solid var(--rel-primary); margin-bottom:1.5rem">
+                            <strong style="color:var(--text)">Foco Pedagógico del Ciclo:</strong> Historia de la salvación, los mandamientos como ética de vida, el servicio.
+                        </div>
+            
+                        <div style="margin-bottom:1rem; padding-bottom:1rem; border-bottom:1px dashed var(--border)">
+                            <strong style="color:var(--text)">Unidad 5 (Marzo-Abril):</strong> <span style="color:var(--accent)">Pecado y Promesa de Salvador</span>
+                        </div>
+                
+                        <div style="margin-bottom:1rem; padding-bottom:1rem; border-bottom:1px dashed var(--border)">
+                            <strong style="color:var(--text)">Unidad 6 (Mayo-Junio):</strong> <span style="color:var(--accent)">Jesús nos enseña a Vivir</span>
+                        </div>
+                
+                    </div>
+                </div>
+            
+                <div class="map-item rel" onclick="this.classList.toggle('active')">
+                    <div class="map-header">
+                        <div class="map-title"><strong>Cuarto Ciclo</strong> <span class="map-mes">(Proyecto de vida, doctrina social, diálo...)</span></div>
+                        <div class="map-icon">▼</div>
+                    </div>
+                    <div class="map-body">
+                        <div style="background:rgba(0,0,0,0.2); padding:1rem; border-radius:8px; border-left:3px solid var(--rel-primary); margin-bottom:1.5rem">
+                            <strong style="color:var(--text)">Foco Pedagógico del Ciclo:</strong> Proyecto de vida, doctrina social, diálogo fe-razón (filosofía).
+                        </div>
+            
+                        <div style="margin-bottom:1rem; padding-bottom:1rem; border-bottom:1px dashed var(--border)">
+                            <strong style="color:var(--text)">Unidad 7 (Marzo-Abril):</strong> <span style="color:var(--accent)">Llamados a la Libertad (Mandamientos)</span>
+                        </div>
+                
+                        <div style="margin-bottom:1rem; padding-bottom:1rem; border-bottom:1px dashed var(--border)">
+                            <strong style="color:var(--text)">Unidad 8 (Mayo-Junio):</strong> <span style="color:var(--accent)">Proyecto de Vida en Cristo</span>
+                        </div>
+                
+                    </div>
+                </div>
+            </div>
 </div>
 <div class="view-content" id="view-events" style="display:none; padding: 2rem;">
     <h2 style="margin-bottom: 1.5rem;">Próximos Eventos y Suspensiones</h2>
@@ -2753,6 +2919,7 @@ function switchView(v) {
     document.getElementById('strategies').style.display = v==='strategies' ? 'block' : 'none';
     document.getElementById('view-schedule').style.display = v==='schedule' ? 'block' : 'none';
     document.getElementById('view-events').style.display = v==='events' ? 'block' : 'none';
+    document.getElementById('view-maps').style.display = v==='maps' ? 'block' : 'none';
     
     document.getElementById('tabGrid').className = 'view-tab' + (v==='grid' ? ' active' : '');
     document.getElementById('tabCal').className = 'view-tab' + (v==='calendar' ? ' active' : '');
@@ -2760,6 +2927,7 @@ function switchView(v) {
     document.getElementById('tabPro').className = 'view-tab' + (v==='strategies' ? ' active' : '');
     document.getElementById('tabSchedule').className = 'view-tab' + (v==='schedule' ? ' active' : '');
     document.getElementById('tabEvents').className = 'view-tab' + (v==='events' ? ' active' : '');
+    document.getElementById('tabMaps').className = 'view-tab' + (v==='maps' ? ' active' : '');
     
     if (v==='materials') renderMaterials();
     if (v==='strategies') renderStrategies();
