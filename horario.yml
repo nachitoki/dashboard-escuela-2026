@@ -7,46 +7,53 @@ bloques:
   "6": { hora: "12:30 - 13:15" }
   "7": { hora: "14:15 - 15:00" }
   "8": { hora: "15:00 - 15:45" }
+  "9": { hora: "16:00 - 17:00" }
+  "10": { hora: "17:00 - 18:00" }
 
 semana:
   lunes:
-    "1": { curso: null, asig: "plan", label: "Planificación" }
-    "2": { curso: null, asig: "plan", label: "Planificación" }
-    "3": { curso: "6basico", asig: "Patrimonio" }
-    "4": { curso: "6basico", asig: "Patrimonio" }
-    "5": { curso: "8basico", asig: "Patrimonio" }
-    "6": { curso: "8basico", asig: "Patrimonio" }
-    "7": { curso: "4basico", asig: "Patrimonio" }
-    "8": { curso: "4basico", asig: "Patrimonio" }
+    "3": { curso: "6basico", asig: "Religión" }
+    "4": { curso: "6basico", asig: "Religión" }
+    "5": { curso: "1basico", asig: "Patrimonio" }
+    "6": { curso: "1basico", asig: "Patrimonio" }
+    "7": { curso: "4basico", asig: "Religión" }
+    "8": { curso: "4basico", asig: "Religión" }
   martes:
     "1": { curso: "2basico", asig: "Religión" }
     "2": { curso: "2basico", asig: "Religión" }
-    "3": { curso: "1basico", asig: "Religión" }
-    "4": { curso: "1basico", asig: "Religión" }
-    "5": { curso: null, asig: "error", label: "Atención (Choque 3° Rel)" }
-    "6": { curso: null, asig: "admin", label: "Atención Apoderados" }
-    "7": { curso: null, asig: "plan", label: "Planificación" }
-    "8": { curso: null, asig: "plan", label: "Creación Material" }
+    "3": { curso: "7basico", asig: "Patrimonio" }
+    "4": { curso: "7basico", asig: "Patrimonio" }
+    "5": { curso: "3basico", asig: "Religión" }
+    "6": { curso: "3basico", asig: "Religión" }
+    "7": { curso: "8basico", asig: "Religión" }
+    "8": { curso: "8basico", asig: "Religión" }
+    "9": { curso: null, asig: "admin", label: "Consejo de Profesores" }
+    "10": { curso: null, asig: "admin", label: "Consejo de Profesores" }
   miercoles:
-    "1": { curso: "4basico", asig: "Religión" }
-    "2": { curso: "4basico", asig: "Religión" }
+    "1": { curso: "4basico", asig: "Patrimonio" }
+    "2": { curso: "4basico", asig: "Patrimonio" }
     "3": { curso: "3basico", asig: "Patrimonio" }
     "4": { curso: "3basico", asig: "Patrimonio" }
     "5": { curso: "5basico", asig: "Religión" }
     "6": { curso: "5basico", asig: "Religión" }
-    "7": { curso: "1basico", asig: "Patrimonio" }
-    "8": { curso: "1basico", asig: "Patrimonio" }
+    "7": { curso: null, asig: "plan", label: "Creación de Material" }
+    "8": { curso: null, asig: "plan", label: "Creación de Material" }
   jueves:
-    "1": { curso: null, asig: "plan", label: "Prep. Clases" }
-    "2": { curso: "2basico", asig: "Patrimonio" }
+    "1": { curso: null, asig: "plan", label: "Planificación" }
+    "2": { curso: null, asig: "plan", label: "Planificación" }
     "3": { curso: "7basico", asig: "Religión" }
     "4": { curso: "7basico", asig: "Religión" }
     "5": { curso: "2basico", asig: "Patrimonio" }
-    "6": { curso: null, asig: "plan", label: "Cierre Administrativo" }
+    "6": { curso: "2basico", asig: "Patrimonio" }
+    "7": { curso: "6basico", asig: "Patrimonio" }
+    "8": { curso: "6basico", asig: "Patrimonio" }
+    "10": { curso: null, asig: "admin", label: "CPA Matemáticas" }
   viernes:
     "1": { curso: "5basico", asig: "Patrimonio" }
     "2": { curso: "5basico", asig: "Patrimonio" }
-    "3": { curso: "8basico", asig: "Religión" }
-    "4": { curso: "8basico", asig: "Religión" }
-    "5": { curso: null, asig: "error", label: "7° Pat / 6° Rel (Choque)" }
-    "6": { curso: null, asig: "error", label: "7° Pat / 6° Rel (Choque)" }
+    "3": { curso: "8basico", asig: "Patrimonio" }
+    "4": { curso: "8basico", asig: "Patrimonio" }
+    "5": { curso: "1basico", asig: "Religión" }
+    "6": { curso: "1basico", asig: "Religión" }
+    "7": { curso: null, asig: "plan", label: "Cierre Administrativo" }
+    "8": { curso: null, asig: "plan", label: "Cierre Administrativo" }

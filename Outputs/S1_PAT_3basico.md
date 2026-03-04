@@ -1,55 +1,68 @@
 # Patrimonio — 3° Básico - Unidad: Unidad 1: Identidad y Territorio
-**Ciclo:** 3° Básico (Básica Media (3°-4° Básico)) | **Semana:** 1 | **Tiempo:** 90 minutos
-**Pregunta Esencial:** ¿Cómo comprendemos el misterio de La memoria de nuestra escuela Aonikenk?
+**Ciclo:** 3° Básico | **Semana:** 1 | **Tiempo:** 90 minutos
+**Pregunta Esencial:** ¿Qué es el patrimonio y cómo somos guardianes de la memoria de nuestra escuela Aonikenk?
 
 ---
 
 ## 🎯 Objetivo de la Clase
-Identificar el espacio escolar como lugar de encuentro y memoria.
+Introducir el concepto de "Patrimonio", conectar con la identidad local Aonikenk (sello de la escuela) y establecer dinámicas participativas mediante historias y representación.
 
 ---
 
 ## 🕒 Secuencia Didáctica (90 min)
 
-### ┌─ INICIO (15 min)
+### ┌─ INICIO (20 min)
 **Rutina / Activación:**
-- Oración inicial (ciclo litúrgico) y recuerdo de la clase anterior.
+- Bienvenida y formación del círculo (si el mobiliario lo permite) para fomentar un ambiente de relatos y confianza. No hay uso de proyector.
 **Pregunta Gatilladora:**
-- *¿Qué sabemos sobre La memoria de nuestra escuela Aonikenk?*
+- Dinámica del "Objeto Oculto": El docente trae un objeto cubierto (ej. ladrillo antiguo de la escuela, madera, lana).
+- *¿Qué es un tesoro para ustedes? ¿Los tesoros son siempre de oro o joyas, o pueden ser historias y recuerdos?*
 
-### ├─ DESARROLLO (50 min)
-**Metodología ABP / Trabajo Central:**
-- **Actividad de Patrimonio para 3° Básico:** La memoria de nuestra escuela Aonikenk
+### ├─ DESARROLLO (55 min)
+**Metodología Activa / Storytelling y Mapeo:**
 
-Actividad ABP diferenciada para 8-9 años: Inicio de trabajo grupal simple (parejas). Lectura de textos cortos. Preguntas dirigidas con opciones.
-**Agrupación:** Individual y plenario.
-**Materiales:** Ver sección Materiales abajo.
+**1. El Misterio del "Tesoro" y la Presentación (15 min)**
+- Se destapa el objeto y se explica que el "Patrimonio" son esos tesoros invisibles y visibles que dejaron nuestros abuelos y los fundadores del pueblo. 
+- Hoy iniciamos nuestro rol como "guardianes" de la cultura de Puerto Ingeniero Ibáñez y del sello "Patrimonio Cultural y Territorio Vivo".
+
+**2. El Relato Oral: Un Viaje a los Años 20 (20 min)**
+- **Storytelling:** El docente narra la historia épica de la fundación de la Escuela Aonikenk a fines de la década de 1920. 
+- Se describe cómo las familias construyeron la escuela con sus propias manos usando madera aserrada y ladrillos artesanales. Se relata cómo los niños de 3° básico de esa época llegaban a caballo soportando el frío, haciendo campamentos para poder estudiar.
+- Se explica el significado de "Aonikenk" (Gente del Sur) y se insta a mantener vivo su espíritu valiente.
+
+**3. Actividad Práctica: Mapeo Temporal (20 min)**
+- **Instrucciones:** Se entrega una hoja de bloc para dividir en dos partes.
+- **Lado A (El Pasado):** Los estudiantes dibujan cómo imaginan que llegaban los niños a la escuela en los años 20 (a caballo, con frío, escuela rústica).
+- **Lado B (El Presente):** Dibujan cómo llegan ellos hoy a la escuela (furgón, caminando, etc.).
+- El docente circula retroalimentando y estimulando la comparación.
 
 ### ├─ CIERRE (15 min)
 **Reflexión Guiada:**
-- Síntesis en la pizarra de la verdad enseñada.
-**Metacognición:**
-- *¿Qué aprendimos hoy? ¿Cómo lo conectamos con nuestro entorno?*
+- Plenario: 3 estudiantes voluntarios comparten y explican sus dibujos al curso.
+**Metacognición / Ticket de Salida:**
+- *¿Qué tesoro de los niños de 1920 creen que todavía tenemos en la escuela Aonikenk de hoy?* (Ej. Ganas de aprender, valentía, compañerismo).
 
 ### └─ EVIDENCIA (10 min)
 **📸 Bitácora / Registro:**
-- El estudiante toma la foto y escribe un párrafo corto (qué, cómo, cuándo).
-**Tipo de Evaluación:** Formativa (participación y bitácora)
+- Registro de los dibujos comparativos como primera evidencia del portafolio patrimonial del estudiante.
+**Tipo de Evaluación:** Formativa (participación, escucha activa y representación gráfica).
 
 ---
 
 ## 🔲 Cobertura MBE 2021 (Indicadores)
-- [x] **Dominio A (Preparación):** Planificación desafiante y coherente con el currículum.
-- [ ] **Dominio B (Ambiente):** Espacio seguro, rutinas claras e interacciones respetuosas.
-- [x] **Dominio C (Enseñanza):** Estrategias activas (ABP) que promueven pensamiento crítico.
-- [x] **Dominio D (Responsabilidad):** Recopilación de evidencia para reflexión pedagógica.
+- [x] **Dominio A (Preparación):** Planificación desafiante adaptada al contexto (sin pantallas).
+- [x] **Dominio B (Ambiente):** Espacio seguro, disposición en círculo, clima de respeto.
+- [x] **Dominio C (Enseñanza):** Estrategias activas (Storytelling) que promueven pensamiento histórico inicial.
+- [x] **Dominio D (Responsabilidad):** Promoción de la identidad local e institucional.
 
 ---
 *Generado automáticamente por Antigravity - Sistema 2026*
 
-
 ---
 
-## 🖨️ Material Auto-Generado (listo para imprimir)
+## ✋ Tareas del Docente (preparar antes de la clase)
+🧱 Conseguir el "Objeto Oculto" (ladrillo, trozo de madera o lana) y una tela para cubrirlo.
+📝 Llevar hojas de bloc o asegurar que todos tengan cuaderno y lápices.
+📖 Repasar mentalmente los detalles heroicos y épicos de los niños pioneros de los años 20 en Aonikenk para dar vida al relato oral.
 
-Biblia (Straubinger), cuaderno, pizarra.
+---

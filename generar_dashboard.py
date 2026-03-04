@@ -574,6 +574,7 @@ body { font-family: 'Inter', sans-serif; background: var(--bg); color: var(--tex
 }
 .schedule-cell.pat { background: var(--pat-bg); border-color: var(--pat-primary)50; color: var(--text); border-left: 4px solid var(--pat-primary); }
 .schedule-cell.rel { background: var(--rel-bg); border-color: var(--rel-primary)50; color: var(--text); border-left: 4px solid var(--rel-primary); }
+.schedule-cell.admin { background: rgba(168,85,247,0.1); border-color: #a855f750; color: var(--text); border-left: 4px solid #a855f7; }
 .schedule-cell.plan { background: rgba(59,130,246,0.1); border-color: var(--accent)50; color: var(--text); border-left: 4px solid var(--accent); }
 .schedule-cell.error { opacity: 0.4; border-style: dashed; }
 .schedule-cell[onclick] { cursor: pointer; }
@@ -713,6 +714,13 @@ function renderSchedule() {
                 Semana Actual: <strong>Semana ${currentWeek}</strong>
             </div>
         </div>
+        <div style="font-size:0.8rem; display:flex; gap:1rem; flex-wrap:wrap; margin-bottom:1rem; background:var(--surface2); padding:1rem; border-radius:8px;">
+            <span style="display:flex; align-items:center; gap:0.5rem"><div style="width:12px;height:12px;border-radius:50%;background:var(--pat-primary)"></div> Clases Patrimonio</span>
+            <span style="display:flex; align-items:center; gap:0.5rem"><div style="width:12px;height:12px;border-radius:50%;background:var(--rel-primary)"></div> Clases Religión</span>
+            <span style="display:flex; align-items:center; gap:0.5rem"><div style="width:12px;height:12px;border-radius:50%;background:#a855f7"></div> Administrativo</span>
+            <span style="display:flex; align-items:center; gap:0.5rem"><div style="width:12px;height:12px;border-radius:50%;background:var(--accent)"></div> Libre / Planificación</span>
+            <span style="display:flex; align-items:center; gap:0.5rem"><div style="width:12px;height:12px;border-radius:50%;border:1px dashed var(--danger)"></div> Choque / Error</span>
+        </div>
         <div class="schedule-desktop-view">
             <table class="schedule-table">
                 <thead>
@@ -727,7 +735,7 @@ function renderSchedule() {
     bloques.forEach(b => {
         html += `<tr>
             <td style="text-align:center; font-size:0.7rem; color:var(--text-muted);">
-                <strong>${b}</strong><br>${HORARIO.bloques[b].hora}
+                <strong>Bloque ${b}</strong><br>${HORARIO.bloques[b] ? HORARIO.bloques[b].hora : ''}
             </td>`;
         
         dias.forEach(d => {
@@ -739,6 +747,7 @@ function renderSchedule() {
                 if (data.asig === 'Religión') css += ' rel';
                 if (data.asig === 'Patrimonio') css += ' pat';
                 if (data.asig === 'plan') css += ' plan';
+                if (data.asig === 'admin') css += ' admin';
                 if (data.asig === 'error') css += ' error';
                 
                 const curHtml = data.curso ? `<div class="schedule-cell-cur">${data.curso}</div>` : "";
@@ -775,6 +784,7 @@ function renderSchedule() {
                 if (data.asig === 'Religión') css += ' rel';
                 if (data.asig === 'Patrimonio') css += ' pat';
                 if (data.asig === 'plan') css += ' plan';
+                if (data.asig === 'admin') css += ' admin';
                 if (data.asig === 'error') css += ' error';
                 
                 const curHtml = data.curso ? `<div class="schedule-cell-cur">${data.curso}</div>` : "";
@@ -782,7 +792,7 @@ function renderSchedule() {
                 const clickAction = data.curso ? `onclick="openClassFromSchedule('${d}', '${b}')"` : "";
                 
                 html += `<div class="mobile-block">`;
-                html += `<div class="mobile-time"><strong>Bloque ${b}</strong><span style="margin-top:0.2rem">${HORARIO.bloques[b].hora.replace(' - ', '<br>')}</span></div>`;
+                html += `<div class="mobile-time"><strong>Bloque ${b}</strong><span style="margin-top:0.2rem">${HORARIO.bloques[b] ? HORARIO.bloques[b].hora.replace(' - ', '<br>') : ''}</span></div>`;
                 html += `<div class="mobile-content">`;
                 html += `<div class="${css}" ${clickAction}>
                         ${curHtml}
