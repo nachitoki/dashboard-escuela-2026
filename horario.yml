@@ -21,7 +21,6 @@ semana:
     "7": { curso: "4basico", asig: "Religión" }
     "8": { curso: "4basico", asig: "Religión" }
     "9": { curso: null, asig: "plan", label: "Planificación Fina" }
-    "10": { curso: null, asig: "plan", label: "Apoyo Audiovisual" }
   martes:
     "1": { curso: "2basico", asig: "Religión" }
     "2": { curso: "2basico", asig: "Religión" }
@@ -40,6 +39,8 @@ semana:
     "4": { curso: "3basico", asig: "Patrimonio" }
     "5": { curso: "5basico", asig: "Religión" }
     "6": { curso: "5basico", asig: "Religión" }
+    "8": { curso: null, asig: "plan", label: "Apoyo Audiovisual" }
+    "9": { curso: null, asig: "plan", label: "Apoyo Audiovisual" }
   jueves:
     "1": { curso: null, asig: "plan", label: "Planificación Cierre Semanal" }
     "2": { curso: null, asig: "plan", label: "Planificación Cierre Semanal" }
