@@ -348,8 +348,28 @@ body { font-family: 'Inter', sans-serif; background: var(--bg); color: var(--tex
 .modal {
     background: var(--surface); border: 1px solid var(--border);
     border-radius: 20px; max-width: 950px; width: 100%;
-    max-height: 90vh; overflow-y: auto; padding: 2.5rem; position: relative;
+    max-height: 90vh; padding: 0; position: relative;
     box-shadow: 0 20px 50px rgba(0,0,0,0.5);
+    display: flex; flex-direction: column; overflow: hidden;
+}
+.modal-header-fixed {
+    display: flex; justify-content: space-between; align-items: center;
+    padding: 1.5rem 2rem; border-bottom: 1px solid var(--border);
+    background: var(--surface); flex-shrink: 0;
+}
+.modal-scroll-area {
+    padding: 1.5rem 2.5rem;
+    overflow-y: auto; flex: 1;
+    background: var(--surface2);
+    margin: 1rem 1.5rem;
+    border-radius: 12px;
+    border: 1px solid var(--border);
+    box-shadow: inset 0 2px 10px rgba(0,0,0,0.1);
+}
+.modal-actions-fixed {
+    display: flex; gap: 0.75rem; flex-wrap: wrap;
+    padding: 1.25rem 2rem; border-top: 1px solid var(--border);
+    background: var(--surface); flex-shrink: 0;
 }
 .modal h1 { font-size: 1.6rem; margin-bottom: 1rem; color: var(--text); border-bottom: 2px solid var(--border); padding-bottom: 0.5rem; }
 .modal h2 { font-size: 1.3rem; margin-top: 2rem; margin-bottom: 1rem; color: var(--accent); display: flex; align-items: center; gap: 0.5rem; }
@@ -376,12 +396,13 @@ body { font-family: 'Inter', sans-serif; background: var(--bg); color: var(--tex
 .modal h3:contains("DESARROLLO"), .modal h3:contains("Desarrollo") { border-left-color: var(--gold); background: rgba(245, 158, 11, 0.1); color: var(--gold); }
 .modal h3:contains("CIERRE"), .modal h3:contains("Cierre") { border-left-color: var(--pat-primary); background: rgba(16, 185, 129, 0.1); color: var(--pat-primary); }
 .modal-close {
-    position: sticky; top: 0; float: right;
     background: var(--surface2); border: 1px solid var(--border);
     color: var(--text); width: 36px; height: 36px;
     border-radius: 50%; cursor: pointer; font-size: 1.2rem;
     display: flex; align-items: center; justify-content: center; z-index: 10;
+    transition: all 0.2s;
 }
+.modal-close:hover { background: var(--danger); color: white; border-color: var(--danger); }
 .modal-actions {
     display: flex; gap: 0.75rem; flex-wrap: wrap;
     margin-top: 1.5rem; padding-top: 1rem;
@@ -518,13 +539,14 @@ body { font-family: 'Inter', sans-serif; background: var(--bg); color: var(--tex
 .print-only { display: none; }
 @media print {
     body { background: white; color: black; }
-    .header, .stats-bar, .view-toggle, .filters, .modal-actions, .modal-close, .materials, .calendar, .grid { display: none !important; }
+    .header, .stats-bar, .view-toggle, .filters, .modal-actions, .modal-actions-fixed, .modal-header-fixed, .modal-close, .materials, .calendar, .grid { display: none !important; }
     .modal-overlay { position: relative; background: none; display: block !important; padding: 0; backdrop-filter: none; }
     .modal { 
         display: block; position: relative; max-width: 100%; width: 100%; 
         padding: 0; box-shadow: none; border: none; background: white;
-        max-height: none; overflow: visible;
+        max-height: none; overflow: visible; display: block;
     }
+    .modal-scroll-area { padding: 0 !important; margin: 0 !important; overflow: visible !important; border: none !important; box-shadow: none !important; background: none !important; }
     .print-only { display: block; }
     .print-header {
         display: flex; justify-content: space-between; align-items: center;
@@ -1062,16 +1084,28 @@ function openModal(idx) {
                 <div class="print-logo-placeholder">LOGO<br>ESCUELA</div>
             </div>
         </div>
-        <button class="modal-close" onclick="closeModal()">✕</button>
         
-        <div class="only-plan">${planHtml}</div>
-        ${matHtml ? `<div class="only-material">${matHtml}</div>` : ''}
+        <div class="modal-header-fixed">
+            <div style="display:flex; align-items:center; gap: 1rem;">
+                <span style="font-size: 1.6rem; background: var(--surface2); padding: 0.5rem; border-radius: 12px; border: 1px solid var(--border)">${c.asignatura_code === 'PAT' ? '📗' : '📕'}</span>
+                <div>
+                    <h2 style="margin:0; font-size:1.2rem; color:var(--text); border:none; padding:0; display:block">${c.asignatura}</h2>
+                    <div style="font-size:0.85rem; color:var(--text-muted); margin-top:0.2rem">Semana ${c.semana} • ${c.curso.replace('basico', '° Básico')}</div>
+                </div>
+            </div>
+            <button class="modal-close" onclick="closeModal()">✕</button>
+        </div>
         
-        <div class="modal-actions">
-            <button class="btn btn-print" onclick="printDoc('plan')">🖨️ Imprimir Planificación</button>
-            ${matHtml ? `<button class="btn btn-print" style="background:var(--gold);border-color:var(--gold)" onclick="printDoc('material')">📄 Imprimir Material / Ficha</button>` : ''}
+        <div class="modal-scroll-area">
+            <div class="only-plan">${planHtml}</div>
+            ${matHtml ? `<div class="only-material">${matHtml}</div>` : ''}
+        </div>
+        
+        <div class="modal-actions-fixed">
+            <button class="btn btn-print" onclick="printDoc('plan')">🖨️ Imprimir Plan</button>
+            ${matHtml ? `<button class="btn btn-print" style="background:var(--gold);border-color:var(--gold)" onclick="printDoc('material')">📄 Imprimir Material</button>` : ''}
             <button class="btn" onclick="copyToClipboard(${idx})">📋 Copiar texto</button>
-            <button class="btn" onclick="closeModal()">Cerrar</button>
+            <button class="btn" onclick="closeModal()" style="margin-left:auto">Cerrar Cajón</button>
         </div>
     `;
     document.getElementById('modalOverlay').classList.add('active');

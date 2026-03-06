@@ -1,55 +1,38 @@
-# Patrimonio — 5° Básico - Unidad: Unidad 1: Identidad y Territorio
-**Ciclo:** 5° Básico (Básico Intermedio (5°-6° Básico)) | **Semana:** 1 | **Tiempo:** 90 minutos
-**Pregunta Esencial:** ¿Cómo comprendemos el misterio de El barrio que habitamos y sus relatos?
+# Clase 1 Patrimonio 5 Basico - 06-03-2026
 
----
+Asignatura: Taller Patrimonio
+Duracion: 90 minutos (Bloques 1-2)
+Unidad: Clase inicial de instalacion
 
-## 🎯 Objetivo de la Clase
-Mapear los hitos locales y espacios comunitarios.
+## Objetivo de la clase
+Reconocer manifestaciones del patrimonio local (material e inmaterial) y proponer una accion concreta de cuidado en la escuela o comunidad.
 
----
+## Inicio (15 min)
+- Pregunta detonante en pizarra: "Que tesoros tiene Puerto Ibanez que no se deben perder?"
+- Lluvia de ideas guiada: lugares, costumbres, historias, personas, objetos.
+- Definicion simple: Patrimonio = lo que heredamos, valoramos y cuidamos.
 
-## 🕒 Secuencia Didáctica (90 min)
+## Desarrollo (60 min)
+1. Organizacion en equipos (4-5 integrantes).
+2. Dinamica "Detectives del Patrimonio":
+   - Equipo A: lugares
+   - Equipo B: tradiciones
+   - Equipo C: personajes y oficios
+   - Equipo D: objetos y memoria familiar
+3. Producto por equipo: "Tarjeta Patrimonial" con:
+   - Nombre del patrimonio elegido
+   - Dibujo representativo
+   - Por que es importante
+   - Que podemos hacer para cuidarlo
+4. Puesta en comun breve de cada equipo.
 
-### ┌─ INICIO (15 min)
-**Rutina / Activación:**
-- Oración inicial (ciclo litúrgico) y recuerdo de la clase anterior.
-**Pregunta Gatilladora:**
-- *¿Qué sabemos sobre El barrio que habitamos y sus relatos?*
+## Cierre (15 min)
+- Galeria rapida en pared/pizarra.
+- Cada equipo dice un compromiso concreto de cuidado.
+- Ticket oral de salida: "Hoy entendi que patrimonio es...".
 
-### ├─ DESARROLLO (50 min)
-**Metodología ABP / Trabajo Central:**
-- **Actividad de Patrimonio para 5° Básico:** El barrio que habitamos y sus relatos
-
-Actividad ABP diferenciada para 10-11 años: Investigación guiada con preguntas. Exposiciones breves. Inicio de pensamiento abstracto. Trabajo con líneas de tiempo.
-**Agrupación:** Individual y plenario.
-**Materiales:** Ver sección Materiales abajo.
-
-### ├─ CIERRE (15 min)
-**Reflexión Guiada:**
-- Síntesis en la pizarra de la verdad enseñada.
-**Metacognición:**
-- *¿Qué aprendimos hoy? ¿Cómo lo conectamos con nuestro entorno?*
-
-### └─ EVIDENCIA (10 min)
-**📸 Bitácora / Registro:**
-- Reportaje fotográfico (serie de fotos) con epígrafes críticos.
-**Tipo de Evaluación:** Formativa (participación y bitácora)
-
----
-
-## 🔲 Cobertura MBE 2021 (Indicadores)
-- [x] **Dominio A (Preparación):** Planificación desafiante y coherente con el currículum.
-- [ ] **Dominio B (Ambiente):** Espacio seguro, rutinas claras e interacciones respetuosas.
-- [x] **Dominio C (Enseñanza):** Estrategias activas (ABP) que promueven pensamiento crítico.
-- [x] **Dominio D (Responsabilidad):** Recopilación de evidencia para reflexión pedagógica.
-
----
-*Generado automáticamente por Antigravity - Sistema 2026*
-
-
----
-
-## 🖨️ Material Auto-Generado (listo para imprimir)
-
-Biblia (Straubinger), cuaderno, pizarra.
+## Material que debes reunir o crear
+- Hojas blancas o recicladas (1-2 por estudiante).
+- Plumones/lapices de colores.
+- Cinta adhesiva o masking tape.
+- 4 carteles de estacion (pueden ir escritos en pizarra).

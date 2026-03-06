@@ -1,55 +1,42 @@
-# Religión — 1° Básico - Unidad: Unidad 0/1
-**Ciclo:** 1° Básico (Básica Baja (1°-2° Básico)) | **Semana:** 1 | **Tiempo:** 90 minutos
-**Pregunta Esencial:** ¿Cómo comprendemos el misterio de Dios nos creó por Amor?
+# Clase 1 Religion 1 Basico - 06-03-2026
 
----
+Asignatura: Religion
+Duracion: 90 minutos (Bloques 5-6)
+Enfoque: Unidad 0/1 del Programa (OA4: "La creacion como regalo del amor de Dios")
+Trabajo inicial: Adaptacion ecumenica (grupo catolico y evangelico)
 
-## 🎯 Objetivo de la Clase
-Reconocer la vida como un regalo divino.
+## Objetivo de la clase (breve)
+Dios nos ama y nos regalo la vida y la creacion.
 
----
+## Contexto pedagogico
+- Estudiantes provenientes de NT, con escasa o nula lectoescritura independiente.
+- Se prioriza lenguaje oral, contacto visual, juego corporal, imagenes grandes y coloreado.
+- Primer mes con estrategias comunes para ambos grupos.
 
-## 🕒 Secuencia Didáctica (90 min)
+## Inicio (20 min)
+- Circulo de bienvenida con senal simple de atencion (ej: palmas rítmicas).
+- Presentacion oral: "Miren por la ventana, miren a sus companeros... todo esto tan bonito lo creo Dios porque nos ama mucho".
+- Activacion corporal: Gesto de abrazarse a si mismos (el amor) y extender las manos (como regalando algo).
 
-### ┌─ INICIO (15 min)
-**Rutina / Activación:**
-- Oración inicial (ciclo litúrgico) y recuerdo de la clase anterior.
-**Pregunta Gatilladora:**
-- *¿Qué sabemos sobre Dios nos creó por Amor?*
+## Desarrollo (55 min)
+1. Relato visual guiado (Jesus abrazando a los ninos o la belleza de la naturaleza) en lenguaje figurativo y muy simple.
+2. Video corto (3-5 min) sobre la creacion (animales, sol, agua) y los ninos.
+3. Conversacion brevísima, enfocada en emociones positivas:
+   - Que cosas hermosas hizo Dios para nosotros?
+   - Como se sienten cuando les hacen un regalo?
+   - Como cuidamos este regalo enorme que es el mundo?
+4. Actividad principal grafica:
+   - Ficha "Dios creo un mundo hermoso por amor".
+   - Dibujo con tecnica libre (crayones/lapices de cera) de la naturaleza, su familia, sus mascotas o ellos mismos.
 
-### ├─ DESARROLLO (50 min)
-**Metodología ABP / Trabajo Central:**
-- **[MOCK]** Desarrollo generado por IA para: Dios nos creó por Amor
-Curso: 1° Básico
-Estructura: Videtur quod... Sed contra... Respondeo...
-**Agrupación:** Individual y plenario.
-**Materiales:** Ver sección Materiales abajo.
+## Cierre (15 min)
+- Galeria rapida: 4 o 5 voluntarios muestran su ficha desde el puesto.
+- Expresion en coro: "¡Gracias por regalarnos la vida y la creacion!"
+- Oracion ecumenica sumamente cortita y alegre de agradecimiento.
 
-### ├─ CIERRE (15 min)
-**Reflexión Guiada:**
-- Síntesis en la pizarra de la verdad enseñada.
-**Metacognición:**
-- *¿Qué aprendimos hoy? ¿Cómo lo conectamos con nuestro entorno?*
-
-### └─ EVIDENCIA (10 min)
-**📸 Bitácora / Registro:**
-- El estudiante dibuja y el profesor o estudiante escribe el título.
-**Tipo de Evaluación:** Formativa (participación y bitácora)
-
----
-
-## 🔲 Cobertura MBE 2021 (Indicadores)
-- [x] **Dominio A (Preparación):** Planificación desafiante y coherente con el currículum.
-- [x] **Dominio B (Ambiente):** Espacio seguro, rutinas claras e interacciones respetuosas.
-- [x] **Dominio C (Enseñanza):** Estrategias activas (ABP) que promueven pensamiento crítico.
-- [ ] **Dominio D (Responsabilidad):** Recopilación de evidencia para reflexión pedagógica.
-
----
-*Generado automáticamente por Antigravity - Sistema 2026*
-
-
----
-
-## 🖨️ Material Auto-Generado (listo para imprimir)
-
-Biblia (Straubinger), cuaderno, pizarra.
+## Material que debes reunir o crear
+- Lamina/poster visible de Jesus con ninos o un paisaje muy atractivo (o dibujo rapido en la pizarra).
+- Celular y parlante para el video/audio corto.
+- Fichas impresas (hojas con un gran marco en blanco, y el titulo corto arriba).
+- Cajas de crayones / ceras.
+- Stickers, timbres o sellos para reforzar a cada nino mientras dibujan.

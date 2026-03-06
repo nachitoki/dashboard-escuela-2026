@@ -194,8 +194,28 @@ body { font-family: 'Inter', sans-serif; background: var(--bg); color: var(--tex
 .modal {
     background: var(--surface); border: 1px solid var(--border);
     border-radius: 20px; max-width: 950px; width: 100%;
-    max-height: 90vh; overflow-y: auto; padding: 2.5rem; position: relative;
+    max-height: 90vh; padding: 0; position: relative;
     box-shadow: 0 20px 50px rgba(0,0,0,0.5);
+    display: flex; flex-direction: column; overflow: hidden;
+}
+.modal-header-fixed {
+    display: flex; justify-content: space-between; align-items: center;
+    padding: 1.5rem 2rem; border-bottom: 1px solid var(--border);
+    background: var(--surface); flex-shrink: 0;
+}
+.modal-scroll-area {
+    padding: 1.5rem 2.5rem;
+    overflow-y: auto; flex: 1;
+    background: var(--surface2);
+    margin: 1rem 1.5rem;
+    border-radius: 12px;
+    border: 1px solid var(--border);
+    box-shadow: inset 0 2px 10px rgba(0,0,0,0.1);
+}
+.modal-actions-fixed {
+    display: flex; gap: 0.75rem; flex-wrap: wrap;
+    padding: 1.25rem 2rem; border-top: 1px solid var(--border);
+    background: var(--surface); flex-shrink: 0;
 }
 .modal h1 { font-size: 1.6rem; margin-bottom: 1rem; color: var(--text); border-bottom: 2px solid var(--border); padding-bottom: 0.5rem; }
 .modal h2 { font-size: 1.3rem; margin-top: 2rem; margin-bottom: 1rem; color: var(--accent); display: flex; align-items: center; gap: 0.5rem; }
@@ -222,12 +242,13 @@ body { font-family: 'Inter', sans-serif; background: var(--bg); color: var(--tex
 .modal h3:contains("DESARROLLO"), .modal h3:contains("Desarrollo") { border-left-color: var(--gold); background: rgba(245, 158, 11, 0.1); color: var(--gold); }
 .modal h3:contains("CIERRE"), .modal h3:contains("Cierre") { border-left-color: var(--pat-primary); background: rgba(16, 185, 129, 0.1); color: var(--pat-primary); }
 .modal-close {
-    position: sticky; top: 0; float: right;
     background: var(--surface2); border: 1px solid var(--border);
     color: var(--text); width: 36px; height: 36px;
     border-radius: 50%; cursor: pointer; font-size: 1.2rem;
     display: flex; align-items: center; justify-content: center; z-index: 10;
+    transition: all 0.2s;
 }
+.modal-close:hover { background: var(--danger); color: white; border-color: var(--danger); }
 .modal-actions {
     display: flex; gap: 0.75rem; flex-wrap: wrap;
     margin-top: 1.5rem; padding-top: 1rem;
@@ -364,13 +385,14 @@ body { font-family: 'Inter', sans-serif; background: var(--bg); color: var(--tex
 .print-only { display: none; }
 @media print {
     body { background: white; color: black; }
-    .header, .stats-bar, .view-toggle, .filters, .modal-actions, .modal-close, .materials, .calendar, .grid { display: none !important; }
+    .header, .stats-bar, .view-toggle, .filters, .modal-actions, .modal-actions-fixed, .modal-header-fixed, .modal-close, .materials, .calendar, .grid { display: none !important; }
     .modal-overlay { position: relative; background: none; display: block !important; padding: 0; backdrop-filter: none; }
     .modal { 
         display: block; position: relative; max-width: 100%; width: 100%; 
         padding: 0; box-shadow: none; border: none; background: white;
-        max-height: none; overflow: visible;
+        max-height: none; overflow: visible; display: block;
     }
+    .modal-scroll-area { padding: 0 !important; margin: 0 !important; overflow: visible !important; border: none !important; box-shadow: none !important; background: none !important; }
     .print-only { display: block; }
     .print-header {
         display: flex; justify-content: space-between; align-items: center;
@@ -446,7 +468,7 @@ body { font-family: 'Inter', sans-serif; background: var(--bg); color: var(--tex
         <div class="subtitle">Escuela Aonikenk — Generado por Antigravity</div>
     </div>
     <div style="color: var(--text-muted); font-size: 0.75rem;">
-        Actualizado: 04/03/2026 17:01
+        Actualizado: 05/03/2026 23:36
     </div>
 </div>
 
@@ -827,8 +849,8 @@ const CLASES = [
     "asignatura": "Patrimonio",
     "asignatura_code": "PAT",
     "curso": "5basico",
-    "titulo": "Patrimonio — 5° Básico - Unidad: Unidad 1: Identidad y Territorio",
-    "objetivo": "Mapear los hitos locales y espacios comunitarios.",
+    "titulo": "Clase 1 Patrimonio 5 Basico - 06-03-2026",
+    "objetivo": "",
     "mbe": {
       "A": false,
       "B": false,
@@ -837,23 +859,13 @@ const CLASES = [
     },
     "materiales": [
       {
-        "tipo": "basico",
-        "item": "Ver sección Materiales abajo",
-        "preparar": false
-      },
-      {
-        "tipo": "preparar",
-        "item": "📖 Pasajes: por definir",
-        "preparar": true
-      },
-      {
         "tipo": "preparar",
         "item": "📸 Registro para bitácora fotográfica",
         "preparar": true
       }
     ],
-    "html": "<h1>Patrimonio — 5° Básico - Unidad: Unidad 1: Identidad y Territorio</h1>\n<p><strong>Ciclo:</strong> 5° Básico (Básico Intermedio (5°-6° Básico)) | <strong>Semana:</strong> 1 | <strong>Tiempo:</strong> 90 minutos<br />\n<strong>Pregunta Esencial:</strong> ¿Cómo comprendemos el misterio de El barrio que habitamos y sus relatos?</p>\n<hr />\n<h2>🎯 Objetivo de la Clase</h2>\n<p>Mapear los hitos locales y espacios comunitarios.</p>\n<hr />\n<h2>🕒 Secuencia Didáctica (90 min)</h2>\n<h3>┌─ INICIO (15 min)</h3>\n<p><strong>Rutina / Activación:</strong><br />\n- Oración inicial (ciclo litúrgico) y recuerdo de la clase anterior.<br />\n<strong>Pregunta Gatilladora:</strong><br />\n- <em>¿Qué sabemos sobre El barrio que habitamos y sus relatos?</em></p>\n<h3>├─ DESARROLLO (50 min)</h3>\n<p><strong>Metodología ABP / Trabajo Central:</strong><br />\n- <strong>Actividad de Patrimonio para 5° Básico:</strong> El barrio que habitamos y sus relatos</p>\n<p>Actividad ABP diferenciada para 10-11 años: Investigación guiada con preguntas. Exposiciones breves. Inicio de pensamiento abstracto. Trabajo con líneas de tiempo.<br />\n<strong>Agrupación:</strong> Individual y plenario.<br />\n<strong>Materiales:</strong> Ver sección Materiales abajo.</p>\n<h3>├─ CIERRE (15 min)</h3>\n<p><strong>Reflexión Guiada:</strong><br />\n- Síntesis en la pizarra de la verdad enseñada.<br />\n<strong>Metacognición:</strong><br />\n- <em>¿Qué aprendimos hoy? ¿Cómo lo conectamos con nuestro entorno?</em></p>\n<h3>└─ EVIDENCIA (10 min)</h3>\n<p><strong>📸 Bitácora / Registro:</strong><br />\n- Reportaje fotográfico (serie de fotos) con epígrafes críticos.<br />\n<strong>Tipo de Evaluación:</strong> Formativa (participación y bitácora)</p>\n<hr />\n<h2>🔲 Cobertura MBE 2021 (Indicadores)</h2>\n<ul>\n<li>☑ <strong>Dominio A (Preparación):</strong> Planificación desafiante y coherente con el currículum.</li>\n<li>☐ <strong>Dominio B (Ambiente):</strong> Espacio seguro, rutinas claras e interacciones respetuosas.</li>\n<li>☑ <strong>Dominio C (Enseñanza):</strong> Estrategias activas (ABP) que promueven pensamiento crítico.</li>\n<li>☑ <strong>Dominio D (Responsabilidad):</strong> Recopilación de evidencia para reflexión pedagógica.</li>\n</ul>\n<hr />\n<p><em>Generado automáticamente por Antigravity - Sistema 2026</em></p>\n<hr />\n<h2>🖨️ Material Auto-Generado (listo para imprimir)</h2>\n<p>Biblia (Straubinger), cuaderno, pizarra.</p>",
-    "raw_md": "# Patrimonio — 5° Básico - Unidad: Unidad 1: Identidad y Territorio\n**Ciclo:** 5° Básico (Básico Intermedio (5°-6° Básico)) | **Semana:** 1 | **Tiempo:** 90 minutos\n**Pregunta Esencial:** ¿Cómo comprendemos el misterio de El barrio que habitamos y sus relatos?\n\n---\n\n## 🎯 Objetivo de la Clase\nMapear los hitos locales y espacios comunitarios.\n\n---\n\n## 🕒 Secuencia Didáctica (90 min)\n\n### ┌─ INICIO (15 min)\n**Rutina / Activación:**\n- Oración inicial (ciclo litúrgico) y recuerdo de la clase anterior.\n**Pregunta Gatilladora:**\n- *¿Qué sabemos sobre El barrio que habitamos y sus relatos?*\n\n### ├─ DESARROLLO (50 min)\n**Metodología ABP / Trabajo Central:**\n- **Actividad de Patrimonio para 5° Básico:** El barrio que habitamos y sus relatos\n\nActividad ABP diferenciada para 10-11 años: Investigación guiada con preguntas. Exposiciones breves. Inicio de pensamiento abstracto. Trabajo con líneas de tiempo.\n**Agrupación:** Individual y plenario.\n**Materiales:** Ver sección Materiales abajo.\n\n### ├─ CIERRE (15 min)\n**Reflexión Guiada:**\n- Síntesis en la pizarra de la verdad enseñada.\n**Metacognición:**\n- *¿Qué aprendimos hoy? ¿Cómo lo conectamos con nuestro entorno?*\n\n### └─ EVIDENCIA (10 min)\n**📸 Bitácora / Registro:**\n- Reportaje fotográfico (serie de fotos) con epígrafes críticos.\n**Tipo de Evaluación:** Formativa (participación y bitácora)\n\n---\n\n## 🔲 Cobertura MBE 2021 (Indicadores)\n- [x] **Dominio A (Preparación):** Planificación desafiante y coherente con el currículum.\n- [ ] **Dominio B (Ambiente):** Espacio seguro, rutinas claras e interacciones respetuosas.\n- [x] **Dominio C (Enseñanza):** Estrategias activas (ABP) que promueven pensamiento crítico.\n- [x] **Dominio D (Responsabilidad):** Recopilación de evidencia para reflexión pedagógica.\n\n---\n*Generado automáticamente por Antigravity - Sistema 2026*\n\n\n---\n\n## 🖨️ Material Auto-Generado (listo para imprimir)\n\nBiblia (Straubinger), cuaderno, pizarra.\n"
+    "html": "<h1>Clase 1 Patrimonio 5 Basico - 06-03-2026</h1>\n<p>Asignatura: Taller Patrimonio<br />\nDuracion: 90 minutos (Bloques 1-2)<br />\nUnidad: Clase inicial de instalacion</p>\n<h2>Objetivo de la clase</h2>\n<p>Reconocer manifestaciones del patrimonio local (material e inmaterial) y proponer una accion concreta de cuidado en la escuela o comunidad.</p>\n<h2>Inicio (15 min)</h2>\n<ul>\n<li>Pregunta detonante en pizarra: \"Que tesoros tiene Puerto Ibanez que no se deben perder?\"</li>\n<li>Lluvia de ideas guiada: lugares, costumbres, historias, personas, objetos.</li>\n<li>Definicion simple: Patrimonio = lo que heredamos, valoramos y cuidamos.</li>\n</ul>\n<h2>Desarrollo (60 min)</h2>\n<ol>\n<li>Organizacion en equipos (4-5 integrantes).</li>\n<li>Dinamica \"Detectives del Patrimonio\":<br />\n   - Equipo A: lugares<br />\n   - Equipo B: tradiciones<br />\n   - Equipo C: personajes y oficios<br />\n   - Equipo D: objetos y memoria familiar</li>\n<li>Producto por equipo: \"Tarjeta Patrimonial\" con:<br />\n   - Nombre del patrimonio elegido<br />\n   - Dibujo representativo<br />\n   - Por que es importante<br />\n   - Que podemos hacer para cuidarlo</li>\n<li>Puesta en comun breve de cada equipo.</li>\n</ol>\n<h2>Cierre (15 min)</h2>\n<ul>\n<li>Galeria rapida en pared/pizarra.</li>\n<li>Cada equipo dice un compromiso concreto de cuidado.</li>\n<li>Ticket oral de salida: \"Hoy entendi que patrimonio es...\".</li>\n</ul>\n<h2>Material que debes reunir o crear</h2>\n<ul>\n<li>Hojas blancas o recicladas (1-2 por estudiante).</li>\n<li>Plumones/lapices de colores.</li>\n<li>Cinta adhesiva o masking tape.</li>\n<li>4 carteles de estacion (pueden ir escritos en pizarra).</li>\n</ul>",
+    "raw_md": "# Clase 1 Patrimonio 5 Basico - 06-03-2026\n\nAsignatura: Taller Patrimonio\nDuracion: 90 minutos (Bloques 1-2)\nUnidad: Clase inicial de instalacion\n\n## Objetivo de la clase\nReconocer manifestaciones del patrimonio local (material e inmaterial) y proponer una accion concreta de cuidado en la escuela o comunidad.\n\n## Inicio (15 min)\n- Pregunta detonante en pizarra: \"Que tesoros tiene Puerto Ibanez que no se deben perder?\"\n- Lluvia de ideas guiada: lugares, costumbres, historias, personas, objetos.\n- Definicion simple: Patrimonio = lo que heredamos, valoramos y cuidamos.\n\n## Desarrollo (60 min)\n1. Organizacion en equipos (4-5 integrantes).\n2. Dinamica \"Detectives del Patrimonio\":\n   - Equipo A: lugares\n   - Equipo B: tradiciones\n   - Equipo C: personajes y oficios\n   - Equipo D: objetos y memoria familiar\n3. Producto por equipo: \"Tarjeta Patrimonial\" con:\n   - Nombre del patrimonio elegido\n   - Dibujo representativo\n   - Por que es importante\n   - Que podemos hacer para cuidarlo\n4. Puesta en comun breve de cada equipo.\n\n## Cierre (15 min)\n- Galeria rapida en pared/pizarra.\n- Cada equipo dice un compromiso concreto de cuidado.\n- Ticket oral de salida: \"Hoy entendi que patrimonio es...\".\n\n## Material que debes reunir o crear\n- Hojas blancas o recicladas (1-2 por estudiante).\n- Plumones/lapices de colores.\n- Cinta adhesiva o masking tape.\n- 4 carteles de estacion (pueden ir escritos en pizarra).\n"
   },
   {
     "id": "S1_PAT_6basico",
@@ -937,8 +949,8 @@ const CLASES = [
     "asignatura": "Patrimonio",
     "asignatura_code": "PAT",
     "curso": "8basico",
-    "titulo": "Patrimonio — 8° Básico - Unidad: Unidad 1: Identidad y Territorio",
-    "objetivo": "Analizar críticamente el concepto de territorio.",
+    "titulo": "Clase 1 Patrimonio 8 Basico - 06-03-2026",
+    "objetivo": "",
     "mbe": {
       "A": false,
       "B": false,
@@ -947,18 +959,8 @@ const CLASES = [
     },
     "materiales": [
       {
-        "tipo": "basico",
-        "item": "Ver sección Materiales abajo",
-        "preparar": false
-      },
-      {
         "tipo": "preparar",
-        "item": "📷 Preparar fotos de: por definir",
-        "preparar": true
-      },
-      {
-        "tipo": "preparar",
-        "item": "📖 Pasajes: por definir",
+        "item": "🗺️ Mapa de: riesgos patrimoniales\":",
         "preparar": true
       },
       {
@@ -967,8 +969,8 @@ const CLASES = [
         "preparar": true
       }
     ],
-    "html": "<h1>Patrimonio — 8° Básico - Unidad: Unidad 1: Identidad y Territorio</h1>\n<p><strong>Ciclo:</strong> 8° Básico (Básico Superior (7°-8° Básico)) | <strong>Semana:</strong> 1 | <strong>Tiempo:</strong> 90 minutos<br />\n<strong>Pregunta Esencial:</strong> ¿Cómo comprendemos el misterio de Identidad local: Raíces profundas?</p>\n<hr />\n<h2>🎯 Objetivo de la Clase</h2>\n<p>Analizar críticamente el concepto de territorio.</p>\n<hr />\n<h2>🕒 Secuencia Didáctica (90 min)</h2>\n<h3>┌─ INICIO (15 min)</h3>\n<p><strong>Rutina / Activación:</strong><br />\n- Oración inicial (ciclo litúrgico) y recuerdo de la clase anterior.<br />\n<strong>Pregunta Gatilladora:</strong><br />\n- <em>¿Qué sabemos sobre Identidad local: Raíces profundas?</em></p>\n<h3>├─ DESARROLLO (50 min)</h3>\n<p><strong>Metodología ABP / Trabajo Central:</strong><br />\n- <strong>Actividad de Patrimonio para 8° Básico:</strong> Identidad local: Raíces profundas</p>\n<p>Actividad ABP diferenciada para 13-14 años: Pensamiento hipotético-deductivo. Ensayos argumentativos. Proyectos autónomos. Filosofía y ética aplicada. Preparación para Media.<br />\n<strong>Agrupación:</strong> Individual y plenario.<br />\n<strong>Materiales:</strong> Ver sección Materiales abajo.</p>\n<h3>├─ CIERRE (15 min)</h3>\n<p><strong>Reflexión Guiada:</strong><br />\n- Síntesis en la pizarra de la verdad enseñada.<br />\n<strong>Metacognición:</strong><br />\n- <em>¿Qué aprendimos hoy? ¿Cómo lo conectamos con nuestro entorno?</em></p>\n<h3>└─ EVIDENCIA (10 min)</h3>\n<p><strong>📸 Bitácora / Registro:</strong><br />\n- Ensayo visual. Fotografía abstracta/simbólica con justificación filosófica.<br />\n<strong>Tipo de Evaluación:</strong> Formativa (participación y bitácora)</p>\n<hr />\n<h2>🔲 Cobertura MBE 2021 (Indicadores)</h2>\n<ul>\n<li>☑ <strong>Dominio A (Preparación):</strong> Planificación desafiante y coherente con el currículum.</li>\n<li>☐ <strong>Dominio B (Ambiente):</strong> Espacio seguro, rutinas claras e interacciones respetuosas.</li>\n<li>☑ <strong>Dominio C (Enseñanza):</strong> Estrategias activas (ABP) que promueven pensamiento crítico.</li>\n<li>☑ <strong>Dominio D (Responsabilidad):</strong> Recopilación de evidencia para reflexión pedagógica.</li>\n</ul>\n<hr />\n<p><em>Generado automáticamente por Antigravity - Sistema 2026</em></p>\n<hr />\n<h2>🖨️ Material Auto-Generado (listo para imprimir)</h2>\n<p>Biblia (Straubinger), cuaderno, pizarra.</p>",
-    "raw_md": "# Patrimonio — 8° Básico - Unidad: Unidad 1: Identidad y Territorio\n**Ciclo:** 8° Básico (Básico Superior (7°-8° Básico)) | **Semana:** 1 | **Tiempo:** 90 minutos\n**Pregunta Esencial:** ¿Cómo comprendemos el misterio de Identidad local: Raíces profundas?\n\n---\n\n## 🎯 Objetivo de la Clase\nAnalizar críticamente el concepto de territorio.\n\n---\n\n## 🕒 Secuencia Didáctica (90 min)\n\n### ┌─ INICIO (15 min)\n**Rutina / Activación:**\n- Oración inicial (ciclo litúrgico) y recuerdo de la clase anterior.\n**Pregunta Gatilladora:**\n- *¿Qué sabemos sobre Identidad local: Raíces profundas?*\n\n### ├─ DESARROLLO (50 min)\n**Metodología ABP / Trabajo Central:**\n- **Actividad de Patrimonio para 8° Básico:** Identidad local: Raíces profundas\n\nActividad ABP diferenciada para 13-14 años: Pensamiento hipotético-deductivo. Ensayos argumentativos. Proyectos autónomos. Filosofía y ética aplicada. Preparación para Media.\n**Agrupación:** Individual y plenario.\n**Materiales:** Ver sección Materiales abajo.\n\n### ├─ CIERRE (15 min)\n**Reflexión Guiada:**\n- Síntesis en la pizarra de la verdad enseñada.\n**Metacognición:**\n- *¿Qué aprendimos hoy? ¿Cómo lo conectamos con nuestro entorno?*\n\n### └─ EVIDENCIA (10 min)\n**📸 Bitácora / Registro:**\n- Ensayo visual. Fotografía abstracta/simbólica con justificación filosófica.\n**Tipo de Evaluación:** Formativa (participación y bitácora)\n\n---\n\n## 🔲 Cobertura MBE 2021 (Indicadores)\n- [x] **Dominio A (Preparación):** Planificación desafiante y coherente con el currículum.\n- [ ] **Dominio B (Ambiente):** Espacio seguro, rutinas claras e interacciones respetuosas.\n- [x] **Dominio C (Enseñanza):** Estrategias activas (ABP) que promueven pensamiento crítico.\n- [x] **Dominio D (Responsabilidad):** Recopilación de evidencia para reflexión pedagógica.\n\n---\n*Generado automáticamente por Antigravity - Sistema 2026*\n\n\n---\n\n## 🖨️ Material Auto-Generado (listo para imprimir)\n\nBiblia (Straubinger), cuaderno, pizarra.\n"
+    "html": "<h1>Clase 1 Patrimonio 8 Basico - 06-03-2026</h1>\n<p>Asignatura: Taller Patrimonio<br />\nDuracion: 90 minutos (Bloques 3-4)<br />\nUnidad: Clase inicial de instalacion</p>\n<h2>Objetivo de la clase</h2>\n<p>Analizar como el patrimonio local construye identidad y reconocer riesgos actuales, proponiendo acciones de resguardo viables.</p>\n<h2>Inicio (15 min)</h2>\n<ul>\n<li>Pregunta provocadora: \"Que pierde una comunidad cuando pierde su patrimonio?\"</li>\n<li>Debate guiado con ejemplos locales.</li>\n<li>Acuerdo metodologico: argumentar con respeto y evidencias del territorio.</li>\n</ul>\n<h2>Desarrollo (60 min)</h2>\n<ol>\n<li>Equipos de trabajo (4-5 integrantes).</li>\n<li>Elaboracion de \"Mapa de Riesgos Patrimoniales\":<br />\n   - Identificar 3 patrimonios locales relevantes.<br />\n   - Describir 3 riesgos actuales (abandono, desuso, desconocimiento, etc.).<br />\n   - Proponer 3 acciones de cuidado factibles desde escuela/comunidad.</li>\n<li>Organizacion de ideas en formato semaforo:<br />\n   - Verde: patrimonio cuidado<br />\n   - Amarillo: patrimonio en riesgo<br />\n   - Rojo: patrimonio criticamente amenazado</li>\n</ol>\n<h2>Cierre (15 min)</h2>\n<ul>\n<li>Presentacion breve por equipo.</li>\n<li>Votacion de la accion mas viable para iniciar durante marzo.</li>\n<li>Ticket de salida escrito: \"Una decision concreta para proteger patrimonio local\".</li>\n</ul>\n<h2>Material que debes reunir o crear</h2>\n<ul>\n<li>Papel kraft o pliegos (1 por equipo).</li>\n<li>Plumones verde/amarillo/rojo.</li>\n<li>Cinta adhesiva.</li>\n<li>Tarjetas o recortes para escribir riesgos y acciones.</li>\n</ul>",
+    "raw_md": "# Clase 1 Patrimonio 8 Basico - 06-03-2026\n\nAsignatura: Taller Patrimonio\nDuracion: 90 minutos (Bloques 3-4)\nUnidad: Clase inicial de instalacion\n\n## Objetivo de la clase\nAnalizar como el patrimonio local construye identidad y reconocer riesgos actuales, proponiendo acciones de resguardo viables.\n\n## Inicio (15 min)\n- Pregunta provocadora: \"Que pierde una comunidad cuando pierde su patrimonio?\"\n- Debate guiado con ejemplos locales.\n- Acuerdo metodologico: argumentar con respeto y evidencias del territorio.\n\n## Desarrollo (60 min)\n1. Equipos de trabajo (4-5 integrantes).\n2. Elaboracion de \"Mapa de Riesgos Patrimoniales\":\n   - Identificar 3 patrimonios locales relevantes.\n   - Describir 3 riesgos actuales (abandono, desuso, desconocimiento, etc.).\n   - Proponer 3 acciones de cuidado factibles desde escuela/comunidad.\n3. Organizacion de ideas en formato semaforo:\n   - Verde: patrimonio cuidado\n   - Amarillo: patrimonio en riesgo\n   - Rojo: patrimonio criticamente amenazado\n\n## Cierre (15 min)\n- Presentacion breve por equipo.\n- Votacion de la accion mas viable para iniciar durante marzo.\n- Ticket de salida escrito: \"Una decision concreta para proteger patrimonio local\".\n\n## Material que debes reunir o crear\n- Papel kraft o pliegos (1 por equipo).\n- Plumones verde/amarillo/rojo.\n- Cinta adhesiva.\n- Tarjetas o recortes para escribir riesgos y acciones.\n"
   },
   {
     "id": "S1_REL_1basico",
@@ -977,8 +979,8 @@ const CLASES = [
     "asignatura": "Religión",
     "asignatura_code": "REL",
     "curso": "1basico",
-    "titulo": "Religión — 1° Básico - Unidad: Unidad 0/1",
-    "objetivo": "Reconocer la vida como un regalo divino.",
+    "titulo": "Clase 1 Religion 1 Basico - 06-03-2026",
+    "objetivo": "",
     "mbe": {
       "A": false,
       "B": false,
@@ -987,18 +989,13 @@ const CLASES = [
     },
     "materiales": [
       {
-        "tipo": "basico",
-        "item": "Ver sección Materiales abajo",
-        "preparar": false
-      },
-      {
         "tipo": "preparar",
-        "item": "📖 Pasajes: por definir",
+        "item": "📺 Video de: por definir",
         "preparar": true
       }
     ],
-    "html": "<h1>Religión — 1° Básico - Unidad: Unidad 0/1</h1>\n<p><strong>Ciclo:</strong> 1° Básico (Básica Baja (1°-2° Básico)) | <strong>Semana:</strong> 1 | <strong>Tiempo:</strong> 90 minutos<br />\n<strong>Pregunta Esencial:</strong> ¿Cómo comprendemos el misterio de Dios nos creó por Amor?</p>\n<hr />\n<h2>🎯 Objetivo de la Clase</h2>\n<p>Reconocer la vida como un regalo divino.</p>\n<hr />\n<h2>🕒 Secuencia Didáctica (90 min)</h2>\n<h3>┌─ INICIO (15 min)</h3>\n<p><strong>Rutina / Activación:</strong><br />\n- Oración inicial (ciclo litúrgico) y recuerdo de la clase anterior.<br />\n<strong>Pregunta Gatilladora:</strong><br />\n- <em>¿Qué sabemos sobre Dios nos creó por Amor?</em></p>\n<h3>├─ DESARROLLO (50 min)</h3>\n<p><strong>Metodología ABP / Trabajo Central:</strong><br />\n- <strong>[MOCK]</strong> Desarrollo generado por IA para: Dios nos creó por Amor<br />\nCurso: 1° Básico<br />\nEstructura: Videtur quod... Sed contra... Respondeo...<br />\n<strong>Agrupación:</strong> Individual y plenario.<br />\n<strong>Materiales:</strong> Ver sección Materiales abajo.</p>\n<h3>├─ CIERRE (15 min)</h3>\n<p><strong>Reflexión Guiada:</strong><br />\n- Síntesis en la pizarra de la verdad enseñada.<br />\n<strong>Metacognición:</strong><br />\n- <em>¿Qué aprendimos hoy? ¿Cómo lo conectamos con nuestro entorno?</em></p>\n<h3>└─ EVIDENCIA (10 min)</h3>\n<p><strong>📸 Bitácora / Registro:</strong><br />\n- El estudiante dibuja y el profesor o estudiante escribe el título.<br />\n<strong>Tipo de Evaluación:</strong> Formativa (participación y bitácora)</p>\n<hr />\n<h2>🔲 Cobertura MBE 2021 (Indicadores)</h2>\n<ul>\n<li>☑ <strong>Dominio A (Preparación):</strong> Planificación desafiante y coherente con el currículum.</li>\n<li>☑ <strong>Dominio B (Ambiente):</strong> Espacio seguro, rutinas claras e interacciones respetuosas.</li>\n<li>☑ <strong>Dominio C (Enseñanza):</strong> Estrategias activas (ABP) que promueven pensamiento crítico.</li>\n<li>☐ <strong>Dominio D (Responsabilidad):</strong> Recopilación de evidencia para reflexión pedagógica.</li>\n</ul>\n<hr />\n<p><em>Generado automáticamente por Antigravity - Sistema 2026</em></p>\n<hr />\n<h2>🖨️ Material Auto-Generado (listo para imprimir)</h2>\n<p>Biblia (Straubinger), cuaderno, pizarra.</p>",
-    "raw_md": "# Religión — 1° Básico - Unidad: Unidad 0/1\n**Ciclo:** 1° Básico (Básica Baja (1°-2° Básico)) | **Semana:** 1 | **Tiempo:** 90 minutos\n**Pregunta Esencial:** ¿Cómo comprendemos el misterio de Dios nos creó por Amor?\n\n---\n\n## 🎯 Objetivo de la Clase\nReconocer la vida como un regalo divino.\n\n---\n\n## 🕒 Secuencia Didáctica (90 min)\n\n### ┌─ INICIO (15 min)\n**Rutina / Activación:**\n- Oración inicial (ciclo litúrgico) y recuerdo de la clase anterior.\n**Pregunta Gatilladora:**\n- *¿Qué sabemos sobre Dios nos creó por Amor?*\n\n### ├─ DESARROLLO (50 min)\n**Metodología ABP / Trabajo Central:**\n- **[MOCK]** Desarrollo generado por IA para: Dios nos creó por Amor\nCurso: 1° Básico\nEstructura: Videtur quod... Sed contra... Respondeo...\n**Agrupación:** Individual y plenario.\n**Materiales:** Ver sección Materiales abajo.\n\n### ├─ CIERRE (15 min)\n**Reflexión Guiada:**\n- Síntesis en la pizarra de la verdad enseñada.\n**Metacognición:**\n- *¿Qué aprendimos hoy? ¿Cómo lo conectamos con nuestro entorno?*\n\n### └─ EVIDENCIA (10 min)\n**📸 Bitácora / Registro:**\n- El estudiante dibuja y el profesor o estudiante escribe el título.\n**Tipo de Evaluación:** Formativa (participación y bitácora)\n\n---\n\n## 🔲 Cobertura MBE 2021 (Indicadores)\n- [x] **Dominio A (Preparación):** Planificación desafiante y coherente con el currículum.\n- [x] **Dominio B (Ambiente):** Espacio seguro, rutinas claras e interacciones respetuosas.\n- [x] **Dominio C (Enseñanza):** Estrategias activas (ABP) que promueven pensamiento crítico.\n- [ ] **Dominio D (Responsabilidad):** Recopilación de evidencia para reflexión pedagógica.\n\n---\n*Generado automáticamente por Antigravity - Sistema 2026*\n\n\n---\n\n## 🖨️ Material Auto-Generado (listo para imprimir)\n\nBiblia (Straubinger), cuaderno, pizarra.\n"
+    "html": "<h1>Clase 1 Religion 1 Basico - 06-03-2026</h1>\n<p>Asignatura: Religion<br />\nDuracion: 90 minutos (Bloques 5-6)<br />\nEnfoque: Unidad 0/1 del Programa (OA4: \"La creacion como regalo del amor de Dios\")<br />\nTrabajo inicial: Adaptacion ecumenica (grupo catolico y evangelico)</p>\n<h2>Objetivo de la clase (breve)</h2>\n<p>Dios nos ama y nos regalo la vida y la creacion.</p>\n<h2>Contexto pedagogico</h2>\n<ul>\n<li>Estudiantes provenientes de NT, con escasa o nula lectoescritura independiente.</li>\n<li>Se prioriza lenguaje oral, contacto visual, juego corporal, imagenes grandes y coloreado.</li>\n<li>Primer mes con estrategias comunes para ambos grupos.</li>\n</ul>\n<h2>Inicio (20 min)</h2>\n<ul>\n<li>Circulo de bienvenida con senal simple de atencion (ej: palmas rítmicas).</li>\n<li>Presentacion oral: \"Miren por la ventana, miren a sus companeros... todo esto tan bonito lo creo Dios porque nos ama mucho\".</li>\n<li>Activacion corporal: Gesto de abrazarse a si mismos (el amor) y extender las manos (como regalando algo).</li>\n</ul>\n<h2>Desarrollo (55 min)</h2>\n<ol>\n<li>Relato visual guiado (Jesus abrazando a los ninos o la belleza de la naturaleza) en lenguaje figurativo y muy simple.</li>\n<li>Video corto (3-5 min) sobre la creacion (animales, sol, agua) y los ninos.</li>\n<li>Conversacion brevísima, enfocada en emociones positivas:<br />\n   - Que cosas hermosas hizo Dios para nosotros?<br />\n   - Como se sienten cuando les hacen un regalo?<br />\n   - Como cuidamos este regalo enorme que es el mundo?</li>\n<li>Actividad principal grafica:<br />\n   - Ficha \"Dios creo un mundo hermoso por amor\".<br />\n   - Dibujo con tecnica libre (crayones/lapices de cera) de la naturaleza, su familia, sus mascotas o ellos mismos.</li>\n</ol>\n<h2>Cierre (15 min)</h2>\n<ul>\n<li>Galeria rapida: 4 o 5 voluntarios muestran su ficha desde el puesto.</li>\n<li>Expresion en coro: \"¡Gracias por regalarnos la vida y la creacion!\"</li>\n<li>Oracion ecumenica sumamente cortita y alegre de agradecimiento.</li>\n</ul>\n<h2>Material que debes reunir o crear</h2>\n<ul>\n<li>Lamina/poster visible de Jesus con ninos o un paisaje muy atractivo (o dibujo rapido en la pizarra).</li>\n<li>Celular y parlante para el video/audio corto.</li>\n<li>Fichas impresas (hojas con un gran marco en blanco, y el titulo corto arriba).</li>\n<li>Cajas de crayones / ceras.</li>\n<li>Stickers, timbres o sellos para reforzar a cada nino mientras dibujan.</li>\n</ul>",
+    "raw_md": "# Clase 1 Religion 1 Basico - 06-03-2026\n\nAsignatura: Religion\nDuracion: 90 minutos (Bloques 5-6)\nEnfoque: Unidad 0/1 del Programa (OA4: \"La creacion como regalo del amor de Dios\")\nTrabajo inicial: Adaptacion ecumenica (grupo catolico y evangelico)\n\n## Objetivo de la clase (breve)\nDios nos ama y nos regalo la vida y la creacion.\n\n## Contexto pedagogico\n- Estudiantes provenientes de NT, con escasa o nula lectoescritura independiente.\n- Se prioriza lenguaje oral, contacto visual, juego corporal, imagenes grandes y coloreado.\n- Primer mes con estrategias comunes para ambos grupos.\n\n## Inicio (20 min)\n- Circulo de bienvenida con senal simple de atencion (ej: palmas rítmicas).\n- Presentacion oral: \"Miren por la ventana, miren a sus companeros... todo esto tan bonito lo creo Dios porque nos ama mucho\".\n- Activacion corporal: Gesto de abrazarse a si mismos (el amor) y extender las manos (como regalando algo).\n\n## Desarrollo (55 min)\n1. Relato visual guiado (Jesus abrazando a los ninos o la belleza de la naturaleza) en lenguaje figurativo y muy simple.\n2. Video corto (3-5 min) sobre la creacion (animales, sol, agua) y los ninos.\n3. Conversacion brevísima, enfocada en emociones positivas:\n   - Que cosas hermosas hizo Dios para nosotros?\n   - Como se sienten cuando les hacen un regalo?\n   - Como cuidamos este regalo enorme que es el mundo?\n4. Actividad principal grafica:\n   - Ficha \"Dios creo un mundo hermoso por amor\".\n   - Dibujo con tecnica libre (crayones/lapices de cera) de la naturaleza, su familia, sus mascotas o ellos mismos.\n\n## Cierre (15 min)\n- Galeria rapida: 4 o 5 voluntarios muestran su ficha desde el puesto.\n- Expresion en coro: \"¡Gracias por regalarnos la vida y la creacion!\"\n- Oracion ecumenica sumamente cortita y alegre de agradecimiento.\n\n## Material que debes reunir o crear\n- Lamina/poster visible de Jesus con ninos o un paisaje muy atractivo (o dibujo rapido en la pizarra).\n- Celular y parlante para el video/audio corto.\n- Fichas impresas (hojas con un gran marco en blanco, y el titulo corto arriba).\n- Cajas de crayones / ceras.\n- Stickers, timbres o sellos para reforzar a cada nino mientras dibujan.\n"
   },
   {
     "id": "S1_REL_2basico",
@@ -3286,16 +3283,28 @@ function openModal(idx) {
                 <div class="print-logo-placeholder">LOGO<br>ESCUELA</div>
             </div>
         </div>
-        <button class="modal-close" onclick="closeModal()">✕</button>
         
-        <div class="only-plan">${planHtml}</div>
-        ${matHtml ? `<div class="only-material">${matHtml}</div>` : ''}
+        <div class="modal-header-fixed">
+            <div style="display:flex; align-items:center; gap: 1rem;">
+                <span style="font-size: 1.6rem; background: var(--surface2); padding: 0.5rem; border-radius: 12px; border: 1px solid var(--border)">${c.asignatura_code === 'PAT' ? '📗' : '📕'}</span>
+                <div>
+                    <h2 style="margin:0; font-size:1.2rem; color:var(--text); border:none; padding:0; display:block">${c.asignatura}</h2>
+                    <div style="font-size:0.85rem; color:var(--text-muted); margin-top:0.2rem">Semana ${c.semana} • ${c.curso.replace('basico', '° Básico')}</div>
+                </div>
+            </div>
+            <button class="modal-close" onclick="closeModal()">✕</button>
+        </div>
         
-        <div class="modal-actions">
-            <button class="btn btn-print" onclick="printDoc('plan')">🖨️ Imprimir Planificación</button>
-            ${matHtml ? `<button class="btn btn-print" style="background:var(--gold);border-color:var(--gold)" onclick="printDoc('material')">📄 Imprimir Material / Ficha</button>` : ''}
+        <div class="modal-scroll-area">
+            <div class="only-plan">${planHtml}</div>
+            ${matHtml ? `<div class="only-material">${matHtml}</div>` : ''}
+        </div>
+        
+        <div class="modal-actions-fixed">
+            <button class="btn btn-print" onclick="printDoc('plan')">🖨️ Imprimir Plan</button>
+            ${matHtml ? `<button class="btn btn-print" style="background:var(--gold);border-color:var(--gold)" onclick="printDoc('material')">📄 Imprimir Material</button>` : ''}
             <button class="btn" onclick="copyToClipboard(${idx})">📋 Copiar texto</button>
-            <button class="btn" onclick="closeModal()">Cerrar</button>
+            <button class="btn" onclick="closeModal()" style="margin-left:auto">Cerrar Cajón</button>
         </div>
     `;
     document.getElementById('modalOverlay').classList.add('active');
