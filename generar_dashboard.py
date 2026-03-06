@@ -1071,6 +1071,15 @@ function openModal(idx) {
         planHtml = parts[0];
         matHtml = splitTag + parts[1];
     }
+    
+    // Separar "Material que debes reunir o crear" (cajón inferior)
+    let reqMaterialHtml = "";
+    const matReqRegex = /<h2[^>]*>.*?Material que debes reunir o crear.*?<\/h2>([\s\S]*)/i;
+    const matReqMatch = planHtml.match(matReqRegex);
+    if(matReqMatch) {
+        reqMaterialHtml = matReqMatch[1];
+        planHtml = planHtml.replace(matReqMatch[0], "");
+    }
 
     document.getElementById('modalContent').innerHTML = `
         <div class="print-only">
@@ -1100,6 +1109,15 @@ function openModal(idx) {
             <div class="only-plan">${planHtml}</div>
             ${matHtml ? `<div class="only-material">${matHtml}</div>` : ''}
         </div>
+        
+        ${reqMaterialHtml ? `
+        <div style="background:var(--surface2); border-top: 1px dashed var(--gold); padding: 1rem 2.5rem; flex-shrink:0; max-height: 25vh; overflow-y:auto">
+            <div style="font-weight:700; color:var(--gold); margin-bottom: 0.5rem; display:flex; align-items:center; gap:0.5rem; font-size: 0.95rem">🎒 Materiales de la Clase</div>
+            <div style="font-size:0.9rem; color:var(--text)" class="only-plan">
+                ${reqMaterialHtml.replace(/<ul>/g, '<ul style="margin:0; padding-left:1.5rem">').replace(/<li>/g, '<li style="margin-bottom:0.3rem">')}
+            </div>
+        </div>
+        ` : ''}
         
         <div class="modal-actions-fixed">
             <button class="btn btn-print" onclick="printDoc('plan')">🖨️ Imprimir Plan</button>
