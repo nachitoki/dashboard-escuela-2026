@@ -62,8 +62,8 @@ Este archivo es la "memoria central" del sistema. Contiene las decisiones macro,
 ---
 
 ## 📈 Estatus de Progresión
-- [x] **Semana 1 Marzo**: Completado (Vertical)
-- [x] **Semana 2 Marzo**: Completado (Vertical)
-- [x] **Semana 3 Marzo**: Completado (Vertical)
-- [x] **Semana 4 Marzo**: Completado (Vertical)
-- [ ] **Unidad 1 (Abril)**: Pendiente (Alinear con Programas tras la Unidad 0)
+- [x] **Fase 1**: Mapeo Anual y Matriz Curricular (Completado)
+- [x] **Fase 2**: Diseño de Prompts Maestros (Docs/Copywriter) (Completado)
+- [x] **Fase 3**: Motor Generador en Python (Modo Arquitecto) (Completado)
+- [ ] **Fase 4**: Generación de Clases Lote 1 (Semana 2 y 3) (Pendiente)
+- [ ] **Fase 5**: Auditoría de Calidad (MBE) (Pendiente)
