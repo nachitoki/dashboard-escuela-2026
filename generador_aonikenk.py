@@ -4,6 +4,9 @@ import docx
 import re
 from pathlib import Path
 
+# Configuración de rutas raíz (ajustar según el entorno)
+ROOT_PLANIFICACIONES = Path(r"e:\Mi unidad\2026 Clases\Planificaciones\INSTRUMENTOS RECTORES ESCUELA AONIKENK 2026\Cursos")
+
 try:
     from google import genai
 except ImportError:
@@ -86,9 +89,27 @@ class GeneradorAonikenk:
 
         for unidad in plan_curso["unidades"]:
             for clase in unidad["semanas"]:
-                if clase["semana"] == semana:
+                if str(clase["semana"]) == str(semana):
                     return clase["tema"], clase["objetivo"]
         return "Tema no encontrado", "Objetivo no encontrado"
+
+    def verificar_material_existente(self, asignatura, curso, semana):
+        """Revisa si ya hay archivos en la carpeta del curso para esta asignatura/semana."""
+        curso_clean = curso.replace(" Básico", "").replace("°", "°")
+        folder = ROOT_PLANIFICACIONES / asignatura / f"{curso_clean}_{asignatura}"
+        
+        if not folder.exists():
+            return None
+            
+        patterns = [f"Semana{semana}", f"S{semana}", f"Clase {semana}", f"Clase{semana}"]
+        found = []
+        # Buscar en la carpeta y subcarpetas inmediatas (ej: 7°_Patrimonio_Clase1)
+        for root, dirs, files in os.walk(folder):
+            for f_name in files:
+                if f_name.lower().endswith(('.md', '.docx')) and not f_name.startswith('~$'):
+                    if any(p in f_name for p in patterns):
+                        found.append(f_name)
+        return found if found else None
 
     def generar_siguiente_clase(self, asignatura, curso):
         reg = self.obtener_siguiente_clase(asignatura, curso)
@@ -97,6 +118,19 @@ class GeneradorAonikenk:
             return None
 
         semana = reg["semana"]
+        
+        # NUEVO: Verificar si ya existe material 'armado'
+        material_previo = self.verificar_material_existente(asignatura, curso, semana)
+        if material_previo:
+            print(f"⚠️ ATENCIÓN: Se detectó material existente para {asignatura} {curso} S{semana}:")
+            for f in material_previo:
+                print(f"   - {f}")
+            print("   Se procederá a actualizar el registro. (Si deseas regenerar, elimina los archivos manualmente)")
+            reg["estado"] = "Hecho"
+            reg["nota"] = f"Material recuperado de archivos existentes: {', '.join(material_previo)}"
+            self.guardar_registro()
+            return material_previo
+
         tema, objetivo_base = self.obtener_tema_de_plan(asignatura, curso, semana)
         
         # Obtener contexto de estudiantes

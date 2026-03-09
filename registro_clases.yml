@@ -24,7 +24,9 @@ registro_clases:
   curso: 2° Básico
   asignatura: Patrimonio
   semana: 1
-  estado: Pendiente
+  estado: Hecho
+  nota: 'Material recuperado de archivos existentes: Clase 1 Patrimonio 2° Básico
+    - 05-03-2026 (Ajuste).docx'
 - id: 3R-Sem1
   curso: 3° Básico
   asignatura: Religión
@@ -69,7 +71,9 @@ registro_clases:
   curso: 7° Básico
   asignatura: Religión
   semana: 1
-  estado: Pendiente
+  estado: Hecho
+  nota: 'Material recuperado de archivos existentes: Clase 1 Religión 7° Básico -
+    05-03-2026 (Ajuste).docx'
 - id: 7P-Sem1
   curso: 7° Básico
   asignatura: Patrimonio
@@ -84,4 +88,8 @@ registro_clases:
   curso: 8° Básico
   asignatura: Patrimonio
   semana: 1
-  estado: Pendiente
+  estado: Hecho
+  nota: 'Material recuperado de archivos existentes: Clase 1 Patrimonio 8 Basico -
+    06-03-2026.md, Clase 1 Patrimonio 8 Basico - 06-03-2026.docx, 8 Guia de Trabajo
+    - Riesgos Patrimoniales - Clase 1 (Formato Escuela).docx, 8 Guia de Trabajo -
+    Riesgos Patrimoniales - Clase 1 (Formato Escuela v2).docx'
