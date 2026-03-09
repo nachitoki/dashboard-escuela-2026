@@ -19,7 +19,7 @@ registro_clases:
   curso: 2° Básico
   asignatura: Religión
   semana: 1
-  estado: Pendiente
+  estado: Hecho
 - id: 2P-Sem1
   curso: 2° Básico
   asignatura: Patrimonio
@@ -29,7 +29,7 @@ registro_clases:
   curso: 3° Básico
   asignatura: Religión
   semana: 1
-  estado: Pendiente
+  estado: Hecho
 - id: 3P-Sem1
   curso: 3° Básico
   asignatura: Patrimonio
@@ -74,12 +74,12 @@ registro_clases:
   curso: 7° Básico
   asignatura: Patrimonio
   semana: 1
-  estado: Pendiente
+  estado: Hecho
 - id: 8R-Sem1
   curso: 8° Básico
   asignatura: Religión
   semana: 1
-  estado: Pendiente
+  estado: Hecho
 - id: 8P-Sem1
   curso: 8° Básico
   asignatura: Patrimonio
