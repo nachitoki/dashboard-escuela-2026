@@ -48,100 +48,160 @@ class GeneradorAonikenk:
         with open(workflows_dir / "prompt_maestro_fichas.md", "r", encoding="utf-8") as f:
             self.prompt_fichas = f.read()
 
-        with open(BASE_DIR / "ROADMAP.yml", "r", encoding="utf-8") as f:
-            self.roadmap = yaml.safe_load(f)
+        # with open(BASE_DIR / "ROADMAP.yml", "r", encoding="utf-8") as f:
+        #     self.roadmap = list(yaml.safe_load_all(f))
+            
+        with open(BASE_DIR / "registro_clases.yml", "r", encoding="utf-8") as f:
+            self.registro = yaml.safe_load(f)["registro_clases"]
 
-    def guardar_docx(self, markdown_text, filename):
-        doc = docx.Document()
-        for line in markdown_text.split('\n'):
-            if line.startswith('# '):
-                doc.add_heading(line[2:], level=1)
-            elif line.startswith('## '):
-                doc.add_heading(line[3:], level=2)
-            elif line.startswith('### '):
-                doc.add_heading(line[4:], level=3)
-            elif line.startswith('- '):
-                doc.add_paragraph(line[2:], style='List Bullet')
-            elif line.startswith('> '):
-                doc.add_paragraph(line[2:], style='Quote')
-            elif re.match(r'^\d+\.\s', line):
-                doc.add_paragraph(line[line.find(' ')+1:], style='List Number')
-            else:
-                if line.strip():
-                    doc.add_paragraph(line.strip())
-        doc.save(filename)
-        print(f"📄 Guardado DOCX: {filename.name}")
+        with open(BASE_DIR / "estudiantes.yml", "r", encoding="utf-8") as f:
+            self.contexto_cursos = yaml.safe_load(f)["contexto_estudiantes"]
 
-    def guardar_archivos(self, asignatura, curso, semana, contenido_plan, contenido_ficha):
-        # Crear estructura de carpetas tipo Google Drive
-        ruta_curso = OUTPUT_DIR / asignatura / f"{curso}_{asignatura}" / f"{curso}_{asignatura}_Clase{semana}"
-        os.makedirs(ruta_curso, exist_ok=True)
+    def obtener_plan_anual(self, asignatura):
+        file_map = {
+            "Religión": "plan_anual_religion.yml",
+            "Patrimonio": "plan_anual_patrimonio.yml"
+        }
+        with open(BASE_DIR / file_map[asignatura], "r", encoding="utf-8") as f:
+            return yaml.safe_load(f)
 
-        # Guardar Planificacion
-        base_name_plan = f"Clase {semana} {asignatura} {curso} - 2026"
-        with open(ruta_curso / f"{base_name_plan}.md", "w", encoding="utf-8") as f:
-            f.write(contenido_plan)
-        self.guardar_docx(contenido_plan, ruta_curso / f"{base_name_plan}.docx")
+    def obtener_siguiente_clase(self, asignatura, curso):
+        # Buscar en el registro la primera clase "Pendiente" para ese curso/asignatura
+        for reg in self.registro:
+            if reg["curso"] == curso and reg["asignatura"] == asignatura and reg["estado"] == "Pendiente":
+                return reg
+        return None
 
-        # Guardar Ficha si existe
-        if contenido_ficha and len(contenido_ficha.strip()) > 50:
-            base_name_ficha = f"Guia {semana} {asignatura} {curso} - 2026"
-            with open(ruta_curso / f"{base_name_ficha}.md", "w", encoding="utf-8") as f:
-                f.write(contenido_ficha)
-            self.guardar_docx(contenido_ficha, ruta_curso / f"{base_name_ficha}.docx")
-
-    def generar_clase(self, asignatura, curso, semana, tema_especifico):
-        print(f"\n🚀 Generando Clase: {asignatura} | {curso} | Semana {semana}")
+    def obtener_tema_de_plan(self, asignatura, curso, semana):
+        plan = self.obtener_plan_anual(asignatura)
+        key = "religion_anual" if asignatura == "Religión" else "patrimonio_anual"
         
+        # El plan está indexado por curso (ej: 1_basico)
+        curso_key = curso.lower().replace("° ", "_").replace("básico", "basico")
+        plan_curso = plan[key].get(curso_key)
+        
+        if not plan_curso:
+            print(f"⚠️ No se encontró plan para el curso {curso_key}")
+            return "Tema no encontrado", "Objetivo no encontrado"
+
+        for unidad in plan_curso["unidades"]:
+            for clase in unidad["semanas"]:
+                if clase["semana"] == semana:
+                    return clase["tema"], clase["objetivo"]
+        return "Tema no encontrado", "Objetivo no encontrado"
+
+    def generar_siguiente_clase(self, asignatura, curso):
+        reg = self.obtener_siguiente_clase(asignatura, curso)
+        if not reg:
+            print(f"✅ No hay clases pendientes para {asignatura} en {curso}.")
+            return None
+
+        semana = reg["semana"]
+        tema, objetivo_base = self.obtener_tema_de_plan(asignatura, curso, semana)
+        
+        # Obtener contexto de estudiantes
+        curso_id = curso.lower().replace("° ", "_").replace("básico", "basico")
+        contexto = self.contexto_cursos.get(curso_id, {})
+        perfil_estudiantes = contexto.get("perfil", "Estudiantes estándar.")
+        intereses = contexto.get("intereses", [])
+        
+        print(f"\n🚀 Generando Clase: {asignatura} | {curso} | Semana {semana}")
+        print(f"📝 Tema: {tema}")
+
         system_instructions_plan = f"{CONTEXTO_REGLAS_NOTEBOOKLM}\n{self.prompt_planificacion}"
         system_instructions_ficha = f"{CONTEXTO_REGLAS_NOTEBOOKLM}\n{self.prompt_fichas}"
 
         prompt_usuario = f"""
-        Debes planificar la Semana {semana} de la asignatura de {asignatura} para el curso {curso}.
-        Tema central para esta semana: {tema_especifico}
-        Recuerda aplicar obligatoriamente la regla del Objetivo (Taxonomía + Qué + Cómo) y adecuar la didáctica para la edad de los niños.
+        Debes planificar la Clase de la Semana {semana} de {asignatura} para el curso {curso}.
+        
+        TEMA PROPUESTO EN EL PLAN ANUAL: {tema}
+        OBJETIVO BASE DEL PLAN: {objetivo_base}
+        
+        CONTEXTO ESPECÍFICO DEL GRUPO DE ESTUDIANTES:
+        - Perfil: {perfil_estudiantes}
+        - Intereses detectados: {', '.join(intereses)}
+        
+        INDICACIÓN ESPECIAL: Si hubo un feedback previo en el registro que afecte a esta clase, considéralo.
+        RECUERDA: Regla del Objetivo (Taxonomía + Qué + Cómo) y adecuar la didáctica al perfil de los niños.
         """
 
         if not self.client:
-            print("SIMULACIÓN: Retornando texto mock...")
-            plan_final = f"# {asignatura} - Clase {semana}\n**Curso:** {curso}\n## 🎯 Objetivo de la Clase\nComprender {tema_especifico} mediante dibujo."
-            ficha_final = f"# 📚 Ficha de Aprendizaje - {curso}\n**Asignatura:** {asignatura}\n\n## 🚀 ¡Manos a la obra!\n_dibuja el texto."
-            self.guardar_archivos(asignatura, curso, semana, plan_final, ficha_final)
-            return
-
-        print("🧠 IA Planificando la Clase (Modo Pedagógico)...")
-        try:
-            plan_response = self.client.models.generate_content(
-                model="gemini-2.5-flash",
-                contents=prompt_usuario,
-                config={"system_instruction": system_instructions_plan, "temperature": 0.3}
-            )
-            plan_final = plan_response.text
-            
-            # Condicional de Ficha según Regla 3 de la propuesta
-            texto_minusculas = plan_final.lower()
-            if "guía" in texto_minusculas or "ficha" in texto_minusculas or "fotocopia" in texto_minusculas:
-                print("✍️ IA Diseñando la Guía Escolar (Modo Copywriter)...")
-                ficha_prompt = f"Usando la siguiente planificación, crea la Ficha de Trabajo Estudiantil respetando tus instrucciones maestras:\n{plan_final}"
-                ficha_response = self.client.models.generate_content(
-                    model="gemini-2.5-flash",
-                    contents=ficha_prompt,
-                    config={"system_instruction": system_instructions_ficha, "temperature": 0.6}
+            plan_final = f"# {asignatura} - Clase {semana}\n**Curso:** {curso}\n## 🎯 Objetivo de la Clase\n{objetivo_base}"
+            ficha_final = f"# 📚 Ficha de Aprendizaje - {curso}\n**Asignatura:** {asignatura}\n\n## 🚀 ¡Manos a la obra!\n_dibuja el tema: {tema}."
+        else:
+            try:
+                plan_response = self.client.models.generate_content(
+                    model="gemini-2.0-flash",
+                    contents=prompt_usuario,
+                    config={"system_instruction": system_instructions_plan, "temperature": 0.3}
                 )
-                ficha_final = ficha_response.text
-            else:
-                ficha_final = None
+                plan_final = plan_response.text
+                
+                texto_minusculas = plan_final.lower()
+                if any(word in texto_minusculas for word in ["guía", "ficha", "fotocopia", "actividad"]):
+                    ficha_prompt = f"Usando la planificación y el contexto de estudiantes ({perfil_estudiantes}), crea la Ficha de Trabajo Estudiantil:\n{plan_final}"
+                    ficha_response = self.client.models.generate_content(
+                        model="gemini-2.0-flash",
+                        contents=ficha_prompt,
+                        config={"system_instruction": system_instructions_ficha, "temperature": 0.6}
+                    )
+                    ficha_final = ficha_response.text
+                else:
+                    ficha_final = None
+            except Exception as e:
+                print(f"❌ Error en API: {e}")
+                return None
 
-        except Exception as e:
-            print(f"❌ Error en API: {e}")
-            return
+        saved_files = self.guardar_archivos(asignatura, curso, semana, plan_final, ficha_final)
+        
+        # Marcar como hecho en el registro (en memoria)
+        reg["estado"] = "Hecho"
+        self.guardar_registro()
+        
+        return saved_files
 
-        self.guardar_archivos(asignatura, curso, semana, plan_final, ficha_final)
-        print("✅ Generación completada con éxito.")
+    def guardar_registro(self):
+        with open(BASE_DIR / "registro_clases.yml", "w", encoding="utf-8") as f:
+            yaml.dump({"registro_clases": self.registro}, f, allow_unicode=True, sort_keys=False)
+
+    def guardar_archivos(self, asignatura, curso, semana, plan_txt, ficha_txt):
+        nombre_base = f"S{semana}_{asignatura[:3].upper()}_{curso.replace(' ', '')}"
+        plan_path = OUTPUT_DIR / f"{nombre_base}_PLAN.md"
+        
+        with open(plan_path, "w", encoding="utf-8") as f:
+            f.write(plan_txt)
+        
+        # Generar DOCX para el plan
+        doc = docx.Document()
+        doc.add_heading(f"Planificación: {asignatura} - {curso}", 0)
+        doc.add_paragraph(plan_txt)
+        docx_path = OUTPUT_DIR / f"{nombre_base}_PLAN.docx"
+        doc.save(docx_path)
+        
+        paths = [plan_path, docx_path]
+
+        if ficha_txt:
+            ficha_path = OUTPUT_DIR / f"{nombre_base}_FICHA.md"
+            with open(ficha_path, "w", encoding="utf-8") as f:
+                f.write(ficha_txt)
+            
+            doc_f = docx.Document()
+            doc_f.add_heading(f"Ficha: {asignatura} - {curso}", 0)
+            doc_f.add_paragraph(ficha_txt)
+            docx_f_path = OUTPUT_DIR / f"{nombre_base}_FICHA.docx"
+            doc_f.save(docx_f_path)
+            paths.extend([ficha_path, docx_f_path])
+            
+        return paths
 
 if __name__ == "__main__":
     generador = GeneradorAonikenk()
     
-    # Pruebas Rápidas de la Fase 3
-    print("Iniciando Modo Arquitecto - Fábrica de Clases Aonikenk 2026")
-    generador.generar_clase("Religión", "2° Básico", "2", "Repaso de Moisés y liberación (Unidad 0)")
+    clases_lunes = [
+        ("Religión", "6° Básico"),
+        ("Patrimonio", "1° Básico"),
+        ("Religión", "4° Básico")
+    ]
+    
+    for asig, curso in clases_lunes:
+        generador.generar_siguiente_clase(asig, curso)

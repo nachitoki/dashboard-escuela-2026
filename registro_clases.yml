@@ -1,0 +1,87 @@
+registro_clases:
+- id: 1R-Sem1
+  curso: 1° Básico
+  asignatura: Religión
+  semana: 1
+  estado: Hecho
+- id: 1P-Sem1
+  curso: 1° Básico
+  asignatura: Patrimonio
+  semana: 1
+  estado: Hecho
+- id: 1P-Sem2
+  curso: 1° Básico
+  asignatura: Patrimonio
+  semana: 2
+  estado: Hecho
+  nota: Contiene planificación de 'Manos al barro' original de S1.
+- id: 2R-Sem1
+  curso: 2° Básico
+  asignatura: Religión
+  semana: 1
+  estado: Pendiente
+- id: 2P-Sem1
+  curso: 2° Básico
+  asignatura: Patrimonio
+  semana: 1
+  estado: Pendiente
+- id: 3R-Sem1
+  curso: 3° Básico
+  asignatura: Religión
+  semana: 1
+  estado: Pendiente
+- id: 3P-Sem1
+  curso: 3° Básico
+  asignatura: Patrimonio
+  semana: 1
+  estado: Pendiente
+- id: 4R-Sem1
+  curso: 4° Básico
+  asignatura: Religión
+  semana: 1
+  estado: Hecho
+- id: 4P-Sem1
+  curso: 4° Básico
+  asignatura: Patrimonio
+  semana: 1
+  estado: Pendiente
+- id: 5R-Sem1
+  curso: 5° Básico
+  asignatura: Religión
+  semana: 1
+  estado: Pendiente
+- id: 5P-Sem1
+  curso: 5° Básico
+  asignatura: Patrimonio
+  semana: 1
+  estado: Hecho
+- id: 6R-Sem1
+  curso: 6° Básico
+  asignatura: Religión
+  semana: 1
+  estado: Hecho
+- id: 6P-Sem1
+  curso: 6° Básico
+  asignatura: Patrimonio
+  semana: 1
+  estado: Pendiente
+- id: 7R-Sem1
+  curso: 7° Básico
+  asignatura: Religión
+  semana: 1
+  estado: Pendiente
+- id: 7P-Sem1
+  curso: 7° Básico
+  asignatura: Patrimonio
+  semana: 1
+  estado: Pendiente
+- id: 8R-Sem1
+  curso: 8° Básico
+  asignatura: Religión
+  semana: 1
+  estado: Pendiente
+- id: 8P-Sem1
+  curso: 8° Básico
+  asignatura: Patrimonio
+  semana: 1
+  estado: Pendiente

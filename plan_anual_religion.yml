@@ -1,0 +1,51 @@
+# ESTRUCTURA ALINEADA CON NOTEBOOKLM (Bases Curriculares Religión Católica 2026)
+religion_anual:
+  1_basico:
+    unidades:
+      - id: "U1"
+        titulo: "Dios nos quiere"
+        semanas:
+          - {semana: 1, tema: "Dios me conoce y me ama", objetivo: "Sentirse amado por Dios mediante actividades lúdicas."}
+          - {semana: 2, tema: "La creación: El jardín de Dios", objetivo: "Valorar la naturaleza como regalo."}
+  2_basico:
+    unidades:
+      - id: "U1"
+        titulo: "Jesús, nuestro amigo"
+        semanas:
+          - {semana: 1, tema: "Jesús nos enseña a compartir", objetivo: "Identificar valores cristianos en la convivencia."}
+  3_basico:
+    unidades:
+      - id: "U1"
+        titulo: "La Palabra de Dios: La Biblia"
+        semanas:
+          - {semana: 1, tema: "Historias de fe: Abrahán", objetivo: "Reconocer la confianza en Dios."}
+  4_basico:
+    unidades:
+      - id: "U1"
+        titulo: "La Iglesia: Comunidad de amigos"
+        semanas:
+          - {semana: 1, tema: "Ser parte de una familia de fe", objetivo: "Valorar el sentido de pertenencia."}
+  5_basico:
+    unidades:
+      - id: "U1"
+        titulo: "Historia de Salvación: Moisés"
+        semanas:
+          - {semana: 1, tema: "La liberación y los mandamientos", objetivo: "Analizar la ley como guía de libertad."}
+  6_basico:
+    unidades:
+      - id: "U1"
+        titulo: "Solidaridad y Justicia Social"
+        semanas:
+          - {semana: 1, tema: "El mensaje de los profetas", objetivo: "Relacionar la fe con el compromiso social."}
+  7_basico:
+    unidades:
+      - id: "U1"
+        titulo: "Dignidad Humana y Derechos"
+        semanas:
+          - {semana: 1, tema: "Yo soy valioso por ser persona", objetivo: "Fundamentar la dignidad humana desde la fe."}
+  8_basico:
+    unidades:
+      - id: "U1"
+        titulo: "Proyecto de Vida y Sentido"
+        semanas:
+          - {semana: 1, tema: "¿Para qué estoy aquí? Vocación", objetivo: "Reflexionar sobre el sentido de la vida."}

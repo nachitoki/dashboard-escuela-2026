@@ -1,0 +1,51 @@
+# PROGRAMA ANUAL: Taller de Patrimonio Aonikenk 2026
+patrimonio_anual:
+  1_basico:
+    unidades:
+      - id: "U1"
+        titulo: "Mi Escuela Aonikenk"
+        semanas:
+          - {semana: 1, tema: "Aonikenk: El nombre de mi escuela", objetivo: "Identificar y colorear el nombre de la escuela reconociendo su origen."}
+          - {semana: 2, tema: "Aonikenk: Gente del Sur (Exploración)", objetivo: "Conocer el significado del nombre y tener contacto con elementos naturales (barro/greda)."}
+  2_basico:
+    unidades:
+      - id: "U1"
+        titulo: "Tesoros de mi Familia"
+        semanas:
+          - {semana: 1, tema: "Recuerdos en la repisa", objetivo: "Identificar objetos antiguos en el hogar."}
+  3_basico:
+    unidades:
+      - id: "U1"
+        titulo: "Puerto Ibáñez: Mi Pueblo Puerto"
+        semanas:
+          - {semana: 1, tema: "El Lago Chelenko", objetivo: "Comprender la importancia del lago para la fundación."}
+  4_basico:
+    unidades:
+      - id: "U1"
+        titulo: "Naturaleza y Paisaje Patrimonial"
+        semanas:
+          - {semana: 1, tema: "El Cerro Pirámide", objetivo: "Valorar el paisaje como parte de la identidad local."}
+  5_basico:
+    unidades:
+      - id: "U1"
+        titulo: "Identidad Aonikenk (Tehuelche)"
+        semanas:
+          - {semana: 1, tema: "Cazadores y recolectores", objetivo: "Investigar el estilo de vida de la Gente del Sur."}
+  6_basico:
+    unidades:
+      - id: "U1"
+        titulo: "El Arte de la Greda Ibáñez"
+        semanas:
+          - {semana: 1, tema: "Del cerro al taller", objetivo: "Entender el proceso de obtención de la materia prima."}
+  7_basico:
+    unidades:
+      - id: "U1"
+        titulo: "Saberes del Campo: La Chacarería"
+        semanas:
+          - {semana: 1, tema: "Historia de la agricultura local", objetivo: "Analizar cómo el huerto permitió habitar el valle."}
+  8_basico:
+    unidades:
+      - id: "U1"
+        titulo: "Gestión y Futuro del Patrimonio"
+        semanas:
+          - {semana: 1, tema: "¿Qué es monumento?", objetivo: "Diferenciar entre patrimonio material e inmaterial."}

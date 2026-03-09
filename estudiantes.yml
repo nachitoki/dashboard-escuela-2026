@@ -1,0 +1,159 @@
+contexto_estudiantes:
+  1_basico:
+    perfil: 'Recién salidos de NT2. Nivel de lectura: Nulo (Pre-lector). Escritura:
+      Solo nombre. Aprendizaje 100% lúdico, visual y motriz.'
+    intereses:
+    - Animales
+    - Naturaleza
+    - Juegos de movimiento
+    desafios: Transición a la educación básica, motricidad fina en desarrollo.
+    lista_nombres:
+    - AGUILAR MANRÍQUEZ, EMMALINE SAYEN YARELA (WILMA)
+    - ALARCÓN PEREIRA, CATALEYA ISABELLA (CATALEYA)
+    - BAEZA ALVARADO, GABRIELA ANAÍ (GABRIELA)
+    - BARRIENTOS VARGAS, ANTONELLA JULIET (NINGUNO)
+    - FERRADA ACEVEDO, MARTINA IGNACIA
+    - MUÑOZ CEA, FRANCISCO ESTEBAN ALEJANDRO (PANCHITO)
+    - QUEZADA CASTILLO, IAM JAVIER
+    - RUIZ MUÑOZ, SEBASTIÁN EDUARDO (HUILLICHE)
+    - SEGURA HUEITRA, MATEO FAUSTINO (MATEO)
+  2_basico:
+    perfil: Iniciación a la lectura y escritura. Capacidad de copiar palabras cortas.
+      Lectura silábica progresiva.
+    intereses:
+    - Historias
+    - Personajes
+    - Exploración del entorno
+    desafios: Fatiga rápida en tareas de escritura larga. Necesitan apoyo visual constante.
+    lista_nombres:
+    - ARRATIA BÓRQUEZ, ISIDORA ANTONELLA (ISIDORA)
+    - BARRÍA RUBIO, LÍA ANNAÍS (LIA)
+    - CALDERÓN CABEZAS, LORENZO EMILIO (LORENZO)
+    - FARIAS MUÑOZ, TRINIDAD PAZ (TRINIDAD FARIAS)
+    - MENDOZA PÉREZ, MARTINA ANAÍS (MARTINA MENDOZA)
+    - MIRANDA TRIVIÑO, ANA ISIDORA (ANITA)
+    - MORALES ÁLVAREZ, JOHANN SALVADOR (YOHANN)
+    - OJEDA RODRÍGUEZ, SOPHIA JULIETA (0)
+    - PAILLAHUEQUE VILLAGRÁN, AMANDA IGNACIA (AMANDA PAILLAHUEQUE)
+    - QUINTUL SANTANA, AGUSTINA NOEMÍ ()
+    - QUINTUL URIBE, BIANCA DENISSE (BIANCA)
+  3_basico:
+    perfil: Lectura establecida. Escritura de frases completas. Inicio de autonomía
+      en trabajo individual.
+    intereses:
+    - Mitos
+    - Leyendas
+    - Curiosidades naturales
+    desafios: Organización de tiempos, seguimiento de instrucciones complejas.
+    lista_nombres:
+    - ACUÑA CRUZ, AYMARA BELÉN (AYMRA)
+    - ALEGRÍA DOMKE, MIA ELUNEY (ELU)
+    - CÁRDENAS NAVARRO, JUAN JOSÉ (JUANJO)
+    - CORTÉS MORALES, FELIPA MARTINA (FELIPA)
+    - GALLARDO GUTIÉRREZ, ISABELLA FERNANDA (ISABELLLA)
+    - PEREIRA BARRÍA, AMARANTA KATALEIA (AMARANTA)
+    - QUILODRÁN ARIZMENDI, ANALY ITZEL (ANALY)
+    - REYES MORALES, NASLY MICAELA (NASLY)
+    - RODRÍGUEZ TENORIO, JOAQUÍN ALONSO (KIKIN)
+    - SAN MARTÍN GÓMEZ, RENATO ESTEBAN JOSÉ (RENATO)
+  4_basico:
+    perfil: Lectura fluida y comprensiva. Capacidad de redactar párrafos cortos. Trabajo
+      colaborativo en parejas.
+    intereses:
+    - Tecnología
+    - Héroes
+    - Historia de la comunidad
+    desafios: Comprensión lectora profunda, expresión de opiniones propias.
+    lista_nombres:
+    - ALTAMIRANO CASTRO, ROCÍO AMPARO
+    - ASENCIO ESTRADA, AARÓN ABRAHAM
+    - GALLEGOS SEGOVIA, ISIDORA FERNANDA (ISIDORA)
+    - GÓMEZ QUILODRÁN, AGUSTÍN ANÍBAL ALONSO (AGUSTÍN )
+    - HARO LLAMUNAO, LUCIANO GUILLERMO (LUCIANO)
+    - MACHUCA OSSANDÓN, AGUSTINA (AGUSTINA)
+    - MAGLIO GONZÁLEZ, ENZO LEÓN (ENZO)
+    - MUÑOZ QUILODRÁN, DANTE AARÓN (DANTE)
+    - RODRÍGUEZ FIGUEROA, ALEJANDRO KENAI (NO)
+    - VÁSQUEZ RESQUÍN, SIOMARA AURORA (SIOMARA)
+    - VILLEGAS ALBORNOZ, GADIEL EDUARDO (GADI)
+    - YÁÑEZ REUQUÉN, NOAH NAHÚM (NOAH)
+  5_basico:
+    perfil: Autonomía en investigación guiada. Análisis de fuentes simples. Capacidad
+      de debate.
+    intereses:
+    - Historias familiares
+    - Medioambiente
+    - Música
+    desafios: Síntesis de información, manejo de fuentes diversas.
+    lista_nombres:
+    - ACUÑA CRUZ, AYLEN ALANIS PAZ (AYLÉN)
+    - CONEJERA ARTEAGA, CRISTÓBAL ALEXIS (CRISTÓBAL)
+    - HARO MÁRQUEZ, GABRIELA PAZ (GABRIELA PAZ HARO MÁRQUEZ)
+    - MARTÍNEZ TENORIO, LUCIANO VALENTÍN RODRIGO (LUCIANITO)
+    - MERA LAVADO, MILENA NOEMÍ (MILI)
+    - MOLINA TUREUNA, AGUSTÍN EDUARDO ()
+    - MORALES VARGAS, ÁLVARO JAVIER (ÁLVARO)
+    - ORMEÑO PABST, URIEL RODOLFO (URIEL)
+    - RODRÍGUEZ JIMÉNEZ, KYARA FERNANDA (KYARA RODRIGUEZ)
+    - VÁSQUEZ RESQUÍN, LISANDRO DIONEL (LISA)
+    - VERA VARGAS, FRANCISCA VALENTINA (FRAN)
+  6_basico:
+    perfil: Pensamiento abstracto inicial. Capacidad de realizar proyectos autónomos
+      guiados. Co-evaluación.
+    intereses:
+    - Justicia social
+    - Identidad
+    - Cuidado del planeta
+    desafios: Gestión de proyectos a largo plazo.
+    lista_nombres:
+    - ÁGUILA OYARZÚN, FERNANDO ANTONIO (FERNANDO AGUILA)
+    - ANDRADE MANRÍQUEZ, DAVID ALEJANDRO (DAVID)
+    - QUINTUL URIBE, ALONSO ESAÍ (ALONSO)
+    - SAN MARTÍN MUÑOZ, EMILIANO ALEJANDRO (EMILIANO SAN MARTIN MUÑOZ)
+    - TORRES OSSES, BELÉN SOFÍA (BELENCITA)
+    - VEGA SEPÚLVEDA, JANNIS DENISSE (JANNIS)
+  7_basico:
+    perfil: Adolescencia inicial. Pensamiento crítico y reflexivo. Debate sobre dilemas
+      éticos.
+    intereses:
+    - Cultura popular
+    - Identidad local
+    - Problemas globales
+    desafios: Vinculación de la teoría con su realidad personal.
+    lista_nombres:
+    - ANDRADE ASCENCIO, LUISANA JASSIEL (LUISANA)
+    - BELLO BELLO, EMILIA FLORENCIA (EMILIA)
+    - CÁRCAMO REYES, LAURA SOLEDAD (LAURI)
+    - DELGADO DÍAZ, MAURICIO JAVIER (MAURICIO)
+    - ELESS QUINTUL, ROCÍO IGNACIA (ROCIO)
+    - GÓMEZ ÁLVAREZ, FERNANDO JAVIER (FERNANDO)
+    - MARTÍNEZ TENORIO, ALMENDRA DANAE ALEN (ALMENDRITA / NENA)
+    - OJEDA FERREIRA, REINALDO ANTONIO (REINALDO)
+    - OJEDA FUENTES, AYLEEN YARITZA AMARAL (AYLEEN)
+    - OVANDO OVANDO, AGUSTÍN EDUARDO (AGUSTÍN OVANDO)
+    - RUIZ VARGAS, EMILIA NOEMÍ ()
+    - VILLAGRÁN CÁRCAMO, CRISTOFER DAVID (CRISTOFER)
+  8_basico:
+    perfil: Pensamiento hipotético-deductivo. Alta capacidad de reflexión y diálogo
+      fe-razón. Preparación para media.
+    intereses:
+    - Música contemporánea
+    - Derechos humanos
+    - Futuro profesional
+    desafios: Encontrar sentido y relevancia en asignaturas tradicionales.
+    lista_nombres:
+    - ACUÑA CRUZ, INTY ISMAEL (INTY)
+    - ALTAMIRANO CEA, SOFÍA ANTONIETA (SOFI)
+    - CADAGÁN MUÑOZ, RAFAEL GIOVANY (RAFA)
+    - CARRASCO CADAGÁN, RENATA FERNANDA (RENATA FERNANDA)
+    - FERRADA ACEVEDO, ANTONIA BELÉN (ANTO)
+    - MELLADO FIGUEROA, ANGELA ANTONELA (ANGELA)
+    - MORALES HERNÁNDEZ, NATALY GUIANNELLA ()
+    - MORALES MUÑOZ, KATHERINE SELENA  (KATHY)
+    - MORALES TENORIO, ROGELIO ALFONSO (ROGELIO ALFONSO MORALES TENORIO)
+    - MUÑOZ ALBORNOZ, ANDRÉS ESAI (ANDRÉS)
+    - RODRÍGUEZ VILLARROEL, CELESTE DANAE (CELESTE)
+    - ULLOA REYES, PEDRO ANTONIO (PEDRO)
+    - VALDEBENITO MORAGA, CONSUELO EMILIA (CONSUELO)
+    - VARGAS CASTILLO, GISELLE ANTONIA
+    - VILLAGRÁN POBLETE, DANIEL ALONSO (NO)

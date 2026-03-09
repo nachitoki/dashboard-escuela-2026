@@ -1,0 +1,42 @@
+religion_detallada:
+  "1_basico":
+    unidades:
+      - nombre: 'Unidad 1: Dios nos creó para vivir como hermanos e hijos suyos'
+        temas_semanales:
+          - 'Reconocimiento de las relaciones familiares y los sentimientos asociados.'
+          - 'Identificación de las características que nos hacen únicos frente a los demás.'
+          - 'La creación del mundo y la diferenciación con las creaciones humanas.'
+          - 'Agradecimiento por el surgimiento de la vida como un regalo del amor de Dios.'
+        objetivo_aprendizaje_principal: 'OA 3: Identificar las características con las que Dios ha creado al ser humano; OA 4: Reconocer y agradecer el surgimiento de la vida como acción creadora de Dios.'
+        valores_transversales_MBE: 'Dignidad irrenunciable, fomento de la vida espiritual (OAA 2), autoestima y respeto por la diversidad.'
+      - nombre: 'Unidad 2: La importancia de cuidar al mundo que nos regaló Dios es responsabilidad de todos'
+        temas_semanales:
+          - 'Admiración de la vida en el planeta Tierra y su origen divino.'
+          - 'Diferenciación entre elementos naturales creados por Dios y los creados por humanos.'
+          - 'Acciones concretas para cuidar el planeta y las mascotas.'
+          - 'Acciones que dañan el planeta y cómo evitarlas.'
+        objetivo_aprendizaje_principal: 'OA 1: Identificar acciones de cuidado y respeto a los demás y a la naturaleza; OA 4: Reconocer el surgimiento de la vida.'
+        valores_transversales_MBE: 'Cuidado de la Casa Común, respeto por el entorno y responsabilidad (OAA 1).'
+      - nombre: 'Unidad 3: Todos necesitamos del cuidado de los demás para poder vivir y crecer'
+        temas_semanales:
+          - 'Los cuidados necesarios para crecer y vivir en sociedad.'
+          - 'La familia como un regalo fundamental de Dios.'
+          - 'Reconocimiento de la interdependencia.'
+          - 'El cuidado amoroso de Dios a través de los adultos.'
+  "2_basico":
+    unidades:
+      - nombre: 'Unidad 1: Dios nos creó junto a las demás personas para colaborarnos'
+        temas_semanales:
+          - 'Concepto de colaboración.'
+          - 'Necesidad e importancia de la colaboración interpersonal.'
+          - 'El mandamiento del amor y la colaboración.'
+          - 'Cualidades personales para relacionarnos.'
+  "3_basico":
+    unidades:
+      - nombre: 'Unidad 1: Características únicas y bien común'
+        temas_semanales:
+          - 'Diversidad de las personas.'
+          - 'Características que nos hacen únicos.'
+          - 'Necesidad de vivir en el bien común.'
+          - 'Beneficios de vivir en el bien con los semejantes.'
+  # (Continúa con la misma estructura para el resto de los niveles extraídos)
