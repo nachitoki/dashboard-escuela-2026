@@ -1,0 +1,2920 @@
+{
+  "generado_en": "2026-03-12T22:40:14.265570",
+  "meta": {
+    "total_cursos_configurados": 8,
+    "hitos_registrados_hoy": 0,
+    "total_clases_sincronizadas": 7,
+    "choques_horario_detectados": 67
+  },
+  "datos": {
+    "cursos": {
+      "1basico": {
+        "cantidad_alumnos": 9,
+        "alumnos": [
+          "AGUILAR MANRÍQUEZ, EMMALINE SAYEN YARELA (WILMA)",
+          "ALARCÓN PEREIRA, CATALEYA ISABELLA (CATALEYA)",
+          "BAEZA ALVARADO, GABRIELA ANAÍ (GABRIELA)",
+          "BARRIENTOS VARGAS, ANTONELLA JULIET (NINGUNO)",
+          "FERRADA ACEVEDO, MARTINA IGNACIA",
+          "MUÑOZ CEA, FRANCISCO ESTEBAN ALEJANDRO (PANCHITO)",
+          "QUEZADA CASTILLO, IAM JAVIER",
+          "RUIZ MUÑOZ, SEBASTIÁN EDUARDO (HUILLICHE)",
+          "SEGURA HUEITRA, MATEO FAUSTINO (MATEO)"
+        ],
+        "asignaturas": [
+          "Patrimonio",
+          "Religión"
+        ],
+        "planificacion_anual": {
+          "patrimonio": {
+            "1": {
+              "week": 1,
+              "unit_id": "U1",
+              "unit_title": "Mi Escuela Aonikenk",
+              "topic": "Aonikenk: El nombre de mi escuela",
+              "objective": "Identificar y colorear el nombre de la escuela reconociendo su origen."
+            },
+            "2": {
+              "week": 2,
+              "unit_id": "U1",
+              "unit_title": "Mi Escuela Aonikenk",
+              "topic": "Aonikenk: Gente del Sur (Exploración)",
+              "objective": "Conocer el significado del nombre y tener contacto con elementos naturales (barro/greda)."
+            }
+          },
+          "religion": {
+            "1": {
+              "week": 1,
+              "unit_id": "U1",
+              "unit_title": "Dios nos quiere",
+              "topic": "Dios me conoce y me ama",
+              "objective": "Sentirse amado por Dios mediante actividades lúdicas."
+            },
+            "2": {
+              "week": 2,
+              "unit_id": "U1",
+              "unit_title": "Dios nos quiere",
+              "topic": "La creación: El jardín de Dios",
+              "objective": "Valorar la naturaleza como regalo."
+            }
+          }
+        }
+      },
+      "2basico": {
+        "cantidad_alumnos": 11,
+        "alumnos": [
+          "ARRATIA BÓRQUEZ, ISIDORA ANTONELLA (ISIDORA)",
+          "BARRÍA RUBIO, LÍA ANNAÍS (LIA)",
+          "CALDERÓN CABEZAS, LORENZO EMILIO (LORENZO)",
+          "FARIAS MUÑOZ, TRINIDAD PAZ (TRINIDAD FARIAS)",
+          "MENDOZA PÉREZ, MARTINA ANAÍS (MARTINA MENDOZA)",
+          "MIRANDA TRIVIÑO, ANA ISIDORA (ANITA)",
+          "MORALES ÁLVAREZ, JOHANN SALVADOR (YOHANN)",
+          "OJEDA RODRÍGUEZ, SOPHIA JULIETA (0)",
+          "PAILLAHUEQUE VILLAGRÁN, AMANDA IGNACIA (AMANDA PAILLAHUEQUE)",
+          "QUINTUL SANTANA, AGUSTINA NOEMÍ ()",
+          "QUINTUL URIBE, BIANCA DENISSE (BIANCA)"
+        ],
+        "asignaturas": [
+          "Patrimonio",
+          "Religión"
+        ],
+        "planificacion_anual": {
+          "patrimonio": {
+            "1": {
+              "week": 1,
+              "unit_id": "U1",
+              "unit_title": "Tesoros de mi Familia",
+              "topic": "Recuerdos en la repisa",
+              "objective": "Identificar objetos antiguos en el hogar."
+            }
+          },
+          "religion": {
+            "1": {
+              "week": 1,
+              "unit_id": "U1",
+              "unit_title": "Jesús, nuestro amigo",
+              "topic": "Jesús nos enseña a compartir",
+              "objective": "Identificar valores cristianos en la convivencia."
+            }
+          }
+        }
+      },
+      "3basico": {
+        "cantidad_alumnos": 10,
+        "alumnos": [
+          "ACUÑA CRUZ, AYMARA BELÉN (AYMRA)",
+          "ALEGRÍA DOMKE, MIA ELUNEY (ELU)",
+          "CÁRDENAS NAVARRO, JUAN JOSÉ (JUANJO)",
+          "CORTÉS MORALES, FELIPA MARTINA (FELIPA)",
+          "GALLARDO GUTIÉRREZ, ISABELLA FERNANDA (ISABELLLA)",
+          "PEREIRA BARRÍA, AMARANTA KATALEIA (AMARANTA)",
+          "QUILODRÁN ARIZMENDI, ANALY ITZEL (ANALY)",
+          "REYES MORALES, NASLY MICAELA (NASLY)",
+          "RODRÍGUEZ TENORIO, JOAQUÍN ALONSO (KIKIN)",
+          "SAN MARTÍN GÓMEZ, RENATO ESTEBAN JOSÉ (RENATO)"
+        ],
+        "asignaturas": [
+          "Patrimonio",
+          "Religión"
+        ],
+        "planificacion_anual": {
+          "patrimonio": {
+            "1": {
+              "week": 1,
+              "unit_id": "U1",
+              "unit_title": "Puerto Ibáñez: Mi Pueblo Puerto",
+              "topic": "El Lago Chelenko",
+              "objective": "Comprender la importancia del lago para la fundación."
+            }
+          },
+          "religion": {
+            "1": {
+              "week": 1,
+              "unit_id": "U1",
+              "unit_title": "La Palabra de Dios: La Biblia",
+              "topic": "Historias de fe: Abrahán",
+              "objective": "Reconocer la confianza en Dios."
+            }
+          }
+        }
+      },
+      "4basico": {
+        "cantidad_alumnos": 12,
+        "alumnos": [
+          "ALTAMIRANO CASTRO, ROCÍO AMPARO",
+          "ASENCIO ESTRADA, AARÓN ABRAHAM",
+          "GALLEGOS SEGOVIA, ISIDORA FERNANDA (ISIDORA)",
+          "GÓMEZ QUILODRÁN, AGUSTÍN ANÍBAL ALONSO (AGUSTÍN )",
+          "HARO LLAMUNAO, LUCIANO GUILLERMO (LUCIANO)",
+          "MACHUCA OSSANDÓN, AGUSTINA (AGUSTINA)",
+          "MAGLIO GONZÁLEZ, ENZO LEÓN (ENZO)",
+          "MUÑOZ QUILODRÁN, DANTE AARÓN (DANTE)",
+          "RODRÍGUEZ FIGUEROA, ALEJANDRO KENAI (NO)",
+          "VÁSQUEZ RESQUÍN, SIOMARA AURORA (SIOMARA)",
+          "VILLEGAS ALBORNOZ, GADIEL EDUARDO (GADI)",
+          "YÁÑEZ REUQUÉN, NOAH NAHÚM (NOAH)"
+        ],
+        "asignaturas": [
+          "Patrimonio",
+          "Religión"
+        ],
+        "planificacion_anual": {
+          "patrimonio": {
+            "1": {
+              "week": 1,
+              "unit_id": "U1",
+              "unit_title": "Naturaleza y Paisaje Patrimonial",
+              "topic": "El Cerro Pirámide",
+              "objective": "Valorar el paisaje como parte de la identidad local."
+            }
+          },
+          "religion": {
+            "1": {
+              "week": 1,
+              "unit_id": "U1",
+              "unit_title": "La Iglesia: Comunidad de amigos",
+              "topic": "Ser parte de una familia de fe",
+              "objective": "Valorar el sentido de pertenencia."
+            }
+          }
+        }
+      },
+      "5basico": {
+        "cantidad_alumnos": 11,
+        "alumnos": [
+          "ACUÑA CRUZ, AYLEN ALANIS PAZ (AYLÉN)",
+          "CONEJERA ARTEAGA, CRISTÓBAL ALEXIS (CRISTÓBAL)",
+          "HARO MÁRQUEZ, GABRIELA PAZ (GABRIELA PAZ HARO MÁRQUEZ)",
+          "MARTÍNEZ TENORIO, LUCIANO VALENTÍN RODRIGO (LUCIANITO)",
+          "MERA LAVADO, MILENA NOEMÍ (MILI)",
+          "MOLINA TUREUNA, AGUSTÍN EDUARDO ()",
+          "MORALES VARGAS, ÁLVARO JAVIER (ÁLVARO)",
+          "ORMEÑO PABST, URIEL RODOLFO (URIEL)",
+          "RODRÍGUEZ JIMÉNEZ, KYARA FERNANDA (KYARA RODRIGUEZ)",
+          "VÁSQUEZ RESQUÍN, LISANDRO DIONEL (LISA)",
+          "VERA VARGAS, FRANCISCA VALENTINA (FRAN)"
+        ],
+        "asignaturas": [
+          "Patrimonio",
+          "Religión"
+        ],
+        "planificacion_anual": {
+          "patrimonio": {
+            "1": {
+              "week": 1,
+              "unit_id": "U1",
+              "unit_title": "Identidad Aonikenk (Tehuelche)",
+              "topic": "Cazadores y recolectores",
+              "objective": "Investigar el estilo de vida de la Gente del Sur."
+            }
+          },
+          "religion": {
+            "1": {
+              "week": 1,
+              "unit_id": "U1",
+              "unit_title": "Historia de Salvación: Moisés",
+              "topic": "La liberación y los mandamientos",
+              "objective": "Analizar la ley como guía de libertad."
+            }
+          }
+        }
+      },
+      "6basico": {
+        "cantidad_alumnos": 6,
+        "alumnos": [
+          "ÁGUILA OYARZÚN, FERNANDO ANTONIO (FERNANDO AGUILA)",
+          "ANDRADE MANRÍQUEZ, DAVID ALEJANDRO (DAVID)",
+          "QUINTUL URIBE, ALONSO ESAÍ (ALONSO)",
+          "SAN MARTÍN MUÑOZ, EMILIANO ALEJANDRO (EMILIANO SAN MARTIN MUÑOZ)",
+          "TORRES OSSES, BELÉN SOFÍA (BELENCITA)",
+          "VEGA SEPÚLVEDA, JANNIS DENISSE (JANNIS)"
+        ],
+        "asignaturas": [
+          "Patrimonio",
+          "Religión"
+        ],
+        "planificacion_anual": {
+          "patrimonio": {
+            "1": {
+              "week": 1,
+              "unit_id": "U1",
+              "unit_title": "El Arte de la Greda Ibáñez",
+              "topic": "Del cerro al taller",
+              "objective": "Entender el proceso de obtención de la materia prima."
+            }
+          },
+          "religion": {
+            "1": {
+              "week": 1,
+              "unit_id": "U1",
+              "unit_title": "Solidaridad y Justicia Social",
+              "topic": "El mensaje de los profetas",
+              "objective": "Relacionar la fe con el compromiso social."
+            }
+          }
+        }
+      },
+      "7basico": {
+        "cantidad_alumnos": 12,
+        "alumnos": [
+          "ANDRADE ASCENCIO, LUISANA JASSIEL (LUISANA)",
+          "BELLO BELLO, EMILIA FLORENCIA (EMILIA)",
+          "CÁRCAMO REYES, LAURA SOLEDAD (LAURI)",
+          "DELGADO DÍAZ, MAURICIO JAVIER (MAURICIO)",
+          "ELESS QUINTUL, ROCÍO IGNACIA (ROCIO)",
+          "GÓMEZ ÁLVAREZ, FERNANDO JAVIER (FERNANDO)",
+          "MARTÍNEZ TENORIO, ALMENDRA DANAE ALEN (ALMENDRITA / NENA)",
+          "OJEDA FERREIRA, REINALDO ANTONIO (REINALDO)",
+          "OJEDA FUENTES, AYLEEN YARITZA AMARAL (AYLEEN)",
+          "OVANDO OVANDO, AGUSTÍN EDUARDO (AGUSTÍN OVANDO)",
+          "RUIZ VARGAS, EMILIA NOEMÍ ()",
+          "VILLAGRÁN CÁRCAMO, CRISTOFER DAVID (CRISTOFER)"
+        ],
+        "asignaturas": [
+          "Patrimonio",
+          "Religión"
+        ],
+        "planificacion_anual": {
+          "patrimonio": {
+            "1": {
+              "week": 1,
+              "unit_id": "U1",
+              "unit_title": "Saberes del Campo: La Chacarería",
+              "topic": "Historia de la agricultura local",
+              "objective": "Analizar cómo el huerto permitió habitar el valle."
+            }
+          },
+          "religion": {
+            "1": {
+              "week": 1,
+              "unit_id": "U1",
+              "unit_title": "Dignidad Humana y Derechos",
+              "topic": "Yo soy valioso por ser persona",
+              "objective": "Fundamentar la dignidad humana desde la fe."
+            }
+          }
+        }
+      },
+      "8basico": {
+        "cantidad_alumnos": 15,
+        "alumnos": [
+          "ACUÑA CRUZ, INTY ISMAEL (INTY)",
+          "ALTAMIRANO CEA, SOFÍA ANTONIETA (SOFI)",
+          "CADAGÁN MUÑOZ, RAFAEL GIOVANY (RAFA)",
+          "CARRASCO CADAGÁN, RENATA FERNANDA (RENATA FERNANDA)",
+          "FERRADA ACEVEDO, ANTONIA BELÉN (ANTO)",
+          "MELLADO FIGUEROA, ANGELA ANTONELA (ANGELA)",
+          "MORALES HERNÁNDEZ, NATALY GUIANNELLA ()",
+          "MORALES MUÑOZ, KATHERINE SELENA  (KATHY)",
+          "MORALES TENORIO, ROGELIO ALFONSO (ROGELIO ALFONSO MORALES TENORIO)",
+          "MUÑOZ ALBORNOZ, ANDRÉS ESAI (ANDRÉS)",
+          "RODRÍGUEZ VILLARROEL, CELESTE DANAE (CELESTE)",
+          "ULLOA REYES, PEDRO ANTONIO (PEDRO)",
+          "VALDEBENITO MORAGA, CONSUELO EMILIA (CONSUELO)",
+          "VARGAS CASTILLO, GISELLE ANTONIA",
+          "VILLAGRÁN POBLETE, DANIEL ALONSO (NO)"
+        ],
+        "asignaturas": [
+          "Patrimonio",
+          "Religión"
+        ],
+        "planificacion_anual": {
+          "patrimonio": {
+            "1": {
+              "week": 1,
+              "unit_id": "U1",
+              "unit_title": "Gestión y Futuro del Patrimonio",
+              "topic": "¿Qué es monumento?",
+              "objective": "Diferenciar entre patrimonio material e inmaterial."
+            }
+          },
+          "religion": {
+            "1": {
+              "week": 1,
+              "unit_id": "U1",
+              "unit_title": "Proyecto de Vida y Sentido",
+              "topic": "¿Para qué estoy aquí? Vocación",
+              "objective": "Reflexionar sobre el sentido de la vida."
+            }
+          }
+        }
+      }
+    },
+    "bitacora_dia": [],
+    "clases": [
+      {
+        "semana": 1,
+        "materia": "Patrimonio",
+        "curso": "1°",
+        "plan": "E:\\Mi unidad\\2026 Clases\\Planificaciones\\INSTRUMENTOS RECTORES ESCUELA AONIKENK 2026\\Cursos\\Patrimonio\\1°_Patrimonio\\1°_Patrimonio_Clase1\\Semana1_PLAN_PAT_1B.md",
+        "ficha": "E:\\Mi unidad\\2026 Clases\\Planificaciones\\INSTRUMENTOS RECTORES ESCUELA AONIKENK 2026\\Cursos\\Patrimonio\\1°_Patrimonio\\1°_Patrimonio_Clase1\\Semana1_FICHA_PAT_1B.md"
+      },
+      {
+        "semana": 1,
+        "materia": "Patrimonio",
+        "curso": "7°",
+        "plan": "E:\\Mi unidad\\2026 Clases\\Planificaciones\\INSTRUMENTOS RECTORES ESCUELA AONIKENK 2026\\Cursos\\Patrimonio\\7°_Patrimonio\\7°_Patrimonio_Clase1\\Semana1_PLAN_PAT_7B.md",
+        "ficha": "E:\\Mi unidad\\2026 Clases\\Planificaciones\\INSTRUMENTOS RECTORES ESCUELA AONIKENK 2026\\Cursos\\Patrimonio\\7°_Patrimonio\\7°_Patrimonio_Clase1\\Semana1_FICHA_PAT_7B.md"
+      },
+      {
+        "semana": 1,
+        "materia": "Religión",
+        "curso": "2°",
+        "plan": "E:\\Mi unidad\\2026 Clases\\Planificaciones\\INSTRUMENTOS RECTORES ESCUELA AONIKENK 2026\\Cursos\\Religión\\2°_Religión\\2°_Religión_Clase1\\Semana1_PLAN_REL_2B.md",
+        "ficha": "E:\\Mi unidad\\2026 Clases\\Planificaciones\\INSTRUMENTOS RECTORES ESCUELA AONIKENK 2026\\Cursos\\Religión\\2°_Religión\\2°_Religión_Clase1\\Semana1_FICHA_REL_2B.md"
+      },
+      {
+        "semana": 1,
+        "materia": "Religión",
+        "curso": "3°",
+        "plan": "E:\\Mi unidad\\2026 Clases\\Planificaciones\\INSTRUMENTOS RECTORES ESCUELA AONIKENK 2026\\Cursos\\Religión\\3°_Religión\\3°_Religión_Clase1\\Semana1_PLAN_REL_3B.md",
+        "ficha": "E:\\Mi unidad\\2026 Clases\\Planificaciones\\INSTRUMENTOS RECTORES ESCUELA AONIKENK 2026\\Cursos\\Religión\\3°_Religión\\3°_Religión_Clase1\\Semana1_FICHA_REL_3B.md"
+      },
+      {
+        "semana": 1,
+        "materia": "Religión",
+        "curso": "4°",
+        "plan": "E:\\Mi unidad\\2026 Clases\\Planificaciones\\INSTRUMENTOS RECTORES ESCUELA AONIKENK 2026\\Cursos\\Religión\\4°_Religión\\4°_Religión_Clase1\\Semana1_PLAN_REL_4B.md",
+        "ficha": "E:\\Mi unidad\\2026 Clases\\Planificaciones\\INSTRUMENTOS RECTORES ESCUELA AONIKENK 2026\\Cursos\\Religión\\4°_Religión\\4°_Religión_Clase1\\Semana1_FICHA_REL_4B.md"
+      },
+      {
+        "semana": 1,
+        "materia": "Religión",
+        "curso": "6°",
+        "plan": "E:\\Mi unidad\\2026 Clases\\Planificaciones\\INSTRUMENTOS RECTORES ESCUELA AONIKENK 2026\\Cursos\\Religión\\6°_Religión\\6°_Religión_Clase1\\Semana1_PLAN_REL_6B.md",
+        "ficha": "E:\\Mi unidad\\2026 Clases\\Planificaciones\\INSTRUMENTOS RECTORES ESCUELA AONIKENK 2026\\Cursos\\Religión\\6°_Religión\\6°_Religión_Clase1\\Semana1_FICHA_REL_6B.md"
+      },
+      {
+        "semana": 1,
+        "materia": "Religión",
+        "curso": "8°",
+        "plan": "E:\\Mi unidad\\2026 Clases\\Planificaciones\\INSTRUMENTOS RECTORES ESCUELA AONIKENK 2026\\Cursos\\Religión\\8°_Religión\\8°_Religión_Clase1\\Semana1_PLAN_REL_8B.md",
+        "ficha": "E:\\Mi unidad\\2026 Clases\\Planificaciones\\INSTRUMENTOS RECTORES ESCUELA AONIKENK 2026\\Cursos\\Religión\\8°_Religión\\8°_Religión_Clase1\\Semana1_FICHA_REL_8B.md"
+      }
+    ],
+    "proximo_evento_calendar": null,
+    "alertas_colision": [
+      {
+        "fecha": "2026-03-02",
+        "evento": "CONSEJO DE PRESENTACIÓN Y ORGANIZACIÓN AÑO ESCOLAR 2026.",
+        "dia": "Lunes",
+        "clases_afectadas": [
+          {
+            "hora": "08:15-09:45",
+            "actividad": "Planificacion / Material"
+          }
+        ],
+        "requiere_confirmacion": false
+      },
+      {
+        "fecha": "2026-03-03",
+        "evento": "JORNADA DE PLANIFICACIÓN 2026.",
+        "dia": "Martes",
+        "clases_afectadas": [
+          {
+            "hora": "08:15-09:45",
+            "actividad": "2° Religion"
+          },
+          {
+            "hora": "10:00-11:30",
+            "actividad": "7° Taller Patrimonio"
+          },
+          {
+            "hora": "11:45-13:15",
+            "actividad": "3° Religion"
+          },
+          {
+            "hora": "14:15-15:45",
+            "actividad": "8° Religion"
+          },
+          {
+            "hora": "16:00-18:00",
+            "actividad": "Consejo de Profesores"
+          }
+        ],
+        "requiere_confirmacion": false
+      },
+      {
+        "fecha": "2026-03-05",
+        "evento": "REUNIÓN COORDINADORES:",
+        "dia": "Jueves",
+        "clases_afectadas": [
+          {
+            "hora": "17:00-18:00",
+            "actividad": "CPA Matematicas"
+          }
+        ],
+        "requiere_confirmacion": false
+      },
+      {
+        "fecha": "2026-03-09",
+        "evento": "EFEMÉRIDE: CEREMONIA INAUGURACIÓN OBRA DE CONSERVACIÓN.",
+        "dia": "Lunes",
+        "clases_afectadas": [
+          {
+            "hora": "10:00-11:30",
+            "actividad": "6° Religion"
+          }
+        ],
+        "requiere_confirmacion": false
+      },
+      {
+        "fecha": "2026-03-09",
+        "evento": "Reu. E. Gestión: a .",
+        "dia": "Lunes",
+        "clases_afectadas": [
+          {
+            "hora": "16:00-17:00",
+            "actividad": "Planificacion Fina"
+          }
+        ],
+        "requiere_confirmacion": false
+      },
+      {
+        "fecha": "2026-03-10",
+        "evento": "INICIO APLICACIÓN DIA DIAGNÓSTICO.",
+        "dia": "Martes",
+        "clases_afectadas": [
+          {
+            "hora": "08:15-09:45",
+            "actividad": "2° Religion"
+          },
+          {
+            "hora": "10:00-11:30",
+            "actividad": "7° Taller Patrimonio"
+          },
+          {
+            "hora": "11:45-13:15",
+            "actividad": "3° Religion"
+          },
+          {
+            "hora": "14:15-15:45",
+            "actividad": "8° Religion"
+          },
+          {
+            "hora": "16:00-18:00",
+            "actividad": "Consejo de Profesores"
+          }
+        ],
+        "requiere_confirmacion": false
+      },
+      {
+        "fecha": "2026-03-10",
+        "evento": "REUNIÓN DE APODERADOS 2DO CICLO.",
+        "dia": "Martes",
+        "clases_afectadas": [
+          {
+            "hora": "08:15-09:45",
+            "actividad": "2° Religion"
+          },
+          {
+            "hora": "10:00-11:30",
+            "actividad": "7° Taller Patrimonio"
+          },
+          {
+            "hora": "11:45-13:15",
+            "actividad": "3° Religion"
+          },
+          {
+            "hora": "14:15-15:45",
+            "actividad": "8° Religion"
+          },
+          {
+            "hora": "16:00-18:00",
+            "actividad": "Consejo de Profesores"
+          }
+        ],
+        "requiere_confirmacion": false
+      },
+      {
+        "fecha": "2026-03-10",
+        "evento": "Consejo DIRECCIÓN.",
+        "dia": "Martes",
+        "clases_afectadas": [
+          {
+            "hora": "08:15-09:45",
+            "actividad": "2° Religion"
+          },
+          {
+            "hora": "10:00-11:30",
+            "actividad": "7° Taller Patrimonio"
+          },
+          {
+            "hora": "11:45-13:15",
+            "actividad": "3° Religion"
+          },
+          {
+            "hora": "14:15-15:45",
+            "actividad": "8° Religion"
+          },
+          {
+            "hora": "16:00-18:00",
+            "actividad": "Consejo de Profesores"
+          }
+        ],
+        "requiere_confirmacion": false
+      },
+      {
+        "fecha": "2026-03-12",
+        "evento": "a Hito lanzamiento de proyecto Invernadero.",
+        "dia": "Jueves",
+        "clases_afectadas": [
+          {
+            "hora": "10:00-11:30",
+            "actividad": "7° Religion"
+          }
+        ],
+        "requiere_confirmacion": false
+      },
+      {
+        "fecha": "2026-03-12",
+        "evento": "a Taller práctico \"Manos a la obra\".",
+        "dia": "Jueves",
+        "clases_afectadas": [
+          {
+            "hora": "14:15-15:45",
+            "actividad": "6° Taller Patrimonio"
+          }
+        ],
+        "requiere_confirmacion": false
+      },
+      {
+        "fecha": "2026-03-13",
+        "evento": "Taller teórico Compostaje.",
+        "dia": "Viernes",
+        "clases_afectadas": [
+          {
+            "hora": "10:00-11:30",
+            "actividad": "8° Taller Patrimonio"
+          }
+        ],
+        "requiere_confirmacion": false
+      },
+      {
+        "fecha": "2026-03-13",
+        "evento": "Firma convenio SLEP + Renewal.",
+        "dia": "Viernes",
+        "clases_afectadas": [
+          {
+            "hora": "14:15-18:00",
+            "actividad": "Tarde Protegida"
+          }
+        ],
+        "requiere_confirmacion": false
+      },
+      {
+        "fecha": "2026-03-16",
+        "evento": "EFEMÉRIDE.",
+        "dia": "Lunes",
+        "clases_afectadas": [
+          {
+            "hora": "08:15-09:45",
+            "actividad": "Planificacion / Material"
+          },
+          {
+            "hora": "10:00-11:30",
+            "actividad": "6° Religion"
+          },
+          {
+            "hora": "11:45-13:15",
+            "actividad": "1° Taller Patrimonio"
+          },
+          {
+            "hora": "14:15-15:45",
+            "actividad": "4° Religion"
+          },
+          {
+            "hora": "15:45-16:00",
+            "actividad": "Planificacion (Microbloque)"
+          },
+          {
+            "hora": "16:00-17:00",
+            "actividad": "Planificacion Fina"
+          }
+        ],
+        "requiere_confirmacion": false
+      },
+      {
+        "fecha": "2026-03-16",
+        "evento": "Reunión Rewilding.",
+        "dia": "Lunes",
+        "clases_afectadas": [
+          {
+            "hora": "10:00-11:30",
+            "actividad": "6° Religion"
+          }
+        ],
+        "requiere_confirmacion": false
+      },
+      {
+        "fecha": "2026-03-16",
+        "evento": "Reunión Con Garra.",
+        "dia": "Lunes",
+        "clases_afectadas": [
+          {
+            "hora": "10:00-11:30",
+            "actividad": "6° Religion"
+          }
+        ],
+        "requiere_confirmacion": false
+      },
+      {
+        "fecha": "2026-03-16",
+        "evento": "Convivencia Camaradería.",
+        "dia": "Lunes",
+        "clases_afectadas": [
+          {
+            "hora": "08:15-09:45",
+            "actividad": "Planificacion / Material"
+          },
+          {
+            "hora": "10:00-11:30",
+            "actividad": "6° Religion"
+          },
+          {
+            "hora": "11:45-13:15",
+            "actividad": "1° Taller Patrimonio"
+          },
+          {
+            "hora": "14:15-15:45",
+            "actividad": "4° Religion"
+          },
+          {
+            "hora": "15:45-16:00",
+            "actividad": "Planificacion (Microbloque)"
+          },
+          {
+            "hora": "16:00-17:00",
+            "actividad": "Planificacion Fina"
+          }
+        ],
+        "requiere_confirmacion": false
+      },
+      {
+        "fecha": "2026-03-16",
+        "evento": "Reu. E. Gestión: a .",
+        "dia": "Lunes",
+        "clases_afectadas": [
+          {
+            "hora": "16:00-17:00",
+            "actividad": "Planificacion Fina"
+          }
+        ],
+        "requiere_confirmacion": false
+      },
+      {
+        "fecha": "2026-03-17",
+        "evento": "Presentación Fase Estratégica PME.",
+        "dia": "Martes",
+        "clases_afectadas": [
+          {
+            "hora": "08:15-09:45",
+            "actividad": "2° Religion"
+          },
+          {
+            "hora": "10:00-11:30",
+            "actividad": "7° Taller Patrimonio"
+          },
+          {
+            "hora": "11:45-13:15",
+            "actividad": "3° Religion"
+          },
+          {
+            "hora": "14:15-15:45",
+            "actividad": "8° Religion"
+          },
+          {
+            "hora": "16:00-18:00",
+            "actividad": "Consejo de Profesores"
+          }
+        ],
+        "requiere_confirmacion": false
+      },
+      {
+        "fecha": "2026-03-17",
+        "evento": "Consejo UTP.",
+        "dia": "Martes",
+        "clases_afectadas": [
+          {
+            "hora": "08:15-09:45",
+            "actividad": "2° Religion"
+          },
+          {
+            "hora": "10:00-11:30",
+            "actividad": "7° Taller Patrimonio"
+          },
+          {
+            "hora": "11:45-13:15",
+            "actividad": "3° Religion"
+          },
+          {
+            "hora": "14:15-15:45",
+            "actividad": "8° Religion"
+          },
+          {
+            "hora": "16:00-18:00",
+            "actividad": "Consejo de Profesores"
+          }
+        ],
+        "requiere_confirmacion": false
+      },
+      {
+        "fecha": "2026-03-17",
+        "evento": "Taller resultados SIMCE.",
+        "dia": "Martes",
+        "clases_afectadas": [
+          {
+            "hora": "08:15-09:45",
+            "actividad": "2° Religion"
+          },
+          {
+            "hora": "10:00-11:30",
+            "actividad": "7° Taller Patrimonio"
+          },
+          {
+            "hora": "11:45-13:15",
+            "actividad": "3° Religion"
+          },
+          {
+            "hora": "14:15-15:45",
+            "actividad": "8° Religion"
+          },
+          {
+            "hora": "16:00-18:00",
+            "actividad": "Consejo de Profesores"
+          }
+        ],
+        "requiere_confirmacion": false
+      },
+      {
+        "fecha": "2026-03-19",
+        "evento": "CPA MATEMÁTICAS: Plan Anual 2026.",
+        "dia": "Jueves",
+        "clases_afectadas": [
+          {
+            "hora": "08:15-09:45",
+            "actividad": "Preparacion de Clases"
+          },
+          {
+            "hora": "10:00-11:30",
+            "actividad": "7° Religion"
+          },
+          {
+            "hora": "11:45-13:15",
+            "actividad": "2° Taller Patrimonio"
+          },
+          {
+            "hora": "14:15-15:45",
+            "actividad": "6° Taller Patrimonio"
+          },
+          {
+            "hora": "15:45-15:59",
+            "actividad": "Planificacion (Microbloque)"
+          },
+          {
+            "hora": "16:00-17:00",
+            "actividad": "Atencion Apoderados"
+          },
+          {
+            "hora": "17:00-18:00",
+            "actividad": "CPA Matematicas"
+          }
+        ],
+        "requiere_confirmacion": false
+      },
+      {
+        "fecha": "2026-03-23",
+        "evento": "EMISIÓN DE INFORMES DIA DG.",
+        "dia": "Lunes",
+        "clases_afectadas": [
+          {
+            "hora": "08:15-09:45",
+            "actividad": "Planificacion / Material"
+          },
+          {
+            "hora": "10:00-11:30",
+            "actividad": "6° Religion"
+          },
+          {
+            "hora": "11:45-13:15",
+            "actividad": "1° Taller Patrimonio"
+          },
+          {
+            "hora": "14:15-15:45",
+            "actividad": "4° Religion"
+          },
+          {
+            "hora": "15:45-16:00",
+            "actividad": "Planificacion (Microbloque)"
+          },
+          {
+            "hora": "16:00-17:00",
+            "actividad": "Planificacion Fina"
+          }
+        ],
+        "requiere_confirmacion": false
+      },
+      {
+        "fecha": "2026-03-23",
+        "evento": "Reu. E. Gestión: a .",
+        "dia": "Lunes",
+        "clases_afectadas": [
+          {
+            "hora": "16:00-17:00",
+            "actividad": "Planificacion Fina"
+          }
+        ],
+        "requiere_confirmacion": false
+      },
+      {
+        "fecha": "2026-03-24",
+        "evento": "Consejo PIE.",
+        "dia": "Martes",
+        "clases_afectadas": [
+          {
+            "hora": "08:15-09:45",
+            "actividad": "2° Religion"
+          },
+          {
+            "hora": "10:00-11:30",
+            "actividad": "7° Taller Patrimonio"
+          },
+          {
+            "hora": "11:45-13:15",
+            "actividad": "3° Religion"
+          },
+          {
+            "hora": "14:15-15:45",
+            "actividad": "8° Religion"
+          },
+          {
+            "hora": "16:00-18:00",
+            "actividad": "Consejo de Profesores"
+          }
+        ],
+        "requiere_confirmacion": false
+      },
+      {
+        "fecha": "2026-03-26",
+        "evento": "CUENTA PÚBLICA GESTIÓN 2025.",
+        "dia": "Jueves",
+        "clases_afectadas": [
+          {
+            "hora": "08:15-09:45",
+            "actividad": "Preparacion de Clases"
+          },
+          {
+            "hora": "10:00-11:30",
+            "actividad": "7° Religion"
+          },
+          {
+            "hora": "11:45-13:15",
+            "actividad": "2° Taller Patrimonio"
+          },
+          {
+            "hora": "14:15-15:45",
+            "actividad": "6° Taller Patrimonio"
+          },
+          {
+            "hora": "15:45-15:59",
+            "actividad": "Planificacion (Microbloque)"
+          },
+          {
+            "hora": "16:00-17:00",
+            "actividad": "Atencion Apoderados"
+          },
+          {
+            "hora": "17:00-18:00",
+            "actividad": "CPA Matematicas"
+          }
+        ],
+        "requiere_confirmacion": false
+      },
+      {
+        "fecha": "2026-03-26",
+        "evento": "CPA MATEMÁTICAS: Análisis de resultados DIA.",
+        "dia": "Jueves",
+        "clases_afectadas": [
+          {
+            "hora": "08:15-09:45",
+            "actividad": "Preparacion de Clases"
+          },
+          {
+            "hora": "10:00-11:30",
+            "actividad": "7° Religion"
+          },
+          {
+            "hora": "11:45-13:15",
+            "actividad": "2° Taller Patrimonio"
+          },
+          {
+            "hora": "14:15-15:45",
+            "actividad": "6° Taller Patrimonio"
+          },
+          {
+            "hora": "15:45-15:59",
+            "actividad": "Planificacion (Microbloque)"
+          },
+          {
+            "hora": "16:00-17:00",
+            "actividad": "Atencion Apoderados"
+          },
+          {
+            "hora": "17:00-18:00",
+            "actividad": "CPA Matematicas"
+          }
+        ],
+        "requiere_confirmacion": false
+      },
+      {
+        "fecha": "2026-03-30",
+        "evento": "Reu. E. Gestión: a .",
+        "dia": "Lunes",
+        "clases_afectadas": [
+          {
+            "hora": "16:00-17:00",
+            "actividad": "Planificacion Fina"
+          }
+        ],
+        "requiere_confirmacion": false
+      },
+      {
+        "fecha": "2026-03-31",
+        "evento": "Consejo CONVIVENCIA.",
+        "dia": "Martes",
+        "clases_afectadas": [
+          {
+            "hora": "08:15-09:45",
+            "actividad": "2° Religion"
+          },
+          {
+            "hora": "10:00-11:30",
+            "actividad": "7° Taller Patrimonio"
+          },
+          {
+            "hora": "11:45-13:15",
+            "actividad": "3° Religion"
+          },
+          {
+            "hora": "14:15-15:45",
+            "actividad": "8° Religion"
+          },
+          {
+            "hora": "16:00-18:00",
+            "actividad": "Consejo de Profesores"
+          }
+        ],
+        "requiere_confirmacion": false
+      },
+      {
+        "fecha": "2026-03-31",
+        "evento": "ENTREGA PLANIFICACIÓN ABRIL A APODERADOS.",
+        "dia": "Martes",
+        "clases_afectadas": [
+          {
+            "hora": "08:15-09:45",
+            "actividad": "2° Religion"
+          },
+          {
+            "hora": "10:00-11:30",
+            "actividad": "7° Taller Patrimonio"
+          },
+          {
+            "hora": "11:45-13:15",
+            "actividad": "3° Religion"
+          },
+          {
+            "hora": "14:15-15:45",
+            "actividad": "8° Religion"
+          },
+          {
+            "hora": "16:00-18:00",
+            "actividad": "Consejo de Profesores"
+          }
+        ],
+        "requiere_confirmacion": false
+      },
+      {
+        "fecha": "2026-04-02",
+        "evento": "EFEMÉRIDE: DÍA DE CONCIENCIACIÓN SOBRE EL AUTISMO.",
+        "dia": "Jueves",
+        "clases_afectadas": [
+          {
+            "hora": "08:15-09:45",
+            "actividad": "Preparacion de Clases"
+          },
+          {
+            "hora": "10:00-11:30",
+            "actividad": "7° Religion"
+          },
+          {
+            "hora": "11:45-13:15",
+            "actividad": "2° Taller Patrimonio"
+          },
+          {
+            "hora": "14:15-15:45",
+            "actividad": "6° Taller Patrimonio"
+          },
+          {
+            "hora": "15:45-15:59",
+            "actividad": "Planificacion (Microbloque)"
+          },
+          {
+            "hora": "16:00-17:00",
+            "actividad": "Atencion Apoderados"
+          },
+          {
+            "hora": "17:00-18:00",
+            "actividad": "CPA Matematicas"
+          }
+        ],
+        "requiere_confirmacion": false
+      },
+      {
+        "fecha": "2026-04-02",
+        "evento": "CPA MATEMÁTICAS.",
+        "dia": "Jueves",
+        "clases_afectadas": [
+          {
+            "hora": "08:15-09:45",
+            "actividad": "Preparacion de Clases"
+          },
+          {
+            "hora": "10:00-11:30",
+            "actividad": "7° Religion"
+          },
+          {
+            "hora": "11:45-13:15",
+            "actividad": "2° Taller Patrimonio"
+          },
+          {
+            "hora": "14:15-15:45",
+            "actividad": "6° Taller Patrimonio"
+          },
+          {
+            "hora": "15:45-15:59",
+            "actividad": "Planificacion (Microbloque)"
+          },
+          {
+            "hora": "16:00-17:00",
+            "actividad": "Atencion Apoderados"
+          },
+          {
+            "hora": "17:00-18:00",
+            "actividad": "CPA Matematicas"
+          }
+        ],
+        "requiere_confirmacion": false
+      },
+      {
+        "fecha": "2026-04-06",
+        "evento": "EFEMÉRIDE",
+        "dia": "Lunes",
+        "clases_afectadas": [
+          {
+            "hora": "08:15-09:45",
+            "actividad": "Planificacion / Material"
+          },
+          {
+            "hora": "10:00-11:30",
+            "actividad": "6° Religion"
+          },
+          {
+            "hora": "11:45-13:15",
+            "actividad": "1° Taller Patrimonio"
+          },
+          {
+            "hora": "14:15-15:45",
+            "actividad": "4° Religion"
+          },
+          {
+            "hora": "15:45-16:00",
+            "actividad": "Planificacion (Microbloque)"
+          },
+          {
+            "hora": "16:00-17:00",
+            "actividad": "Planificacion Fina"
+          }
+        ],
+        "requiere_confirmacion": false
+      },
+      {
+        "fecha": "2026-04-06",
+        "evento": "ARTICULACIÓN: DÍA DE LA ACTIVIDAD FÍSICA Y SEMANA DE LA MATEMÁTICA.",
+        "dia": "Lunes",
+        "clases_afectadas": [
+          {
+            "hora": "08:15-09:45",
+            "actividad": "Planificacion / Material"
+          },
+          {
+            "hora": "10:00-11:30",
+            "actividad": "6° Religion"
+          },
+          {
+            "hora": "11:45-13:15",
+            "actividad": "1° Taller Patrimonio"
+          },
+          {
+            "hora": "14:15-15:45",
+            "actividad": "4° Religion"
+          },
+          {
+            "hora": "15:45-16:00",
+            "actividad": "Planificacion (Microbloque)"
+          },
+          {
+            "hora": "16:00-17:00",
+            "actividad": "Planificacion Fina"
+          }
+        ],
+        "requiere_confirmacion": false
+      },
+      {
+        "fecha": "2026-04-06",
+        "evento": "REUNIÓN DE APODERADOS 1ER CICLO.",
+        "dia": "Lunes",
+        "clases_afectadas": [
+          {
+            "hora": "08:15-09:45",
+            "actividad": "Planificacion / Material"
+          },
+          {
+            "hora": "10:00-11:30",
+            "actividad": "6° Religion"
+          },
+          {
+            "hora": "11:45-13:15",
+            "actividad": "1° Taller Patrimonio"
+          },
+          {
+            "hora": "14:15-15:45",
+            "actividad": "4° Religion"
+          },
+          {
+            "hora": "15:45-16:00",
+            "actividad": "Planificacion (Microbloque)"
+          },
+          {
+            "hora": "16:00-17:00",
+            "actividad": "Planificacion Fina"
+          }
+        ],
+        "requiere_confirmacion": false
+      },
+      {
+        "fecha": "2026-04-07",
+        "evento": "EFEMÉRIDE: SEMANA DE LA MATEMÁTICA.",
+        "dia": "Martes",
+        "clases_afectadas": [
+          {
+            "hora": "08:15-09:45",
+            "actividad": "2° Religion"
+          },
+          {
+            "hora": "10:00-11:30",
+            "actividad": "7° Taller Patrimonio"
+          },
+          {
+            "hora": "11:45-13:15",
+            "actividad": "3° Religion"
+          },
+          {
+            "hora": "14:15-15:45",
+            "actividad": "8° Religion"
+          },
+          {
+            "hora": "16:00-18:00",
+            "actividad": "Consejo de Profesores"
+          }
+        ],
+        "requiere_confirmacion": false
+      },
+      {
+        "fecha": "2026-04-07",
+        "evento": "REUNIÓN DE APODERADOS 2DO CICLO.",
+        "dia": "Martes",
+        "clases_afectadas": [
+          {
+            "hora": "08:15-09:45",
+            "actividad": "2° Religion"
+          },
+          {
+            "hora": "10:00-11:30",
+            "actividad": "7° Taller Patrimonio"
+          },
+          {
+            "hora": "11:45-13:15",
+            "actividad": "3° Religion"
+          },
+          {
+            "hora": "14:15-15:45",
+            "actividad": "8° Religion"
+          },
+          {
+            "hora": "16:00-18:00",
+            "actividad": "Consejo de Profesores"
+          }
+        ],
+        "requiere_confirmacion": false
+      },
+      {
+        "fecha": "2026-04-07",
+        "evento": "Consejo: Dirección",
+        "dia": "Martes",
+        "clases_afectadas": [
+          {
+            "hora": "08:15-09:45",
+            "actividad": "2° Religion"
+          },
+          {
+            "hora": "10:00-11:30",
+            "actividad": "7° Taller Patrimonio"
+          },
+          {
+            "hora": "11:45-13:15",
+            "actividad": "3° Religion"
+          },
+          {
+            "hora": "14:15-15:45",
+            "actividad": "8° Religion"
+          },
+          {
+            "hora": "16:00-18:00",
+            "actividad": "Consejo de Profesores"
+          }
+        ],
+        "requiere_confirmacion": false
+      },
+      {
+        "fecha": "2026-04-07",
+        "evento": "C. Curso.",
+        "dia": "Martes",
+        "clases_afectadas": [
+          {
+            "hora": "08:15-09:45",
+            "actividad": "2° Religion"
+          },
+          {
+            "hora": "10:00-11:30",
+            "actividad": "7° Taller Patrimonio"
+          },
+          {
+            "hora": "11:45-13:15",
+            "actividad": "3° Religion"
+          },
+          {
+            "hora": "14:15-15:45",
+            "actividad": "8° Religion"
+          },
+          {
+            "hora": "16:00-18:00",
+            "actividad": "Consejo de Profesores"
+          }
+        ],
+        "requiere_confirmacion": false
+      },
+      {
+        "fecha": "2026-04-09",
+        "evento": "EFEMÉRIDE: SEMANA DE LA MATEMÁTICA.",
+        "dia": "Jueves",
+        "clases_afectadas": [
+          {
+            "hora": "08:15-09:45",
+            "actividad": "Preparacion de Clases"
+          },
+          {
+            "hora": "10:00-11:30",
+            "actividad": "7° Religion"
+          },
+          {
+            "hora": "11:45-13:15",
+            "actividad": "2° Taller Patrimonio"
+          },
+          {
+            "hora": "14:15-15:45",
+            "actividad": "6° Taller Patrimonio"
+          },
+          {
+            "hora": "15:45-15:59",
+            "actividad": "Planificacion (Microbloque)"
+          },
+          {
+            "hora": "16:00-17:00",
+            "actividad": "Atencion Apoderados"
+          },
+          {
+            "hora": "17:00-18:00",
+            "actividad": "CPA Matematicas"
+          }
+        ],
+        "requiere_confirmacion": false
+      },
+      {
+        "fecha": "2026-04-09",
+        "evento": "CEREMONIA RECONOCIMIENTO TRAYECTORIA DOCENTE JOSÉ ULLOA.",
+        "dia": "Jueves",
+        "clases_afectadas": [
+          {
+            "hora": "08:15-09:45",
+            "actividad": "Preparacion de Clases"
+          },
+          {
+            "hora": "10:00-11:30",
+            "actividad": "7° Religion"
+          },
+          {
+            "hora": "11:45-13:15",
+            "actividad": "2° Taller Patrimonio"
+          },
+          {
+            "hora": "14:15-15:45",
+            "actividad": "6° Taller Patrimonio"
+          },
+          {
+            "hora": "15:45-15:59",
+            "actividad": "Planificacion (Microbloque)"
+          },
+          {
+            "hora": "16:00-17:00",
+            "actividad": "Atencion Apoderados"
+          },
+          {
+            "hora": "17:00-18:00",
+            "actividad": "CPA Matematicas"
+          }
+        ],
+        "requiere_confirmacion": false
+      },
+      {
+        "fecha": "2026-04-13",
+        "evento": "CONSEJO ESCOLAR Nº1: Por definir.",
+        "dia": "Lunes",
+        "clases_afectadas": [
+          {
+            "hora": "08:15-09:45",
+            "actividad": "Planificacion / Material"
+          },
+          {
+            "hora": "10:00-11:30",
+            "actividad": "6° Religion"
+          },
+          {
+            "hora": "11:45-13:15",
+            "actividad": "1° Taller Patrimonio"
+          },
+          {
+            "hora": "14:15-15:45",
+            "actividad": "4° Religion"
+          },
+          {
+            "hora": "15:45-16:00",
+            "actividad": "Planificacion (Microbloque)"
+          },
+          {
+            "hora": "16:00-17:00",
+            "actividad": "Planificacion Fina"
+          }
+        ],
+        "requiere_confirmacion": false
+      },
+      {
+        "fecha": "2026-04-14",
+        "evento": "Consejo: C.E.",
+        "dia": "Martes",
+        "clases_afectadas": [
+          {
+            "hora": "08:15-09:45",
+            "actividad": "2° Religion"
+          },
+          {
+            "hora": "10:00-11:30",
+            "actividad": "7° Taller Patrimonio"
+          },
+          {
+            "hora": "11:45-13:15",
+            "actividad": "3° Religion"
+          },
+          {
+            "hora": "14:15-15:45",
+            "actividad": "8° Religion"
+          },
+          {
+            "hora": "16:00-18:00",
+            "actividad": "Consejo de Profesores"
+          }
+        ],
+        "requiere_confirmacion": false
+      },
+      {
+        "fecha": "2026-04-16",
+        "evento": "JORNADA REVISIÓN REGLAMENTO INTERNO (Rex 632",
+        "dia": "Jueves",
+        "clases_afectadas": [
+          {
+            "hora": "08:15-09:45",
+            "actividad": "Preparacion de Clases"
+          },
+          {
+            "hora": "10:00-11:30",
+            "actividad": "7° Religion"
+          },
+          {
+            "hora": "11:45-13:15",
+            "actividad": "2° Taller Patrimonio"
+          },
+          {
+            "hora": "14:15-15:45",
+            "actividad": "6° Taller Patrimonio"
+          },
+          {
+            "hora": "15:45-15:59",
+            "actividad": "Planificacion (Microbloque)"
+          },
+          {
+            "hora": "16:00-17:00",
+            "actividad": "Atencion Apoderados"
+          },
+          {
+            "hora": "17:00-18:00",
+            "actividad": "CPA Matematicas"
+          }
+        ],
+        "requiere_confirmacion": false
+      },
+      {
+        "fecha": "2026-04-16",
+        "evento": "2025).",
+        "dia": "Jueves",
+        "clases_afectadas": [
+          {
+            "hora": "08:15-09:45",
+            "actividad": "Preparacion de Clases"
+          },
+          {
+            "hora": "10:00-11:30",
+            "actividad": "7° Religion"
+          },
+          {
+            "hora": "11:45-13:15",
+            "actividad": "2° Taller Patrimonio"
+          },
+          {
+            "hora": "14:15-15:45",
+            "actividad": "6° Taller Patrimonio"
+          },
+          {
+            "hora": "15:45-15:59",
+            "actividad": "Planificacion (Microbloque)"
+          },
+          {
+            "hora": "16:00-17:00",
+            "actividad": "Atencion Apoderados"
+          },
+          {
+            "hora": "17:00-18:00",
+            "actividad": "CPA Matematicas"
+          }
+        ],
+        "requiere_confirmacion": false
+      },
+      {
+        "fecha": "2026-04-16",
+        "evento": "CPA MATEMÁTICAS.",
+        "dia": "Jueves",
+        "clases_afectadas": [
+          {
+            "hora": "08:15-09:45",
+            "actividad": "Preparacion de Clases"
+          },
+          {
+            "hora": "10:00-11:30",
+            "actividad": "7° Religion"
+          },
+          {
+            "hora": "11:45-13:15",
+            "actividad": "2° Taller Patrimonio"
+          },
+          {
+            "hora": "14:15-15:45",
+            "actividad": "6° Taller Patrimonio"
+          },
+          {
+            "hora": "15:45-15:59",
+            "actividad": "Planificacion (Microbloque)"
+          },
+          {
+            "hora": "16:00-17:00",
+            "actividad": "Atencion Apoderados"
+          },
+          {
+            "hora": "17:00-18:00",
+            "actividad": "CPA Matematicas"
+          }
+        ],
+        "requiere_confirmacion": false
+      },
+      {
+        "fecha": "2026-04-21",
+        "evento": "Consejo: PIE.",
+        "dia": "Martes",
+        "clases_afectadas": [
+          {
+            "hora": "08:15-09:45",
+            "actividad": "2° Religion"
+          },
+          {
+            "hora": "10:00-11:30",
+            "actividad": "7° Taller Patrimonio"
+          },
+          {
+            "hora": "11:45-13:15",
+            "actividad": "3° Religion"
+          },
+          {
+            "hora": "14:15-15:45",
+            "actividad": "8° Religion"
+          },
+          {
+            "hora": "16:00-18:00",
+            "actividad": "Consejo de Profesores"
+          }
+        ],
+        "requiere_confirmacion": false
+      },
+      {
+        "fecha": "2026-04-23",
+        "evento": "EFEMÉRIDES",
+        "dia": "Jueves",
+        "clases_afectadas": [
+          {
+            "hora": "08:15-09:45",
+            "actividad": "Preparacion de Clases"
+          },
+          {
+            "hora": "10:00-11:30",
+            "actividad": "7° Religion"
+          },
+          {
+            "hora": "11:45-13:15",
+            "actividad": "2° Taller Patrimonio"
+          },
+          {
+            "hora": "14:15-15:45",
+            "actividad": "6° Taller Patrimonio"
+          },
+          {
+            "hora": "15:45-15:59",
+            "actividad": "Planificacion (Microbloque)"
+          },
+          {
+            "hora": "16:00-17:00",
+            "actividad": "Atencion Apoderados"
+          },
+          {
+            "hora": "17:00-18:00",
+            "actividad": "CPA Matematicas"
+          }
+        ],
+        "requiere_confirmacion": false
+      },
+      {
+        "fecha": "2026-04-23",
+        "evento": "ARTICULACIÓN: DÍA DEL LIBRO, DÍA DE LA TIERRA Y DÍA DE LA EDUCACIÓN RURAL.",
+        "dia": "Jueves",
+        "clases_afectadas": [
+          {
+            "hora": "08:15-09:45",
+            "actividad": "Preparacion de Clases"
+          },
+          {
+            "hora": "10:00-11:30",
+            "actividad": "7° Religion"
+          },
+          {
+            "hora": "11:45-13:15",
+            "actividad": "2° Taller Patrimonio"
+          },
+          {
+            "hora": "14:15-15:45",
+            "actividad": "6° Taller Patrimonio"
+          },
+          {
+            "hora": "15:45-15:59",
+            "actividad": "Planificacion (Microbloque)"
+          },
+          {
+            "hora": "16:00-17:00",
+            "actividad": "Atencion Apoderados"
+          },
+          {
+            "hora": "17:00-18:00",
+            "actividad": "CPA Matematicas"
+          }
+        ],
+        "requiere_confirmacion": false
+      },
+      {
+        "fecha": "2026-04-23",
+        "evento": "CPA MATEMÁTICAS.",
+        "dia": "Jueves",
+        "clases_afectadas": [
+          {
+            "hora": "08:15-09:45",
+            "actividad": "Preparacion de Clases"
+          },
+          {
+            "hora": "10:00-11:30",
+            "actividad": "7° Religion"
+          },
+          {
+            "hora": "11:45-13:15",
+            "actividad": "2° Taller Patrimonio"
+          },
+          {
+            "hora": "14:15-15:45",
+            "actividad": "6° Taller Patrimonio"
+          },
+          {
+            "hora": "15:45-15:59",
+            "actividad": "Planificacion (Microbloque)"
+          },
+          {
+            "hora": "16:00-17:00",
+            "actividad": "Atencion Apoderados"
+          },
+          {
+            "hora": "17:00-18:00",
+            "actividad": "CPA Matematicas"
+          }
+        ],
+        "requiere_confirmacion": false
+      },
+      {
+        "fecha": "2026-04-27",
+        "evento": "EFEMÉRIDE: DÍA DEL CARABINERO.",
+        "dia": "Lunes",
+        "clases_afectadas": [
+          {
+            "hora": "08:15-09:45",
+            "actividad": "Planificacion / Material"
+          },
+          {
+            "hora": "10:00-11:30",
+            "actividad": "6° Religion"
+          },
+          {
+            "hora": "11:45-13:15",
+            "actividad": "1° Taller Patrimonio"
+          },
+          {
+            "hora": "14:15-15:45",
+            "actividad": "4° Religion"
+          },
+          {
+            "hora": "15:45-16:00",
+            "actividad": "Planificacion (Microbloque)"
+          },
+          {
+            "hora": "16:00-17:00",
+            "actividad": "Planificacion Fina"
+          }
+        ],
+        "requiere_confirmacion": false
+      },
+      {
+        "fecha": "2026-04-28",
+        "evento": "Consejo: UTP.",
+        "dia": "Martes",
+        "clases_afectadas": [
+          {
+            "hora": "08:15-09:45",
+            "actividad": "2° Religion"
+          },
+          {
+            "hora": "10:00-11:30",
+            "actividad": "7° Taller Patrimonio"
+          },
+          {
+            "hora": "11:45-13:15",
+            "actividad": "3° Religion"
+          },
+          {
+            "hora": "14:15-15:45",
+            "actividad": "8° Religion"
+          },
+          {
+            "hora": "16:00-18:00",
+            "actividad": "Consejo de Profesores"
+          }
+        ],
+        "requiere_confirmacion": false
+      },
+      {
+        "fecha": "2026-04-30",
+        "evento": "CPA MATEMÁTICAS.",
+        "dia": "Jueves",
+        "clases_afectadas": [
+          {
+            "hora": "08:15-09:45",
+            "actividad": "Preparacion de Clases"
+          },
+          {
+            "hora": "10:00-11:30",
+            "actividad": "7° Religion"
+          },
+          {
+            "hora": "11:45-13:15",
+            "actividad": "2° Taller Patrimonio"
+          },
+          {
+            "hora": "14:15-15:45",
+            "actividad": "6° Taller Patrimonio"
+          },
+          {
+            "hora": "15:45-15:59",
+            "actividad": "Planificacion (Microbloque)"
+          },
+          {
+            "hora": "16:00-17:00",
+            "actividad": "Atencion Apoderados"
+          },
+          {
+            "hora": "17:00-18:00",
+            "actividad": "CPA Matematicas"
+          }
+        ],
+        "requiere_confirmacion": false
+      },
+      {
+        "fecha": "2026-05-04",
+        "evento": "REUNIÓN DE APODERADOS 1ER. CICLO.",
+        "dia": "Lunes",
+        "clases_afectadas": [
+          {
+            "hora": "08:15-09:45",
+            "actividad": "Planificacion / Material"
+          },
+          {
+            "hora": "10:00-11:30",
+            "actividad": "6° Religion"
+          },
+          {
+            "hora": "11:45-13:15",
+            "actividad": "1° Taller Patrimonio"
+          },
+          {
+            "hora": "14:15-15:45",
+            "actividad": "4° Religion"
+          },
+          {
+            "hora": "15:45-16:00",
+            "actividad": "Planificacion (Microbloque)"
+          },
+          {
+            "hora": "16:00-17:00",
+            "actividad": "Planificacion Fina"
+          }
+        ],
+        "requiere_confirmacion": false
+      },
+      {
+        "fecha": "2026-05-05",
+        "evento": "REUNIÓN DE APODERADOS 2DO. CICLO.",
+        "dia": "Martes",
+        "clases_afectadas": [
+          {
+            "hora": "08:15-09:45",
+            "actividad": "2° Religion"
+          },
+          {
+            "hora": "10:00-11:30",
+            "actividad": "7° Taller Patrimonio"
+          },
+          {
+            "hora": "11:45-13:15",
+            "actividad": "3° Religion"
+          },
+          {
+            "hora": "14:15-15:45",
+            "actividad": "8° Religion"
+          },
+          {
+            "hora": "16:00-18:00",
+            "actividad": "Consejo de Profesores"
+          }
+        ],
+        "requiere_confirmacion": false
+      },
+      {
+        "fecha": "2026-05-15",
+        "evento": "EFEMÉRIDE",
+        "dia": "Viernes",
+        "clases_afectadas": [
+          {
+            "hora": "08:15-09:45",
+            "actividad": "5° Taller Patrimonio"
+          },
+          {
+            "hora": "10:00-11:30",
+            "actividad": "8° Taller Patrimonio"
+          },
+          {
+            "hora": "11:45-13:15",
+            "actividad": "1° Religion"
+          },
+          {
+            "hora": "14:15-18:00",
+            "actividad": "Tarde Protegida"
+          }
+        ],
+        "requiere_confirmacion": false
+      },
+      {
+        "fecha": "2026-05-15",
+        "evento": "ARTICULACIÓN: DÍA DE LOS ESTUDIANTES Y DÍA DE LAS FAMILIAS.",
+        "dia": "Viernes",
+        "clases_afectadas": [
+          {
+            "hora": "08:15-09:45",
+            "actividad": "5° Taller Patrimonio"
+          },
+          {
+            "hora": "10:00-11:30",
+            "actividad": "8° Taller Patrimonio"
+          },
+          {
+            "hora": "11:45-13:15",
+            "actividad": "1° Religion"
+          },
+          {
+            "hora": "14:15-18:00",
+            "actividad": "Tarde Protegida"
+          }
+        ],
+        "requiere_confirmacion": false
+      },
+      {
+        "fecha": "2026-05-21",
+        "evento": "**FERIADO NACIONAL.**",
+        "dia": "Jueves",
+        "clases_afectadas": [
+          {
+            "hora": "08:15-09:45",
+            "actividad": "Preparacion de Clases"
+          },
+          {
+            "hora": "10:00-11:30",
+            "actividad": "7° Religion"
+          },
+          {
+            "hora": "11:45-13:15",
+            "actividad": "2° Taller Patrimonio"
+          },
+          {
+            "hora": "14:15-15:45",
+            "actividad": "6° Taller Patrimonio"
+          },
+          {
+            "hora": "15:45-15:59",
+            "actividad": "Planificacion (Microbloque)"
+          },
+          {
+            "hora": "16:00-17:00",
+            "actividad": "Atencion Apoderados"
+          },
+          {
+            "hora": "17:00-18:00",
+            "actividad": "CPA Matematicas"
+          }
+        ],
+        "requiere_confirmacion": false
+      },
+      {
+        "fecha": "2026-06-01",
+        "evento": "REUNIÓN DE APODERADOS 1ER. CICLO.",
+        "dia": "Lunes",
+        "clases_afectadas": [
+          {
+            "hora": "08:15-09:45",
+            "actividad": "Planificacion / Material"
+          },
+          {
+            "hora": "10:00-11:30",
+            "actividad": "6° Religion"
+          },
+          {
+            "hora": "11:45-13:15",
+            "actividad": "1° Taller Patrimonio"
+          },
+          {
+            "hora": "14:15-15:45",
+            "actividad": "4° Religion"
+          },
+          {
+            "hora": "15:45-16:00",
+            "actividad": "Planificacion (Microbloque)"
+          },
+          {
+            "hora": "16:00-17:00",
+            "actividad": "Planificacion Fina"
+          }
+        ],
+        "requiere_confirmacion": false
+      },
+      {
+        "fecha": "2026-06-02",
+        "evento": "REUNIÓN DE APODERADOS 2DO. CICLO.",
+        "dia": "Martes",
+        "clases_afectadas": [
+          {
+            "hora": "08:15-09:45",
+            "actividad": "2° Religion"
+          },
+          {
+            "hora": "10:00-11:30",
+            "actividad": "7° Taller Patrimonio"
+          },
+          {
+            "hora": "11:45-13:15",
+            "actividad": "3° Religion"
+          },
+          {
+            "hora": "14:15-15:45",
+            "actividad": "8° Religion"
+          },
+          {
+            "hora": "16:00-18:00",
+            "actividad": "Consejo de Profesores"
+          }
+        ],
+        "requiere_confirmacion": false
+      },
+      {
+        "fecha": "2026-06-19",
+        "evento": "EFEMÉRIDE: DÍA MUNDIAL PARA LA PREVENCIÓN DEL A.S. Y DÍA DE LA EDUCACIÓN NO SEXISTA.",
+        "dia": "Viernes",
+        "clases_afectadas": [
+          {
+            "hora": "08:15-09:45",
+            "actividad": "5° Taller Patrimonio"
+          },
+          {
+            "hora": "10:00-11:30",
+            "actividad": "8° Taller Patrimonio"
+          },
+          {
+            "hora": "11:45-13:15",
+            "actividad": "1° Religion"
+          },
+          {
+            "hora": "14:15-18:00",
+            "actividad": "Tarde Protegida"
+          }
+        ],
+        "requiere_confirmacion": false
+      },
+      {
+        "fecha": "2026-06-22",
+        "evento": "EFEMÉRIDE",
+        "dia": "Lunes",
+        "clases_afectadas": [
+          {
+            "hora": "08:15-09:45",
+            "actividad": "Planificacion / Material"
+          },
+          {
+            "hora": "10:00-11:30",
+            "actividad": "6° Religion"
+          },
+          {
+            "hora": "11:45-13:15",
+            "actividad": "1° Taller Patrimonio"
+          },
+          {
+            "hora": "14:15-15:45",
+            "actividad": "4° Religion"
+          },
+          {
+            "hora": "15:45-16:00",
+            "actividad": "Planificacion (Microbloque)"
+          },
+          {
+            "hora": "16:00-17:00",
+            "actividad": "Planificacion Fina"
+          }
+        ],
+        "requiere_confirmacion": false
+      },
+      {
+        "fecha": "2026-06-22",
+        "evento": "ARTICULACIÓN: DÍA MUNDIAL DEL MEDIO AMBIENTE Y DÍA DE LOS PUEBLOS ORIGINARIOS.",
+        "dia": "Lunes",
+        "clases_afectadas": [
+          {
+            "hora": "08:15-09:45",
+            "actividad": "Planificacion / Material"
+          },
+          {
+            "hora": "10:00-11:30",
+            "actividad": "6° Religion"
+          },
+          {
+            "hora": "11:45-13:15",
+            "actividad": "1° Taller Patrimonio"
+          },
+          {
+            "hora": "14:15-15:45",
+            "actividad": "4° Religion"
+          },
+          {
+            "hora": "15:45-16:00",
+            "actividad": "Planificacion (Microbloque)"
+          },
+          {
+            "hora": "16:00-17:00",
+            "actividad": "Planificacion Fina"
+          }
+        ],
+        "requiere_confirmacion": false
+      },
+      {
+        "fecha": "2026-06-26",
+        "evento": "EFEMÉRIDE: DÍA NACIONAL DE LA PREVENCIÓN DEL CONSUMO DE DROGAS.",
+        "dia": "Viernes",
+        "clases_afectadas": [
+          {
+            "hora": "08:15-09:45",
+            "actividad": "5° Taller Patrimonio"
+          },
+          {
+            "hora": "10:00-11:30",
+            "actividad": "8° Taller Patrimonio"
+          },
+          {
+            "hora": "11:45-13:15",
+            "actividad": "1° Religion"
+          },
+          {
+            "hora": "14:15-18:00",
+            "actividad": "Tarde Protegida"
+          }
+        ],
+        "requiere_confirmacion": false
+      },
+      {
+        "fecha": "2026-06-30",
+        "evento": "EFEMÉRIDE: DÍA NACIONAL DEL BOMBERO VOLUNTARIO.",
+        "dia": "Martes",
+        "clases_afectadas": [
+          {
+            "hora": "08:15-09:45",
+            "actividad": "2° Religion"
+          },
+          {
+            "hora": "10:00-11:30",
+            "actividad": "7° Taller Patrimonio"
+          },
+          {
+            "hora": "11:45-13:15",
+            "actividad": "3° Religion"
+          },
+          {
+            "hora": "14:15-15:45",
+            "actividad": "8° Religion"
+          },
+          {
+            "hora": "16:00-18:00",
+            "actividad": "Consejo de Profesores"
+          }
+        ],
+        "requiere_confirmacion": false
+      },
+      {
+        "fecha": "2026-07-02",
+        "evento": "ÚLTIMO DÍA DE CLASES 1ER. SEMESTRE.",
+        "dia": "Jueves",
+        "clases_afectadas": [
+          {
+            "hora": "08:15-09:45",
+            "actividad": "Preparacion de Clases"
+          },
+          {
+            "hora": "10:00-11:30",
+            "actividad": "7° Religion"
+          },
+          {
+            "hora": "11:45-13:15",
+            "actividad": "2° Taller Patrimonio"
+          },
+          {
+            "hora": "14:15-15:45",
+            "actividad": "6° Taller Patrimonio"
+          },
+          {
+            "hora": "15:45-15:59",
+            "actividad": "Planificacion (Microbloque)"
+          },
+          {
+            "hora": "16:00-17:00",
+            "actividad": "Atencion Apoderados"
+          },
+          {
+            "hora": "17:00-18:00",
+            "actividad": "CPA Matematicas"
+          }
+        ],
+        "requiere_confirmacion": false
+      },
+      {
+        "fecha": "2026-07-03",
+        "evento": "JORNADA DE EVALUACIÓN 1ER. SEMESTRE.",
+        "dia": "Viernes",
+        "clases_afectadas": [
+          {
+            "hora": "08:15-09:45",
+            "actividad": "5° Taller Patrimonio"
+          },
+          {
+            "hora": "10:00-11:30",
+            "actividad": "8° Taller Patrimonio"
+          },
+          {
+            "hora": "11:45-13:15",
+            "actividad": "1° Religion"
+          },
+          {
+            "hora": "14:15-18:00",
+            "actividad": "Tarde Protegida"
+          }
+        ],
+        "requiere_confirmacion": false
+      },
+      {
+        "fecha": "2026-07-27",
+        "evento": "INICIO 2DO. SEMESTRE.",
+        "dia": "Lunes",
+        "clases_afectadas": [
+          {
+            "hora": "08:15-09:45",
+            "actividad": "Planificacion / Material"
+          },
+          {
+            "hora": "10:00-11:30",
+            "actividad": "6° Religion"
+          },
+          {
+            "hora": "11:45-13:15",
+            "actividad": "1° Taller Patrimonio"
+          },
+          {
+            "hora": "14:15-15:45",
+            "actividad": "4° Religion"
+          },
+          {
+            "hora": "15:45-16:00",
+            "actividad": "Planificacion (Microbloque)"
+          },
+          {
+            "hora": "16:00-17:00",
+            "actividad": "Planificacion Fina"
+          }
+        ],
+        "requiere_confirmacion": false
+      }
+    ],
+    "eventos_calendario": [
+      {
+        "fecha": "2026-03-02",
+        "tipo": "Hito",
+        "desc": "CONSEJO DE PRESENTACIÓN Y ORGANIZACIÓN AÑO ESCOLAR 2026.",
+        "hora": "08:30"
+      },
+      {
+        "fecha": "2026-03-03",
+        "tipo": "Hito",
+        "desc": "JORNADA DE PLANIFICACIÓN 2026.",
+        "hora": ""
+      },
+      {
+        "fecha": "2026-03-04",
+        "tipo": "Hito",
+        "desc": "INICIO AÑO ESCOLAR",
+        "hora": "08:15"
+      },
+      {
+        "fecha": "2026-03-04",
+        "tipo": "Hito",
+        "desc": "ACTO BIENVENIDA 2026:",
+        "hora": "09:00"
+      },
+      {
+        "fecha": "2026-03-04",
+        "tipo": "Reunión",
+        "desc": "REUNIÓN EQUIPO DOCENTES JEFE:",
+        "hora": "17:00"
+      },
+      {
+        "fecha": "2026-03-05",
+        "tipo": "Reunión",
+        "desc": "REUNIÓN COORDINADORES:",
+        "hora": "17:00"
+      },
+      {
+        "fecha": "2026-03-09",
+        "tipo": "Efeméride",
+        "desc": "EFEMÉRIDE: CEREMONIA INAUGURACIÓN OBRA DE CONSERVACIÓN.",
+        "hora": "10:00"
+      },
+      {
+        "fecha": "2026-03-09",
+        "tipo": "Hito",
+        "desc": "Reu. E. Gestión: a .",
+        "hora": "16:00"
+      },
+      {
+        "fecha": "2026-03-10",
+        "tipo": "Hito",
+        "desc": "INICIO APLICACIÓN DIA DIAGNÓSTICO.",
+        "hora": ""
+      },
+      {
+        "fecha": "2026-03-10",
+        "tipo": "Reunión",
+        "desc": "REUNIÓN DE APODERADOS 2DO CICLO.",
+        "hora": ""
+      },
+      {
+        "fecha": "2026-03-10",
+        "tipo": "Hito",
+        "desc": "Consejo DIRECCIÓN.",
+        "hora": ""
+      },
+      {
+        "fecha": "2026-03-11",
+        "tipo": "Hito",
+        "desc": "Intervención recreo Agrupación Danzas del Viento.",
+        "hora": "11:30"
+      },
+      {
+        "fecha": "2026-03-11",
+        "tipo": "Hito",
+        "desc": "Visita Trek Relief.",
+        "hora": "14:30"
+      },
+      {
+        "fecha": "2026-03-11",
+        "tipo": "Hito",
+        "desc": "Programa Radial: a",
+        "hora": "12:15"
+      },
+      {
+        "fecha": "2026-03-12",
+        "tipo": "Hito",
+        "desc": "a Hito lanzamiento de proyecto Invernadero.",
+        "hora": "10:00"
+      },
+      {
+        "fecha": "2026-03-12",
+        "tipo": "Hito",
+        "desc": "a Taller práctico \"Manos a la obra\".",
+        "hora": "14:15"
+      },
+      {
+        "fecha": "2026-03-13",
+        "tipo": "Hito",
+        "desc": "Taller teórico Compostaje.",
+        "hora": "10:00"
+      },
+      {
+        "fecha": "2026-03-13",
+        "tipo": "Hito",
+        "desc": "Firma convenio SLEP + Renewal.",
+        "hora": "15:00"
+      },
+      {
+        "fecha": "2026-03-16",
+        "tipo": "Efeméride",
+        "desc": "EFEMÉRIDE.",
+        "hora": ""
+      },
+      {
+        "fecha": "2026-03-16",
+        "tipo": "Hito",
+        "desc": "Reunión Rewilding.",
+        "hora": "10:00"
+      },
+      {
+        "fecha": "2026-03-16",
+        "tipo": "Hito",
+        "desc": "Reunión Con Garra.",
+        "hora": "11:00"
+      },
+      {
+        "fecha": "2026-03-16",
+        "tipo": "Hito",
+        "desc": "Convivencia Camaradería.",
+        "hora": ""
+      },
+      {
+        "fecha": "2026-03-16",
+        "tipo": "Hito",
+        "desc": "Reu. E. Gestión: a .",
+        "hora": "16:00"
+      },
+      {
+        "fecha": "2026-03-17",
+        "tipo": "Hito",
+        "desc": "Presentación Fase Estratégica PME.",
+        "hora": ""
+      },
+      {
+        "fecha": "2026-03-17",
+        "tipo": "Hito",
+        "desc": "Consejo UTP.",
+        "hora": ""
+      },
+      {
+        "fecha": "2026-03-17",
+        "tipo": "Hito",
+        "desc": "Taller resultados SIMCE.",
+        "hora": ""
+      },
+      {
+        "fecha": "2026-03-18",
+        "tipo": "Hito",
+        "desc": "Programa Radial: a",
+        "hora": "12:15"
+      },
+      {
+        "fecha": "2026-03-18",
+        "tipo": "Hito",
+        "desc": "CPA LENGUAJE: Plan Anual 2026.",
+        "hora": ""
+      },
+      {
+        "fecha": "2026-03-19",
+        "tipo": "Hito",
+        "desc": "CPA MATEMÁTICAS: Plan Anual 2026.",
+        "hora": ""
+      },
+      {
+        "fecha": "2026-03-23",
+        "tipo": "Hito",
+        "desc": "EMISIÓN DE INFORMES DIA DG.",
+        "hora": ""
+      },
+      {
+        "fecha": "2026-03-23",
+        "tipo": "Hito",
+        "desc": "Reu. E. Gestión: a .",
+        "hora": "16:00"
+      },
+      {
+        "fecha": "2026-03-24",
+        "tipo": "Hito",
+        "desc": "Consejo PIE.",
+        "hora": ""
+      },
+      {
+        "fecha": "2026-03-25",
+        "tipo": "Hito",
+        "desc": "Programa Radial: a",
+        "hora": "12:15"
+      },
+      {
+        "fecha": "2026-03-25",
+        "tipo": "Hito",
+        "desc": "CPA LENGUAJE: Análisis resultados DIA.",
+        "hora": ""
+      },
+      {
+        "fecha": "2026-03-26",
+        "tipo": "Hito",
+        "desc": "CUENTA PÚBLICA GESTIÓN 2025.",
+        "hora": ""
+      },
+      {
+        "fecha": "2026-03-26",
+        "tipo": "Hito",
+        "desc": "CPA MATEMÁTICAS: Análisis de resultados DIA.",
+        "hora": ""
+      },
+      {
+        "fecha": "2026-03-30",
+        "tipo": "Hito",
+        "desc": "Reu. E. Gestión: a .",
+        "hora": "16:00"
+      },
+      {
+        "fecha": "2026-03-31",
+        "tipo": "Hito",
+        "desc": "Consejo CONVIVENCIA.",
+        "hora": ""
+      },
+      {
+        "fecha": "2026-03-31",
+        "tipo": "Hito",
+        "desc": "ENTREGA PLANIFICACIÓN ABRIL A APODERADOS.",
+        "hora": ""
+      },
+      {
+        "fecha": "2026-04-01",
+        "tipo": "Hito",
+        "desc": "Programa Radial: a",
+        "hora": "12:15"
+      },
+      {
+        "fecha": "2026-04-01",
+        "tipo": "Hito",
+        "desc": "CPA LENGUAJE.",
+        "hora": ""
+      },
+      {
+        "fecha": "2026-04-02",
+        "tipo": "Efeméride",
+        "desc": "EFEMÉRIDE: DÍA DE CONCIENCIACIÓN SOBRE EL AUTISMO.",
+        "hora": ""
+      },
+      {
+        "fecha": "2026-04-02",
+        "tipo": "Hito",
+        "desc": "CPA MATEMÁTICAS.",
+        "hora": ""
+      },
+      {
+        "fecha": "2026-04-06",
+        "tipo": "Efeméride",
+        "desc": "EFEMÉRIDE",
+        "hora": ""
+      },
+      {
+        "fecha": "2026-04-06",
+        "tipo": "Hito",
+        "desc": "ARTICULACIÓN: DÍA DE LA ACTIVIDAD FÍSICA Y SEMANA DE LA MATEMÁTICA.",
+        "hora": ""
+      },
+      {
+        "fecha": "2026-04-06",
+        "tipo": "Reunión",
+        "desc": "REUNIÓN DE APODERADOS 1ER CICLO.",
+        "hora": ""
+      },
+      {
+        "fecha": "2026-04-07",
+        "tipo": "Efeméride",
+        "desc": "EFEMÉRIDE: SEMANA DE LA MATEMÁTICA.",
+        "hora": ""
+      },
+      {
+        "fecha": "2026-04-07",
+        "tipo": "Reunión",
+        "desc": "REUNIÓN DE APODERADOS 2DO CICLO.",
+        "hora": ""
+      },
+      {
+        "fecha": "2026-04-07",
+        "tipo": "Hito",
+        "desc": "Consejo: Dirección",
+        "hora": ""
+      },
+      {
+        "fecha": "2026-04-07",
+        "tipo": "Hito",
+        "desc": "C. Curso.",
+        "hora": ""
+      },
+      {
+        "fecha": "2026-04-08",
+        "tipo": "Efeméride",
+        "desc": "EFEMÉRIDE: SEMANA DE LA MATEMÁTICA.",
+        "hora": ""
+      },
+      {
+        "fecha": "2026-04-08",
+        "tipo": "Hito",
+        "desc": "Programa Radial: a",
+        "hora": "12:15"
+      },
+      {
+        "fecha": "2026-04-08",
+        "tipo": "Hito",
+        "desc": "CPA LENGUAJE.",
+        "hora": ""
+      },
+      {
+        "fecha": "2026-04-09",
+        "tipo": "Efeméride",
+        "desc": "EFEMÉRIDE: SEMANA DE LA MATEMÁTICA.",
+        "hora": ""
+      },
+      {
+        "fecha": "2026-04-09",
+        "tipo": "Hito",
+        "desc": "CEREMONIA RECONOCIMIENTO TRAYECTORIA DOCENTE JOSÉ ULLOA.",
+        "hora": ""
+      },
+      {
+        "fecha": "2026-04-13",
+        "tipo": "Hito",
+        "desc": "CONSEJO ESCOLAR Nº1: Por definir.",
+        "hora": ""
+      },
+      {
+        "fecha": "2026-04-14",
+        "tipo": "Hito",
+        "desc": "Consejo: C.E.",
+        "hora": ""
+      },
+      {
+        "fecha": "2026-04-15",
+        "tipo": "Hito",
+        "desc": "Programa Radial: a",
+        "hora": "12:15"
+      },
+      {
+        "fecha": "2026-04-15",
+        "tipo": "Hito",
+        "desc": "CPA LENGUAJE.",
+        "hora": ""
+      },
+      {
+        "fecha": "2026-04-16",
+        "tipo": "Hito",
+        "desc": "JORNADA REVISIÓN REGLAMENTO INTERNO (Rex 632",
+        "hora": ""
+      },
+      {
+        "fecha": "2026-04-16",
+        "tipo": "Hito",
+        "desc": "2025).",
+        "hora": ""
+      },
+      {
+        "fecha": "2026-04-16",
+        "tipo": "Hito",
+        "desc": "CPA MATEMÁTICAS.",
+        "hora": ""
+      },
+      {
+        "fecha": "2026-04-21",
+        "tipo": "Hito",
+        "desc": "Consejo: PIE.",
+        "hora": ""
+      },
+      {
+        "fecha": "2026-04-22",
+        "tipo": "Hito",
+        "desc": "Feria Científica: Proyecto Arqueología, paleontología y paleoetnobotánica.",
+        "hora": ""
+      },
+      {
+        "fecha": "2026-04-22",
+        "tipo": "Hito",
+        "desc": "Programa Radial: a",
+        "hora": "12:15"
+      },
+      {
+        "fecha": "2026-04-22",
+        "tipo": "Hito",
+        "desc": "CPA LENGUAJE.",
+        "hora": ""
+      },
+      {
+        "fecha": "2026-04-23",
+        "tipo": "Efeméride",
+        "desc": "EFEMÉRIDES",
+        "hora": ""
+      },
+      {
+        "fecha": "2026-04-23",
+        "tipo": "Hito",
+        "desc": "ARTICULACIÓN: DÍA DEL LIBRO, DÍA DE LA TIERRA Y DÍA DE LA EDUCACIÓN RURAL.",
+        "hora": ""
+      },
+      {
+        "fecha": "2026-04-23",
+        "tipo": "Hito",
+        "desc": "CPA MATEMÁTICAS.",
+        "hora": ""
+      },
+      {
+        "fecha": "2026-04-27",
+        "tipo": "Efeméride",
+        "desc": "EFEMÉRIDE: DÍA DEL CARABINERO.",
+        "hora": ""
+      },
+      {
+        "fecha": "2026-04-28",
+        "tipo": "Hito",
+        "desc": "Consejo: UTP.",
+        "hora": ""
+      },
+      {
+        "fecha": "2026-04-29",
+        "tipo": "Hito",
+        "desc": "Programa Radial: a",
+        "hora": "12:15"
+      },
+      {
+        "fecha": "2026-04-29",
+        "tipo": "Efeméride",
+        "desc": "EFEMÉRIDE: DÍA DE LA CONVIVENCIA EDUCATIVA.",
+        "hora": ""
+      },
+      {
+        "fecha": "2026-04-30",
+        "tipo": "Hito",
+        "desc": "CPA MATEMÁTICAS.",
+        "hora": ""
+      },
+      {
+        "fecha": "2026-05-04",
+        "tipo": "Reunión",
+        "desc": "REUNIÓN DE APODERADOS 1ER. CICLO.",
+        "hora": ""
+      },
+      {
+        "fecha": "2026-05-05",
+        "tipo": "Reunión",
+        "desc": "REUNIÓN DE APODERADOS 2DO. CICLO.",
+        "hora": ""
+      },
+      {
+        "fecha": "2026-05-15",
+        "tipo": "Efeméride",
+        "desc": "EFEMÉRIDE",
+        "hora": ""
+      },
+      {
+        "fecha": "2026-05-15",
+        "tipo": "Hito",
+        "desc": "ARTICULACIÓN: DÍA DE LOS ESTUDIANTES Y DÍA DE LAS FAMILIAS.",
+        "hora": ""
+      },
+      {
+        "fecha": "2026-05-20",
+        "tipo": "Efeméride",
+        "desc": "EFEMÉRIDE: GLORIAS NAVALES.",
+        "hora": ""
+      },
+      {
+        "fecha": "2026-05-21",
+        "tipo": "Hito",
+        "desc": "**FERIADO NACIONAL.**",
+        "hora": ""
+      },
+      {
+        "fecha": "2026-05-25",
+        "tipo": "Efeméride",
+        "desc": "EFEMÉRIDE/ ARTICULACIÓN: SEMANA DE LA EDUCACIÓN ARTÍSTICA, DÍA DEL PATRIMONIO Y SEGURIDAD ESCOLAR. (El día 28 incluye también la EFEMÉRIDE: DÍA DEL JUEGO).",
+        "hora": ""
+      },
+      {
+        "fecha": "2026-05-26",
+        "tipo": "Efeméride",
+        "desc": "EFEMÉRIDE/ ARTICULACIÓN: SEMANA DE LA EDUCACIÓN ARTÍSTICA, DÍA DEL PATRIMONIO Y SEGURIDAD ESCOLAR. (El día 28 incluye también la EFEMÉRIDE: DÍA DEL JUEGO).",
+        "hora": ""
+      },
+      {
+        "fecha": "2026-05-27",
+        "tipo": "Efeméride",
+        "desc": "EFEMÉRIDE/ ARTICULACIÓN: SEMANA DE LA EDUCACIÓN ARTÍSTICA, DÍA DEL PATRIMONIO Y SEGURIDAD ESCOLAR. (El día 28 incluye también la EFEMÉRIDE: DÍA DEL JUEGO).",
+        "hora": ""
+      },
+      {
+        "fecha": "2026-05-28",
+        "tipo": "Efeméride",
+        "desc": "EFEMÉRIDE/ ARTICULACIÓN: SEMANA DE LA EDUCACIÓN ARTÍSTICA, DÍA DEL PATRIMONIO Y SEGURIDAD ESCOLAR. (El día 28 incluye también la EFEMÉRIDE: DÍA DEL JUEGO).",
+        "hora": ""
+      },
+      {
+        "fecha": "2026-05-29",
+        "tipo": "Efeméride",
+        "desc": "EFEMÉRIDE/ ARTICULACIÓN: SEMANA DE LA EDUCACIÓN ARTÍSTICA, DÍA DEL PATRIMONIO Y SEGURIDAD ESCOLAR. (El día 28 incluye también la EFEMÉRIDE: DÍA DEL JUEGO).",
+        "hora": ""
+      },
+      {
+        "fecha": "2026-06-01",
+        "tipo": "Reunión",
+        "desc": "REUNIÓN DE APODERADOS 1ER. CICLO.",
+        "hora": ""
+      },
+      {
+        "fecha": "2026-06-02",
+        "tipo": "Reunión",
+        "desc": "REUNIÓN DE APODERADOS 2DO. CICLO.",
+        "hora": ""
+      },
+      {
+        "fecha": "2026-06-19",
+        "tipo": "Efeméride",
+        "desc": "EFEMÉRIDE: DÍA MUNDIAL PARA LA PREVENCIÓN DEL A.S. Y DÍA DE LA EDUCACIÓN NO SEXISTA.",
+        "hora": ""
+      },
+      {
+        "fecha": "2026-06-22",
+        "tipo": "Efeméride",
+        "desc": "EFEMÉRIDE",
+        "hora": ""
+      },
+      {
+        "fecha": "2026-06-22",
+        "tipo": "Hito",
+        "desc": "ARTICULACIÓN: DÍA MUNDIAL DEL MEDIO AMBIENTE Y DÍA DE LOS PUEBLOS ORIGINARIOS.",
+        "hora": ""
+      },
+      {
+        "fecha": "2026-06-26",
+        "tipo": "Efeméride",
+        "desc": "EFEMÉRIDE: DÍA NACIONAL DE LA PREVENCIÓN DEL CONSUMO DE DROGAS.",
+        "hora": ""
+      },
+      {
+        "fecha": "2026-06-30",
+        "tipo": "Efeméride",
+        "desc": "EFEMÉRIDE: DÍA NACIONAL DEL BOMBERO VOLUNTARIO.",
+        "hora": ""
+      },
+      {
+        "fecha": "2026-07-01",
+        "tipo": "Hito",
+        "desc": "FERIA LEC 1 ER. SEMESTRE.",
+        "hora": ""
+      },
+      {
+        "fecha": "2026-07-02",
+        "tipo": "Hito",
+        "desc": "ÚLTIMO DÍA DE CLASES 1ER. SEMESTRE.",
+        "hora": ""
+      },
+      {
+        "fecha": "2026-07-03",
+        "tipo": "Hito",
+        "desc": "JORNADA DE EVALUACIÓN 1ER. SEMESTRE.",
+        "hora": ""
+      },
+      {
+        "fecha": "2026-07-06",
+        "tipo": "Hito",
+        "desc": "RECESO ESCOLAR (VACACIONES DE INVIERNO).",
+        "hora": ""
+      },
+      {
+        "fecha": "2026-07-07",
+        "tipo": "Hito",
+        "desc": "RECESO ESCOLAR (VACACIONES DE INVIERNO).",
+        "hora": ""
+      },
+      {
+        "fecha": "2026-07-08",
+        "tipo": "Hito",
+        "desc": "RECESO ESCOLAR (VACACIONES DE INVIERNO).",
+        "hora": ""
+      },
+      {
+        "fecha": "2026-07-09",
+        "tipo": "Hito",
+        "desc": "RECESO ESCOLAR (VACACIONES DE INVIERNO).",
+        "hora": ""
+      },
+      {
+        "fecha": "2026-07-10",
+        "tipo": "Hito",
+        "desc": "RECESO ESCOLAR (VACACIONES DE INVIERNO).",
+        "hora": ""
+      },
+      {
+        "fecha": "2026-07-11",
+        "tipo": "Hito",
+        "desc": "RECESO ESCOLAR (VACACIONES DE INVIERNO).",
+        "hora": ""
+      },
+      {
+        "fecha": "2026-07-12",
+        "tipo": "Hito",
+        "desc": "RECESO ESCOLAR (VACACIONES DE INVIERNO).",
+        "hora": ""
+      },
+      {
+        "fecha": "2026-07-13",
+        "tipo": "Hito",
+        "desc": "RECESO ESCOLAR (VACACIONES DE INVIERNO).",
+        "hora": ""
+      },
+      {
+        "fecha": "2026-07-14",
+        "tipo": "Hito",
+        "desc": "RECESO ESCOLAR (VACACIONES DE INVIERNO).",
+        "hora": ""
+      },
+      {
+        "fecha": "2026-07-15",
+        "tipo": "Hito",
+        "desc": "RECESO ESCOLAR (VACACIONES DE INVIERNO).",
+        "hora": ""
+      },
+      {
+        "fecha": "2026-07-16",
+        "tipo": "Hito",
+        "desc": "RECESO ESCOLAR (VACACIONES DE INVIERNO).",
+        "hora": ""
+      },
+      {
+        "fecha": "2026-07-17",
+        "tipo": "Hito",
+        "desc": "RECESO ESCOLAR (VACACIONES DE INVIERNO).",
+        "hora": ""
+      },
+      {
+        "fecha": "2026-07-18",
+        "tipo": "Hito",
+        "desc": "RECESO ESCOLAR (VACACIONES DE INVIERNO).",
+        "hora": ""
+      },
+      {
+        "fecha": "2026-07-19",
+        "tipo": "Hito",
+        "desc": "RECESO ESCOLAR (VACACIONES DE INVIERNO).",
+        "hora": ""
+      },
+      {
+        "fecha": "2026-07-20",
+        "tipo": "Hito",
+        "desc": "RECESO ESCOLAR (VACACIONES DE INVIERNO).",
+        "hora": ""
+      },
+      {
+        "fecha": "2026-07-21",
+        "tipo": "Hito",
+        "desc": "RECESO ESCOLAR (VACACIONES DE INVIERNO).",
+        "hora": ""
+      },
+      {
+        "fecha": "2026-07-22",
+        "tipo": "Hito",
+        "desc": "RECESO ESCOLAR (VACACIONES DE INVIERNO).",
+        "hora": ""
+      },
+      {
+        "fecha": "2026-07-23",
+        "tipo": "Hito",
+        "desc": "RECESO ESCOLAR (VACACIONES DE INVIERNO).",
+        "hora": ""
+      },
+      {
+        "fecha": "2026-07-24",
+        "tipo": "Hito",
+        "desc": "RECESO ESCOLAR (VACACIONES DE INVIERNO).",
+        "hora": ""
+      },
+      {
+        "fecha": "2026-07-27",
+        "tipo": "Hito",
+        "desc": "INICIO 2DO. SEMESTRE.",
+        "hora": ""
+      }
+    ]
+  }
+}
