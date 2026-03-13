@@ -1,5 +1,5 @@
 {
-  "generado_en": "2026-03-13T06:58:56.957639",
+  "generado_en": "2026-03-13T07:05:55.503130",
   "meta": {
     "total_cursos_configurados": 8,
     "hitos_registrados_hoy": 0,
@@ -9,14 +9,15 @@
   "datos": {
     "cursos": {
       "1basico": {
-        "cantidad_alumnos": 9,
+        "cantidad_alumnos": 10,
         "alumnos": [
           "AGUILAR MANRÍQUEZ, EMMALINE SAYEN YARELA (WILMA)",
           "ALARCÓN PEREIRA, CATALEYA ISABELLA (CATALEYA)",
           "BAEZA ALVARADO, GABRIELA ANAÍ (GABRIELA)",
-          "BARRIENTOS VARGAS, ANTONELLA JULIET (NINGUNO)",
+          "BARRIENTOS VARGAS, ANTONELLA JULIET",
           "FERRADA ACEVEDO, MARTINA IGNACIA",
           "MUÑOZ CEA, FRANCISCO ESTEBAN ALEJANDRO (PANCHITO)",
+          "PALMA VALDEBENITO, MATÍAS IGNACIO (MATY)",
           "QUEZADA CASTILLO, IAM JAVIER",
           "RUIZ MUÑOZ, SEBASTIÁN EDUARDO (HUILLICHE)",
           "SEGURA HUEITRA, MATEO FAUSTINO (MATEO)"
@@ -70,9 +71,9 @@
           "MENDOZA PÉREZ, MARTINA ANAÍS (MARTINA MENDOZA)",
           "MIRANDA TRIVIÑO, ANA ISIDORA (ANITA)",
           "MORALES ÁLVAREZ, JOHANN SALVADOR (YOHANN)",
-          "OJEDA RODRÍGUEZ, SOPHIA JULIETA (0)",
+          "OJEDA RODRÍGUEZ, SOPHIA JULIETA",
           "PAILLAHUEQUE VILLAGRÁN, AMANDA IGNACIA (AMANDA PAILLAHUEQUE)",
-          "QUINTUL SANTANA, AGUSTINA NOEMÍ ()",
+          "QUINTUL SANTANA, AGUSTINA NOEMÍ",
           "QUINTUL URIBE, BIANCA DENISSE (BIANCA)"
         ],
         "asignaturas": [
@@ -145,12 +146,12 @@
           "ALTAMIRANO CASTRO, ROCÍO AMPARO",
           "ASENCIO ESTRADA, AARÓN ABRAHAM",
           "GALLEGOS SEGOVIA, ISIDORA FERNANDA (ISIDORA)",
-          "GÓMEZ QUILODRÁN, AGUSTÍN ANÍBAL ALONSO (AGUSTÍN )",
+          "GÓMEZ QUILODRÁN, AGUSTÍN ANÍBAL ALONSO (AGUSTÍN)",
           "HARO LLAMUNAO, LUCIANO GUILLERMO (LUCIANO)",
           "MACHUCA OSSANDÓN, AGUSTINA (AGUSTINA)",
           "MAGLIO GONZÁLEZ, ENZO LEÓN (ENZO)",
           "MUÑOZ QUILODRÁN, DANTE AARÓN (DANTE)",
-          "RODRÍGUEZ FIGUEROA, ALEJANDRO KENAI (NO)",
+          "RODRÍGUEZ FIGUEROA, ALEJANDRO KENAI",
           "VÁSQUEZ RESQUÍN, SIOMARA AURORA (SIOMARA)",
           "VILLEGAS ALBORNOZ, GADIEL EDUARDO (GADI)",
           "YÁÑEZ REUQUÉN, NOAH NAHÚM (NOAH)"
@@ -181,17 +182,19 @@
         }
       },
       "5basico": {
-        "cantidad_alumnos": 11,
+        "cantidad_alumnos": 13,
         "alumnos": [
           "ACUÑA CRUZ, AYLEN ALANIS PAZ (AYLÉN)",
           "CONEJERA ARTEAGA, CRISTÓBAL ALEXIS (CRISTÓBAL)",
           "HARO MÁRQUEZ, GABRIELA PAZ (GABRIELA PAZ HARO MÁRQUEZ)",
           "MARTÍNEZ TENORIO, LUCIANO VALENTÍN RODRIGO (LUCIANITO)",
           "MERA LAVADO, MILENA NOEMÍ (MILI)",
-          "MOLINA TUREUNA, AGUSTÍN EDUARDO ()",
+          "MIRANDA TRIVIÑO, AGUSTIN IGNACIO (AGUS)",
+          "MOLINA TUREUNA, AGUSTÍN EDUARDO",
           "MORALES VARGAS, ÁLVARO JAVIER (ÁLVARO)",
           "ORMEÑO PABST, URIEL RODOLFO (URIEL)",
           "RODRÍGUEZ JIMÉNEZ, KYARA FERNANDA (KYARA RODRIGUEZ)",
+          "SEGURA HUEITRA, BENJAMÍN IGNACIO (BENJA)",
           "VÁSQUEZ RESQUÍN, LISANDRO DIONEL (LISA)",
           "VERA VARGAS, FRANCISCA VALENTINA (FRAN)"
         ],
@@ -268,7 +271,7 @@
           "OJEDA FERREIRA, REINALDO ANTONIO (REINALDO)",
           "OJEDA FUENTES, AYLEEN YARITZA AMARAL (AYLEEN)",
           "OVANDO OVANDO, AGUSTÍN EDUARDO (AGUSTÍN OVANDO)",
-          "RUIZ VARGAS, EMILIA NOEMÍ ()",
+          "RUIZ VARGAS, EMILIA NOEMÍ",
           "VILLAGRÁN CÁRCAMO, CRISTOFER DAVID (CRISTOFER)"
         ],
         "asignaturas": [
@@ -297,7 +300,7 @@
         }
       },
       "8basico": {
-        "cantidad_alumnos": 15,
+        "cantidad_alumnos": 16,
         "alumnos": [
           "ACUÑA CRUZ, INTY ISMAEL (INTY)",
           "ALTAMIRANO CEA, SOFÍA ANTONIETA (SOFI)",
@@ -305,15 +308,16 @@
           "CARRASCO CADAGÁN, RENATA FERNANDA (RENATA FERNANDA)",
           "FERRADA ACEVEDO, ANTONIA BELÉN (ANTO)",
           "MELLADO FIGUEROA, ANGELA ANTONELA (ANGELA)",
-          "MORALES HERNÁNDEZ, NATALY GUIANNELLA ()",
-          "MORALES MUÑOZ, KATHERINE SELENA  (KATHY)",
+          "MORALES HERNÁNDEZ, NATALY GUIANNELLA",
+          "MORALES MUÑOZ, KATHERINE SELENA (KATHY)",
           "MORALES TENORIO, ROGELIO ALFONSO (ROGELIO ALFONSO MORALES TENORIO)",
           "MUÑOZ ALBORNOZ, ANDRÉS ESAI (ANDRÉS)",
           "RODRÍGUEZ VILLARROEL, CELESTE DANAE (CELESTE)",
           "ULLOA REYES, PEDRO ANTONIO (PEDRO)",
           "VALDEBENITO MORAGA, CONSUELO EMILIA (CONSUELO)",
           "VARGAS CASTILLO, GISELLE ANTONIA",
-          "VILLAGRÁN POBLETE, DANIEL ALONSO (NO)"
+          "VERA VARGAS, RAFAEL IGNACIO (RAFAEL)",
+          "VILLAGRÁN POBLETE, DANIEL ALONSO"
         ],
         "asignaturas": [
           "Patrimonio",
