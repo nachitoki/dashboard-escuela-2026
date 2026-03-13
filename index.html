@@ -1025,8 +1025,8 @@ function renderStrategies() {
 function renderStats() {
     const valid = CLASES.filter(c => !c.curso.includes('ciclo'));
     const total = valid.length;
-    const pat = valid.filter(c => c.asignatura.includes('Patrimonio')).length;
-    const rel = valid.filter(c => c.asignatura.includes('Religión') || c.asignatura.includes('Religion')).length;
+    const pat = valid.filter(c => (c.asignatura || c.materia || "").includes('Patrimonio')).length;
+    const rel = valid.filter(c => (c.asignatura || c.materia || "").includes('Religión') || (c.asignatura || c.materia || "").includes('Religion')).length;
     
     let totalAlumnos = 0;
     if (window.CURSOS_DATA) {
@@ -1090,7 +1090,10 @@ function setFilter(key, value, btn) {
 function getFiltered() {
     let f = CLASES.filter(c => !c.curso.includes('ciclo'));
     if (activeFilters.asignatura !== 'all')
-        f = f.filter(c => c.asignatura.toLowerCase().replace('ó','o') === activeFilters.asignatura.toLowerCase().replace('ó','o'));
+        f = f.filter(c => {
+            const asig = (c.asignatura || c.materia || "").toLowerCase().replace('ó','o');
+            return asig === activeFilters.asignatura.toLowerCase().replace('ó','o');
+        });
     if (activeFilters.curso !== 'all')
         f = f.filter(c => c.curso === activeFilters.curso);
     return f;
@@ -1099,7 +1102,8 @@ function getFiltered() {
 function renderGrid() {
     const filtered = getFiltered();
     document.getElementById('grid').innerHTML = filtered.map(c => {
-        const isPat = c.asignatura.includes('Patrimonio');
+        const asigName = c.asignatura || c.materia || "Sin asignatura";
+        const isPat = asigName.includes('Patrimonio');
         const hasA = c.raw_md && c.raw_md.includes('[x] **Dominio A');
         const hasB = c.raw_md && c.raw_md.includes('[x] **Dominio B');
         const hasC = c.raw_md && c.raw_md.includes('[x] **Dominio C');
@@ -1107,7 +1111,7 @@ function renderGrid() {
         return `
         <div class="card ${isPat ? 'pat' : 'rel'}" onclick="openModal(${CLASES.indexOf(c)})">
             <div class="card-header">
-                <span class="card-badge">${c.asignatura}</span>
+                <span class="card-badge">${asigName}</span>
                 <span style="color:var(--text-muted);font-size:0.75rem">${c.curso.replace('basico','° Básico')}</span>
             </div>
             <div class="card-title">${c.titulo.substring(0,75)}</div>
@@ -1151,9 +1155,10 @@ function renderCalendar() {
             
             if (hasContent) {
                 weekClases.forEach(c => {
-                    const tipo = c.asignatura.includes('Patrimonio') ? 'pat' : 'rel';
+                    const asigName = c.asignatura || c.materia || "";
+                    const tipo = asigName.includes('Patrimonio') ? 'pat' : 'rel';
                     const label = c.curso.replace('basico','°');
-                    html += `<div class="cal-dot ${tipo}" onclick="event.stopPropagation();openModal(${CLASES.indexOf(c)})" title="${c.asignatura} ${c.curso.replace('basico','° Básico')}">${label}</div>`;
+                    html += `<div class="cal-dot ${tipo}" onclick="event.stopPropagation();openModal(${CLASES.indexOf(c)})" title="${asigName} ${c.curso.replace('basico','° Básico')}">${label}</div>`;
                 });
             } else {
                 html += '<span style="color:var(--text-muted);font-size:0.7rem;opacity:0.5">Sin planificar</span>';
@@ -1167,9 +1172,10 @@ function renderCalendar() {
             if (hasContent) {
                 html += `<div class="cal-week-body"><div class="cal-week-grid">`;
                 weekClases.forEach(c => {
-                    const tipo = c.asignatura.includes('Patrimonio') ? 'pat' : 'rel';
+                    const asigName = c.asignatura || c.materia || "";
+                    const tipo = asigName.includes('Patrimonio') ? 'pat' : 'rel';
                     html += `<div class="cal-mini-card ${tipo}" onclick="event.stopPropagation();openModal(${CLASES.indexOf(c)})">
-                        <div class="cal-mini-title">${c.curso.replace('basico','° Básico')} — ${c.asignatura}</div>
+                        <div class="cal-mini-title">${c.curso.replace('basico','° Básico')} — ${asigName}</div>
                         <div class="cal-mini-sub">${c.titulo.substring(0,60)}</div>
                     </div>`;
                 });
@@ -1267,28 +1273,29 @@ function renderMaterials() {
     html += '<div class="mat-summary-card"><div class="mat-summary-num" style="color:var(--gold)">' + totalItems + '</div><div class="mat-summary-label">Total</div></div>';
     html += '<div class="mat-summary-card"><div class="mat-summary-num" style="color:var(--accent)">' + (totalItems > 0 ? Math.round(doneItems/totalItems*100) : 0) + '%</div><div class="mat-summary-label">Avance</div></div>';
     html += '</div>';
-    for (const wd of weekData) {
-        const fecha = SEMANA_FECHAS[wd.sn] || '';
-        const pct = wd.items > 0 ? Math.round(wd.done/wd.items*100) : 100;
-        const urgency = parseInt(wd.sn) <= 1 ? 'urgent' : parseInt(wd.sn) <= 2 ? 'soon' : 'planned';
-        const urgLabel = urgency === 'urgent' ? 'ESTA SEMANA' : urgency === 'soon' ? 'Proxima' : 'Semana ' + wd.sn;
-        if (wd.items === 0) continue;
-        html += '<div class="mat-week">';
-        html += '<div class="mat-week-header" onclick="';
-        html += "var b=this.parentElement.querySelector('.mat-week-body');b.style.display=b.style.display==='none'?'block':'none'";
-        html += '">';
-        html += '<div class="mat-week-title">Semana ' + wd.sn + ' <span style="font-weight:400;color:var(--text-muted)">(' + fecha + ')</span> ';
-        html += '<span class="mat-week-badge ' + urgency + '">' + urgLabel + '</span></div>';
-        html += '<div class="mat-progress"><div class="mat-progress-bar"><div class="mat-progress-fill" style="width:' + pct + '%;' + (pct===100?'background:var(--pat-primary)':'background:var(--gold)') + '"></div></div>';
-        html += '<span class="mat-progress-text">' + wd.done + '/' + wd.items + '</span></div></div>';
-        html += '<div class="mat-week-body">';
-        for (const c of wd.clases) {
-            const mats = c.materiales.filter(m => m.preparar);
-            if (mats.length === 0) continue;
-            const tipo = c.asignatura_code === 'PAT' ? 'pat' : 'rel';
-            html += '<div class="mat-clase ' + tipo + '"><div class="mat-clase-title">' + c.curso.replace('basico',' Basico') + ' - ' + c.asignatura + '</div>';
-            for (const m of mats) {
-                const key = c.filename + '_' + m.item;
+        for (const wd of weekData) {
+            const fecha = SEMANA_FECHAS[wd.sn] || '';
+            const pct = wd.items > 0 ? Math.round(wd.done / wd.items * 100) : 100;
+            const urgency = parseInt(wd.sn) <= 1 ? 'urgent' : parseInt(wd.sn) <= 2 ? 'soon' : 'planned';
+            const urgLabel = urgency === 'urgent' ? 'ESTA SEMANA' : urgency === 'soon' ? 'Proxima' : 'Semana ' + wd.sn;
+            if (wd.items === 0) continue;
+            html += '<div class="mat-week">';
+            html += '<div class="mat-week-header" onclick="';
+            html += "var b=this.parentElement.querySelector('.mat-week-body');b.style.display=b.style.display==='none'?'block':'none'";
+            html += '">';
+            html += '<div class="mat-week-title">Semana ' + wd.sn + ' <span style="font-weight:400;color:var(--text-muted)">(' + fecha + ')</span> ';
+            html += '<span class="mat-week-badge ' + urgency + '">' + urgLabel + '</span></div>';
+            html += '<div class="mat-progress"><div class="mat-progress-bar"><div class="mat-progress-fill" style="width:' + pct + '%;' + (pct === 100 ? 'background:var(--pat-primary)' : 'background:var(--gold)') + '"></div></div>';
+            html += '<span class="mat-progress-text">' + wd.done + '/' + wd.items + '</span></div></div>';
+            html += '<div class="mat-week-body">';
+            for (const c of wd.clases) {
+                const mats = (c.materiales || []).filter(m => m.preparar);
+                if (mats.length === 0) continue;
+                const asigName = c.asignatura || c.materia || "";
+                const tipo = asigName.includes('Patrimonio') ? 'pat' : 'rel';
+                html += '<div class="mat-clase ' + tipo + '"><div class="mat-clase-title">' + c.curso.replace('basico', ' Basico') + ' - ' + asigName + '</div>';
+                for (const m of mats) {
+                    const key = (c.filename || 'file') + '_' + m.item;
                 const checked = state[key] ? true : false;
                 const safeKey = key.replace(/[^a-zA-Z0-9_.]/g, '');
                 html += '<div class="mat-item ' + (checked?'done':'') + '" onclick="toggleMat(';
