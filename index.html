@@ -1335,8 +1335,6 @@ async function fetchDashboardState() {
         if (data.datos && data.datos.eventos_calendario && data.datos.eventos_calendario.length > 0) {
             EVENTOS = data.datos.eventos_calendario;
         }
-            EVENTOS = data.datos.eventos_calendario;
-        }
 
         // Guardar metadata de alumnos para los stats
         if (data.datos && data.datos.cursos) {
