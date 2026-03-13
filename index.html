@@ -1110,12 +1110,16 @@ function renderGrid() {
         const hasD = c.raw_md && c.raw_md.includes('[x] **Dominio D');
         return `
         <div class="card ${isPat ? 'pat' : 'rel'}" onclick="openModal(${CLASES.indexOf(c)})">
+        const title = (c.titulo || "Clase sin título").substring(0,75);
+        const obj = (c.objetivo || "Sin objetivo definido").substring(0,100);
+        return `
+        <div class="card ${isPat ? 'pat' : 'rel'}" onclick="openModal(${CLASES.indexOf(c)})">
             <div class="card-header">
                 <span class="card-badge">${asigName}</span>
                 <span style="color:var(--text-muted);font-size:0.75rem">${c.curso.replace('basico','° Básico')}</span>
             </div>
-            <div class="card-title">${c.titulo.substring(0,75)}</div>
-            <div class="card-objetivo">${c.objetivo.substring(0,100)}${c.objetivo.length>100?'...':''}</div>
+            <div class="card-title">${title}</div>
+            <div class="card-objetivo">${obj}${obj.length>100?'...':''}</div>
             <div class="card-footer">
                 <div class="mbe-dots">
                     <div class="mbe-dot ${hasA?'active':''}">A</div>
