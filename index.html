@@ -1309,7 +1309,7 @@ function renderMaterials() {
 async function fetchDashboardState() {
     try {
         console.log("Cargando estado local generado por Antigravity OpenClaw...");
-        const response = await fetch('data/estado_dashboard.json');
+        const response = await fetch('public/data/estado_dashboard.json');
         if (!response.ok) {
             throw new Error(`Error HTTP: ${response.status}`);
         }
