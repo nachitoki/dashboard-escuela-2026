@@ -1108,10 +1108,10 @@ function renderGrid() {
         const hasB = c.raw_md && c.raw_md.includes('[x] **Dominio B');
         const hasC = c.raw_md && c.raw_md.includes('[x] **Dominio C');
         const hasD = c.raw_md && c.raw_md.includes('[x] **Dominio D');
-        return `
-        <div class="card ${isPat ? 'pat' : 'rel'}" onclick="openModal(${CLASES.indexOf(c)})">
+        
         const title = (c.titulo || "Clase sin título").substring(0,75);
         const obj = (c.objetivo || "Sin objetivo definido").substring(0,100);
+        
         return `
         <div class="card ${isPat ? 'pat' : 'rel'}" onclick="openModal(${CLASES.indexOf(c)})">
             <div class="card-header">
